@@ -29,7 +29,7 @@ public class Matrix extends SimObject implements Simulatable{
 
   protected FigCompound display;
 
-  protected StdLogic1164 value_U;
+  protected StdLogic1164 value_0;
 
   public Matrix() {
     // super();
@@ -43,7 +43,7 @@ public class Matrix extends SimObject implements Simulatable{
     ports[4] = new PortStdLogic1164(this, "B0", Port.IN, null);
     ports[5] = new PortStdLogic1164(this, "C0", Port.IN, null);
 
-    value_U = (StdLogic1164)Const1164.__U;
+    value_0 = (StdLogic1164)Const1164.__0;
 
   }
   
@@ -67,20 +67,20 @@ public class Matrix extends SimObject implements Simulatable{
             LEDs[i][j] = new Circle();
 
     LEDs[0][0].initialize( "1200 1200 300 300" );
-    LEDs[0][1].initialize( "1600 1200 300 300" );
-    LEDs[0][2].initialize( "2000 1200 300 300" );
-    LEDs[1][0].initialize( "1200 1600 300 300" );
-    LEDs[1][1].initialize( "1600 1600 300 300" );
-    LEDs[1][2].initialize( "2000 1600 300 300" );
-    LEDs[2][0].initialize( "1200 2000 300 300" );
-    LEDs[2][1].initialize( "1600 2000 300 300" );
-    LEDs[2][2].initialize( "2000 2000 300 300" );
+    LEDs[0][1].initialize( "2200 1200 300 300" );
+    LEDs[0][2].initialize( "3200 1200 300 300" );
+    LEDs[1][0].initialize( "1200 2200 300 300" );
+    LEDs[1][1].initialize( "2200 2200 300 300" );
+    LEDs[1][2].initialize( "3200 2200 300 300" );
+    LEDs[2][0].initialize( "1200 3200 300 300" );
+    LEDs[2][1].initialize( "2200 3200 300 300" );
+    LEDs[2][2].initialize( "3200 3200 300 300" );
 
     for (i = 0; i<MATRIX_DIM; ++i){
         for (j = 0; j<MATRIX_DIM; ++j){
             FigAttribs attr = LEDs[i][j].getAttributes();
             attr.fillStyle = attr.SOLID_FILL;
-            attr.fillColor = medium_gray;
+            attr.fillColor = value_0.getColor();
             attr.currentLayer = 5;
             LEDs[i][j].setAttributes(attr);
         }
@@ -113,7 +113,7 @@ public class Matrix extends SimObject implements Simulatable{
             anode_signal = ports[y].getSignal();
             cathode_signal = ports[x+3].getSignal();
 
-            color = value_U.getColor();
+            color = value_0.getColor();
 
             if (!(anode_signal == null || cathode_signal == null)){
                 
