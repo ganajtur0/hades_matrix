@@ -1,0 +1,34 @@
+[files 4]
+hades/models/imaging/SubFilter.class
+hades/models/imaging/SubFilter.java
+hades/models/imaging/SubFilter.sym
+hades/models/imaging/SubFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.SubFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/SubFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component subtraction:
+
+(a,r,g,b) = (255, r1-r2, g1-g2, b1-b2)
+
+All output pixel values are clipped to the range (0,255).
+
+[end description]

@@ -1,0 +1,38 @@
+[files 4]
+hades/models/dsp/DoubleToStdLogic1164.class
+hades/models/dsp/DoubleToStdLogic1164.java
+hades/models/dsp/DoubleToStdLogic1164.sym
+hades/models/dsp/DoubleToStdLogic1164.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.DoubleToStdLogic1164
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/DoubleToStdLogic1164.gif
+
+[author]
+unknown
+
+[description]
+converter from double values to StdLogic1164. 
+
+The converter is based on a CMOS-like voltage model, where the
+modeled supply voltage is selectable via the property-sheet.
+Input values in the range [0..VDD/2] result in the output _0,
+while values in the range [VDD/2..VDD] are mapped to output _1.
+Out-of-range values result in _X as the output value.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

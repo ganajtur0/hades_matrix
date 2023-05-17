@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/ResizeFilter.class
+hades/models/imaging/ResizeFilter.java
+hades/models/imaging/ResizeFilter.sym
+hades/models/imaging/ResizeFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ResizeFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ResizeFilter.gif
+
+[author]
+-
+
+[description]
+Image filter to change image size to the specified dimensions,
+using bilinear interpolation.
+[end description]

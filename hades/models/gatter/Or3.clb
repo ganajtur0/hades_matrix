@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Or3.class
+hades/models/gatter/Or3.java
+hades/models/gatter/Or3.sym
+hades/models/gatter/Or3.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Or3
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Or3.gif
+
+[author]
+-
+
+[description]
+3-input OR gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

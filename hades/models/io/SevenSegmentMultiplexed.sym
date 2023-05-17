@@ -1,0 +1,16 @@
+# SevenSegmentMultiplexed.sym - hades.models.io.SevenSegmentMultiplexed
+# 
+hades.symbols.BboxRectangle 0 0 2700 4200
+hades.symbols.PortSymbol 300  0 A 
+hades.symbols.PortSymbol 600 0 B
+hades.symbols.PortSymbol 900 0 C
+hades.symbols.PortSymbol 1200 0 D
+hades.symbols.PortSymbol 1500 0 E
+hades.symbols.PortSymbol 1800 0 F
+hades.symbols.PortSymbol 2100 0 G
+hades.symbols.PortSymbol 2400 0 P 
+hades.symbols.PortSymbol 2400 4200 K
+hades.symbols.PortLabel 300 400 A
+hades.symbols.PortLabel 2325 400 P
+hades.symbols.PortLabel 2325 4050 K
+hades.symbols.InstanceLabel 225 4000 i0

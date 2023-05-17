@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/And2Vertical.class
+hades/models/gates/And2Vertical.java
+hades/models/gates/And2Vertical.sym
+hades/models/gates/And2Vertical.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.And2Vertical
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/And2Vertical.gif
+
+[author]
+-
+
+[description]
+2-input AND gate with vertically oriented symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

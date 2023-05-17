@@ -1,0 +1,57 @@
+[files 4]
+hades/models/dsp/Oscilloscope.class
+hades/models/dsp/Oscilloscope.java
+hades/models/dsp/Oscilloscope.sym
+hades/models/dsp/Oscilloscope.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Oscilloscope
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Oscilloscope.gif
+
+[author]
+unknown
+
+[description]
+basic two-channel oscilloscope. 
+
+The oscilloscope is triggered by a rising edge (0-1) on the
+trigger input.  Use external simulation components to select 
+your preferred trigger-mode. For example, you can use:
+
+* hades.models.io.PulseSwitch for manual triggering
+* hades.models.io.ClockGen for periodic triggering
+* hades.models.dsp.LevelTrigger for level-sensitive triggering
+* combinations of the above
+
+Once triggered, the oscilloscope will sample both input values 
+periodically, until the specified number of samples have been read. 
+The time interval between samples is specified via the 'sample 
+interval' (t_sample) parameter. Re-triggering during an ongoing
+sampling is possible, but the sampling times are no re-aligned 
+to the re-triggering time. Instead, the sampling times from the
+ongoing sampling are used - this might introduce a slight offset
+of up to t_sample/2 to the actual sampling times.
+
+Input voltage offsets and scaling can be selected via the user-
+interface (property sheet), and are saved to the Hades design file.
+Open the property sheet (GUI) to select the scaling and timing 
+parameters. Type [enter] in one of the textfields to apply the
+new value and repaint the scope display.
+
+You can use the 'dump data' function to open a text window with 
+the actual sample data.
+
+[end description]

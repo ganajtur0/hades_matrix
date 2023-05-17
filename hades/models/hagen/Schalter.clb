@@ -1,0 +1,30 @@
+[files 3]
+hades/models/hagen/Schalter.hds
+hades/models/hagen/Schalter.sym
+hades/models/hagen/Schalter.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/hagen/Schalter.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/hagen/Schalter.gif
+
+[author]
+unknown
+
+[description]
+Kreuzschienenschalter (crossing switch)

@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/ConstantW.class
+hades/models/io/ConstantW.java
+hades/models/io/ConstantW.sym
+hades/models/io/ConstantW.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ConstantW
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ConstantW.gif
+
+[author]
+-
+
+[description]
+constant W
+
+Simple generator for the "W" level of the StdLogic1164
+multilevel logic system.
+
+Note: this component generates only a single simulation 
+event during the elaboration phase of a simulation. 
+Therefore, you may have to stop-and-restart an ongoing 
+simulation when the component is disconnected
+or reconnected during a simulation.
+
+[end description]

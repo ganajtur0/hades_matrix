@@ -1,0 +1,42 @@
+[files 4]
+hades/models/dcf77/Dcf77Sender.class
+hades/models/dcf77/Dcf77Sender.java
+hades/models/dcf77/Dcf77Sender.sym
+hades/models/dcf77/Dcf77Sender.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dcf77.Dcf77Sender
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dcf77/Dcf77Sender.gif
+
+[author]
+-
+
+[description]
+DCF77 time signal sender.
+
+This simulation component models a sender for the digital
+part of the "DCF-77" time-encoding, as transmitted by the
+German Institute of Standards from a sender near Frankfurt.
+The signal consists of short (0.1 sec) and long (0.2 sec)
+low-active pulses. Over a period of one minute, 59 pulses
+are sent, one per second, while the 60th pulse is missing
+to allow resynchronisation. The exact time of the next
+minute is BCD-encoded in the 59-bits.
+
+Use the configuration dialog to specify the time to be
+transmitted.
+
+[end description]

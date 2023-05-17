@@ -1,0 +1,38 @@
+[files 4]
+hades/models/rtlib/arith/Decr.class
+hades/models/rtlib/arith/Decr.java
+hades/models/rtlib/arith/Decr.sym
+hades/models/rtlib/arith/Decr.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.arith.Decr
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/arith/Decr.gif
+
+[author]
+-
+
+[description]
+n-bit decrementer.
+
+  Y  <=  A-1
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+[end description]

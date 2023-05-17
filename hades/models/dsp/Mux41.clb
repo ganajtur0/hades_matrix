@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Mux41.class
+hades/models/dsp/Mux41.java
+hades/models/dsp/Mux41.sym
+hades/models/dsp/Mux41.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Mux41
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Mux41.gif
+
+[author]
+unknown
+
+[description]
+four-inputs multiplexer.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/EdgeXFilter.class
+hades/models/imaging/EdgeXFilter.java
+hades/models/imaging/EdgeXFilter.sym
+hades/models/imaging/EdgeXFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.EdgeXFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/EdgeXFilter.gif
+
+[author]
+-
+
+[description]
+Edge-detection 3x3 convolution filter (x direction):
+  -1,-1,-1, 2,2,2, -1,-1,-1
+
+[end description]

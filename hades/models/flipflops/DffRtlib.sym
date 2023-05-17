@@ -1,0 +1,27 @@
+# DffRtlib.sym - symbol for hades.models.flipflops.DffRtlib
+#
+# DFF with Rtlib style symbol (FatInstanceLabel)
+#
+hades.symbols.ClassLabel 1050 750 DFF
+hades.symbols.BboxRectangle 0 0 3600 2400
+hades.symbols.InstanceLabel 3550 2300 3 i0 
+hades.symbols.FatInstanceLabel 1800 1600 2 i0 
+#
+hades.symbols.PortLabel 150 550 D
+hades.symbols.PortLabel 150 1750 C
+hades.symbols.PortLabel 3300 550 Q
+hades.symbols.PortLabel 3100 1750 NQ
+#
+hades.symbols.PortSymbol 0 600 D
+hades.symbols.PortSymbol 0 1800 C
+hades.symbols.PortSymbol 3600 600 Q
+hades.symbols.PortSymbol 3600 1800 NQ
+#
+hades.symbols.Rectangle 600 300 3000 2100
+hades.symbols.Polyline 3 600 1600 1000 1800 600 2000
+hades.symbols.Polyline 2    0  600  600  600
+hades.symbols.Polyline 2    0 1800  600 1800
+hades.symbols.Polyline 2 3000  600 3600  600
+hades.symbols.Polyline 2 3000 1800 3600 1800
+hades.symbols.Circle 2850 1800 150 150
+

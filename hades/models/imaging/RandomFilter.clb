@@ -1,0 +1,42 @@
+[files 4]
+hades/models/imaging/RandomFilter.class
+hades/models/imaging/RandomFilter.java
+hades/models/imaging/RandomFilter.sym
+hades/models/imaging/RandomFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.RandomFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/RandomFilter.gif
+
+[author]
+-
+
+[description]
+Generate an output image with random pixel values.
+
+The color is specified as RGB via the six parameters P0, ..., P5,
+where P0 and P1 specify the lower and upper limits for the red component,
+while P2 and P3, and P4 and P5 specify the limits for green and blue.
+If P6 and P7 are greater than zero, they are interpreted as the
+output image size.
+If P6 and P7 are zero and the input image (port A) is not null,
+the output image is of the same size as the input image.
+
+For example, setting P0=0, P1=255, P2=P3=P4=P5=0, P6=100, P7=80
+will generate a random image with equally distributed red component,
+no blue, no green, and image size 100x80.
+
+[end description]

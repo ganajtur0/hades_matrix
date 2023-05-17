@@ -1,0 +1,33 @@
+[files 4]
+hades/models/io/Iso8859Display.class
+hades/models/io/Iso8859Display.java
+hades/models/io/Iso8859Display.sym
+hades/models/io/Iso8859Display.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Iso8859Display
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Iso8859Display.gif
+
+[author]
+-
+
+[description]
+LED-matrix display with integrated decoder.
+
+A 5x7 LED-matrix display with integrated decoder for the
+8-bit ASCII/8859-1 character encoding.
+
+[end description]

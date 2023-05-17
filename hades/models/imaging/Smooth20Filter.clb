@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/Smooth20Filter.class
+hades/models/imaging/Smooth20Filter.java
+hades/models/imaging/Smooth20Filter.sym
+hades/models/imaging/Smooth20Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Smooth20Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Smooth20Filter.gif
+
+[author]
+-
+
+[description]
+Smoothing via 20x20 [1,1,...1] matrix convolution
+
+[end description]

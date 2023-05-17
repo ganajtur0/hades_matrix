@@ -1,0 +1,36 @@
+[files 4]
+hades/models/imaging/GradientColorFilter.class
+hades/models/imaging/GradientColorFilter.java
+hades/models/imaging/GradientColorFilter.sym
+hades/models/imaging/GradientColorFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.GradientColorFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/GradientColorFilter.gif
+
+[author]
+-
+
+[description]
+generates a 2D color-gradient output image which interpolates
+between the given corner image RGB values.
+
+Open the propertysheet to select the gradient colors and the
+default output image size (width x height).
+If an input signal is connected, the output image will have
+the same size as the input image.
+
+[end description]

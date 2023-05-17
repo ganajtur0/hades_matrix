@@ -1,0 +1,32 @@
+# symbol for hades.models.rtlib.logic.MipsRegBank
+# (dual port RAM with async. write enable and chip select)
+# FNH 29.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 7200 4800
+hades.symbols.Polyline 8 1200 0 0 1200 0 3600 1200 4800 6000 4800 6000 0 1200 0 1200 4800
+hades.symbols.Polyline 4 6000 0 7200 1200 7200 3600 6000 4800
+#
+hades.symbols.ClassLabel 5900 4000 3 MipsRegBank 
+hades.symbols.InstanceLabel 5900 550 3 dpram
+hades.symbols.FatLabel 3600 2400 2 MIPS
+hades.symbols.FatLabel 3600 3400 2 RegBank
+#
+#
+hades.symbols.PortSymbol       0 1200 nCS
+hades.symbols.PortSymbol       0 1800 nWE
+hades.symbols.BusPortSymbol    0 2400 AW0
+hades.symbols.BusPortSymbol    0 3000 AR0
+hades.symbols.BusPortSymbol    0 3600 AR1
+hades.symbols.BusPortSymbol 2400    0 DW0
+hades.symbols.BusPortSymbol 2400 4800 DR0
+hades.symbols.BusPortSymbol 4800 4800 DR1
+#
+hades.symbols.PortLabel   250 1300 1 nCS
+hades.symbols.PortLabel   250 1900 1 nWE
+hades.symbols.PortLabel   250 2500 1 AW0
+hades.symbols.PortLabel   250 3100 1 AR0
+hades.symbols.PortLabel   250 3700 1 AR1
+hades.symbols.PortLabel  2400  550 2 DW0
+hades.symbols.PortLabel  2400 4600 2 DR0
+hades.symbols.PortLabel  4800 4600 2 DR1
+#

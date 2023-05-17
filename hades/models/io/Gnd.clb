@@ -1,0 +1,37 @@
+[files 4]
+hades/models/io/Gnd.class
+hades/models/io/Gnd.java
+hades/models/io/Gnd.sym
+hades/models/io/Gnd.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Gnd
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Gnd.gif
+
+[author]
+-
+
+[description]
+GND connection
+
+A fixed connection to GND (StdLogic1164 '0').
+
+NOTE: this component is only active once at the 
+start of the simulation. 
+Therefore, it may be necessary to stop and restart
+the simulation after editing designs with GND
+components.
+[end description]

@@ -1,0 +1,37 @@
+[files 4]
+hades/models/io/OpinLarge.class
+hades/models/io/OpinLarge.java
+hades/models/io/OpinLarge.sym
+hades/models/io/OpinLarge.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.OpinLarge
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/OpinLarge.gif
+
+[author]
+-
+
+[description]
+Output Pin with LED  (large symbol)
+
+A model to visualize a StdLogic1164 input value
+with a LED.
+
+Opin is also used as the hierarchy connector
+to Hades subdesigns: all Opin components are
+visible as the top-level output connections.
+
+[end description]

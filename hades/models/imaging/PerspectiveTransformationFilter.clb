@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/PerspectiveTransformationFilter.class
+hades/models/imaging/PerspectiveTransformationFilter.java
+hades/models/imaging/PerspectiveTransformationFilter.sym
+hades/models/imaging/PerspectiveTransformationFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.PerspectiveTransformationFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/PerspectiveTransformationFilter.gif
+
+[author]
+-
+
+[description]
+A perspective transformation (nearest-neighbor sampling).
+This filter is not yet functional.
+
+[end description]

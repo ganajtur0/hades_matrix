@@ -1,0 +1,63 @@
+# hades.models.Design file
+#  
+[name] std_logic_1164-demo
+[components]
+hades.models.meta.Label i21 5100 3900 @N 1001 2 0 5 16 20 0.0 4 value
+hades.models.gates.And2 i20 19200 10800 @N 1001 1.0E-8
+hades.models.io.IpinStdLogic1164 switch 13200 4800 @N 1001  U
+hades.models.io.Opin Z 7200 13800 @N 1001 5.0E-9
+hades.models.io.Opin X 7200 7200 @N 1001 5.0E-9
+hades.models.io.Opin W 7200 15600 @N 1001 5.0E-9
+hades.models.io.Opin OR_out 25200 18000 @N 1001 5.0E-9
+hades.models.io.Opin U 7200 5400 @N 1001 5.0E-9
+hades.models.gates.Or2 i9 19200 16800 @N 1001 1.0E-8
+hades.models.gates.InvSmall i8 19800 7200 @N 1001 5.0E-9
+hades.models.io.ConstantH i7 4800 18600 @N 1001
+hades.models.io.ConstantL i6 4800 16800 @N 1001
+hades.models.io.ConstantW i5 4800 15000 @N 1001
+hades.models.io.ConstantZ i4 4800 13200 @N 1001
+hades.models.io.Constant1 i3 4800 10800 @N 1001
+hades.models.io.Opin L 7200 17400 @N 1001 5.0E-9
+hades.models.io.Constant0 i2 4800 9000 @N 1001
+hades.models.io.ConstantX i1 4800 6600 @N 1001
+hades.models.io.ConstantU i0 4800 4800 @N 1001
+hades.models.io.Opin H 7200 19200 @N 1001 5.0E-9
+hades.models.meta.Label i19 7800 3900 @N 1001 2 0 5 16 20 0.0 4 color
+hades.models.meta.Label i18 15000 3900 @N 1001 2 0 5 16 20 0.0 4 switch\u0020\u0028click\u0020field\u0020to\u0020select\u0020value\u0029
+hades.models.meta.Label i17 3600 5700 @N 1001 3 0 5 16 20 0.0 4 undefined/never\u0020used
+hades.models.meta.Label i16 3600 7500 @N 1001 3 0 5 16 20 0.0 4 invalid/unknown
+hades.models.meta.Label i15 3600 19500 @N 1001 3 0 5 16 20 0.0 4 weak\u0020logical\u0020\u00221\u0022\u0020\u0028high\u0029
+hades.models.meta.Label i14 3600 17700 @N 1001 3 0 5 16 20 0.0 4 weak\u0020logical\u0020\u00220\u0022\u0020\u0028low\u0029
+hades.models.meta.Label i13 3600 15900 @N 1001 3 0 5 16 20 0.0 4 weak\u0020undefined
+hades.models.meta.Label i12 3600 14100 @N 1001 3 0 5 16 20 0.0 4 tri-state\u0020\u0028not\u0020driven\u0029
+hades.models.meta.Label i11 3600 11700 @N 1001 3 0 5 16 20 0.0 4 logical\u0020\u00220\u0022
+hades.models.meta.Label i10 3600 9900 @N 1001 3 0 5 16 20 0.0 4 logical\u0020\u00220\u0022
+hades.models.io.Opin 1 7200 11400 @N 1001 5.0E-9
+hades.models.io.Opin 0 7200 9600 @N 1001 5.0E-9
+hades.models.io.Opin AND_out 25200 12000 @N 1001 5.0E-9
+hades.models.io.IpinStdLogic1164 switch4 13200 18000 @N 1001  U
+hades.models.io.IpinStdLogic1164 switch3 13200 15600 @N 1001  U
+hades.models.io.IpinStdLogic1164 switch2 13200 12000 @N 1001  U
+hades.models.io.IpinStdLogic1164 switch1 13200 9600 @N 1001  U
+hades.models.io.Opin out 25200 6000 @N 1001 5.0E-9
+hades.models.io.Opin inv-out 25200 7800 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 i8 Y inv-out A 1 2 21600 7800 25200 7800 0 
+hades.signals.SignalStdLogic1164 n8 3 switch Y out A i8 A 4 2 18600 6000 25200 6000 2 16800 6000 18600 6000 2 18600 6000 18600 7800 2 18600 7800 19800 7800 1 18600 6000 
+hades.signals.SignalStdLogic1164 n7 2 i0 Y U A 1 2 6000 5400 7200 5400 0 
+hades.signals.SignalStdLogic1164 n6 2 i1 Y X A 1 2 6000 7200 7200 7200 0 
+hades.signals.SignalStdLogic1164 n5 2 i2 Y 0 A 1 2 6000 9600 7200 9600 0 
+hades.signals.SignalStdLogic1164 n4 2 i3 Y 1 A 1 2 6000 11400 7200 11400 0 
+hades.signals.SignalStdLogic1164 n3 2 i4 Y Z A 1 2 6000 13800 7200 13800 0 
+hades.signals.SignalStdLogic1164 n2 2 i5 Y W A 1 2 6000 15600 7200 15600 0 
+hades.signals.SignalStdLogic1164 n15 2 switch3 Y i9 A 3 2 16800 16800 18600 16800 2 18600 16800 18600 17400 2 18600 17400 19200 17400 0 
+hades.signals.SignalStdLogic1164 n1 2 i6 Y L A 1 2 6000 17400 7200 17400 0 
+hades.signals.SignalStdLogic1164 n14 2 switch4 Y i9 B 3 2 16800 19200 18600 19200 2 18600 19200 18600 18600 2 18600 18600 19200 18600 0 
+hades.signals.SignalStdLogic1164 n0 2 i7 Y H A 1 2 6000 19200 7200 19200 0 
+hades.signals.SignalStdLogic1164 n13 2 i9 Y OR_out A 1 2 22800 18000 25200 18000 0 
+hades.signals.SignalStdLogic1164 n12 2 i20 Y AND_out A 1 2 22800 12000 25200 12000 0 
+hades.signals.SignalStdLogic1164 n11 2 switch2 Y i20 B 3 2 16800 13200 18600 13200 2 18600 13200 18600 12600 2 18600 12600 19200 12600 0 
+hades.signals.SignalStdLogic1164 n10 2 switch1 Y i20 A 3 2 16800 10800 18600 10800 2 18600 10800 18600 11400 2 18600 11400 19200 11400 0 
+[end signals]
+[end]

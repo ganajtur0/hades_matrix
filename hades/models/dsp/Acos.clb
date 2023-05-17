@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Acos.class
+hades/models/dsp/Acos.java
+hades/models/dsp/Acos.sym
+hades/models/dsp/Acos.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Acos
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Acos.gif
+
+[author]
+unknown
+
+[description]
+inverse cosinus operator (arccos function, radians).
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,41 @@
+[files 4]
+hades/models/flipflops/Dffre.class
+hades/models/flipflops/Dffre.java
+hades/models/flipflops/Dffre.sym
+hades/models/flipflops/Dffre.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Dffre
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Dffre.gif
+
+[author]
+-
+
+[description]
+D-type flipflop with asynchronous reset and enable
+
+A rising-edge triggered D-flipflop with asynchronous
+reset input and enable input. The reset input takes 
+precedence over the synchronous operation of the flipflop.
+Signals are of type StdLogic1164.
+
+Flipflop D-to-Q delay and both the setup- and hold-times 
+can be specified.
+
+If the DFFRE detects setup- or hold-time violations, 
+the resulting output value will be 'X'.
+
+[end description]

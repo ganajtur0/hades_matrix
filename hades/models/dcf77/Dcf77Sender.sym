@@ -1,0 +1,8 @@
+hades.symbols.ClassLabel 300 480 DCF77Sender
+hades.symbols.BboxRectangle 0 0 3600 2400
+hades.symbols.Rectangle 0 0 3600 2400
+hades.symbols.InstanceLabel 300 2300 sender0
+hades.symbols.PortLabel 3550 1350 3 dcf77
+hades.symbols.PortSymbol 3600 1200 dcf77
+hades.symbols.Polyline 3 300 600 300 1000 3300 1000
+hades.symbols.Polyline 15 300 750 600 750 600 900 750 900 750 750 1150 750 1150 900 1200 900 1200 750 1600 750 1600 900 1750 900 1750 750 3150 750 3150 900

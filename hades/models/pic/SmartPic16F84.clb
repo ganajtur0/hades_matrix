@@ -1,0 +1,47 @@
+[files 4]
+hades/models/pic/SmartPic16F84.class
+hades/models/pic/SmartPic16F84.java
+hades/models/pic/SmartPic16F84.sym
+hades/models/pic/SmartPic16F84.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.pic.SmartPic16F84
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/pic/SmartPic16F84.gif
+
+[author]
+-
+
+[description]
+Smart PIC16F84
+
+Cycle-accurate simulation model for the 8-bit
+PIC16F84 microcontroller from Arizona Microchip
+with external clock input. 
+
+This "smart" simulation model checks the simulator
+event queue to decide whether to wait for external
+events or not. As long as no external events are 
+pending, this model directly executes PIC instructions,
+running *much* faster than the "standard" PIC16F84
+simulation models.
+
+Due to some remaining bugs in the caching of PIC 
+I/O pins, the sleep mode is not working correctly,
+and the EEPROM writes don't use the exact timing.
+Use the PIC16F84 or FastPIC16F84 models for designs
+which require sleep or power-down modes.
+
+[end description]

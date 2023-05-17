@@ -1,0 +1,20 @@
+hades.symbols.ClassLabel 1050 750 Latch
+hades.symbols.ClassLabel 1050 1250 Metastable
+hades.symbols.InstanceLabel 2550 2250 i0 
+hades.symbols.BboxRectangle 0 0 3600 2400
+#
+hades.symbols.PortLabel 150 550 D
+hades.symbols.PortLabel 150 1750 C
+hades.symbols.PortSymbol 0 600 D
+hades.symbols.PortSymbol 0 1800 C
+hades.symbols.PortLabel 3300 550 Q
+hades.symbols.PortSymbol 3600 600 Q
+hades.symbols.PortLabel 3100 1750 NQ
+hades.symbols.PortSymbol 3600 1800 NQ
+hades.symbols.Polyline 5 900 300 2400 300 2400 2100 900 2100 900 300
+hades.symbols.Polyline 4 900 1600 1100 1600 1100 2000 900 2000
+hades.symbols.Polyline 2 0 600 900 600
+hades.symbols.Polyline 2 0 1800 900 1800
+hades.symbols.Polyline 2 2400 600 3600 600
+hades.symbols.Polyline 2 2700 1800 3600 1800
+hades.symbols.Circle 2550 1800 150 150

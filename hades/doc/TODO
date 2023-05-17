@@ -1,0 +1,63 @@
+% /hades/doc/TODO:
+%
+% some things still to be done for Hades:
+
+#1
+  make DesignManager more forgiving against "wrong" CLASSPATH
+  settings. In every case, allow to access local files, whether they
+  are in CLASSPATH or not.
+
+#2
+  provide better stimuli input for both batch and interactive simulation.
+  This should be realized using Java classes, to allow users to run
+  batch mode simulation without Jython installed.
+  
+#3
+  finally, finally, finally
+  implement select/move/copy/delete region
+
+
+* implement jfig linewidth 0 object rendering
+
+* go through the basic examples and add Labels/"frills" 
+  where appropriate
+
+* make the BrowserFrame (DesignManager frontend) accessible
+  from the "normal" Editor GUI: e.g. via an additional menu item
+  "browse" in the Editor popup menu.
+
+* make "simulation run for" restartable (=fix simulator livelock bug)
+
+* add a new SimObject used to specify simulation stimuli, 
+  especially in a easy-to-write text format (like Cadence STL),
+  e.g. hades.models.meta.Stimulus
+
+
+* change hades.models.mips.* to use
+  1) InputStream instead of File where possible
+  2) IDT3051 to write resource information to the .hds file,
+     including ELF/ECOFF files and memory management setup
+  3) use NameMangler to encode/decode file/resource names
+
+* write additional MIPS IDT3051 tests, starting with programs
+  for basic arithmetic, logic, branch instruction,
+  going to MMU/Cache initialization,
+  ending with exceptions.
+
+* write some "real application" tests, like mobile-phone display,
+  answering machine, game-of-life, ...
+
+* improve usability of hades.models.meta.ActionButton,
+  this might include a full rewrite...
+
+* add some examples / demos for the hades.models.meta.AudioPlayer
+  
+
+* add testsuite stuff to check and re-check the simulator
+  start/stop/pause/run for/interactive event functionality
+
+* add testcases with simple simulation examples for all basic
+  gates, complexgates, flipflops, TTLs, special- and meta-models,
+  and the full RTLIB
+
+* add testcases for the ISCAS/EDIFIN/VHDLOUT converters

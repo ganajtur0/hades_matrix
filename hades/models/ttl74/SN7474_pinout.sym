@@ -1,0 +1,40 @@
+# SN7474_pinout.sym - 16pin DIL package symbol for the 7474 dual DFF
+#
+hades.symbols.BboxRectangle 0 0 3600 9600
+hades.symbols.Rectangle 0 0 3600 9600
+hades.symbols.ClassLabel  1800 900 2 74LS74
+hades.symbols.InstanceLabel 1800 9500 2 dualDFF
+hades.symbols.FatLabel 1800 5400 2 '74
+#
+hades.symbols.PortSymbol 0 1200 1CLR/
+hades.symbols.PortSymbol 0 2400 1D
+hades.symbols.PortSymbol 0 3600 1CK
+hades.symbols.PortSymbol 0 4800 1PR/
+hades.symbols.PortSymbol 0 6000 1Q
+hades.symbols.PortSymbol 0 7200 1Q/
+#hades.symbols.PortSymbol 0 8400 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 2CLR/
+hades.symbols.PortSymbol 3600 3600 2D
+hades.symbols.PortSymbol 3600 4800 2CK
+hades.symbols.PortSymbol 3600 6000 2PR/
+hades.symbols.PortSymbol 3600 7200 2Q
+hades.symbols.PortSymbol 3600 8400 2Q/
+#
+hades.symbols.PortLabel 250 1300 1CLR/
+hades.symbols.PortLabel 250 2500 1D
+hades.symbols.PortLabel 250 3700 1CK
+hades.symbols.PortLabel 250 4900 1PR/
+hades.symbols.PortLabel 250 6100 1Q
+hades.symbols.PortLabel 250 7300 1Q/
+hades.symbols.PortLabel 250 8500 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 2CLR/
+hades.symbols.PortLabel 3350 3700 3 2D
+hades.symbols.PortLabel 3350 4900 3 2CK
+hades.symbols.PortLabel 3350 6100 3 2PR/
+hades.symbols.PortLabel 3350 7300 3 2Q
+hades.symbols.PortLabel 3350 8500 3 2Q/
+#

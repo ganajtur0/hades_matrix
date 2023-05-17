@@ -1,0 +1,33 @@
+[files 4]
+hades/models/ttl74/SN7486_pinout.class
+hades/models/ttl74/SN7486_pinout.java
+hades/models/ttl74/SN7486_pinout.sym
+hades/models/ttl74/SN7486_pinout.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7486_pinout
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7486_pinout.gif
+
+[author]
+-
+
+[description]
+7486 4x XOR2 gate
+
+Note: This IC requires GND and VCC connections.
+Inputs and output are of type StdLogic1164.
+
+[end description]

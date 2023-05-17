@@ -1,0 +1,11 @@
+# symbol for hades.models.rtlib.io.SmallConstant
+# FNH 26.07.99 (small symbol)
+#
+hades.symbols.BboxRectangle 0 0 1200 1200
+hades.symbols.Rectangle 0 0 1200 1200
+hades.symbols.InstanceLabel 1300 550 1 constant0
+#
+hades.symbols.BusPortSymbol 600 1200 Y
+hades.symbols.PortLabel     600 1050 2 Y 
+#
+hades.symbols.ColoredValueLabel 600 900 2 0

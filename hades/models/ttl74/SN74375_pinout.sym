@@ -1,0 +1,44 @@
+# hades.models.ttl74.SN74375_pinout.sym
+#
+hades.symbols.BboxRectangle 0 0 3600 10800
+hades.symbols.ClassLabel  1800 900 2 74LS375
+hades.symbols.InstanceLabel 1800 10700 2 quadff
+hades.symbols.FatLabel 1800 10700 2 '375
+#
+hades.symbols.PortSymbol 0 1200 1D
+hades.symbols.PortSymbol 0 2400 1NQ
+hades.symbols.PortSymbol 0 3600 1Q
+hades.symbols.PortSymbol 0 4800 C12 
+hades.symbols.PortSymbol 0 6000 2Q
+hades.symbols.PortSymbol 0 7200 2NQ
+hades.symbols.PortSymbol 0 8400 2D
+hades.symbols.PortSymbol 0 9600 GND
+#
+hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 4D
+hades.symbols.PortSymbol 3600 3600 4NQ
+hades.symbols.PortSymbol 3600 4800 4Q
+hades.symbols.PortSymbol 3600 6000 C34
+hades.symbols.PortSymbol 3600 7200 3Q
+hades.symbols.PortSymbol 3600 8400 3NQ
+hades.symbols.PortSymbol 3600 9600 3D
+#
+hades.symbols.PortLabel 150 1100 1D
+hades.symbols.PortLabel 150 2300 1NQ
+hades.symbols.PortLabel 150 3500 1Q
+hades.symbols.PortLabel 150 4700 C12
+hades.symbols.PortLabel 150 5900 2Q
+hades.symbols.PortLabel 150 7100 2NQ
+hades.symbols.PortLabel 150 8300 2D
+hades.symbols.PortLabel 150 9700 GND
+#
+hades.symbols.PortLabel 3450 1300 3 VCC
+hades.symbols.PortLabel 3450 2300 3 4D
+hades.symbols.PortLabel 3450 3500 3 4NQ
+hades.symbols.PortLabel 3450 4700 3 4Q
+hades.symbols.PortLabel 3450 5900 3 C34
+hades.symbols.PortLabel 3450 7100 3 3Q
+hades.symbols.PortLabel 3450 8300 3 3NQ
+hades.symbols.PortLabel 3450 9500 3 3D
+#
+hades.symbols.FigWrapper 0 0 /hades/models/ttl74/figs/SN74375_pinout.fig

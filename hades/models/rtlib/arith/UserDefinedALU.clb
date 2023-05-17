@@ -1,0 +1,38 @@
+[files 4]
+hades/models/rtlib/arith/UserDefinedALU.class
+hades/models/rtlib/arith/UserDefinedALU.java
+hades/models/rtlib/arith/UserDefinedALU.sym
+hades/models/rtlib/arith/UserDefinedALU.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.arith.UserDefinedALU
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/arith/UserDefinedALU.gif
+
+[author]
+-
+
+[description]
+n-bit user-defined arithmetic logical unit
+
+  (Y,flags)  <=  ALU( A, B, Cin, OPC, user-defined mapping )
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+[end description]

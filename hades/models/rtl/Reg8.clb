@@ -1,0 +1,30 @@
+[files 3]
+hades/models/rtl/Reg8.hds
+hades/models/rtl/Reg8.sym
+hades/models/rtl/Reg8.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/rtl/Reg8.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/Reg8.gif
+
+[author]
+unknown
+
+[description]
+8-bit D-type register (built from DFF)

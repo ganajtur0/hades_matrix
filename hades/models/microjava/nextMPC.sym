@@ -1,0 +1,31 @@
+hades.symbols.BboxRectangle  0 0 4800 2400
+hades.symbols.Rectangle  0 0 4800 2400
+
+hades.symbols.PortLabel    150 750  MPC
+hades.symbols.BusPortSymbol 0 600 MPC
+
+hades.symbols.PortLabel       150 1350 N
+hades.symbols.PortSymbol      0 1200 N
+
+hades.symbols.PortLabel       150 1950 Z
+hades.symbols.PortSymbol      0 1800 Z
+
+hades.symbols.PortLabel   4200   2350 2 OPC
+hades.symbols.BusPortSymbol 4200 2400 OPC
+
+hades.symbols.PortLabel  4750 750 3 JOPC
+hades.symbols.PortSymbol 4800 600 JOPC
+
+hades.symbols.PortLabel  4750 1350 3 JMPZ
+hades.symbols.PortSymbol 4800 1200 JMPZ
+
+hades.symbols.PortLabel  4750 1950 3 JMPN
+hades.symbols.PortSymbol 4800 1800 JMPN
+
+hades.symbols.PortLabel 4200 350 2 N
+hades.symbols.BusPortSymbol 4200 0 next
+
+hades.symbols.InstanceLabel  2000 2350 3 Next
+hades.symbols.ClassLabel 2200 2350 Next_MPC
+
+hades.symbols.FatInstanceLabel 2400 1500 2 Next

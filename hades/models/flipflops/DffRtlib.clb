@@ -1,0 +1,39 @@
+[files 4]
+hades/models/flipflops/DffRtlib.class
+hades/models/flipflops/DffRtlib.java
+hades/models/flipflops/DffRtlib.sym
+hades/models/flipflops/DffRtlib.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.DffRtlib
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/DffRtlib.gif
+
+[author]
+-
+
+[description]
+D-type flipflop with RTLIB symbol
+
+A rising-edge triggered D-flipflop with
+StdLogic1164 inputs and outputs.
+Flipflop D-to-Q delay and both the setup-
+and hold-times can be specified.
+
+If the DFF detects setup- or hold-time
+violations, the resulting output value
+will be 'X'.
+
+[end description]

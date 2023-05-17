@@ -1,0 +1,30 @@
+[files 3]
+hades/models/mcore/DcoreAddrDecoder.hds
+hades/models/mcore/DcoreAddrDecoder.sym
+hades/models/mcore/DcoreAddrDecoder.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/mcore/DcoreAddrDecoder.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mcore/DcoreAddrDecoder.gif
+
+[author]
+unknown
+
+[description]
+Address decoder for the D*CORE processor.

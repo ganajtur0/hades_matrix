@@ -1,0 +1,44 @@
+[files 4]
+hades/models/fsm/FsmWrapper.class
+hades/models/fsm/FsmWrapper.java
+hades/models/fsm/FsmWrapper.sym
+hades/models/fsm/FsmWrapper.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.fsm.FsmWrapper
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/fsm/FsmWrapper.gif
+
+[author]
+-
+
+[description]
+Embedded finite-state machine.
+
+This wrapper class allows to embed "JavaFSM" finite-state 
+machines into Hades schematics. For details about the JavaFSM
+see http://tams-www.informatik.uni-hamburg.de/applets/javafsm/
+During simulation, the active state and transition will be
+highlighted in the symbol of the FsmWrapper component.
+
+Use the configuration dialog (popup-edit) to open the interactive
+editor for the state-machine, which allows to define the machine
+type (Mealy, Moore), the inputs and outputs, and the states and
+transitions. Use the "Save as" command in the FSM editor to save 
+your state-machine; afterwards also save the Hades design to
+ensure that Hades can automatically load the FSM description when
+you next open the design.
+
+[end description]

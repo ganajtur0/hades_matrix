@@ -1,0 +1,39 @@
+hades.symbols.BboxRectangle 0 0 4800 19200
+hades.symbols.ClassLabel 3550 500 1 4004
+hades.symbols.FatLabel 2400 2400 2 4004
+hades.symbols.InstanceLabel 2400 3000 2 i0
+hades.symbols.Polyline 6 1600 0 0 0 0 19200 4800 19200 4800 0 3200 0
+hades.symbols.Arc 1600 0 2400 800 3200 0
+hades.symbols.PortLabel 150 1300 D0
+hades.symbols.PortLabel 150 3700 D1
+hades.symbols.PortLabel 150 6100 D2
+hades.symbols.PortLabel 150 8500 D3
+hades.symbols.PortLabel 150 10900 Vss
+hades.symbols.PortLabel 150 13300 phi1
+hades.symbols.PortLabel 150 15700 phi2
+hades.symbols.PortLabel 150 18100 SYNC
+hades.symbols.PortLabel 4650 1300 3 CM-RAM0
+hades.symbols.PortLabel 4650 3700 3 CM-RAM1
+hades.symbols.PortLabel 4650 6100 3 CM-RAM2
+hades.symbols.PortLabel 4650 8500 3 CM-RAM3
+hades.symbols.PortLabel 4650 10900 3 Vdd
+hades.symbols.PortLabel 4650 13300 3 CM-ROM
+hades.symbols.PortLabel 4650 15700 3 TEST
+hades.symbols.PortLabel 4650 18100 3 RESET
+hades.symbols.PortSymbol 0 1200 D0
+hades.symbols.PortSymbol 0 3600 D1
+hades.symbols.PortSymbol 0 6000 D2
+hades.symbols.PortSymbol 0 8400 D3
+hades.symbols.PortSymbol 0 10800 Vss
+hades.symbols.PortSymbol 0 13200 phi1
+hades.symbols.PortSymbol 0 15600 phi2
+hades.symbols.PortSymbol 0 18000 SYNC
+hades.symbols.PortSymbol 4800 1200 CM-RAM0
+hades.symbols.PortSymbol 4800 3600 CM-RAM1
+hades.symbols.PortSymbol 4800 6000 CM-RAM2
+hades.symbols.PortSymbol 4800 8400 CM-RAM3
+hades.symbols.PortSymbol 4800 10800 Vdd
+hades.symbols.PortSymbol 4800 13200 CM-ROM
+hades.symbols.PortSymbol 4800 15600 TEST
+hades.symbols.PortSymbol 4800 18000 RESET
+

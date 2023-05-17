@@ -1,0 +1,26 @@
+# simple example for a Java classname to VHDL entityname mapping file.
+# Note that the Java class names do not carry an extension.
+#
+hades.models.gates.And2		gate_and2
+hades.models.gates.And3		gate_and3
+hades.models.gates.Inv		inverter
+hades.models.gates.InvSmall	inverter_small
+hades.models.gates.Nand2	gate_nand2
+#
+# and so on, e.g. some flipflops
+#
+hades.models.flipflops.Dffr	   dffr
+hades.models.flipflops.Latchr  latchr
+#
+# or hades.models.io components:
+#
+hades.models.io.ClockGen	CLOCKGEN
+hades.models.io.HexDisplay	hex_display
+hades.models.io.LED			led
+
+#
+# finally, use the following to re-map Hades designs/subdesigns.
+# note that we map a file name (with .hds extension) to VHDL names:
+#
+examples/simple/dlatch.hds	examples_dlatch
+/hades/examples/dcf77/Shifter59.hds		shifter_59

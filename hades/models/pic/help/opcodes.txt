@@ -1,0 +1,67 @@
+# /hades/models/pic/help/opcodes.txt
+
+Operation code table for the PIC16C84 and PIC16F84 microcontrollers.
+For details, datasheet, and updates see the Arizona Microchip website
+at www.microchip.com.
+
+
+   abbreviations
+
+   fff ffff        7  bit file register index, from 0x00 to 0x7F
+
+                      the PIC16C84 implements registers 0x00 to 0x2F
+                      the PIC16F84 implements registers 0x00 to 0x4F
+                      other registers unimplemented, read as zero
+
+   bbb             3  bit bit index, from 0 (lsb) to 7 (msb)
+
+   aaa aaaa aaaa   11 bit program address for call and jump instructions
+
+   kkkk kkkk       8  bit literal operand, from 0x00 to 0xFF
+
+
+ 
+   mnemonic        opcode                 operation
+
+   NOP             00 0000 0xx0 0000      no operation
+   RETURN          00 0000 0000 1000      return from subsubprogram
+   RETFIE          00 0000 0000 1001      return from interrupt handler
+   SLEEP           00 0000 0110 0011      enter sleep mode
+   CLRWDT          00 0000 0110 0100      clear watchdog timer
+   MOVWF           00 0000 1fff ffff      move value from W to F register
+
+   CLRW            00 0001 0xxx xxxx      clear W register
+   CLRF            00 0001 1fff ffff      clear F register
+   SUBWF           00 0010 dfff ffff      subtract W from F 
+   DECF            00 0011 dfff ffff      decrement F
+   IORWF           00 0100 dfff ffff      inclusive or W, F
+   ANDWF           00 0101 dfff ffff      and W, F
+   XORWF           00 0110 dfff ffff      xor W, F
+   ADDWF           00 0111 dfff ffff      add W, F
+
+   MOVF            00 1000 dfff dfff      move F to W
+   COMF            00 1001 dfff ffff      complement F
+   INCF            00 1010 dfff ffff      increment F
+   DECFSZ          00 1011 dfff ffff      decrement F, skip if zero
+   RRF             00 1100 dfff ffff      rotate right F through carry
+   RLF             00 1101 dfff ffff      rotate left F through carry
+   SWAPF           00 1110 dfff ffff      swap nibbles in F
+   INCFSZ          00 1111 dfff ffff      increment F, skip if zero
+
+   BCF             01 00bb bfff ffff      clear bit B in register F
+   BSF             01 01bb bfff ffff      set bit B in register F
+   BTFSC           01 10bb bfff ffff      test bit B in F, skip if clear
+   BTFSS           01 11bb bfff ffff      test bit B in F, skip if set
+
+   CALL            10 0aaa aaaa aaaa      call subprogram at address A
+   GOTO            10 1aaa aaaa aaaa      goto address A
+  
+   MOVLW           11 00xx kkkk kkkk      move literal K to W
+   RETLW           11 01xx kkkk kkkk      return with literal K in W
+   IORLW           11 1000 kkkk kkkk      inclusive or K with W
+   ANDLW           11 1001 kkkk kkkk      and K with W
+   XORLW           11 1010 kkkk kkkk      xor K with W
+   SUBLW           11 110x kkkk kkkk      subtract K from W
+   ADDLW           11 111x kkkk kkkk      add K and W
+
+

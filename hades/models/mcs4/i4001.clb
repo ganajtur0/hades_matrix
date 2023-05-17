@@ -1,0 +1,46 @@
+[files 4]
+hades/models/mcs4/i4001.class
+hades/models/mcs4/i4001.java
+hades/models/mcs4/i4001.sym
+hades/models/mcs4/i4001.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.mcs4.i4001
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mcs4/i4001.gif
+
+[author]
+-
+
+[description]
+Intel i4001 programmable ROM and I/O port.
+
+Cycle-accurate simulation model of the Intel MCS4-series i4001
+256x8 bit programmable ROM and 4 bit I/O port integrated circuit.
+In combination with the simulation models for the i4002 RAM and
+i4004 microprocessor circuits, a complete MCS4-series micro-
+computer can be simulated. Please consult external documentation
+for details about the i4004 instruction set, interface, and bus
+timing.
+
+Open the configuration dialog to watch and edit the program memory
+data and I/O control registers. Use the 'view->disassembled' 
+command to view the memory contents as MCS4 assembly code.
+
+Use hades.models.mcs4.MCS4Assembler as a simple (but portable)
+assembler for the MCS4 series instruction set. During assembly,
+the program will automatically create the address information used
+to mark the jump targets in the disassembled memory view.
+[end description]

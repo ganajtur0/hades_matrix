@@ -1,0 +1,37 @@
+[files 4]
+hades/models/rtl/ROM_64x8.class
+hades/models/rtl/ROM_64x8.java
+hades/models/rtl/ROM_64x8.sym
+hades/models/rtl/ROM_64x8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtl.ROM_64x8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/ROM_64x8.gif
+
+[author]
+-
+
+[description]
+static read-only memory of 64 words of 8 bit.
+
+A static read-only memory (ROM) with 64x8 bits and
+tri-state outputs.  The ROM has separate active-low 
+chip-select (nCS) and output-enable (nOE) inputs.
+
+The configuration dialog allows to specify a file/URL
+with the default memory contents and includes an interactive
+editor for the memory contents.
+[end description]

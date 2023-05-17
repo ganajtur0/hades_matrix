@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/ImageSource.class
+hades/models/imaging/ImageSource.java
+hades/models/imaging/ImageSource.sym
+hades/models/imaging/ImageSource.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ImageSource
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ImageSource.gif
+
+[author]
+-
+
+[description]
+load images from files or URLs.
+
+Please use the configuration dialog (popup->edit) to
+open the file/URL selection dialog.
+[end description]

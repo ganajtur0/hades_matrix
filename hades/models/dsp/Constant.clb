@@ -1,0 +1,33 @@
+[files 4]
+hades/models/dsp/Constant.class
+hades/models/dsp/Constant.java
+hades/models/dsp/Constant.sym
+hades/models/dsp/Constant.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Constant
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Constant.gif
+
+[author]
+unknown
+
+[description]
+constant generator, Y = constant.
+Use the property sheet to specify the output value.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

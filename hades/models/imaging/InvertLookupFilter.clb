@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/InvertLookupFilter.class
+hades/models/imaging/InvertLookupFilter.java
+hades/models/imaging/InvertLookupFilter.sym
+hades/models/imaging/InvertLookupFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.InvertLookupFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/InvertLookupFilter.gif
+
+[author]
+-
+
+[description]
+Color inversion filter based on LookupTable,
+(r,g,b) -> (255-r, 255-g, 255-b)
+[end description]

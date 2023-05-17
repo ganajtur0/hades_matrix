@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Buffer.class
+hades/models/gatter/Buffer.java
+hades/models/gatter/Buffer.sym
+hades/models/gatter/Buffer.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Buffer
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Buffer.gif
+
+[author]
+-
+
+[description]
+Simple non-inverting buffer with DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

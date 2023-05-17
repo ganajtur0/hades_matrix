@@ -1,0 +1,44 @@
+# SN74390.sym - 16pin DIL package symbol for the 74390 dual 1:2:5 counter
+#
+hades.symbols.BboxRectangle 0 0 3600 10200
+hades.symbols.Rectangle 0 0 3600 10200
+hades.symbols.ClassLabel  1800 900 2 74LS390
+hades.symbols.InstanceLabel 1800 10100 2 dual_counter_10
+hades.symbols.FatLabel 1800 5400 2 '390
+#
+hades.symbols.PortSymbol 0 1200 1CLKA
+hades.symbols.PortSymbol 0 2400 1RESET
+hades.symbols.PortSymbol 0 3600 1QA
+hades.symbols.PortSymbol 0 4800 1CLKB
+hades.symbols.PortSymbol 0 6000 1QB
+hades.symbols.PortSymbol 0 7200 1QC
+hades.symbols.PortSymbol 0 8400 1QD
+#hades.symbols.PortSymbol 0 9600 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 2CLKA
+hades.symbols.PortSymbol 3600 3600 2RESET
+hades.symbols.PortSymbol 3600 4800 2QA
+hades.symbols.PortSymbol 3600 6000 2CLKB
+hades.symbols.PortSymbol 3600 7200 2QB
+hades.symbols.PortSymbol 3600 8400 2QC
+hades.symbols.PortSymbol 3600 9600 2QD
+#
+hades.symbols.PortLabel 250 1300 1CLKA
+hades.symbols.PortLabel 250 2500 1RESET
+hades.symbols.PortLabel 250 3700 1QA
+hades.symbols.PortLabel 250 4900 1CLKB
+hades.symbols.PortLabel 250 6100 1QB
+hades.symbols.PortLabel 250 7300 1QC
+hades.symbols.PortLabel 250 8500 1QD
+hades.symbols.PortLabel 250 9700 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 2CLKA
+hades.symbols.PortLabel 3350 3700 3 2RESET
+hades.symbols.PortLabel 3350 4900 3 2QA
+hades.symbols.PortLabel 3350 6100 3 2CLKB
+hades.symbols.PortLabel 3350 7300 3 2QB
+hades.symbols.PortLabel 3350 8500 3 2QC
+hades.symbols.PortLabel 3350 9700 3 2QD
+#

@@ -1,0 +1,33 @@
+[files 4]
+hades/models/imaging/CatVFilter.class
+hades/models/imaging/CatVFilter.java
+hades/models/imaging/CatVFilter.sym
+hades/models/imaging/CatVFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.CatVFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/CatVFilter.gif
+
+[author]
+-
+
+[description]
+vertical concatentation.
+The output image height is the sum of the two input image
+heights, the output image width the smaller of the two
+input image widths.
+
+[end description]

@@ -1,0 +1,40 @@
+hades.symbols.BboxRectangle 0 0 3600 6000
+hades.symbols.ClassLabel 3500 450 3 Mux8:1
+hades.symbols.PortSymbol 0 600 A7
+hades.symbols.PortSymbol 0 1200 A6
+hades.symbols.PortSymbol 0 1800 A5
+hades.symbols.PortSymbol 0 2400 A4
+hades.symbols.PortSymbol 0 3000 A3
+hades.symbols.PortSymbol 0 3600 A2
+hades.symbols.PortSymbol 0 4200 A1
+hades.symbols.PortSymbol 0 4800 A0
+hades.symbols.PortSymbol 1200 6000 S2
+hades.symbols.PortSymbol 1800 6000 S1
+hades.symbols.PortSymbol 2400 6000 S0
+hades.symbols.PortSymbol 3600 3000 Y
+hades.symbols.PortLabel 150 525 A7
+hades.symbols.PortLabel 150 1125 A6
+hades.symbols.PortLabel 150 1725 A5
+hades.symbols.PortLabel 150 2325 A4
+hades.symbols.PortLabel 150 2925 A3
+hades.symbols.PortLabel 150 3525 A2
+hades.symbols.PortLabel 150 4125 A1
+hades.symbols.PortLabel 150 4725 A0
+hades.symbols.PortLabel 1150 5925 3 S2
+hades.symbols.PortLabel 1750 5925 3 S1
+hades.symbols.PortLabel 2350 5925 3 S0
+hades.symbols.PortLabel 3500 2950 3 Y
+hades.symbols.InstanceLabel 3500 5300 3 i0
+hades.symbols.Polyline 2 0 600 750 600
+hades.symbols.Polyline 2 0 1200 750 1200
+hades.symbols.Polyline 2 0 1800 750 1800
+hades.symbols.Polyline 2 0 2400 750 2400
+hades.symbols.Polyline 2 0 3000 750 3000
+hades.symbols.Polyline 2 0 3600 750 3600
+hades.symbols.Polyline 2 0 4200 750 4200
+hades.symbols.Polyline 2 0 4800 750 4800
+hades.symbols.Polyline 5 750 450 750 4950 2700 4200 2700 1200 750 450
+hades.symbols.Polyline 2 1200 4750 1200 6000
+hades.symbols.Polyline 2 1800 4510 1800 6000
+hades.symbols.Polyline 2 2400 4300 2400 6000
+hades.symbols.Polyline 2 3600 3000 2700 3000

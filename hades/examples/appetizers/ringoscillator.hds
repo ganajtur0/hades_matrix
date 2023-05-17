@@ -1,0 +1,40 @@
+# hades.models.Design file
+#  
+[name] ringoscillator
+[components]
+hades.models.gates.InvSmall inv10 12000 9000 @X 1001 5.0E-9
+hades.models.io.Ipin reset-counter 8400 16800 @N 1001 0
+hades.models.meta.Label external_test_equipment 10200 13200 @N 1001 1 0 5 16 15 0.0 4 external\u0020test\u0020equipment
+hades.models.special.Counter counter 10200 13800 @N 1001 6
+hades.models.gates.InvSmall inv9 15000 9000 @X 1001 5.0E-9
+hades.models.gates.InvSmall inv8 18000 9000 @X 1001 5.0E-9
+hades.models.gates.InvSmall inv7 21000 9000 @X 1001 5.0E-9
+hades.models.gates.InvSmall inv6 24000 9000 @X 1001 5.0E-9
+hades.models.gates.InvSmall inv5 22800 6000 @N 1001 5.0E-9
+hades.models.gates.InvSmall inv4 19800 6000 @N 1001 5.0E-9
+hades.models.gates.InvSmall inv3 16800 6000 @N 1001 5.0E-9
+hades.models.gates.InvSmall inv2 13800 6000 @N 1001 5.0E-9
+hades.models.gates.InvSmall inv1 10800 6000 @N 1001 5.0E-9
+hades.models.meta.Label i3 13200 4200 @N 1001 1 0 5 16 15 0.0 4 odd\u0020number\u0020of\u0020inverting\u0020gates
+hades.models.gates.Nand2 nand11 6000 5400 @N 1001 5.0E-9
+hades.models.meta.Label i1 1200 4200 @N 1001 1 0 5 16 15 0.0 4 click\u0020to\u0020start/stop
+hades.models.io.PowerOnReset i0 3600 6000 @N 1001 0.0050 0.0050
+hades.models.gates.InvSmall buffer 6600 14400 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 inv8 Y inv9 A 1 2 16200 9600 15000 9600 0 
+hades.signals.SignalStdLogic1164 n8 2 inv7 Y inv8 A 1 2 19200 9600 18000 9600 0 
+hades.signals.SignalStdLogic1164 n7 2 inv6 Y inv7 A 1 2 22200 9600 21000 9600 0 
+hades.signals.SignalStdLogic1164 n6 2 inv5 Y inv6 A 3 2 24600 6600 25800 6600 2 25800 6600 25800 9600 2 25800 9600 24000 9600 0 
+hades.signals.SignalStdLogic1164 n5 2 inv4 Y inv5 A 1 2 21600 6600 22800 6600 0 
+hades.signals.SignalStdLogic1164 n4 2 inv3 Y inv4 A 1 2 18600 6600 19800 6600 0 
+hades.signals.SignalStdLogic1164 n3 2 inv2 Y inv3 A 1 2 15600 6600 16800 6600 0 
+hades.signals.SignalStdLogic1164 n2 2 inv1 Y inv2 A 1 2 12600 6600 13800 6600 0 
+hades.signals.SignalStdLogic1164 n1 2 nand11 Y inv1 A 2 2 9600 6600 10500 6600 2 10500 6600 10800 6600 0 
+hades.signals.SignalStdLogic1164 n13 2 buffer Y counter D 1 2 8400 15000 10200 15000 0 
+hades.signals.SignalStdLogic1164 n0 2 i0 nreset nand11 A 2 2 5400 6000 6000 6000 2 3600 6000 5400 6000 0 
+hades.signals.SignalStdLogic1164 n12 2 reset-counter Y counter C 3 2 8400 16800 9600 16800 2 9600 16800 9600 15600 2 9600 15600 10200 15600 0 
+hades.signals.SignalStdLogic1164 n11 3 inv10 Y nand11 B buffer A 5 2 10200 9600 4800 9600 2 4800 9600 4800 7200 2 4800 7200 6000 7200 2 4800 9600 4800 15000 2 4800 15000 6600 15000 1 4800 9600 
+hades.signals.SignalStdLogic1164 n10 2 inv9 Y inv10 A 1 2 13200 9600 12000 9600 0 
+[end signals]
+[end]

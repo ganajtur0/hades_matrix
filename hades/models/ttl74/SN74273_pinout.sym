@@ -1,0 +1,52 @@
+# SN74273_pinout.sym - 20pin DIL package symbol for the 74273 octal DFF
+#
+hades.symbols.BboxRectangle 0 0 3600 13200
+hades.symbols.Rectangle 0 0 3600 13200
+hades.symbols.ClassLabel  1800 900 2 74LS273
+hades.symbols.InstanceLabel 1800 13100 2 octalDFF
+hades.symbols.FatLabel 1800 7200 2 '273
+#
+hades.symbols.PortSymbol 0 1200 nCLEAR
+hades.symbols.PortSymbol 0 2400 1Q
+hades.symbols.PortSymbol 0 3600 1D
+hades.symbols.PortSymbol 0 4800 2D
+hades.symbols.PortSymbol 0 6000 2Q
+hades.symbols.PortSymbol 0 7200 3Q
+hades.symbols.PortSymbol 0 8400 3D
+hades.symbols.PortSymbol 0 9600 4D
+hades.symbols.PortSymbol 0 10800 4Q
+#hades.symbols.PortSymbol 0 12000 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 8Q
+hades.symbols.PortSymbol 3600 3600 8D
+hades.symbols.PortSymbol 3600 4800 7D
+hades.symbols.PortSymbol 3600 6000 7Q
+hades.symbols.PortSymbol 3600 7200 6Q
+hades.symbols.PortSymbol 3600 8400 6D
+hades.symbols.PortSymbol 3600 9600 5D
+hades.symbols.PortSymbol 3600 10800 5Q
+hades.symbols.PortSymbol 3600 12000 CLOCK
+#
+hades.symbols.PortLabel 250 1300 nCLEAR
+hades.symbols.PortLabel 250 2500 1Q
+hades.symbols.PortLabel 250 3700 1D
+hades.symbols.PortLabel 250 4900 2D
+hades.symbols.PortLabel 250 6100 2Q
+hades.symbols.PortLabel 250 7300 3Q
+hades.symbols.PortLabel 250 8500 3D
+hades.symbols.PortLabel 250 9700 4D
+hades.symbols.PortLabel 250 10900 4Q
+hades.symbols.PortLabel 250 12100 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 8Q
+hades.symbols.PortLabel 3350 3700 3 8D
+hades.symbols.PortLabel 3350 4900 3 7D
+hades.symbols.PortLabel 3350 6100 3 7Q
+hades.symbols.PortLabel 3350 7300 3 6Q
+hades.symbols.PortLabel 3350 8500 3 6D
+hades.symbols.PortLabel 3350 9700 3 5D
+hades.symbols.PortLabel 3350 10900 3 5Q
+hades.symbols.PortLabel 3350 12100 3 CLOCK
+#

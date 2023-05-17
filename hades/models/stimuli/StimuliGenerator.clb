@@ -1,0 +1,41 @@
+[files 4]
+hades/models/stimuli/StimuliGenerator.class
+hades/models/stimuli/StimuliGenerator.java
+hades/models/stimuli/StimuliGenerator.sym
+hades/models/stimuli/StimuliGenerator.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.stimuli.StimuliGenerator
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/stimuli/StimuliGenerator.gif
+
+[author]
+-
+
+[description]
+file-driven stimuli generator.
+
+This class allows reads stimuli descriptions from a file or URL
+whose location can be specified via the configuration dialog.
+The stimuli description is parsed once during the elaboration
+phase of the simulation, resulting in a set of simulation events
+which are then executed by the simulator. Parser errors due to
+incorrect input files are reported at elaboration time, too.
+
+The input file syntax is loosely based on typical VHDL testbenches,
+consisting of one or more processes with signal assignments and
+wait statements. Clock signal specifications and signal traces
+are also possible. See the Hades tutorial for details.
+[end description]

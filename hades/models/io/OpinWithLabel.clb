@@ -1,0 +1,38 @@
+[files 4]
+hades/models/io/OpinWithLabel.class
+hades/models/io/OpinWithLabel.java
+hades/models/io/OpinWithLabel.sym
+hades/models/io/OpinWithLabel.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.OpinWithLabel
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/OpinWithLabel.gif
+
+[author]
+-
+
+[description]
+Output Pin with LED
+
+A model to visualize a StdLogic1164 input value
+with a LED, as well as indicating the value with
+a short string label.
+
+Opin is also used as the hierarchy connector
+to Hades subdesigns: all Opin components are
+visible as the top-level output connections.
+
+[end description]

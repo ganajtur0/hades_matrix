@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/SimpleFilter.class
+hades/models/imaging/SimpleFilter.java
+hades/models/imaging/SimpleFilter.sym
+hades/models/imaging/SimpleFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.SimpleFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/SimpleFilter.gif
+
+[author]
+-
+
+[description]
+Base class of per-pixel based image filters.
+Cannot be used directly.
+[end description]

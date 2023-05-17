@@ -1,0 +1,33 @@
+[files 4]
+hades/models/imaging/TriggeredFilter.class
+hades/models/imaging/TriggeredFilter.java
+hades/models/imaging/TriggeredFilter.sym
+hades/models/imaging/TriggeredFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.TriggeredFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/TriggeredFilter.gif
+
+[author]
+-
+
+[description]
+A filter that passes its input image on the rising-edge
+of the CLK input signal.
+Can be used in filter-graphs to avoid propagating
+intermediate images.
+
+[end description]

@@ -1,0 +1,38 @@
+[files 4]
+hades/models/flipflops/Dff.class
+hades/models/flipflops/Dff.java
+hades/models/flipflops/Dff.sym
+hades/models/flipflops/Dff.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Dff
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Dff.gif
+
+[author]
+-
+
+[description]
+DFF: D-type flipflop
+
+A standard rising-edge triggered D-flipflop.
+Signals are of type StdLogic1164.
+Flipflop D-to-Q delay and both the setup-
+and hold-times can be specified.
+
+If the DFF detects setup- or hold-time violations, 
+the resulting output value will be 'X'.
+
+[end description]

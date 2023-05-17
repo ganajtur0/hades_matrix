@@ -1,0 +1,34 @@
+[files 4]
+hades/models/gatter/InvVertical.class
+hades/models/gatter/InvVertical.java
+hades/models/gatter/InvVertical.sym
+hades/models/gatter/InvVertical.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.InvVertical
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/InvVertical.gif
+
+[author]
+-
+
+[description]
+Simple inverter gate with vertically oriented DIN-style symbol.
+
+Input and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+[end description]

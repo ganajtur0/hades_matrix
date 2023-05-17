@@ -1,0 +1,33 @@
+[files 4]
+hades/models/io/RandomBitGenerator.class
+hades/models/io/RandomBitGenerator.java
+hades/models/io/RandomBitGenerator.sym
+hades/models/io/RandomBitGenerator.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.RandomBitGenerator
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/RandomBitGenerator.gif
+
+[author]
+-
+
+[description]
+RandomBitGenerator: a simulation model which generates a new random 0/1 
+value on each rising clock-edge.
+This model is useful for testbenches and automatic selftest of other 
+circuits. Random generator seed and 0/1 probability can be specified.
+Signals are expected to be StdLogic1164 objects.
+[end description]

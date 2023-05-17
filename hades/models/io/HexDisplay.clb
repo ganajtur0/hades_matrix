@@ -1,0 +1,34 @@
+[files 4]
+hades/models/io/HexDisplay.class
+hades/models/io/HexDisplay.java
+hades/models/io/HexDisplay.sym
+hades/models/io/HexDisplay.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.HexDisplay
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/HexDisplay.gif
+
+[author]
+-
+
+[description]
+HEX LED display
+
+A display that decodes a 4-bit input into
+the hex digits '0' .. '9' 'A' .. 'F'.
+Inputs are of type StdLogic1164.
+
+[end description]

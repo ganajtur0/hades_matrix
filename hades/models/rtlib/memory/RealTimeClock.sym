@@ -1,0 +1,22 @@
+# symbol for hades.models.rtlib.memory.RealTimeClock
+# (RAM based clock with async. write enable, chip select, and output enable
+#
+hades.symbols.BboxRectangle 0 0 6000 3000
+hades.symbols.Rectangle 0 0 6000 3000
+hades.symbols.InstanceLabel 5900 550 3 rtc
+hades.symbols.FatLabel 3000 1900 2 RTC
+#
+hades.symbols.PortSymbol       0  600 nCS
+hades.symbols.BusPortSymbol    0 1200 A
+hades.symbols.PortSymbol       0 1800 nWE
+hades.symbols.PortSymbol       0 2400 nOE
+hades.symbols.BusPortSymbol 3000    0 DIN
+hades.symbols.BusPortSymbol 3000 3000 DOUT
+#
+hades.symbols.PortLabel   250  700 1 nCS
+hades.symbols.PortLabel   250 1300 1 A
+hades.symbols.PortLabel   250 1900 1 nWE
+hades.symbols.PortLabel   250 2500 1 nOE 
+hades.symbols.PortLabel  3000  550 2 DIN
+hades.symbols.PortLabel  3000 2800 2 DOUT
+#

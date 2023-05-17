@@ -1,0 +1,33 @@
+[files 4]
+hades/models/imaging/ShearFilter.class
+hades/models/imaging/ShearFilter.java
+hades/models/imaging/ShearFilter.sym
+hades/models/imaging/ShearFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ShearFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ShearFilter.gif
+
+[author]
+-
+
+[description]
+ShearFilter - apply an affine transformation to the image.
+The resulting Shear is constructed so that the whole
+image is visible; the image size changes accordingly.
+
+
+[end description]

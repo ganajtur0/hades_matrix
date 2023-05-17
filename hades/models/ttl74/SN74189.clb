@@ -1,0 +1,55 @@
+[files 4]
+hades/models/ttl74/SN74189.class
+hades/models/ttl74/SN74189.java
+hades/models/ttl74/SN74189.sym
+hades/models/ttl74/SN74189.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN74189
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN74189.gif
+
+[author]
+-
+
+[description]
+TTL-series 74189 16x4 bit RAM.
+
+A static 16x4 bit random access memory, modeled after the
+standard TTL-series 74189 circuits. The circuit is controlled
+via two (active low) control inputs, namely chip-select NCS
+and read/not-write R/NW with the following function table:
+
+  NCS  R/NW  A3..A0  D3..D0  Q3..Q0  function
+    1     *       *       *       Z  inactive, tri-stated
+    0     1    addr       *   !data  read memory(addr) (inverted)
+    0     0    addr    data       Z  write memory(addr) = data
+  
+
+NOTE: The 7489- and 74189-series circuits use inverted outputs;
+that is, during a read-cycle, the RAM outputs the INVERSE of the
+value stored in the memory matrix. This is the exact (crazy)
+behaviour of the 7489- and 74189-series TTL circuits. Note that
+the similar 74219-series circuit uses non-inverted outputs.
+
+Use the configuration dialog (edit) to open the memory editor
+which allos to view and change the memory contents. In the
+default color settings, the memory cell last written will be
+highlighted in magenta color, while the memory cell last read 
+is highlighted in green color.
+
+Inputs and output are of type StdLogic1164. Memory access time 
+and bus tristate-times are controlled via user-settable parameters.
+[end description]

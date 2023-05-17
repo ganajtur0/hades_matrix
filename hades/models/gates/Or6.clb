@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Or6.class
+hades/models/gates/Or6.java
+hades/models/gates/Or6.sym
+hades/models/gates/Or6.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Or6
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Or6.gif
+
+[author]
+-
+
+[description]
+6-input OR gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

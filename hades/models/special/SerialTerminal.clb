@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/SerialTerminal.class
+hades/models/special/SerialTerminal.java
+hades/models/special/SerialTerminal.sym
+hades/models/special/SerialTerminal.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.SerialTerminal
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/SerialTerminal.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

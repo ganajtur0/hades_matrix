@@ -1,0 +1,61 @@
+% /hades/examples/webassign, Hades selftest and LFSR demo
+%
+% 28.08.01, fnh
+
+This directory contains a simple hiearchical Hades design 
+for an eight-bit adder, constructed from two four-bit adders,
+which are in turn constructed from four one-bit fulladders.
+
+---
+
+The adder-java-testbench.hds is used for automatic selftesting
+of the adder design. It uses a simple 16-bit LFSR generator to
+drive pseudorandom input values into the adder, whose output
+values are sampled by a 16-bit (partially connected) LFSR signature
+analyzer. 
+
+To run the selftest, load the adder-java-testbench.hds design
+into the Hades editor. Start the simulation and wait until 
+the "clk_enabler" component forces the clock signal to "1" value.
+Stop the simulation and use the property sheet on the signature
+analyzer to read off the final signature value. 
+
+In this simple example, a gated clock is used to select the number
+of clock cycles for the LFSR generator and analyzer. Therefore,
+the number of cycles depends both on the clock period (selected
+via the clock generator) and the reset pulse duration of the
+power-on-reset component "clk_enabler".
+Use the property editor for the "clk_enabler" component
+to change that number. Originally, these values are set to:
+
+clk_gen:
+  period [sec.]                1.0E-6  (1us, or 1MHz)
+clk_enabler:
+  initial offset [sec:]        1.0E-9  (1ns, a tiny fraction of a clock cycle)
+  reset pulse duration [sec:]: 0.001   (1 msec.)
+
+Correspondingly, the circuit runs for 1000 cycles.
+
+Note that you can set different seed values for both the LFSR
+generator and analyzer via the property editor. Just select
+the seed values and "Apply" them from the property editor,
+then restart the simulation.  Saving the testbench design will 
+also save the seed values.
+
+---
+
+The adder-jython-testbench.hds design demonstrates the use of the
+Jython scripting language to drive a Hades design selftest.
+Put both "hades.zip" (or rename to "hades.jar") and the "jython.jar"
+into your CLASSPATH. Then run the Jython interpreter with the
+"adder-selftest.py" script in this directory, e.g. on Unix/tcsh:
+
+host> setenv CLASSPATH /path/to/hades.jar:/path/to/jython.jar:/users/joe
+host> cd /users/joe/hades/examples/webassign
+host> jython adder-selftest.py
+...
+script executes and prints signature
+host>
+
+
+

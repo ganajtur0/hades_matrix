@@ -1,0 +1,10 @@
+hades.symbols.BboxRectangle 0 0 1500 1800
+hades.symbols.PortSymbol 0 000  A3
+hades.symbols.PortSymbol 0 600  A2
+hades.symbols.PortSymbol 0 1200  A1
+hades.symbols.PortSymbol 0 1800  A0
+hades.symbols.PortLabel 100 100 3
+hades.symbols.PortLabel 100 700 2
+hades.symbols.PortLabel 100 1300 1
+hades.symbols.PortLabel 100 1900 0
+hades.symbols.InstanceLabel 0 2300 i0

@@ -1,0 +1,40 @@
+[files 4]
+hades/models/register/LFSRAnalyzer32.class
+hades/models/register/LFSRAnalyzer32.java
+hades/models/register/LFSRAnalyzer32.sym
+hades/models/register/LFSRAnalyzer32.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.register.LFSRAnalyzer32
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/register/LFSRAnalyzer32.gif
+
+[author]
+-
+
+[description]
+32-bit parallel input LFSR signature analysis register.
+
+This simulation model implements a 32-bit parallel input
+linear-feedback shift register based on the (31 3 0)
+polynom; the main use is a signature analysis register.
+To keep things simple, the register treats inputs '1' and
+'H' as '1', while all other input values (including 'X'
+and 'U') are interpreted as logical '0'.
+
+Use the setValue() and getValue() methods or the configuration
+dialog to set and read out the signature value.
+
+[end description]

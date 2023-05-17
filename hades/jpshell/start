@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+java -DHADES_HOME=/home/dipl/devel/hades -mx64M hades.jpshell.JPEditor

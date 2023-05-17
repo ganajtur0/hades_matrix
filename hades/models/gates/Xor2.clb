@@ -1,0 +1,32 @@
+[files 4]
+hades/models/gates/Xor2.class
+hades/models/gates/Xor2.java
+hades/models/gates/Xor2.sym
+hades/models/gates/Xor2.gif
+
+[references 0]
+
+[versions 1]
+1042
+
+[type]
+beans
+
+[start]
+hades.models.gates.Xor2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Xor2.gif
+
+[description]
+Standard 2-input XOR gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]
+
+

@@ -1,0 +1,4 @@
+hades.symbols.BboxRectangle 0 0 1200 1200
+hades.symbols.PortSymbol 1200 600 Y
+hades.symbols.Label 600 900 2 16 27 36864 0
+hades.symbols.Rectangle 0 0 1200 1200

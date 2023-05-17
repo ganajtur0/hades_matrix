@@ -1,0 +1,8 @@
+# IpinLarge.sym: an Ipin with a large symbol, for easy clicking at small
+# zoom factors...
+#
+hades.symbols.BboxRectangle -2400 -1200 0 1200
+hades.symbols.PersistentInstanceLabel -2500 150 3 i0
+hades.symbols.PortSymbol 0 0 Y
+hades.symbols.Polyline 6 0 0 -1050 -1050 -2400 -1050 -2400 1050 -1050 1050 0 0
+hades.symbols.ColoredCircle -1400 0 800 800

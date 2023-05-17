@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Mux.class
+hades/models/ruge/Mux.java
+hades/models/ruge/Mux.sym
+hades/models/ruge/Mux.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Mux
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Mux.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

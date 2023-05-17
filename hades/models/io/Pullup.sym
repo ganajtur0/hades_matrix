@@ -1,0 +1,5 @@
+hades.symbols.BboxRectangle -600 -1200 600 0
+hades.symbols.ClassLabel -450 -850 +5V
+hades.symbols.PortSymbol 0 0 H
+hades.symbols.Polyline 2 -600 -800 600 -800
+hades.symbols.Polyline 9 0 0 0 -250 200 -300 -200 -400 200 -500 -200 -600 200 -700 0 -750 0 -800

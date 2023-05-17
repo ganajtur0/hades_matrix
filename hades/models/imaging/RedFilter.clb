@@ -1,0 +1,29 @@
+[files 4]
+hades/models/imaging/RedFilter.class
+hades/models/imaging/RedFilter.java
+hades/models/imaging/RedFilter.sym
+hades/models/imaging/RedFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.RedFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/RedFilter.gif
+
+[author]
+-
+
+[description]
+Red-channel color extraction filter, (r,g,b) -> (r,0,0)
+[end description]

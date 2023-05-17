@@ -1,0 +1,29 @@
+[files 4]
+hades/models/special/GraphicsLCD.class
+hades/models/special/GraphicsLCD.java
+hades/models/special/GraphicsLCD.sym
+hades/models/special/GraphicsLCD.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.GraphicsLCD
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/GraphicsLCD.gif
+
+[author]
+-
+
+[description]
+graphical dot-matrix LCD based on the KS0108 controller.
+[end description]

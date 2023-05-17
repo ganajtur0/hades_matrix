@@ -1,0 +1,35 @@
+[files 4]
+hades/models/switched/Relay2.class
+hades/models/switched/Relay2.java
+hades/models/switched/Relay2.sym
+hades/models/switched/Relay2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.switched.Relay2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/switched/Relay2.gif
+
+[author]
+-
+
+[description]
+switch-level simulation model of a relay with 
+two 'changeover' switches.
+
+The relay will be active (on) when one input of the coil
+is at logical '1' and the other at logical '0'. 
+For weak or undefined inputs ('H' 'L'), the relay will
+be off. No extra undefined state is modelled.
+[end description]

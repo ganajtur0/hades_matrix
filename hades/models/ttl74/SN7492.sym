@@ -1,0 +1,28 @@
+# SN7492.sym - functional symbol for the 7492 1:12 counter
+#
+hades.symbols.BboxRectangle 0 0 3600 9600
+hades.symbols.Rectangle 0 0 3600 9600
+hades.symbols.ClassLabel  1800 900 2 74LS92
+hades.symbols.InstanceLabel 1800 9500 2 counter12
+hades.symbols.FatLabel 1800 5400 2 '92
+#
+hades.symbols.PortSymbol 0 1200 R01
+hades.symbols.PortSymbol 0 2400 R02
+hades.symbols.PortSymbol 0 6000 nB
+hades.symbols.PortSymbol 0 8400 nA
+#
+hades.symbols.PortSymbol 3600 3600 QD
+hades.symbols.PortSymbol 3600 4800 QC
+hades.symbols.PortSymbol 3600 6000 QB
+hades.symbols.PortSymbol 3600 8400 QA
+#
+hades.symbols.PortLabel 250 1300 R01
+hades.symbols.PortLabel 250 2500 R02
+hades.symbols.PortLabel 250 6100 nB
+hades.symbols.PortLabel 250 8500 nA
+#
+hades.symbols.PortLabel 3350 3700 3 QD
+hades.symbols.PortLabel 3350 4900 3 QC
+hades.symbols.PortLabel 3350 6100 3 QB
+hades.symbols.PortLabel 3350 8500 3 QA
+#

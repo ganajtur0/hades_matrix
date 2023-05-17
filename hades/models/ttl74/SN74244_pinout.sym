@@ -1,0 +1,52 @@
+# SN74244_pinout.sym - 20pin DIL package symbol for the 74244 2x4 bus driver
+#
+hades.symbols.BboxRectangle 0 0 3600 13200
+hades.symbols.Rectangle 0 0 3600 13200
+hades.symbols.ClassLabel  1800 900 2 74LS244
+hades.symbols.InstanceLabel 1800 13100 2 busDriver
+hades.symbols.FatLabel 1800 7200 2 '244
+#
+hades.symbols.PortSymbol 0 1200 1G/
+hades.symbols.PortSymbol 0 2400 1A1
+hades.symbols.PortSymbol 0 3600 2Y4
+hades.symbols.PortSymbol 0 4800 1A2
+hades.symbols.PortSymbol 0 6000 2Y3
+hades.symbols.PortSymbol 0 7200 1A3
+hades.symbols.PortSymbol 0 8400 2Y2
+hades.symbols.PortSymbol 0 9600 1A4
+hades.symbols.PortSymbol 0 10800 2Y1
+#hades.symbols.PortSymbol 0 12000 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 2G/
+hades.symbols.PortSymbol 3600 3600 1Y1
+hades.symbols.PortSymbol 3600 4800 2A4
+hades.symbols.PortSymbol 3600 6000 1Y2
+hades.symbols.PortSymbol 3600 7200 2A3
+hades.symbols.PortSymbol 3600 8400 1Y3
+hades.symbols.PortSymbol 3600 9600 2A2
+hades.symbols.PortSymbol 3600 10800 1Y4
+hades.symbols.PortSymbol 3600 12000 2A1
+#
+hades.symbols.PortLabel 250 1300 1G/
+hades.symbols.PortLabel 250 2500 1A1
+hades.symbols.PortLabel 250 3700 2Y4
+hades.symbols.PortLabel 250 4900 1A2
+hades.symbols.PortLabel 250 6100 2Y3
+hades.symbols.PortLabel 250 7300 1A3
+hades.symbols.PortLabel 250 8500 2Y2
+hades.symbols.PortLabel 250 9700 1A4
+hades.symbols.PortLabel 250 10900 2Y1
+hades.symbols.PortLabel 250 12100 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 2G/
+hades.symbols.PortLabel 3350 3700 3 1Y1
+hades.symbols.PortLabel 3350 4900 3 2A4
+hades.symbols.PortLabel 3350 6100 3 1Y2
+hades.symbols.PortLabel 3350 7300 3 2A3
+hades.symbols.PortLabel 3350 8500 3 1Y3
+hades.symbols.PortLabel 3350 9700 3 2A2
+hades.symbols.PortLabel 3350 10900 3 1Y4
+hades.symbols.PortLabel 3350 12100 3 2A1
+#

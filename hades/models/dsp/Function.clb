@@ -1,0 +1,40 @@
+[files 4]
+hades/models/dsp/Function.class
+hades/models/dsp/Function.java
+hades/models/dsp/Function.sym
+hades/models/dsp/Function.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Function
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Function.gif
+
+[author]
+unknown
+
+[description]
+general arithmetic function operator. 
+
+Use the property sheet to first enter the variable names
+(as a space separated list), then enter the arithmetic 
+expression. 
+
+Note: the input (variable names) can only be changed while
+the operator is not yet connected to any signals. If necessary,
+use the disconnect and autoconnect functions in the editor.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

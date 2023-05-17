@@ -1,0 +1,30 @@
+[files 3]
+hades/models/mcore/DcoreFieldDecoder.hds
+hades/models/mcore/DcoreFieldDecoder.sym
+hades/models/mcore/DcoreFieldDecoder.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/mcore/DcoreFieldDecoder.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mcore/DcoreFieldDecoder.gif
+
+[author]
+unknown
+
+[description]
+instruction word fields decoder for the D*CORE processor.

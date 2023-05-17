@@ -1,0 +1,8 @@
+# switch-level model of a lightbulb (bigger)
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.PortSymbol 0 1200 A
+hades.symbols.PortSymbol 2400 1200 B
+#
+#
+#

@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Add.class
+hades/models/dsp/Add.java
+hades/models/dsp/Add.sym
+hades/models/dsp/Add.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Add
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Add.gif
+
+[author]
+unknown
+
+[description]
+two-inputs addition operator, Y = A + B.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

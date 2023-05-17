@@ -1,0 +1,37 @@
+[files 4]
+hades/models/rtl/ROM_1Kx8.class
+hades/models/rtl/ROM_1Kx8.java
+hades/models/rtl/ROM_1Kx8.sym
+hades/models/rtl/ROM_1Kx8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtl.ROM_1Kx8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/ROM_1Kx8.gif
+
+[author]
+-
+
+[description]
+static read-only memory of 1024 words of 8 bit.
+
+A static read-only memory (ROM) with 1024x8 bits and
+tri-state outputs.  The ROM has separate active-low 
+chip-select (nCS) and output-enable (nOE) inputs.
+
+The configuration dialog allows to specify a file/URL
+with the default memory contents and includes an interactive
+editor for the memory contents.
+[end description]

@@ -1,0 +1,44 @@
+[files 4]
+hades/models/flipflops/DffMetastable.class
+hades/models/flipflops/DffMetastable.java
+hades/models/flipflops/DffMetastable.sym
+hades/models/flipflops/DffMetastable.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.DffMetastable
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/DffMetastable.gif
+
+[author]
+-
+
+[description]
+"real, metastable" D-type flipflop
+
+A rising-edge triggered D-flipflop with
+StdLogic1164 inputs and outputs.
+Flipflop D-to-Q delay and both the setup-
+and hold-times can be specified.
+
+Unlike Dff, this simulation component models a metastable flipflop
+which won't generate 'U' or 'X' values, but is set to random '0'/'1'
+StdLogic1164 values at initialization and on every hazard or 
+undefined input condition.
+
+Note that the delay for the propagation of this random value is
+random, too, with a delay of up to fifty times the usual flipflop
+propagation delay, t_pass.
+
+[end description]

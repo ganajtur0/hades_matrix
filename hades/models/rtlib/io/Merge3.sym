@@ -1,0 +1,18 @@
+# symbol for hades.models.rtlib.io.Merge3
+# (merge three StdLogicVectors into one)
+# FNH, 26.08.98 (top-down)
+#
+hades.symbols.BboxRectangle -1200 0 1200 600
+hades.symbols.Polyline 9 -1200 0 1200 0 1200 300 900 300 900 600 -900 600 -900 300 -1200 300 -1200 0
+#hades.symbols.Rectangle -1200 0 1200 600
+hades.symbols.ClassLabel 1300 550 1 Merge
+hades.symbols.InstanceLabel -1300 550 3 merge
+hades.symbols.BusPortSymbol -600   0 A
+hades.symbols.BusPortSymbol    0   0 B
+hades.symbols.BusPortSymbol  600   0 C
+hades.symbols.BusPortSymbol    0 600 Y
+#
+hades.symbols.PortLabel  -800 300 3 A 
+hades.symbols.PortLabel   200 300 1 B
+hades.symbols.PortLabel   800 300 1 C
+#hades.symbols.PortLabel  1400 550 2 Y

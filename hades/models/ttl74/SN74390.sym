@@ -1,0 +1,33 @@
+hades.symbols.BboxRectangle  0 0 6000 5400
+hades.symbols.Rectangle  0 0 6000 5400
+hades.symbols.FatLabel 3000 3000 2 '390
+hades.symbols.PortLabel 5850 4950 3 2QD
+hades.symbols.PortSymbol 6000 4800 2QD
+hades.symbols.PortLabel 5850 4350 3 2QC
+hades.symbols.PortSymbol 6000 4200 2QC
+hades.symbols.PortLabel 5850 3750 3 2QB
+hades.symbols.PortSymbol 6000 3600 2QB
+hades.symbols.PortLabel 5850 3150 3 2QA
+hades.symbols.PortSymbol 6000 3000 2QA
+hades.symbols.PortLabel 5850 2550 3 1QD
+hades.symbols.PortSymbol 6000 2400 1QD
+hades.symbols.PortLabel 5850 1950 3 1QC
+hades.symbols.PortSymbol 6000 1800 1QC
+hades.symbols.PortLabel 5850 1350 3 1QB
+hades.symbols.PortSymbol 6000 1200 1QB
+hades.symbols.PortLabel 5850 750 3 1QA
+hades.symbols.PortSymbol 6000 600 1QA
+hades.symbols.PortLabel 150 3750 2RESET
+hades.symbols.PortSymbol 0 3600 2RESET
+hades.symbols.PortLabel 150 3150 2CLKB
+hades.symbols.PortSymbol 0 3000 2CLKB
+hades.symbols.PortLabel 150 2550 2CLKA
+hades.symbols.PortSymbol 0 2400 2CLKA
+hades.symbols.PortLabel 150 1950 1RESET
+hades.symbols.PortSymbol 0 1800 1RESET
+hades.symbols.PortLabel 150 1350 1CLKB
+hades.symbols.PortSymbol 0 1200 1CLKB
+hades.symbols.PortLabel 150 750 1CLKA
+hades.symbols.PortSymbol 0 600 1CLKA
+hades.symbols.InstanceLabel 150 5250 i0
+hades.symbols.ClassLabel 150 450 74390_dual_counter10

@@ -1,0 +1,30 @@
+[files 3]
+hades/models/rtl/Mux16_1.hds
+hades/models/rtl/Mux16_1.sym
+hades/models/rtl/Mux16_1.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/rtl/Mux16_1.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/Mux16_1.gif
+
+[author]
+unknown
+
+[description]
+16:1 multiplexer.

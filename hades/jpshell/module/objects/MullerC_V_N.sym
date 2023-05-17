@@ -1,0 +1,14 @@
+hades.symbols.ClassLabel 50 450 2 MULLERC
+hades.symbols.InstanceLabel 1550 2350 3 i0 
+hades.symbols.FatLabel 1200 1550 2 C
+hades.symbols.PortLabel 50 1150 A
+hades.symbols.PortLabel 2150 1150 B
+hades.symbols.PortSymbol 0 1200 A
+hades.symbols.PortSymbol 2400 1200 B
+hades.symbols.PortLabel 1250 250 Y
+hades.symbols.PortSymbol 1200 0 Y
+hades.symbols.Circle 1200 1200 900 900 
+hades.symbols.Polyline 2 0 1200 300 1200
+hades.symbols.Polyline 2 2100 1200 2400 1200
+hades.symbols.Polyline 2 1200 0 1200 300
+hades.symbols.BboxRectangle 0 0 2400 2400

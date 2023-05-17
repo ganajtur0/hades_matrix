@@ -1,0 +1,77 @@
+# Hades ObjectCanvas viewmode popup menu description, fnh, 24.10.2002
+# with tab- or space separated entries
+# use \uffff notation for special chars
+#
+# Menu menu_name
+# SubMenu parent_menu_name sub_menu_name
+# MenuSeparator parent_menu_name
+# MenuItem parent_menu_name item_name callback_method_name callback_argument_or_null
+#
+#
+#
+#
+Menu view
+MenuItem view toggle\u0020tooltips           doToggleToolTips null
+MenuItem view toggle\u0020glow-mode          doToggleGlowMode null
+MenuItem view toggle\u0020anti-aliasing      doToggleAntiAliasing null
+MenuSeparator view
+MenuItem view extra\u0020layers              doShowAllLayers null
+MenuItem view default\u0020layers            doShowDefaultLayers null
+MenuItem view hide\u0020extra\u0020layers    doShowNoLayers null
+#
+#
+# MenuSeparator view
+# MenuItem view open\u0020external\u0020window doOpenExternalWindow null
+# MenuItem view close\u0020\u0020window        doCloseExternalWindow null
+#
+#
+MenuSeparator view
+MenuItem view show\u0020messages	     doShowMessages null
+MenuItem view show\u0020properties           doShowProperties null
+MenuItem view show\u0020bindkeys             doShowBindkeys null
+MenuItem view show\u0020waveform\u0020viewer doShowWaves    null
+MenuItem view toggle\u0020simulator\u0020controls doToggleSimControlPanel null
+MenuSeparator view
+MenuItem view exit                           doExit null
+# MenuItem view use\u0020green\u0020'0'    doShowGreenStdLogic1164_0 null
+#
+#
+Menu zoom
+MenuItem zoom Zoom\u0020Fit                 doZoomFit null
+MenuItem zoom Zoom\u0020Region              doZoomRegion null
+MenuSeparator zoom
+MenuItem zoom Zoom\u0020In\u0020(1.4)       doZoomIn14 null
+MenuItem zoom Zoom\u0020In\u0020(1.1)       doZoomIn11 null
+MenuItem zoom Zoom\u0020Out\u0020(0.9)      doZoomOut09 null
+MenuItem zoom Zoom\u0020Out\u0020(0.7)      doZoomOut07 null
+MenuSeparator zoom
+MenuItem zoom Zoom\u00201:1                 doZoom11 null
+#
+#
+#
+Menu simulation
+MenuItem simulation Stop	doStopSimulation null
+MenuItem simulation Pause       doPauseSimulation null
+MenuItem simulation Run         doRunSimulation null
+#
+#
+#
+#Menu probes
+#MenuItem probes add\u0020probe               doAddProbeToSignal
+#MenuItem probes remove\u0020probe            doRemoveProbeFromSignal
+#MenuItem probes remove\u0020all\u0020probes  doRemoveAllProbes
+#
+#
+#
+Menu debug
+MenuItem debug timing\u0020stats            doPrintRedrawStats null
+MenuItem debug simulator\u0020info          doPrintSimulatorStats null
+MenuItem debug print\u0020eventlist         doPrintEventList null
+MenuItem debug check\u0020design            doCheckDesign null
+MenuItem debug check\u0020and\u0020highlight  doCheckDesignAndHighlightErrors null
+MenuItem debug redraw\u0020test             doRedrawStressTest null
+#
+#
+MenuSeparator popup
+MenuItem popup edit\u0020object             doPopupEdit null
+#

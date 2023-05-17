@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/ParametrizedFilter.class
+hades/models/imaging/ParametrizedFilter.java
+hades/models/imaging/ParametrizedFilter.sym
+hades/models/imaging/ParametrizedFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ParametrizedFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ParametrizedFilter.gif
+
+[author]
+-
+
+[description]
+Base class for simple per-pixel image filters.
+Provides support to read and write image parameters
+to design files and manages the propertysheet.
+Cannot be used directly.
+[end description]

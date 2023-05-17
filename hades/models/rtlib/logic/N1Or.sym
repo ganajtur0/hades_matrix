@@ -1,0 +1,18 @@
+# symbol for hades.models.rtlib.logic.N1And
+#
+# a binary product term: OR of bus B and n clones of input A
+# FNH 03.09.98
+#
+hades.symbols.BboxRectangle 0 0 1200 1800
+hades.symbols.Rectangle 0 0 1200 1800
+hades.symbols.ClassLabel 600 1750 1 N1Or
+hades.symbols.InstanceLabel 1300 1750 1 n1or
+#
+hades.symbols.BusPortSymbol  600 1800 Y
+hades.symbols.PortSymbol       0  600 A
+hades.symbols.BusPortSymbol  600    0 B
+#
+hades.symbols.PortLabel   600 1650 2 Y 
+hades.symbols.PortLabel   150  750 1 A
+hades.symbols.PortLabel   600 1750 2 B
+#

@@ -1,0 +1,65 @@
+# hades.models.Design file
+#  
+[name] SN7483_4bit_adder
+[components]
+hades.models.gates.Xor2 i5 22800 4200 @N 1001 1.0E-8
+hades.models.gates.Xor2 i4 22800 7800 @N 1001 1.0E-8
+hades.models.gates.Xor2 i3 22800 11400 @N 1001 1.0E-9
+hades.models.gates.Nand2 i2 12000 -5400 @N 1001 5.0E-9
+hades.models.gates.Nand2 i1 7200 -4200 @N 1001 5.0E-9
+hades.models.gates.Or2 i0 7200 -6600 @N 1001 1.0E-8
+hades.models.io.Opin S4 27000 1800 @N 1001 5.0E-9
+hades.models.io.Opin S3 27000 5400 @N 1001 5.0E-9
+hades.models.io.Opin S2 27000 9000 @N 1001 5.0E-9
+hades.models.io.Ipin VCC 6000 -6000 @N 1001 U
+hades.models.io.Opin S1 27000 12600 @N 1001 5.0E-9
+hades.models.io.Ipin B4 6000 1200 @N 1001 U
+hades.models.io.Ipin B3 6000 4800 @N 1001 U
+hades.models.io.Ipin B2 6000 8400 @N 1001 U
+hades.models.io.Ipin B1 6000 12000 @N 1001 U
+hades.models.io.Ipin CIN 6000 15000 @N 1001 U
+hades.models.io.Ipin GND 6000 -2400 @N 1001 U
+hades.models.Design SN7483_stage4 13200 1200 @N 1001 /hades/models/ttl74/SN7483_stage.hds
+hades.models.Design SN7483_stage3 12000 4800 @N 1001 /hades/models/ttl74/SN7483_stage.hds
+hades.models.Design SN7483_stage2 10800 8400 @N 1001 /hades/models/ttl74/SN7483_stage.hds
+hades.models.Design SN7483_stage1 9600 12000 @N 1001 /hades/models/ttl74/SN7483_stage.hds
+hades.models.io.Ipin A4 6000 2400 @N 1001 U
+hades.models.io.Ipin A3 6000 6000 @N 1001 U
+hades.models.io.Ipin A2 6000 9600 @N 1001 U
+hades.models.io.Ipin A1 6000 13200 @N 1001 U
+hades.models.io.Opin COUT 27000 -600 @N 1001 5.0E-9
+hades.models.gates.Xor2 i7 22800 -1800 @N 1001 1.0E-8
+hades.models.gates.Xor2 i6 22800 600 @N 1001 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n28 6 i2 Y i3 A i4 A i5 A i6 A i7 A 11 2 22800 12000 21600 12000 2 21600 12000 21600 8400 2 21600 8400 22800 8400 2 21600 8400 21600 4800 2 21600 4800 22800 4800 2 21600 4800 21600 1200 2 21600 1200 22800 1200 2 21600 1200 21600 -1200 2 21600 -1200 22800 -1200 2 21600 -1200 21600 -4200 2 21600 -4200 15600 -4200 4 21600 8400 21600 1200 21600 -1200 21600 4800 
+hades.signals.SignalStdLogic1164 n9 2 i3 Y S1 A 1 2 26400 12600 27000 12600 0 
+hades.signals.SignalStdLogic1164 n27 2 SN7483_stage4 COUT i7 B 3 2 19200 1800 20400 1800 2 20400 1800 20400 0 2 20400 0 22800 0 0 
+hades.signals.SignalStdLogic1164 n8 2 SN7483_stage1 S i3 B 1 2 15600 13200 22800 13200 0 
+hades.signals.SignalStdLogic1164 n26 2 SN7483_stage4 S i6 B 1 2 19200 2400 22800 2400 0 
+hades.signals.SignalStdLogic1164 n7 2 SN7483_stage1 COUT SN7483_stage2 CIN 5 2 15600 12600 16800 12600 2 16800 12600 16800 12000 2 16800 12000 9600 10800 2 9600 10800 9600 10200 2 9600 10200 10800 10200 0 
+hades.signals.SignalStdLogic1164 n25 2 i6 Y S4 A 1 2 26400 1800 27000 1800 0 
+hades.signals.SignalStdLogic1164 n6 2 B1 Y SN7483_stage1 B 1 2 9600 12600 6000 12000 0 
+hades.signals.SignalStdLogic1164 n24 2 i7 Y COUT A 1 2 26400 -600 27000 -600 0 
+hades.signals.SignalStdLogic1164 n5 2 A1 Y SN7483_stage1 A 1 2 6000 13200 9600 13200 0 
+hades.signals.SignalStdLogic1164 n23 2 SN7483_stage3 S i5 B 1 2 18000 6000 22800 6000 0 
+hades.signals.SignalStdLogic1164 n4 2 VCC Y i0 A 1 2 7200 -6000 6000 -6000 0 
+hades.signals.SignalStdLogic1164 n22 2 i1 Y i2 B 1 2 10800 -3000 12000 -3600 0 
+hades.signals.SignalStdLogic1164 n3 1 i0 B 1 2 7200 -4800 5400 -4800 0 
+hades.signals.SignalStdLogic1164 n21 2 i0 Y i2 A 1 2 10800 -5400 12000 -4800 0 
+hades.signals.SignalStdLogic1164 n2 1 i1 A 1 2 7200 -3600 5400 -3600 0 
+hades.signals.SignalStdLogic1164 n1 2 GND Y i1 B 1 2 6000 -2400 7200 -2400 0 
+hades.signals.SignalStdLogic1164 n20 2 B4 Y SN7483_stage4 B 1 2 13200 1800 6000 1200 0 
+hades.signals.SignalStdLogic1164 n0 2 CIN Y SN7483_stage1 CIN 1 2 6000 15000 9600 13800 0 
+hades.signals.SignalStdLogic1164 n19 2 A4 Y SN7483_stage4 A 1 2 6000 2400 13200 2400 0 
+hades.signals.SignalStdLogic1164 n18 2 SN7483_stage3 COUT SN7483_stage4 CIN 5 2 18000 5400 19200 5400 2 19200 5400 19200 4800 2 19200 4800 12000 3600 2 12000 3600 12000 3000 2 12000 3000 13200 3000 0 
+hades.signals.SignalStdLogic1164 n17 2 i5 Y S3 A 1 2 26400 5400 27000 5400 0 
+hades.signals.SignalStdLogic1164 n16 2 SN7483_stage2 COUT SN7483_stage3 CIN 5 2 16800 9000 18000 9000 2 18000 9000 18000 8400 2 18000 8400 10800 7200 2 10800 7200 10800 6600 2 10800 6600 12000 6600 0 
+hades.signals.SignalStdLogic1164 n15 2 A3 Y SN7483_stage3 A 1 2 6000 6000 12000 6000 0 
+hades.signals.SignalStdLogic1164 n14 2 B3 Y SN7483_stage3 B 1 2 6000 4800 12000 5400 0 
+hades.signals.SignalStdLogic1164 n13 2 B2 Y SN7483_stage2 B 1 2 10800 9000 6000 8400 0 
+hades.signals.SignalStdLogic1164 n12 2 A2 Y SN7483_stage2 A 1 2 6000 9600 10800 9600 0 
+hades.signals.SignalStdLogic1164 n11 2 i4 Y S2 A 1 2 26400 9000 27000 9000 0 
+hades.signals.SignalStdLogic1164 n10 2 SN7483_stage2 S i4 B 1 2 16800 9600 22800 9600 0 
+[end signals]
+[end]

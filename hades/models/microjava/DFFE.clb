@@ -1,0 +1,29 @@
+[files 4]
+hades/models/microjava/DFFE.class
+hades/models/microjava/DFFE.java
+hades/models/microjava/DFFE.sym
+hades/models/microjava/DFFE.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.DFFE
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/DFFE.gif
+
+[author]
+-
+
+[description]
+rising-edge triggered D-type flipflop with enable input
+[end description]

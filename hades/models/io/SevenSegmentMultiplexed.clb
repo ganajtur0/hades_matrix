@@ -1,0 +1,40 @@
+[files 4]
+hades/models/io/SevenSegmentMultiplexed.class
+hades/models/io/SevenSegmentMultiplexed.java
+hades/models/io/SevenSegmentMultiplexed.sym
+hades/models/io/SevenSegmentMultiplexed.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.SevenSegmentMultiplexed
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/SevenSegmentMultiplexed.gif
+
+[author]
+-
+
+[description]
+Seven-segment LED display.
+
+
+This component allows to visualize the behaviour of a multiplexed
+7-segment LED display. To this end, it maintains an internal data
+structure that keeps track of the 'on period' of each LED segment
+during a predefined time interval (specified by the t_sample variable).
+Typically, this time interval will be the
+as the repaint interval of the GUI (e.g. one second or 1/10th second).
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic Grid-> 1/8 inch
+[end description]

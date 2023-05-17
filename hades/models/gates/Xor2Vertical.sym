@@ -1,0 +1,18 @@
+#
+#hades.symbols.ClassLabel 450 3550 3 Xor2V
+#hades.symbols.InstanceLabel 2350 3550 3 i0 
+hades.symbols.BboxRectangle 0 0 2400 3600 
+hades.symbols.PortLabel 650 450 A
+hades.symbols.PortLabel 1950 450 B
+hades.symbols.PortLabel 1250 3500 Y
+hades.symbols.PortSymbol 600 0 A
+hades.symbols.PortSymbol 1800 0 B
+hades.symbols.PortSymbol 1200 3600 Y
+#
+hades.symbols.Polyline 2 600 0 600 750
+hades.symbols.Polyline 2 1800 0 1800 750 
+hades.symbols.Polyline 2 1200 2550 1200 3600 
+hades.symbols.Arc 300 750 600 1800 1200 2550
+hades.symbols.Arc 300 750 1200 1050 2100 750
+hades.symbols.Arc 300 600 1200 900 2100 600
+hades.symbols.Arc 2100 750 1800 1800 1200 2550

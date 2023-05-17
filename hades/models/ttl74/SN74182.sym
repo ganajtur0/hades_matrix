@@ -1,0 +1,40 @@
+# SN74182.sym - functional symbol for the 74182 CLA
+#
+hades.symbols.BboxRectangle 0 0 6000 15600
+hades.symbols.Rectangle 0 0 6000 15600
+hades.symbols.ClassLabel  2400 900 2 74LS182
+hades.symbols.InstanceLabel 2400 15500 2 CLA
+hades.symbols.FatLabel 3000 8000 2 '182
+#
+hades.symbols.PortSymbol 0 1200 Y3
+hades.symbols.PortSymbol 0 2400 X3
+hades.symbols.PortSymbol 0 3600 Y2
+hades.symbols.PortSymbol 0 4800 X2
+hades.symbols.PortSymbol 0 7200 Y1
+hades.symbols.PortSymbol 0 8400 X1
+hades.symbols.PortSymbol 0 9600 Y0
+hades.symbols.PortSymbol 0 10800 X0
+hades.symbols.PortSymbol 0 13200 CN/
+#
+hades.symbols.PortSymbol 6000 1200 Y
+hades.symbols.PortSymbol 6000 2400 X
+hades.symbols.PortSymbol 6000 3600 CN+Z/
+hades.symbols.PortSymbol 6000 7200 CN+Y/
+hades.symbols.PortSymbol 6000 9600 CN+X/
+#
+hades.symbols.PortLabel 250 1300 Y3
+hades.symbols.PortLabel 250 2500 X3
+hades.symbols.PortLabel 250 3700 Y2
+hades.symbols.PortLabel 250 4900 X2
+hades.symbols.PortLabel 250 7300 Y1
+hades.symbols.PortLabel 250 8500 X1
+hades.symbols.PortLabel 250 9700 Y0
+hades.symbols.PortLabel 250 10900 X0
+hades.symbols.PortLabel 250 13300 CN/
+#
+hades.symbols.PortLabel 5850 1300 3 Y
+hades.symbols.PortLabel 5850 2500 3 X
+hades.symbols.PortLabel 5850 3700 3 CN+Z/
+hades.symbols.PortLabel 5850 7300 3 CN+Y/
+hades.symbols.PortLabel 5850 9700 3 CN+X/
+#

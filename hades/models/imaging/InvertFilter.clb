@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/InvertFilter.class
+hades/models/imaging/InvertFilter.java
+hades/models/imaging/InvertFilter.sym
+hades/models/imaging/InvertFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.InvertFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/InvertFilter.gif
+
+[author]
+-
+
+[description]
+Color inversion filter, (r,g,b) -> (255-r,255-g,255-b)
+
+[end description]

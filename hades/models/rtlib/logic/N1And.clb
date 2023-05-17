@@ -1,0 +1,40 @@
+[files 4]
+hades/models/rtlib/logic/N1And.class
+hades/models/rtlib/logic/N1And.java
+hades/models/rtlib/logic/N1And.sym
+hades/models/rtlib/logic/N1And.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.logic.N1And
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/logic/N1And.gif
+
+[author]
+-
+
+[description]
+n-bit logical AND with 1-bit signal.
+
+  Y[i]  <=  A  AND  B[i]
+
+This can be used as a mask to control a vector with a single bit.
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+[end description]

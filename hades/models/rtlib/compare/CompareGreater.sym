@@ -1,0 +1,17 @@
+# symbol for hades.models.rtlib.compare.CompareGreater, 
+# FNH 24.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 3600 1800
+hades.symbols.Polyline 5 0 0 3600 0 3600 1800 0 1800 0 0
+hades.symbols.ClassLabel 3700 1750 1 CompareGreater
+hades.symbols.InstanceLabel 3700 600 1 greater
+hades.symbols.FatLabel 1800 1300 2 A>B
+#
+hades.symbols.BusPortSymbol 1200 0 A
+hades.symbols.BusPortSymbol 2400 0 B
+hades.symbols.PortSymbol 1800 1800 Y
+#
+hades.symbols.PortLabel  1000 350 3 A
+hades.symbols.PortLabel  2600 350 1 B
+hades.symbols.PortLabel  1800 1650 2 Y
+#

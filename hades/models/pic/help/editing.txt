@@ -1,0 +1,55 @@
+# /hades/models/pic/help/editing.txt
+
+
+To edit the memory contents of the PIC16C84 or PIC16F84 
+microcontroller, do the following:
+
+
+For the PIC program memory:
+
+  Click the mouse at the target address, to select that
+  address for editing. If necessary, scroll the memory
+  disassembler view, to make the target address visible.
+  The selected instruction will be displayed in blue 
+  color.
+
+  Afterwards, just type in the desired memory contents,
+  i.e., the PIC instruction at the target address.
+  For example, scroll to address 0x000, click there,
+  then type in "2805" to specify a "goto 0x005" instruction.
+  Press the <enter> or <return> key to store the memory data.
+
+
+
+For the PIC data, eeprom, and stack memories:
+
+  Click the mouse at the target address, to select that
+  address for editing. As no scrollbars are displayed
+  for the data, eeprom, or stack memories, just use the
+  <cursor up/down> or <page up/down> keys to make the 
+  target address visible. Use the <home> and <end> keys
+  to move to the first or last address of the memory.
+
+  Afterwards, just type in the desired memory contents,
+  e.g. type in "ef" to set the memory at the selected
+  address to the (Hex) value of "0xef".
+
+  You can also hold down the <shift> key and use the
+  <cursor up/down> keys to increment/decrement the
+  memory data at the target address.
+
+  Note that all your changes are instantly stored to
+  the corresponding memory address.
+
+
+For the PIC W/PC/STATUS/INTCON registers:
+
+  Just type in the desired value, then type <enter>
+  or <return>.
+
+
+
+Naturally, you may want to pause the simulation during manual
+editing, in order to inhibit concurrent changes to the edited
+memory cells from the running program.
+

@@ -1,0 +1,29 @@
+[files 4]
+hades/models/microjava/IFU.class
+hades/models/microjava/IFU.java
+hades/models/microjava/IFU.sym
+hades/models/microjava/IFU.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.IFU
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/IFU.gif
+
+[author]
+-
+
+[description]
+instruction fetch unit for Microjava 2
+[end description]

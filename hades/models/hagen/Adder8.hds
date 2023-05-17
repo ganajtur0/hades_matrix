@@ -1,0 +1,22 @@
+# hades.models.Design file
+#  
+[name] Adder-with-carry-8bit
+[components]
+hades.models.rtlib.io.OpinVector SUM 15600 13200 @N 1001 8 1.0E-9 0
+hades.models.rtlib.io.IpinVector B 8400 5400 @N 1001 8 00000100_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector A 8400 7200 @N 1001 8 00000100_B 1.0E-9 0
+hades.models.meta.Label i2 8400 10200 @N 1001 3 0 20 16 15 0.0 4 the\u0020A/B\u0020input\u0020values
+hades.models.meta.Label i1 8400 9600 @N 1001 3 0 20 16 15 0.0 4 shift-click\u0020to\u0020decrement
+hades.models.meta.Label i0 8400 9000 @N 1001 3 0 20 16 15 0.0 4 Click\u0020to\u0020increment
+hades.models.io.Opin COUT 15600 15000 @N 1001 5.0E-9
+hades.models.io.Ipin CIN 8400 3600 @N 1001 0
+hades.models.rtlib.arith.Addc adder_8bit 10800 8400 @N 1001 8 00001001_B 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n4 2 adder_8bit COUT COUT A 2 2 15600 15000 12600 15000 2 12600 15000 12600 10800 0 
+hades.signals.SignalStdLogicVector n3 8 2 adder_8bit SUM SUM A 2 2 15600 13200 13200 13200 2 13200 13200 13200 10800 0 
+hades.signals.SignalStdLogic1164 n2 2 CIN Y adder_8bit CIN 3 2 15000 8400 15000 3600 2 15000 3600 10200 3600 2 10200 3600 8400 3600 0 
+hades.signals.SignalStdLogicVector n1 8 2 B Y adder_8bit B 2 2 8400 5400 14400 5400 2 14400 5400 14400 8400 0 
+hades.signals.SignalStdLogicVector n0 8 2 A Y adder_8bit A 2 2 12000 8400 12000 7200 2 12000 7200 8400 7200 0 
+[end signals]
+[end]

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Alu.class
+hades/models/ruge/Alu.java
+hades/models/ruge/Alu.sym
+hades/models/ruge/Alu.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Alu
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Alu.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

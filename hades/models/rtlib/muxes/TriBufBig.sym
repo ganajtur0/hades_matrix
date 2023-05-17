@@ -1,0 +1,13 @@
+# symbol for hades.models.rtlib.muxes.TriBufBig (tristate buffer)
+# FNH 24.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 1800 1800
+hades.symbols.ClassLabel 1900 1750 1  TriBufBig
+hades.symbols.InstanceLabel 1900 550 1 Tri
+#
+hades.symbols.Polyline 4 0 0 1800 0 900 1800 0 0
+hades.symbols.Polyline 2 0 1200 600 1200
+hades.symbols.BusPortSymbol  900    0 A
+hades.symbols.BusPortSymbol  900 1800 Y
+hades.symbols.PortSymbol       0 1200 S
+#

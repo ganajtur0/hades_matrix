@@ -1,0 +1,39 @@
+% /hades/testsuite/README, 22.08.2001
+
+This is the base directory for the Hades testsuite, which is meant to
+torture several aspects of the framework including the user interface.
+While the testsuite is intended to test all Hades classes and scripts,
+it is currently very incomplete. More tests will be added as time allows.
+
+For ease of writing, most tests here are be written as Jython scripts, 
+and as such require that JPython or Jython are installed on the host
+system. At the very least, you will need a working Java virtual machine
+and both the hades.jar and jython.jar (jpython.jar) classes to run the
+testsuite. Set up your CLASSPATH correspondingly, then run
+
+jython runAllTests.py
+
+and check the resulting status in the "hades.log" file.
+
+The user interface tests use the java.awt.Robot class, which may require 
+additional privileges and software to run on some systems. For example,
+on X-Windows the XTest server extension is needed.
+
+Here is a short overview of the testsuite directory tree:
+
+hades/
+   testsuite/
+      awt/          
+          checkAwtRobot.py      - checks java.awt.Robot
+          checkWindowManager.py - window placement and resizing
+
+      editor/                   - Hades editor tests
+
+          gremlins.py           - pseudorandom GUI torture,
+                                  including undo/redo tests
+    
+      simobjects/               - tests for individual components
+
+      vhdl/                     - Hades to VHDL export 
+                            
+

@@ -1,0 +1,43 @@
+[files 4]
+hades/models/io/ClockGen.class
+hades/models/io/ClockGen.java
+hades/models/io/ClockGen.sym
+hades/models/io/ClockGen.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ClockGen
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ClockGen.gif
+
+[author]
+-
+
+[description]
+Clock generator 
+
+A clock generator with user-settable 
+period (1/frequency), duty-cycle, and phase.
+Default is a symmetric 1 Hz clock signal.
+The output is of type StdLogic1164.
+
+                 +---+      +---+      +---+
+                 |   |      |   |      |   |
++----------------+   +------+   +------+   +------+ ....
+|                |          |          |          |
+|< offset       >|< period >|< >|      |
+                              dutycycle
+
+
+[end description]

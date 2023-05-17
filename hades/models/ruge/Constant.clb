@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Constant.class
+hades/models/ruge/Constant.java
+hades/models/ruge/Constant.sym
+hades/models/ruge/Constant.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Constant
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Constant.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

@@ -1,0 +1,44 @@
+[files 3]
+hades/models/ttl74/SN74375_pinout.hds
+hades/models/ttl74/SN74375_pinout.sym
+hades/models/ttl74/SN74375_pinout_symbol.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/ttl74/SN74375_pinout.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN74375_pinout_symbol.gif
+
+[author]
+unknown
+
+[description]
+74375 4x D-Latch
+
+Four level-sensitive D-Latches. 
+Inputs and output are of type StdLogic1164.
+
+Note: This IC requires GND and VCC connections.
+
+Note: this simulation model implements a "metastable"
+behaviour for the D-latches. That is, the flipflop
+output values will never be 'U' or 'X even for undefined
+flipflop state. Instead, the flipflop will enter random
+'0' or '1' states after a random delay. 
+You should not use this simulation model unless you
+know that your circuit is initialized properly.
+[end description]

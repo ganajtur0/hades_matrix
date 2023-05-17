@@ -1,0 +1,38 @@
+HADES MemoryEditor key mapping:
+
+Currently, the following keys are used in the MemoryEditor:
+
+0 .. 9               enter the hexadecimal digit 0 .. F at the
+a .. f               current cursor position
+A .. F 
+                     Note that the data is scrolled after the
+                     cursor reaches the rightmost position of the
+                     current data element. This allows you to 
+                     quickly enter or correct data just by typing
+                     it again.
+
+space                move the cursor to the next data element,
+                     i.e. at the next address
+
+<shift>+space        move the cursor to the previous data element
+
+cursor-up            move the cursor
+cursor-down
+cursor-left
+cursor-right
+
+<shift>+cursor-up    increment the data at the cursor position
+<shift>+cursor-down  decrement the data at the cursor position
+                     Note: these keys allow you to easily count
+                     through a set of values
+
+<shift>+I            insert empty memory word at current cursor
+                     position (shifts down the remaining words)
+
+                     Note: page-up and page-d-1own are not supported by
+                     all memory editors.
+page-up              move one screen up
+page-down            move one screen down
+
+home                 first screen (addr=0)
+end                  last screen (addr=size-1)

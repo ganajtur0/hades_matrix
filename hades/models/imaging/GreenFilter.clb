@@ -1,0 +1,29 @@
+[files 4]
+hades/models/imaging/GreenFilter.class
+hades/models/imaging/GreenFilter.java
+hades/models/imaging/GreenFilter.sym
+hades/models/imaging/GreenFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.GreenFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/GreenFilter.gif
+
+[author]
+-
+
+[description]
+Green-channel extraction filter, (r,g,b) -> (0,g,0)
+[end description]

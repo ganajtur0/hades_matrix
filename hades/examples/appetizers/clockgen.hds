@@ -1,0 +1,23 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.meta.Label i8 4200 4500 @N 1001 1 0 5 16 15 0.0 4 0.5Hz\u002c\u002050\u0025\u002c\u00202s\u0020offset
+hades.models.meta.Label i7 13200 1200 @N 1001 1 0 5 16 20 0.0 4 timing\u0020diagrams
+hades.models.meta.Label i5 4200 1200 @N 1001 1 0 5 16 20 0.0 4 clock-generators
+hades.models.FigObject i4 12300 1800 @N 1001 clockgen.fig
+hades.models.io.ClockGen clk3 4200 15000 @N 1001 2.0 0.9 6.0
+hades.models.io.LED i3 8400 16200 @N 1001 0
+hades.models.io.ClockGen clk2 4200 9600 @N 1001 2.0 0.33 4.0
+hades.models.io.LED i2 8400 10800 @N 1001 0
+hades.models.io.ClockGen clk1 4200 4800 @N 1001 2.0 0.5 2.0
+hades.models.io.LED i1 8400 6000 @N 1001 0
+hades.models.meta.Label i10 4200 14700 @N 1001 1 0 5 16 15 0.0 4 0.5Hz\u002c\u002090\u0025\u002c\u00206s\u0020offset
+hades.models.meta.Label i9 4200 9300 @N 1001 1 0 5 16 15 0.0 4 0.5Hz\u002c\u002033\u0025\u002c\u00204s\u0020offset
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n2 2 clk3 clk i3 A 1 2 6600 16200 8400 16200 0 
+hades.signals.SignalStdLogic1164 n1 2 clk1 clk i1 A 1 2 6600 6000 8400 6000 0 
+hades.signals.SignalStdLogic1164 n0 2 clk2 clk i2 A 1 2 6600 10800 8400 10800 0 
+[end signals]
+[end]

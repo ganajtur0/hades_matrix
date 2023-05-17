@@ -1,0 +1,43 @@
+[files 4]
+hades/models/flipflops/DffrMetastable.class
+hades/models/flipflops/DffrMetastable.java
+hades/models/flipflops/DffrMetastable.sym
+hades/models/flipflops/DffrMetastable.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.DffrMetastable
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/DffrMetastable.gif
+
+[author]
+-
+
+[description]
+"metastable" D-type flipflop with reset
+
+A rising-edge triggered D-flipflop with asynchronous reset input;
+all inputs and outputs use StdLogic1164 multilevel logic. 
+The D-to-Q delay as well as the setup- and hold-times can be specified.
+
+Unlike Dffr, this simulation component models a metastable flipflop
+which won't generate 'U' or 'X' values, but is set to random '0'/'1'
+StdLogic1164 values at initialization and on every hazard or
+undefined input condition.
+
+Note that the delay for the propagation of this random value is
+random, too, with a delay of up to fifty times the usual flipflop
+propagation delay, t_pass.
+
+[end description]

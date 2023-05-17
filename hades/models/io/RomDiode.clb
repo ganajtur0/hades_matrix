@@ -1,0 +1,33 @@
+[files 4]
+hades/models/io/RomDiode.class
+hades/models/io/RomDiode.java
+hades/models/io/RomDiode.sym
+hades/models/io/RomDiode.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.RomDiode
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/RomDiode.gif
+
+[author]
+-
+
+[description]
+RomDiode: a faked diode useful for demonstrating ROM or PLA arrays.
+This model uses the std_logic levels to simulate a diode-like
+behaviour; however, we use a fixed input-output assignment.
+A logical 1 at the kathode input will result in a 1 output,
+while other input values result in a Z output value.
+[end description]

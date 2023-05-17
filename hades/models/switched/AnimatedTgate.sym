@@ -1,0 +1,27 @@
+# transmission-gate switch-level model, single gate connection C
+# instead of separate p/n gates
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+# hades.symbols.ClassLabel 150 450 1 TGATE
+hades.symbols.InstanceLabel 150 2350 1 i0
+hades.symbols.Rectangle 0 0 2400 2400 
+#
+hades.symbols.PortSymbol    0 1200 A
+hades.symbols.PortSymbol 2400 1200 B
+hades.symbols.PortSymbol 1200    0 C
+#
+hades.symbols.PortLabel  150 1100 A
+hades.symbols.PortLabel 2300 1100 B
+hades.symbols.PortLabel 1300  450 C
+#
+hades.symbols.Polyline 2 1200 0 1200 850
+hades.symbols.Polyline 2 600 850 1800 850
+#
+hades.symbols.Polyline 2 2400 1200 1800 1200
+hades.symbols.Polyline 2 0 1200 600 1200 
+#
+hades.symbols.Polyline 2 1200 2200 1200 1950
+hades.symbols.Polyline 2 600 1550 1800 1550
+hades.symbols.Circle 1200 1750 200 200
+#
+hades.symbols.ColoredRectangle 600 1050 1800 1350

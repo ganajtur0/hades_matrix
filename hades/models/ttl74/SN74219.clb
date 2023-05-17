@@ -1,0 +1,55 @@
+[files 4]
+hades/models/ttl74/SN74219.class
+hades/models/ttl74/SN74219.java
+hades/models/ttl74/SN74219.sym
+hades/models/ttl74/SN74219.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN74219
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN74219.gif
+
+[author]
+-
+
+[description]
+TTL-series 74219 16x4 bit RAM.
+
+A static 16x4 bit random access memory, modeled after the
+standard TTL-series 74219 circuits. The circuit is controlled
+via two (active low) control inputs, namely chip-enable nCE
+and write-enable nWE with the following function table:
+
+  nCE   nWE  A3..A0  D3..D0  Q3..Q0  function
+    1     *       *       *       Z  inactive, tri-stated
+    0     1    addr       *   !data  read memory(addr) 
+    0     0    addr    data       Z  write memory(addr) = data
+
+
+NOTE: Unlike the 7489- and 74189-series circuits, the 74219 RAM
+uses non-inverted outputs. That is, during a read-cycle the data
+outputs are driven with the actual value stored in the memory 
+matrix.
+
+Use the configuration dialog (edit) to open the memory editor
+which allos to view and change the memory contents. In the
+default color settings, the memory cell last written will be
+highlighted in magenta color, while the memory cell last read
+is highlighted in green color.
+
+Inputs and output are of type StdLogic1164. Memory access time
+and bus tristate-times are controlled via user-settable parameters.
+
+[end description]

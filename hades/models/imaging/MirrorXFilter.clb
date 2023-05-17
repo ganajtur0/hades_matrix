@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/MirrorXFilter.class
+hades/models/imaging/MirrorXFilter.java
+hades/models/imaging/MirrorXFilter.sym
+hades/models/imaging/MirrorXFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.MirrorXFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/MirrorXFilter.gif
+
+[author]
+-
+
+[description]
+mirrors the input image left-right.
+
+[end description]

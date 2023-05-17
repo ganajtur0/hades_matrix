@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/MidiReceiver.class
+hades/models/special/MidiReceiver.java
+hades/models/special/MidiReceiver.sym
+hades/models/special/MidiReceiver.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.MidiReceiver
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/MidiReceiver.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

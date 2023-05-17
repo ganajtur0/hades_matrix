@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/MultFilter.class
+hades/models/imaging/MultFilter.java
+hades/models/imaging/MultFilter.sym
+hades/models/imaging/MultFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.MultFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/MultFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component multiplication.
+
+[end description]

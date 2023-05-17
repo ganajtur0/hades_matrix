@@ -1,0 +1,29 @@
+[files 4]
+hades/models/imaging/ImageMux21.class
+hades/models/imaging/ImageMux21.java
+hades/models/imaging/ImageMux21.sym
+hades/models/imaging/ImageMux21.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ImageMux21
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ImageMux21.gif
+
+[author]
+-
+
+[description]
+A 2:1 multiplexer for images.
+[end description]

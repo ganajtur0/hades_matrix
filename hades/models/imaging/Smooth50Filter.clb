@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/Smooth50Filter.class
+hades/models/imaging/Smooth50Filter.java
+hades/models/imaging/Smooth50Filter.sym
+hades/models/imaging/Smooth50Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Smooth50Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Smooth50Filter.gif
+
+[author]
+-
+
+[description]
+Smoothing via 50x50 [1,1,...1] matrix convolution
+
+[end description]

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/EdgeTrigger.class
+hades/models/special/EdgeTrigger.java
+hades/models/special/EdgeTrigger.sym
+hades/models/special/EdgeTrigger.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.EdgeTrigger
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/EdgeTrigger.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

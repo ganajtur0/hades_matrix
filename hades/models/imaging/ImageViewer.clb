@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/ImageViewer.class
+hades/models/imaging/ImageViewer.java
+hades/models/imaging/ImageViewer.sym
+hades/models/imaging/ImageViewer.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ImageViewer
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ImageViewer.gif
+
+[author]
+-
+
+[description]
+simple Swing-based image viewer with zoom
+and RGB pixel-value display.
+[end description]

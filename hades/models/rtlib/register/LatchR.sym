@@ -1,0 +1,29 @@
+# symbol for hades.models.rtlib.register.LatchR
+# FNH 24.08.98 (Lagemann-style, but top down)
+#
+hades.symbols.BboxRectangle 0 0 3600 2400
+hades.symbols.Rectangle 0 0 3670 2400
+# hades.symbols.ClassLabel 3700 2350 1 LatchR
+hades.symbols.InstanceLabel 3700 550 1 x
+hades.symbols.FatInstanceLabel 1800 1000 2 LATCHR
+#
+# clock symbol line & reset symbol
+# hades.symbols.Polyline 4 0 1000 500 1000 500 1400 0 1400
+hades.symbols.Polyline 4 0 1050 300 1050 300 1350 0 1350
+hades.symbols.Circle 200 1800 150 150
+#
+#
+hades.symbols.BusPortSymbol 1800 2400 Q
+hades.symbols.BusPortSymbol 1800    0 D
+hades.symbols.PortSymbol       0 1200 CLK
+hades.symbols.PortSymbol       0 1800 NR
+#
+#
+hades.symbols.PortLabel  2000 2350 1 Q
+hades.symbols.PortLabel  2000  350 1 D
+hades.symbols.PortLabel   200  900 1 CLK
+hades.symbols.PortLabel   200 2200 1 NR
+#
+#hades.symbols.ColoredRectangle 0 0 300 2400
+#hades.symbols.ColoredRectangle 3300 0 3600 2400
+hades.symbols.ColoredValueLabel 1800 2200 2 42 

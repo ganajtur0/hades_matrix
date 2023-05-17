@@ -1,0 +1,46 @@
+[files 4]
+hades/models/rtl/IDT6164.class
+hades/models/rtl/IDT6164.java
+hades/models/rtl/IDT6164.sym
+hades/models/rtl/IDT6164.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtl.IDT6164
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/IDT6164.gif
+
+[author]
+-
+
+[description]
+static CMOS RAM of 2Kx8 bits.
+
+We use the IDT name instead of the original Hitachi (HC6116)
+because IDT seems to be the only company left that provides a  
+datasheet...
+
+The RAM has separate low-active nCS chip select, nOE output enable,
+and nWE asynchronous write enable control inputs.
+Data lines are bidirectional. The RAM outputs are tri-stated and  
+the input disabled as long as nCS is high.
+When nCS is low and nOE is low, the data from the currently addressed
+RAM cell is outputted at the data lines after t_access.
+If nCS is low and nWE low, the addressed RAM cell is written 
+(continuously) with the current data inputs.
+
+Clicking 'edit' on the RAM model will open a graphical editor
+for the RAM data, that also allows to specify the (optional)
+RAM initialization data file.
+[end description]

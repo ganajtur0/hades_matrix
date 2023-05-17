@@ -1,0 +1,49 @@
+[files 4]
+hades/models/rtlib/memory/MR.class
+hades/models/rtlib/memory/MR.java
+hades/models/rtlib/memory/MR.sym
+hades/models/rtlib/memory/MR.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.memory.MR
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/memory/MR.gif
+
+[author]
+-
+
+[description]
+microcode-rom with 256 words of 8+8+2+16 outputs.
+
+The configuration dialog includes an interactive memory editor
+that allows to change the individual data outputs and the next
+address outputs. After saving the microcode data to a file via
+the "save as" option, you should also save the current Hades 
+design, to ensure that Hades will store the selected filename.
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+Note that simulation performance may be limited by GUI updates due
+to glow-mode and RTLIB-animation (e.g. labels on flipflops or Opins).
+If necessary, switch off glow-mode and RTLIB-animation via the 'view'
+menu. With RTLIB-animation off, however, component symbols won't be
+updated and may not match the actual value on the component/signal.
+Select a manual redraw after pausing the simulation to update the GUI.
+
+[end description]

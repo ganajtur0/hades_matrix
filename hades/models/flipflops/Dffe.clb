@@ -1,0 +1,38 @@
+[files 4]
+hades/models/flipflops/Dffe.class
+hades/models/flipflops/Dffe.java
+hades/models/flipflops/Dffe.sym
+hades/models/flipflops/Dffe.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Dffe
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Dffe.gif
+
+[author]
+-
+
+[description]
+DFFE: D-type flipflop with enable
+
+A rising-edge triggered D-flipflop with enable
+input. Signals are of type StdLogic1164.
+Flipflop D-to-Q delay and both the setup-
+and hold-times can be specified.
+
+If the DFFE detects setup- or hold-time violations, 
+the resulting output value will be 'X'.
+
+[end description]

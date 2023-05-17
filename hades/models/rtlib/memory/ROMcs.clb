@@ -1,0 +1,47 @@
+[files 4]
+hades/models/rtlib/memory/ROMcs.class
+hades/models/rtlib/memory/ROMcs.java
+hades/models/rtlib/memory/ROMcs.sym
+hades/models/rtlib/memory/ROMcs.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.memory.ROMcs
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/memory/ROMcs.gif
+
+[author]
+-
+
+[description]
+read-only memory with tri-state output.
+
+Memory size, access time, and initialization file can be specified 
+via the configuration dialog which also includes the interactive
+memory editor.
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+Note that simulation performance may be limited by GUI updates due
+to glow-mode and RTLIB-animation (e.g. labels on flipflops or Opins).
+If necessary, switch off glow-mode and RTLIB-animation via the 'view'
+menu. With RTLIB-animation off, however, component symbols won't be
+updated and may not match the actual value on the component/signal.
+Select a manual redraw after pausing the simulation to update the GUI.
+
+[end description]

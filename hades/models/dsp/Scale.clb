@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Scale.class
+hades/models/dsp/Scale.java
+hades/models/dsp/Scale.sym
+hades/models/dsp/Scale.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Scale
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Scale.gif
+
+[author]
+unknown
+
+[description]
+linear transformation operator (scaling), Y = a*X + b.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

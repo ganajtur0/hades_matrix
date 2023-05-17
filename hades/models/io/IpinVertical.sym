@@ -1,0 +1,5 @@
+hades.symbols.BboxRectangle -600 -1200 600 0
+hades.symbols.PersistentInstanceLabel 0 -1300 2 i0
+hades.symbols.PortSymbol 0 0 Y
+hades.symbols.Polyline 6 0 0 -450 -450 -450 -1200 450 -1200 450 -450 0 0
+hades.symbols.ColoredCircle 0 -750 300 300

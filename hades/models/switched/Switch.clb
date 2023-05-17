@@ -1,0 +1,30 @@
+[files 4]
+hades/models/io/Switch.class
+hades/models/io/Switch.java
+hades/models/io/Switch.sym
+hades/models/io/Switch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Switch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Switch.gif
+
+[author]
+-
+
+[description]
+transmission-gate switch
+
+[end description]

@@ -1,0 +1,42 @@
+[files 4]
+hades/models/imaging/EqualsWithinFilter.class
+hades/models/imaging/EqualsWithinFilter.java
+hades/models/imaging/EqualsWithinFilter.sym
+hades/models/imaging/EqualsWithinFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.EqualsWithinFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/EqualsWithinFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component 'fuzzy' equality test with user-settable
+'tolerance'. Useful for generating masks withs smooth transitions:
+
+int   dr = Math.abs( (pixa&0x00ff0000) - (pixb&0x00ff0000) ) >>> 16;
+int   dg = Math.abs( (pixa&0x0000ff00) - (pixb&0x0000ff00) ) >> 8;
+int   db = Math.abs( (pixa&0x000000ff) - (pixb&0x000000ff) );
+int  err = dr + dg + db;
+
+if      (err == 0)      R.setRGB( i, j, 0xffffffff );
+else if (err < limit)   R.setRGB( i, j, 0xffbfbfbf );
+else if (err < 2*limit) R.setRGB( i, j, 0xff7f7f7f );
+else if (err < 3*limit) R.setRGB( i, j, 0xff3f3f3f );
+else                    R.setRGB( i, j, 0xff000000 );
+
+[end description]

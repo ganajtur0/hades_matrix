@@ -1,0 +1,40 @@
+# SN7487_pinout.sym - 14pin DIL package symbol for the 7482 complementer
+#
+hades.symbols.BboxRectangle 0 0 3600 9600
+hades.symbols.Rectangle 0 0 3600 9600
+hades.symbols.ClassLabel  1800 900 2 74LS87
+hades.symbols.InstanceLabel 1800 9500 2 complement
+hades.symbols.FatLabel 1800 5400 2 '87
+#
+hades.symbols.PortSymbol 0 1200 C
+hades.symbols.PortSymbol 0 2400 A1
+hades.symbols.PortSymbol 0 3600 Y1 
+#hades.symbols.PortSymbol 0 4800 nc
+hades.symbols.PortSymbol 0 6000 A2
+hades.symbols.PortSymbol 0 7200 Y2
+#hades.symbols.PortSymbol 0 8400 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 A4
+hades.symbols.PortSymbol 3600 3600 Y4
+#hades.symbols.PortSymbol 3600 4800 nc
+hades.symbols.PortSymbol 3600 6000 A3
+hades.symbols.PortSymbol 3600 7200 Y3 
+hades.symbols.PortSymbol 3600 8400 B
+#
+hades.symbols.PortLabel 250 1300 C
+hades.symbols.PortLabel 250 2500 A1
+hades.symbols.PortLabel 250 3700 Y1
+hades.symbols.PortLabel 250 4900 nc
+hades.symbols.PortLabel 250 6100 A2
+hades.symbols.PortLabel 250 7300 Y2
+hades.symbols.PortLabel 250 8500 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 A4
+hades.symbols.PortLabel 3350 3700 3 Y4
+hades.symbols.PortLabel 3350 4900 3 nc
+hades.symbols.PortLabel 3350 6100 3 A3
+hades.symbols.PortLabel 3350 7300 3 Y3
+hades.symbols.PortLabel 3350 8500 3 B
+#

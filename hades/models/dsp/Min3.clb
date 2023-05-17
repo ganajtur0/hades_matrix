@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Min3.class
+hades/models/dsp/Min3.java
+hades/models/dsp/Min3.sym
+hades/models/dsp/Min3.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Min3
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Min3.gif
+
+[author]
+unknown
+
+[description]
+three-inputs minimum operator, Y = min( A, B, C )
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

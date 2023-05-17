@@ -1,0 +1,71 @@
+# symbol for hades.models.rtlib.memory.MR20
+# microcode memory with 20 outputs
+# FNH 04.01.00 (top down)
+#
+hades.symbols.BboxRectangle 0 0 15000 6000
+hades.symbols.Polyline 8 1200 0 0 1200 0 4800 1200 6000   15000 6000 15000 0 1200 0 1200 6000
+#
+hades.symbols.ClassLabel 7100 5900 3 MROM
+hades.symbols.InstanceLabel 7100 1550 3 urom
+hades.symbols.FatLabel 3600 3300 2 uROM
+#hades.symbols.FatLabel 9000 3100 UNDEFINED 
+#
+#
+hades.symbols.BusPortSymbol    0 3000 A
+hades.symbols.PortLabel           250 3100 1 A
+#
+# Next
+hades.symbols.BusPortSymbol 2400 6000 X
+hades.symbols.PortLabel            2400 5850 2 Next
+# Jump
+hades.symbols.PortSymbol    3600 6000 D0
+hades.symbols.PortSymbol    4200 6000 D1
+hades.symbols.PortSymbol    4800 6000 D2 
+hades.symbols.PortLabel        4200 5850 2 Jump
+# IFU
+hades.symbols.PortSymbol    6000 6000 D14
+hades.symbols.PortSymbol    6600 6000 D15 
+hades.symbols.PortSymbol    7200 6000 D16
+hades.symbols.PortLabel       6600 5850 2 IFU
+# Memory Out
+hades.symbols.PortSymbol   8400 6000 D17
+hades.symbols.PortSymbol   9000 6000 D18
+#hades.symbols.PortSymbol   9600 6000 D19
+hades.symbols.PortLabel       8700  5850 2 Rd__Wr 
+#
+#
+# Bus A read
+hades.symbols.BusPortSymbol   2400 0     BusA
+hades.symbols.PortLabel              2400 350 2 BusA
+# 
+hades.symbols.BusPortSymbol   3600 0     ALU
+hades.symbols.PortLabel              3600 350 2 ALU
+# A
+hades.symbols.PortSymbol   4800 0 D8
+hades.symbols.PortLabel       4800  350 2 A
+# B
+hades.symbols.PortSymbol   5400 0 D9
+hades.symbols.PortSymbol   6000 0 D12
+hades.symbols.PortLabel       5700  350 2 B
+# PC
+hades.symbols.PortSymbol   6600 0 D3
+hades.symbols.PortLabel       6600  350 2 PC
+# CPP
+hades.symbols.PortSymbol   7200 0 D4
+hades.symbols.PortLabel       7200  350 2 CPP
+# LV
+hades.symbols.PortSymbol   7800 0 D5
+hades.symbols.PortLabel       7800  350 2 LV
+# SP
+hades.symbols.PortSymbol   8400 0 D6
+hades.symbols.PortLabel       8400  350 2 SP
+# SP
+hades.symbols.PortSymbol   9000 0 D7
+hades.symbols.PortLabel       9000  350 2 TOS
+#rd MRR
+hades.symbols.PortSymbol    9600 0 D13
+#wr MWR
+hades.symbols.PortSymbol    10200 0 D10
+#wr MAR
+hades.symbols.PortSymbol    10800 0 D11
+hades.symbols.PortLabel        10200 350 2 Mem_In

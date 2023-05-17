@@ -1,0 +1,10 @@
+hades.symbols.BboxRectangle 0 0 1800 1800
+hades.symbols.Rectangle 0 0 1800 1800
+hades.symbols.PortSymbol 0 600 A
+hades.symbols.PortSymbol 0 1200 CLK
+hades.symbols.PortSymbol 1800 600 Y
+hades.symbols.Label 900 750 2 TRIGGER
+hades.symbols.Label 990 1250 2 (GATE)
+hades.symbols.InstanceLabel 1750 1750 3 i0
+#
+hades.symbols.Polyline 3 0 1000 400 1200 0 1400

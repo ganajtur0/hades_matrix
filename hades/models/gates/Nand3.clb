@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Nand3.class
+hades/models/gates/Nand3.java
+hades/models/gates/Nand3.sym
+hades/models/gates/Nand3.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Nand3
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Nand3.gif
+
+[author]
+unknown
+
+[description]
+Standard 3-input NAND gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

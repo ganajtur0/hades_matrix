@@ -1,0 +1,36 @@
+STYX shortcut keys:
+
+
+(1) General:
+
+    [Q]           quit (close window)
+
+
+(2) Zooming:
+
+    [f]           zoom fit (and update trafo)
+    [s]           zoom selection
+
+            [1]   zoom out 25%
+    [z] [y] [2]   zoom out 50%
+    [Z] [Y] [3]   zoom in 200%
+            [4]   zoom in 400%
+    
+
+
+(3) Waveform movement:
+
+    [cursor up]   move selected waveform up
+    [cursor down] move selected waveform down
+
+    [x]           swap selected waveforms
+
+
+(4) Searching:
+
+    [n]           search next event (from cursor)
+    [m] [N]       search next event (from last search)
+    [b] [p]        search previous event (from cursor)
+    [P]           search previous event (from last search)
+
+

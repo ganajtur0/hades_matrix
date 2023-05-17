@@ -1,0 +1,40 @@
+[files 4]
+hades/models/io/SevenSegment.class
+hades/models/io/SevenSegment.java
+hades/models/io/SevenSegment.sym
+hades/models/io/SevenSegment.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.SevenSegment
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/SevenSegment.gif
+
+[author]
+-
+
+[description]
+Seven-segment LED display
+
+Standard 7-segment red LED display with
+decimal point and (optional) common cathode
+connection.
+
+Inputs are of type StdLogic1164. Undefined
+inputs will be displayed in cyan color.
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic Grid-> 1/8 inch
+
+[end description]

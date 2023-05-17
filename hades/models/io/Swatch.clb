@@ -1,0 +1,36 @@
+[files 4]
+hades/models/io/Swatch.class
+hades/models/io/Swatch.java
+hades/models/io/Swatch.sym
+hades/models/io/Swatch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Swatch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Swatch.gif
+
+[author]
+-
+
+[description]
+"Swatch"
+
+A simulation model to show-off visualization.
+It provides the user-interface of an analog
+chronograph stop-watch with six clock arms
+for hour/minute/second main time, 
+and minute/second/tenth second stop time.
+
+[end description]

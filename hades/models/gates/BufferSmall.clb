@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/BufferSmall.class
+hades/models/gates/BufferSmall.java
+hades/models/gates/BufferSmall.sym
+hades/models/gates/BufferSmall.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.BufferSmall
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/BufferSmall.gif
+
+[author]
+unknown
+
+[description]
+Simple non-inverting buffer, with small symbol.
+
+Input and output are of type StdLogic1164.
+The buffer uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

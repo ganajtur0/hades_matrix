@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Div.class
+hades/models/dsp/Div.java
+hades/models/dsp/Div.sym
+hades/models/dsp/Div.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Div
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Div.gif
+
+[author]
+unknown
+
+[description]
+two-inputs division operator, Y = A / B.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

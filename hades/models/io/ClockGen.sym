@@ -1,0 +1,9 @@
+hades.symbols.ClassLabel 200 480 ClockGen
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.Polyline 6 0 0 2100 0 2400 1200 2100 2400 0 2400 0 0
+hades.symbols.InstanceLabel 200 2300 clk0 
+hades.symbols.PortSymbol 2400 1200 clk
+hades.symbols.PortLabel 2300 1300 3 clk
+hades.symbols.Polyline 8 1200 1650 1425 1650 1425 750 1650 750 1650 1650 1875 1650 1875 750 2100 750
+# hades.symbols.Polyline 8 1200 1500 1425 1500 1425 680 1650 680 1650 1500 1875 1500 1875 680 2100 680
+# hades.symbols.Polyline 3 1200 600 1200 1800 2100 1800

@@ -1,0 +1,25 @@
+# multiplexer symbol for Hagen KE15, exercise E3.3.a
+#
+#
+hades.symbols.BboxRectangle  0 0 7200 2400
+hades.symbols.Rectangle  0 0 7200 2400
+#
+hades.symbols.PortSymbol 7200 1200 SELECT
+hades.symbols.BusPortSymbol 6000 0 X0
+hades.symbols.BusPortSymbol 2400 0 X1
+hades.symbols.BusPortSymbol 3600 2400 XOUT
+hades.symbols.PortSymbol 4800 0 C0
+hades.symbols.PortSymbol 1200 0 C1
+hades.symbols.PortSymbol 3000 2400 COUT
+#
+hades.symbols.PortLabel 7050 1350 3 SELECT
+hades.symbols.PortLabel 6150 450 X0
+hades.symbols.PortLabel 4650 450 3 C0
+hades.symbols.PortLabel 2550 450 X1
+hades.symbols.PortLabel 1050 450 3 C1
+hades.symbols.PortLabel 3750 2250 XOUT
+hades.symbols.PortLabel 2850 2250 3 COUT
+#
+hades.symbols.InstanceLabel 150 2250 Mux2:1
+hades.symbols.ClassLabel 150 450 Mux2:1-8bit-plus-1bit
+hades.symbols.Label 3600 1900 2 16 27 36864 MUX 

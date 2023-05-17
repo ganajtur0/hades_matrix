@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Xnor2.class
+hades/models/gates/Xnor2.java
+hades/models/gates/Xnor2.sym
+hades/models/gates/Xnor2.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Xnor2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Xnor2.gif
+
+[author]
+unknown
+
+[description]
+Standard 2-input XNOR gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

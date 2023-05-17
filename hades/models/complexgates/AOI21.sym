@@ -1,0 +1,8 @@
+hades.symbols.ClassLabel 5300 450 3 AOI21
+hades.symbols.BboxRectangle 0 0 5400 3600
+hades.symbols.InstanceLabel 5300 3450 3 i0
+hades.symbols.PortSymbol 0 600 A1
+hades.symbols.PortSymbol 0 1800 A2
+hades.symbols.PortSymbol 0 3000 B1 
+hades.symbols.PortSymbol 5400 2400 Y
+hades.symbols.FigWrapper 0 0 /hades/models/complexgates/AOI21.fig

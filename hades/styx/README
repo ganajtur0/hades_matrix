@@ -1,0 +1,27 @@
+The HADES waveform viewer.
+
+The main class, WaveformViewer, provides both the public interface
+methods and the GUI for the waveform viewer. It support zooming and
+scrolling, and several search functions (still many bugs here).
+NameCanvas, TimePanel, Transformation, WaveCanvas, Xscroller, and
+Yscroller are used for the user interface. 
+
+A single waveform is represented by either the base class Waveform 
+or a specialized subclass for a specific Signal type. The subclasses 
+usually provide additional functionality, e.g. to manage and display 
+StdLogic1164 values with the same colors as used by Hades glow mode.
+Currently, this package supports the following singal types:
+
+StdLogic1164    SignalStdLogic1164     WaveStdLogic1164
+StdLogicVector  SignalStdLogicVector   WaveStdLogicVector
+String          SignalString           WaveString
+Integer         SignalInteger          WaveInteger
+
+Adding new signal types requires a corresponding subclass and
+a change to the addSignal() method in WaveformViewer. This should
+really use a 'WaveFactory' instead. You should also provide
+support for object serialization in new Waveform subclasses.
+
+For (so far, unfinished) documentation about the code, see the 
+Bsc. thesis from Marcus Carl in the /hades/doc/theses/ directory.
+The package name "styx" is taken from Greek mythology :-)

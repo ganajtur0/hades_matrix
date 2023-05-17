@@ -1,0 +1,40 @@
+[files 4]
+hades/models/gates/Tri.class
+hades/models/gates/Tri.java
+hades/models/gates/Tri.sym
+hades/models/gates/Tri.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Tri
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Tri.gif
+
+[author]
+unknown
+
+[description]
+Inverting buffer with Tristate output.
+
+  S  A  | Y
+  0  0    1  active
+  0  1    0  active
+  1  0    Z  tri-state
+  1  1    Z  tri-state
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+[end description]

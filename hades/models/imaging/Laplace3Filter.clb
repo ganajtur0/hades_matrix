@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/Laplace3Filter.class
+hades/models/imaging/Laplace3Filter.java
+hades/models/imaging/Laplace3Filter.sym
+hades/models/imaging/Laplace3Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Laplace3Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Laplace3Filter.gif
+
+[author]
+-
+
+[description]
+Laplace convolution image filter. Kernel:
+
+{-1,-1,-1, -1, 8, -1, -1,-1,-1 }
+[end description]

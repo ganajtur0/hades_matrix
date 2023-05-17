@@ -1,0 +1,28 @@
+Here, again, are the steps to program real PICs (16C84) with the 
+low-cost serial programmer and the PIP-02 program: 
+
+0) WARNING: these DOS programs will crash if your computer is too fast,
+   due to an old and annoying bug in the TurboPascal runtime library. 
+   The typical symptom is a runtime error 200.
+
+   There is nothing you can do, except using a slower (<200 MHz) computer,
+   or using the excellent WinPIC programmer instead of the DOS-mode 
+   programs. Visit http://people.freenet.de/dl4yhf/winpicpr.html
+
+1) Connect the serial programmer hardware to a serial port on your PC.
+
+2) Open a DOS-box. 
+
+3) Run the com84.exe program and specify the serial port to use:
+
+   COM84 COM2
+   COM84 COM<x>
+   COM84 REMOVE
+
+4) Run the pip-02.exe program to read, program, and verify the PIC processor
+
+   PIP-02
+
+5) From within PIP-02, load the '.hex' file to load into the PIC,
+   check the fuse settings, then select program, finally verify.
+

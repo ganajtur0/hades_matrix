@@ -1,0 +1,35 @@
+[files 4]
+hades/models/io/BitReg6.class
+hades/models/io/BitReg6.java
+hades/models/io/BitReg6.sym
+hades/models/io/BitReg6.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.BitReg6
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/BitReg6.gif
+
+[author]
+-
+
+[description]
+directly editable 6-bit D-register
+
+A 6-bit D-type rising-edge triggered register 
+with visualization and interactive editing.
+A mouse click over one bit will toggle that bit.
+Signals are of type StdLogic1164.
+
+[end description]

@@ -1,0 +1,36 @@
+[files 4]
+hades/models/register/LFSRGenerator24.class
+hades/models/register/LFSRGenerator24.java
+hades/models/register/LFSRGenerator24.sym
+hades/models/register/LFSRGenerator24.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.register.LFSRGenerator24
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/register/LFSRGenerator24.gif
+
+[author]
+-
+
+[description]
+24-bit parallel output LFSR register.
+
+This simulation model implements a 24-bit parallel output
+linear-feedback shift register based on the (31 3 0)
+polynom; the main use is a pseudorandom pattern generator.
+
+Use the setValue() and getValue() methods or the configuration
+dialog to set and read out the register counter value.
+[end description]

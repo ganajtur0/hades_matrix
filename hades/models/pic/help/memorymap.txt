@@ -1,0 +1,44 @@
+# /hades/models/pic/help/memorymap.txt
+
+Memory map for the PIC16C84 and PIC16F84 microcontrollers.
+For details, datasheet, and updates see the Arizona Microchip website
+at www.microchip.com.
+
+
+address       bank0           bank1            address         notes
+
+00            (INDF)*         (INDF)*          80     PIC 16C84 and 16F84
+01            TMR0            OPTION           81
+02            PCL             PCL              82     program counter
+03            STATUS          STATUS           83
+04            FSR             FSR              84     file select register
+05            PORTA           TRISA            85     outputs: TRISA/B[i]=0 
+06            PORTB           TRISB            86     inputs:  TRISA/B[i]=1 
+
+07            ---             ---              87
+
+08            EEDATA          EECON1           88     eeprom control
+09            EEADR           EECON2*          89     registers
+
+0a            PCLATH          PCLATH           8a     pc bank select
+0b            INTCON          INTCON           8b     interrupt status
+
+
+0c            36              mapped           8c     PIC 16C84 and 16F84
+...           general         in               ...
+...           purpose         bank 0           ...
+2f            registers                        af
+
+
+30            32              mapped           b0     PIC 16F84 only
+...           general         in               ...    read as '0' in 16C84
+...           purpose         bank 0           ...
+4f            registers                        cf
+
+
+50            ---             ---              d0     not implemented,
+...           ---             ---              ...    read as '0'
+7F            ---             ---              ff
+
+
+*)  not a physical register, implemented by special logic

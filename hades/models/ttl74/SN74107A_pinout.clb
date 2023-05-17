@@ -1,0 +1,36 @@
+[files 3]
+hades/models/ttl74/SN74107A_pinout.hds
+hades/models/ttl74/SN74107A_pinout.sym
+hades/models/ttl74/SN74107A_pinout_symbol.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/ttl74/SN74107A_pinout.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN74107A_pinout_symbol.gif
+
+[author]
+unknown
+
+[description]
+74107A 2x JKFF 
+
+Double falling-edge triggered JK-flipflop.
+
+Note: This IC requires GND and VCC connections.
+Inputs and output are of type StdLogic1164.
+[end description]

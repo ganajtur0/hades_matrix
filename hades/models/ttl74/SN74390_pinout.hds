@@ -1,0 +1,38 @@
+# hades.models.Design file
+#  
+[name] 74390_dual_counter10
+[components]
+hades.models.io.Ipin 2RESET 9600 24600 @N 1001 U
+hades.models.io.Opin 1QD 25200 18600 @N 1001 5.0E-9
+hades.models.io.Opin 1QC 25200 17400 @N 1001 5.0E-9
+hades.models.io.Opin 1QB 25200 16200 @N 1001 5.0E-9
+hades.models.io.Opin 1QA 25200 15000 @N 1001 5.0E-9
+hades.models.Design single_74390_2 14400 21600 @N 1001 \u002fhades\u002fmodels\u002fttl74\u002fSN74390_single\u002ehds
+hades.models.Design single_74390_1 14400 15600 @N 1001 \u002fhades\u002fmodels\u002fttl74\u002fSN74390_single\u002ehds
+hades.models.io.Ipin 2CLKB 9600 23400 @N 1001 U
+hades.models.io.Ipin 2CLKA 9600 22200 @N 1001 U
+hades.models.io.Ipin 1CLKB 9600 17400 @N 1001 U
+hades.models.io.Ipin 1CLKA 9600 16200 @N 1001 U
+hades.models.io.Ipin 1RESET 9600 18600 @N 1001 U
+hades.models.io.Opin 2QD 25200 24600 @N 1001 5.0E-9
+hades.models.io.Opin 2QC 25200 23400 @N 1001 5.0E-9
+hades.models.io.Opin 2QB 25200 22200 @N 1001 5.0E-9
+hades.models.io.Opin 2QA 25200 21000 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 2CLKB Y single_74390_2 CLKB 3 2 14400 22800 10200 22800 2 10200 22800 10200 23400 2 10200 23400 9600 23400 0 
+hades.signals.SignalStdLogic1164 n8 2 2CLKA Y single_74390_2 CLKA 1 2 9600 22200 14400 22200 0 
+hades.signals.SignalStdLogic1164 n7 2 single_74390_1 QA 1QA A 3 2 20400 16200 24000 16200 2 24000 16200 24000 15000 2 24000 15000 25200 15000 0 
+hades.signals.SignalStdLogic1164 n6 2 single_74390_1 QB 1QB A 3 2 25200 16200 24600 16200 2 24600 16200 24600 16800 2 24600 16800 20400 16800 0 
+hades.signals.SignalStdLogic1164 n5 2 single_74390_1 QC 1QC A 1 2 20400 17400 25200 17400 0 
+hades.signals.SignalStdLogic1164 n4 2 single_74390_1 QD 1QD A 3 2 25200 18600 24600 18600 2 24600 18600 24600 18000 2 24600 18000 20400 18000 0 
+hades.signals.SignalStdLogic1164 n3 2 single_74390_2 QD 2QD A 3 2 20400 24000 24600 24000 2 24600 24000 24600 24600 2 24600 24600 25200 24600 0 
+hades.signals.SignalStdLogic1164 n2 2 single_74390_2 QA 2QA A 3 2 20400 22200 24000 22200 2 24000 22200 24000 21000 2 24000 21000 25200 21000 0 
+hades.signals.SignalStdLogic1164 n1 2 single_74390_2 QB 2QB A 3 2 25200 22200 24600 22200 2 24600 22200 24600 22800 2 24600 22800 20400 22800 0 
+hades.signals.SignalStdLogic1164 n0 2 single_74390_2 QC 2QC A 1 2 20400 23400 25200 23400 0 
+hades.signals.SignalStdLogic1164 n13 2 1RESET Y single_74390_1 RESET 3 2 14400 17400 10800 17400 2 10800 17400 10800 18600 2 10800 18600 9600 18600 0 
+hades.signals.SignalStdLogic1164 n12 2 1CLKB Y single_74390_1 CLKB 3 2 14400 16800 10200 16800 2 10200 16800 10200 17400 2 10200 17400 9600 17400 0 
+hades.signals.SignalStdLogic1164 n11 2 1CLKA Y single_74390_1 CLKA 1 2 9600 16200 14400 16200 0 
+hades.signals.SignalStdLogic1164 n10 2 2RESET Y single_74390_2 RESET 3 2 14400 23400 10800 23400 2 10800 23400 10800 24600 2 10800 24600 9600 24600 0 
+[end signals]
+[end]

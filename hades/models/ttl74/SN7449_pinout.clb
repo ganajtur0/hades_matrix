@@ -1,0 +1,29 @@
+[files 4]
+hades/models/ttl74/SN7449_pinout.class
+hades/models/ttl74/SN7449_pinout.java
+hades/models/ttl74/SN7449_pinout.sym
+hades/models/ttl74/SN7449_pinout.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7449_pinout
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7449_pinout.gif
+
+[author]
+-
+
+[description]
+TTL-series 7449 seven-segment decoder circuit.
+[end description]

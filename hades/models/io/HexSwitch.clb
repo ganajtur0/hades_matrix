@@ -1,0 +1,40 @@
+[files 4]
+hades/models/io/HexSwitch.class
+hades/models/io/HexSwitch.java
+hades/models/io/HexSwitch.sym
+hades/models/io/HexSwitch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.HexSwitch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/HexSwitch.gif
+
+[author]
+-
+
+[description]
+HEX switch
+
+An interactive switch with 4-bit output.
+Click on one of the digit fields to set
+the selected output value, or use the 
+'+' and '-' fields to increment or decrement
+the output value.
+Outputs are of type StdLogic1164.
+
+NOTE: the visualization does not work with a 
+mirrored symbol.
+
+[end description]

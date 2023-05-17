@@ -1,0 +1,13 @@
+# ValueTrigger.sym - symbol for hades.models.special.ValueTrigger
+# FNH, 14.08.98
+#
+hades.symbols.BboxRectangle 0 0 3600 1200
+hades.symbols.InstanceLabel  3300 1100 3 trigger0
+hades.symbols.FigWrapper 0 0 /hades/models/special/ValueTrigger.fig
+#hades.symbols.ClassLabel     3400 500 3 ValueTrigger
+#
+hades.symbols.PortSymbol 0  600 A
+hades.symbols.PortSymbol 3600 600 Q
+hades.symbols.PortLabel  150 750 A
+hades.symbols.PortLabel  3550 750 3 Q
+#

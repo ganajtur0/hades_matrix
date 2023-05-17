@@ -1,0 +1,37 @@
+[files 4]
+hades/models/dsp/DoubleToInteger.class
+hades/models/dsp/DoubleToInteger.java
+hades/models/dsp/DoubleToInteger.sym
+hades/models/dsp/DoubleToInteger.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.DoubleToInteger
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/DoubleToInteger.gif
+
+[author]
+unknown
+
+[description]
+converter from double to integer values. 
+
+if             (Double.isNaN(v)) Y = new Integer( 0 );
+else if (v >= Integer.MAX_VALUE) Y = new Integer( Integer.MAX_VALUE );
+else if (v <= Integer.MIN_VALUE) Y = new Integer( Integer.MIN_VALUE );
+else                             Y = new Integer( (int) v );
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

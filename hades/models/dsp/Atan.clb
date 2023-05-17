@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Atan.class
+hades/models/dsp/Atan.java
+hades/models/dsp/Atan.sym
+hades/models/dsp/Atan.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Atan
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Atan.gif
+
+[author]
+unknown
+
+[description]
+inverse tangens operator (arctan function, radians).
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

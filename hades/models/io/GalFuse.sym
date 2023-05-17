@@ -1,0 +1,9 @@
+# a small, faked fuse/diode useful for demonstrating ROMs and PLAs,
+# the anode input is top-left, the kathode "output" on bottom-right
+#
+hades.symbols.BboxRectangle 0 0 900 900
+hades.symbols.InstanceLabel 850 850 3 name
+hades.symbols.PortSymbol 0 0 A
+hades.symbols.PortSymbol 900 900 Y
+hades.symbols.ColoredPolyline 2 0 0 900 900
+#

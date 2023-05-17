@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/InvOpenCollector.class
+hades/models/gates/InvOpenCollector.java
+hades/models/gates/InvOpenCollector.sym
+hades/models/gates/InvOpenCollector.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.InvOpenCollector
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/InvOpenCollector.gif
+
+[author]
+unknown
+
+[description]
+Inverter with open-collector output.
+
+Input and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

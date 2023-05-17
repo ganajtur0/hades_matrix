@@ -1,0 +1,33 @@
+[files 4]
+hades/models/imaging/AddFilter.class
+hades/models/imaging/AddFilter.java
+hades/models/imaging/AddFilter.sym
+hades/models/imaging/AddFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.AddFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/AddFilter.gif
+
+[author]
+-
+
+[description]
+per-pixel per-component addition of two input images:
+(a,r,g,b) = (ff, r1+r2, g1+g2, b1+b2 )
+
+pixel values are clipped to the range (0,255)
+
+[end description]

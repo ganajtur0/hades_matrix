@@ -1,0 +1,33 @@
+[files 4]
+hades/models/flipflops/SrffRtlib.class
+hades/models/flipflops/SrffRtlib.java
+hades/models/flipflops/SrffRtlib.sym
+hades/models/flipflops/SrffRtlib.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.SrffRtlib
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/SrffRtlib.gif
+
+[author]
+-
+
+[description]
+basic SR flipflop with RTLIB-style symbol.
+
+A basic set-reset flipflop with active-high inputs.
+Reset has precedence over Set.
+
+[end description]

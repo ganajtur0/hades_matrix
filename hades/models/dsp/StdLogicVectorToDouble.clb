@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/StdLogicVectorToDouble.class
+hades/models/dsp/StdLogicVectorToDouble.java
+hades/models/dsp/StdLogicVectorToDouble.sym
+hades/models/dsp/StdLogicVectorToDouble.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.StdLogicVectorToDouble
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/StdLogicVectorToDouble.gif
+
+[author]
+unknown
+
+[description]
+converter from StdLogicVector (unsigned) to double values.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

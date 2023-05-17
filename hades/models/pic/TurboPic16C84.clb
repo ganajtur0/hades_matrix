@@ -1,0 +1,41 @@
+[files 4]
+hades/models/pic/TurboPic16C84.class
+hades/models/pic/TurboPic16C84.java
+hades/models/pic/TurboPic16C84.sym
+hades/models/pic/TurboPic16C84.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.pic.TurboPic16C84
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/pic/TurboPic16C84.gif
+
+[author]
+-
+
+[description]
+"Turbo" PIC16C84
+
+Cycle-accurate simulation model for the 8-bit
+PIC16C84 microcontroller from Arizona Microchip
+with external clock input. 
+
+This is an experimental version of the PIC16C84
+microcontroller, which uses a "JIT" compiler
+approach. Depending on your hardare, the model
+can easily execute 10 million PIC instructions
+per second. However, the external I/O and IRQs
+are not fully working yet.
+
+[end description]

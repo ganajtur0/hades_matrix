@@ -1,0 +1,129 @@
+#
+# BerlinUhrDisplay.sym
+#
+# created at 2005-07-10 by UP <u.pollaehne@web.de>
+#
+# THIS SOFTWARE AND DOCUMENTATION IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS
+# MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT
+# NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR
+# PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE
+# ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+#
+# COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
+# CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.
+#
+# (c) 2005 Ullrich Pollaehne
+
+#
+#basic definitions
+#
+hades.symbols.BboxRectangle  0 0 1000 15000
+hades.symbols.Rectangle  0 0 10000 15000
+hades.symbols.InstanceLabel 150 14850 BerlinUhr
+hades.symbols.ClassLabel 150 450 BerlinUhr
+
+#
+# Display elements
+#
+# WARNING! The positions are hardcoded in the java code (array POINTS)!
+#
+#seconds
+hades.symbols.ColoredCircle 5866 940 750 750
+#hour5
+hades.symbols.ColoredRectangle 2400 2000 3916 2900
+#hour10
+hades.symbols.ColoredRectangle 4200 2000 5716 2900
+#hour15
+hades.symbols.ColoredRectangle 6000 2000 7516 2900
+#hour20
+hades.symbols.ColoredRectangle 7800 2000 9316 2900
+#hour1
+hades.symbols.ColoredRectangle 2400 3200 3916 4100
+#hour2
+hades.symbols.ColoredRectangle 4200 3200 5716 4100
+#hour3
+hades.symbols.ColoredRectangle 6000 3200 7516 4100
+#hour4
+hades.symbols.ColoredRectangle 7800 3200 9316 4100
+#minute5
+hades.symbols.ColoredRectangle 2400 4400 2846 5300
+#minute10
+hades.symbols.ColoredRectangle 3046 4400 3492 5300
+#minute15
+hades.symbols.ColoredRectangle 3692 4400 4138 5300
+#minute20
+hades.symbols.ColoredRectangle 4338 4400 4784 5300
+#minute25
+hades.symbols.ColoredRectangle 4984 4400 5430 5300
+#minute30
+hades.symbols.ColoredRectangle 5630 4400 6076 5300
+#minute35
+hades.symbols.ColoredRectangle 6276 4400 6722 5300
+#minute40
+hades.symbols.ColoredRectangle 6922 4400 7368 5300
+#minute45
+hades.symbols.ColoredRectangle 7568 4400 8014 5300
+#minute50
+hades.symbols.ColoredRectangle 8214 4400 8660 5300
+#minute55
+hades.symbols.ColoredRectangle 8860 4400 9306 5300
+#minute1
+hades.symbols.ColoredRectangle 2400 5600 3916 6500
+#minute2
+hades.symbols.ColoredRectangle 4200 5600 5716 6500
+#minute3
+hades.symbols.ColoredRectangle 6000 5600 7516 6500
+#minute4
+hades.symbols.ColoredRectangle 7800 5600 9316 6500
+
+#
+# input ports
+#
+hades.symbols.PortLabel 150 14550 hour20
+hades.symbols.PortSymbol 0 14400 hour20
+hades.symbols.PortLabel 150 13950 hour15
+hades.symbols.PortSymbol 0 13800 hour15
+hades.symbols.PortLabel 150 13350 hour10
+hades.symbols.PortSymbol 0 13200 hour10
+hades.symbols.PortLabel 150 12750 hour5
+hades.symbols.PortSymbol 0 12600 hour5
+hades.symbols.PortLabel 150 12150 hour4
+hades.symbols.PortSymbol 0 12000 hour4
+hades.symbols.PortLabel 150 11550 hour3
+hades.symbols.PortSymbol 0 11400 hour3
+hades.symbols.PortLabel 150 10950 hour2
+hades.symbols.PortSymbol 0 10800 hour2
+hades.symbols.PortLabel 150 10350 hour1
+hades.symbols.PortSymbol 0 10200 hour1
+hades.symbols.PortLabel 150 9750 minute55
+hades.symbols.PortSymbol 0 9600 minute55
+hades.symbols.PortLabel 150 9150 minute50
+hades.symbols.PortSymbol 0 9000 minute50
+hades.symbols.PortLabel 150 8550 minute45
+hades.symbols.PortSymbol 0 8400 minute45
+hades.symbols.PortLabel 150 7950 minute40
+hades.symbols.PortSymbol 0 7800 minute40
+hades.symbols.PortLabel 150 7350 minute35
+hades.symbols.PortSymbol 0 7200 minute35
+hades.symbols.PortLabel 150 6750 minute30
+hades.symbols.PortSymbol 0 6600 minute30
+hades.symbols.PortLabel 150 6150 minute25
+hades.symbols.PortSymbol 0 6000 minute25
+hades.symbols.PortLabel 150 5550 minute20
+hades.symbols.PortSymbol 0 5400 minute20
+hades.symbols.PortLabel 150 4950 minute15
+hades.symbols.PortSymbol 0 4800 minute15
+hades.symbols.PortLabel 150 4350 minute10
+hades.symbols.PortSymbol 0 4200 minute10
+hades.symbols.PortLabel 150 3750 minute5
+hades.symbols.PortSymbol 0 3600 minute5
+hades.symbols.PortLabel 150 3150 minute4
+hades.symbols.PortSymbol 0 3000 minute4
+hades.symbols.PortLabel 150 2550 minute3
+hades.symbols.PortSymbol 0 2400 minute3
+hades.symbols.PortLabel 150 1950 minute2
+hades.symbols.PortSymbol 0 1800 minute2
+hades.symbols.PortLabel 150 1350 minute1
+hades.symbols.PortSymbol 0 1200 minute1
+hades.symbols.PortLabel 150 750 seconds
+hades.symbols.PortSymbol 0 600 seconds

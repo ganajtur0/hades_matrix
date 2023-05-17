@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/And2.class
+hades/models/gates/And2.java
+hades/models/gates/And2.sym
+hades/models/gates/And2.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.And2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/And2.gif
+
+[author]
+unknown
+
+[description]
+Standard 2-input AND gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

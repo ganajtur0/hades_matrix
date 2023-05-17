@@ -1,0 +1,29 @@
+[files 4]
+hades/models/imaging/BlueFilter.class
+hades/models/imaging/BlueFilter.java
+hades/models/imaging/BlueFilter.sym
+hades/models/imaging/BlueFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.BlueFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/BlueFilter.gif
+
+[author]
+-
+
+[description]
+color image filter for the blue channel, (r,g,b -> 0,0,b)
+[end description]

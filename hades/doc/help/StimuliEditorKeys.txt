@@ -1,0 +1,121 @@
+StimuliEditor Usage:                                  (31.03.99)
+--------------------
+
+1) Basics
+2) Mouse Usage
+3) Function Keys
+4) Utility Functions
+
+
+---------------------------------------------------------------
+1) Basics
+
+The HADES StimuliEditor is a very simple graphical editor
+for the input stimuli used by the 'hades.models.io.Stimulus'
+simulation component. It allows to view and to edit the
+data directly, and provides several utility functions to
+create pre-defined input patterns like power-on-reset and
+clocks.
+
+Currently, the data model inside the 'Stimulus' component
+is based on a fixed number of separate outputs with a fixed
+number of cycles per output and a fixed cycle length (time
+step). During simulation, each output generates the signal
+value specified by the StdLogic1164 stimuli data for the
+time step corresponding to simulation time.
+
+To change the number of cycles, enter the corresponding value
+into the "# cycles" textfield and press <return>.
+Similarly, to change the cycle length, enter the corresponding
+time step (in seconds) into the "cycle length" textfield and
+press return. 
+Use the scrollbar (or page up/down keys) to navigate through 
+the complete set of stimuli data.
+
+In order to keep the stimuli aligned, the StimuliEditor always
+uses "edit" mode instead of "insert" mode. That is, all edit
+operations overwrite the data at the current cursor position.
+There is no way to switch to insert mode. Instead, use the
+"insert" and "delete" operations to insert and delete time steps
+at the cursor position.
+
+
+---------------------------------------------------------------
+2) Mouse usage:
+
+Move the mouse to the position of the data you want to change
+and click once, to position the data cursor (red underline) to
+the selected (output,cycle) coordinate.
+
+Click again at the same position (without moving the mouse) to
+toggle through the data values 0-1-X.
+
+Drag the mouse horizontally to copy the source cycle (at the
+drag start position) into all cycles covered by the mouse drag.
+For example, to enter '1' data into half a dozen time steps,
+move the mouse to the start position and click once to position
+the cursor. Then click again to toggle the data value until
+a '1' is selected. Click and hold down the mouse, then drag
+to the end position of the '1' area.
+
+
+---------------------------------------------------------------
+3) Shortcut/function keys in the StimuliEditor:
+
+Use the following keys (or the mouse) for navigation:
+
+  <cursor left>       previous cycle/time step
+  <cursor right>      next cycle/time step
+
+  <cursor down>       previous output
+  <cursor up>         next output
+
+  <page down>         previous screen of cycles/time steps
+  <page up>           next screen of cycles/time steps
+  <home>              first screen of cycles/time steps
+  <end>               last screen of cycles/time steps
+
+
+Use the following keys to change the data at the cursor position:
+
+  'U'                 undefined value (never assigned to)
+  'X'                 undefined value
+
+  '0' or <space>      zero (low,  GND)
+  '1'                 one  (high, VCC)
+  'Z'                 tristated 
+
+  'W'
+  'L'                 weak zero
+  'H'                 weak one
+  'D'                 don't care
+
+  'T'                    toggle value (0-1-X)
+  'I'                    insert new time step (with value 0)
+
+  <insert>               insert new time step (with value 0)
+  <delete>               delete time step at the cursor
+  <backspace>            delete time step, move cursor left
+
+  <shift>+<cursor down>  toggle value
+  <shift>+<cursor up>    toggle value
+
+
+---------------------------------------------------------------
+4) Utility Functions:
+
+  'fill 0'           
+  'fill 1'           
+  'fill U'           
+  'fill Z'           starting at the cursor position, the
+                     current output is filled with 0/1/U/Z data
+
+  'PwrOnReset'       create a power-on-reset data pattern
+  'Clock x'          create a clock data pattern
+
+  'invert'           invert the data behind the cursor position
+  'expand'           create copies of the data from cycle 0 to
+                     the cursor position
+
+  'counter'          create a n-bit counter
+  'clear all'        initialize all outputs and cycles with 0

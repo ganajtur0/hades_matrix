@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/LookupFilter.class
+hades/models/imaging/LookupFilter.java
+hades/models/imaging/LookupFilter.sym
+hades/models/imaging/LookupFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.LookupFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/LookupFilter.gif
+
+[author]
+-
+
+[description]
+Base class for lookup-table based image filters.
+Simply transfers the input image unchanged.
+[end description]

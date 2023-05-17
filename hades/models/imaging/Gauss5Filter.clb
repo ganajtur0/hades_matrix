@@ -1,0 +1,36 @@
+[files 4]
+hades/models/imaging/Gauss5Filter.class
+hades/models/imaging/Gauss5Filter.java
+hades/models/imaging/Gauss5Filter.sym
+hades/models/imaging/Gauss5Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Gauss5Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Gauss5Filter.gif
+
+[author]
+-
+
+[description]
+Gauss-convolution image filter. Kernel:
+
+   { 2,  7, 12,  7,  2,
+     7, 31, 52, 31,  7,  
+    15, 52,127, 52, 15, 
+     7, 31, 52, 31,  7,  
+     2,  7, 12,  7,  2 }
+     
+[end description]

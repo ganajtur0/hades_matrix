@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/RemoteIpin.class
+hades/models/io/RemoteIpin.java
+hades/models/io/RemoteIpin.sym
+hades/models/io/RemoteIpin.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.RemoteIpin
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/RemoteIpin.gif
+
+[author]
+-
+
+[description]
+RemoteIpin - read N bits of data from a remote server and generate the
+corresponding output events on output ports YN-1..Y0. By default, N=24.
+
+This class waits for a rising edge (0-1 transition) on the "sample" input 
+port to contact the remote server specified by the "urlBase" and "userID" 
+values. It then reads the remote server simulation time and 24 (N_OUTPUTS)
+StdLogic1164 data values in ASCII representation and converts this 
+information into events on the YN..Y0 ouptut ports.
+
+If the remote server cannot be reached or its response is invalid, the
+"error" output signal is asserted.
+[end description]

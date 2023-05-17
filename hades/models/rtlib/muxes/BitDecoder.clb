@@ -1,0 +1,41 @@
+[files 4]
+hades/models/rtlib/muxes/BitDecoder.class
+hades/models/rtlib/muxes/BitDecoder.java
+hades/models/rtlib/muxes/BitDecoder.sym
+hades/models/rtlib/muxes/BitDecoder.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.muxes.BitDecoder
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/muxes/BitDecoder.gif
+
+[author]
+-
+
+[description]
+n-to-2^n decoder. 
+
+This component uses a dynamic symbol with 2^n single-bit outputs.
+Only one output is activated while all others are kept low:
+ 
+  Y[i]  <=  if (A == i) then 1 else 0.
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default input width is n=5
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+[end description]

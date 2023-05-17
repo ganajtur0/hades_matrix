@@ -1,0 +1,30 @@
+[files 4]
+hades/models/microjava/ROMoe.class
+hades/models/microjava/ROMoe.java
+hades/models/microjava/ROMoe.sym
+hades/models/microjava/ROMoe.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.ROMoe
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/ROMoe.gif
+
+[author]
+-
+
+[description]
+main program memory for Microjava 2
+
+[end description]

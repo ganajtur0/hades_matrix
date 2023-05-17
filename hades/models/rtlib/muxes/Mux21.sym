@@ -1,0 +1,25 @@
+# symbol for hades.models.rtlib.muxes.Mux21
+# FNH, 24.08.98 (top down)
+# might use the FatInstanceLabel (uncomment as needed)
+#
+hades.symbols.BboxRectangle 0 0 3600 1800
+hades.symbols.Polyline 5 0 0 3600 0 3000 1800 600 1800 0 0
+hades.symbols.ClassLabel 3700 1750 1 Mux21
+hades.symbols.InstanceLabel 3700 550 1 mux1
+hades.symbols.FatLabel 1800 1300 2 2:1
+#hades.symbols.FatInstanceLabel 1800 1300 2 AMUX
+#
+hades.symbols.Polyline 2 0 1200 400 1200
+#
+hades.symbols.BusPortSymbol 1800 1800 Y
+hades.symbols.BusPortSymbol 1200    0 A1
+hades.symbols.BusPortSymbol 2400    0 A0
+hades.symbols.PortSymbol       0 1200 S
+#
+#hades.symbols.PortLabel  1200  450 2 A1
+#hades.symbols.PortLabel  2400  450 2 A0
+hades.symbols.PortLabel  1000  450 3 A1
+hades.symbols.PortLabel  2600  450 1 A0
+hades.symbols.PortLabel  1800 1650 2 Y 
+hades.symbols.PortLabel   600 1300 1 S
+#

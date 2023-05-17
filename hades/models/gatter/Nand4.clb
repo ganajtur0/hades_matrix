@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Nand4.class
+hades/models/gatter/Nand4.java
+hades/models/gatter/Nand4.sym
+hades/models/gatter/Nand4.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Nand4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Nand4.gif
+
+[author]
+-
+
+[description]
+4-input NAND gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

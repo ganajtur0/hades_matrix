@@ -1,0 +1,36 @@
+[files 4]
+hades/models/gates/DelayNode_LR.class
+hades/models/gates/DelayNode_LR.java
+hades/models/gates/DelayNode_LR.sym
+hades/models/gates/DelayNode_LR.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.DelayNode_LR
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/DelayNode_LR.gif
+
+[author]
+-
+
+[description]
+"DelayNode" with left-to-right oriented symbol
+
+This class implements a non-inverting buffer with 
+user-settable gate (transport) delay. Due to the small
+size of the gate symbol, components of this class are
+useful to demonstrate gate delays: Simply connect a
+number of DelayNodes in a row, set their transport delays,
+and watch the resulting behaviour with glow-mode on.
+[end description]

@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/ConstantH.class
+hades/models/io/ConstantH.java
+hades/models/io/ConstantH.sym
+hades/models/io/ConstantH.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ConstantH
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ConstantH.gif
+
+[author]
+-
+
+[description]
+constant H
+
+Simple generator for the "H" level of the StdLogic1164
+multilevel logic system.
+
+Note: this component generates only a single simulation 
+event during the elaboration phase of a simulation. 
+Therefore, you may have to stop-and-restart an ongoing 
+simulation when the component is disconnected
+or reconnected during a simulation.
+
+[end description]

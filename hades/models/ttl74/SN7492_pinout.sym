@@ -1,0 +1,41 @@
+# SN7492_pinout.sym - 14pin DIL package symbol for the 7492 1:12 counter
+#
+hades.symbols.BboxRectangle 0 0 3600 9600
+hades.symbols.Rectangle 0 0 3600 9600
+hades.symbols.ClassLabel  1800 900 2 74LS92
+hades.symbols.InstanceLabel 1800 9500 2 counter12
+hades.symbols.FatLabel 1800 5400 2 '92
+hades.symbols.Arc 1500 0 1800 300 2100 0
+#
+hades.symbols.PortSymbol 0 1200 nB
+#hades.symbols.PortSymbol 0 2400 nc
+#hades.symbols.PortSymbol 0 3600 nc 
+#hades.symbols.PortSymbol 0 4800 nc
+#hades.symbols.PortSymbol 0 6000 VCC
+hades.symbols.PortSymbol 0 7200 R01
+hades.symbols.PortSymbol 0 8400 R02
+#
+hades.symbols.PortSymbol 3600 1200 nA
+#hades.symbols.PortSymbol 3600 2400 nc
+hades.symbols.PortSymbol 3600 3600 QA
+hades.symbols.PortSymbol 3600 4800 QB
+#hades.symbols.PortSymbol 3600 6000 GND
+hades.symbols.PortSymbol 3600 7200 QC 
+hades.symbols.PortSymbol 3600 8400 QD
+#
+hades.symbols.PortLabel 250 1300 nB
+hades.symbols.PortLabel 250 2500 nc
+hades.symbols.PortLabel 250 3700 nc
+hades.symbols.PortLabel 250 4900 nc
+hades.symbols.PortLabel 250 6100 VCC
+hades.symbols.PortLabel 250 7300 R01
+hades.symbols.PortLabel 250 8500 R02
+#
+hades.symbols.PortLabel 3350 1300 3 nA
+hades.symbols.PortLabel 3350 2500 3 nc
+hades.symbols.PortLabel 3350 3700 3 QA
+hades.symbols.PortLabel 3350 4900 3 QB
+hades.symbols.PortLabel 3350 6100 3 GND
+hades.symbols.PortLabel 3350 7300 3 QC
+hades.symbols.PortLabel 3350 8500 3 QD
+#

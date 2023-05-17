@@ -1,0 +1,24 @@
+# symbol for hades.models.rtlib.logic.RAM
+# (RAM with async. write enable and chip select)
+# FNH 29.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 6000 4800
+hades.symbols.Polyline 8 1200 0 0 1200 0 3600 1200 4800 6000 4800 6000 0 1200 0 1200 4800
+hades.symbols.Polyline 4 0 1600 200 1600 200 2000 0 2000
+hades.symbols.Polyline 4 0 2800 200 2800 200 3200 0 3200
+hades.symbols.ClassLabel 5900 4600 3 RAM
+hades.symbols.InstanceLabel 5900 550 3 ram
+hades.symbols.FatLabel 3600 3000 2 RAM
+#
+hades.symbols.PortSymbol    0 1800 nCS
+hades.symbols.PortSymbol    0 3000 nWE
+hades.symbols.BusPortSymbol 0 2400 A
+hades.symbols.BusPortSymbol 3600    0 DIN
+hades.symbols.BusPortSymbol 3600 4800 DOUT
+#
+hades.symbols.PortLabel   250 1900 1 nCS
+hades.symbols.PortLabel   250 2500 1 A
+hades.symbols.PortLabel   250 3100 1 nWE
+hades.symbols.PortLabel  3600  550 2 DIN
+hades.symbols.PortLabel  3600 4600 2 DOUT
+#

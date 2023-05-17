@@ -1,0 +1,33 @@
+[files 4]
+hades/models/ttl74/SN7400_pinout.class
+hades/models/ttl74/SN7400_pinout.java
+hades/models/ttl74/SN7400_pinout.sym
+hades/models/ttl74/SN7400_pinout.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7400_pinout
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7400_pinout.gif
+
+[author]
+-
+
+[description]
+[description]
+7400 4x NAND2 gate
+
+Note: This simulation model requires GND and VCC connections.
+Inputs and output are of type StdLogic1164.
+[end description]

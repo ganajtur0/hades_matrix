@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Xnor2.class
+hades/models/gatter/Xnor2.java
+hades/models/gatter/Xnor2.sym
+hades/models/gatter/Xnor2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Xnor2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Xnor2.gif
+
+[author]
+-
+
+[description]
+2-input XNOR gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

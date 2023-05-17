@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/Pullup.class
+hades/models/io/Pullup.java
+hades/models/io/Pullup.sym
+hades/models/io/Pullup.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Pullup
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Pullup.gif
+
+[author]
+-
+
+[description]
+Pullup
+
+A fixed connection to StdLogic1164.H (weak 1),
+useful as a bus pullup.
+
+NOTE: this component is only active once at the
+start of the simulation.
+Therefore, it may be necessary to stop and restart
+the simulation after editing designs with GND
+components.
+
+[end description]

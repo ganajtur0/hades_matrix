@@ -1,0 +1,16 @@
+# symbol for the clocked RandomBitGenerator, DFF-style
+#
+hades.symbols.BboxRectangle 0 0 3600 2400
+hades.symbols.ClassLabel 1800 750 2 RBG
+hades.symbols.InstanceLabel 3550 2300 3 i0
+hades.symbols.Label 1800 1800 2 P(a) 
+#
+hades.symbols.PortLabel 150 1750 C
+hades.symbols.PortSymbol 0 1800 C
+hades.symbols.PortLabel 3300 550 Y
+hades.symbols.PortSymbol 3600 600 Y
+#
+hades.symbols.Polyline 5 900 300 2700 300 2700 2100 900 2100 900 300
+hades.symbols.Polyline 3 900 1600 1300 1800 900 2000
+hades.symbols.Polyline 2 0 1800 900 1800
+hades.symbols.Polyline 2 2700 600 3600 600

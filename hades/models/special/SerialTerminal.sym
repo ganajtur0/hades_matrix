@@ -1,0 +1,13 @@
+# SerialTerminal.sym - Symbol for hades.models.special.SerialTerminal
+#
+hades.symbols.BboxRectangle 0 0 7200 8400
+hades.symbols.ClassLabel  3600 400 2 SerialTerminal
+hades.symbols.InstanceLabel 7050 8250 3 ptty0
+hades.symbols.FigWrapper 0 0 /hades/models/special/Terminal.fig
+#
+hades.symbols.PortSymbol    0 1200 RX
+hades.symbols.PortSymbol 7200 1200 TX
+#
+hades.symbols.PortLabel 150 1350 RX
+hades.symbols.PortLabel 7050 1350 3 TX
+#

@@ -1,0 +1,38 @@
+[files 4]
+hades/models/io/Vcc.class
+hades/models/io/Vcc.java
+hades/models/io/Vcc.sym
+hades/models/io/Vcc.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Vcc
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Vcc.gif
+
+[author]
+-
+
+[description]
+VCC connection
+
+A fixed connection to VCC (StdLogic1164 '1').
+
+NOTE: this component is only active once at the
+start of the simulation.
+Therefore, it may be necessary to stop and restart
+the simulation after editing designs with VCC
+components.
+
+[end description]

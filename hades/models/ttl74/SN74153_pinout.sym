@@ -1,0 +1,44 @@
+# SN74153_pinout.sym - 16pin DIL package symbol for the 74153 dual 4:1 mux
+#
+hades.symbols.BboxRectangle 0 0 3600 10800
+hades.symbols.Rectangle 0 0 3600 10800
+hades.symbols.ClassLabel  1800 900 2 74LS153
+hades.symbols.InstanceLabel 1800 10700 2 2mux41
+hades.symbols.FatLabel 1800 5400 2 '153 
+#
+hades.symbols.PortSymbol 0 1200 1G/
+hades.symbols.PortSymbol 0 2400 B
+hades.symbols.PortSymbol 0 3600 1C3
+hades.symbols.PortSymbol 0 4800 1C2
+hades.symbols.PortSymbol 0 6000 1C1
+hades.symbols.PortSymbol 0 7200 1C0
+hades.symbols.PortSymbol 0 8400 1Y
+#hades.symbols.PortSymbol 0 9600 GND
+#
+#hades.symbols.PortSymbol 3600 1200 VCC
+hades.symbols.PortSymbol 3600 2400 2G/
+hades.symbols.PortSymbol 3600 3600 A
+hades.symbols.PortSymbol 3600 4800 2C3
+hades.symbols.PortSymbol 3600 6000 2C2
+hades.symbols.PortSymbol 3600 7200 2C1
+hades.symbols.PortSymbol 3600 8400 2C0
+hades.symbols.PortSymbol 3600 9600 2Y
+#
+hades.symbols.PortLabel 250 1300 1G/
+hades.symbols.PortLabel 250 2500 B
+hades.symbols.PortLabel 250 3700 1C3
+hades.symbols.PortLabel 250 4900 1C2
+hades.symbols.PortLabel 250 6100 1C1
+hades.symbols.PortLabel 250 7300 1C0
+hades.symbols.PortLabel 250 8500 1Y
+hades.symbols.PortLabel 250 9700 GND
+#
+hades.symbols.PortLabel 3350 1300 3 VCC
+hades.symbols.PortLabel 3350 2500 3 2G/
+hades.symbols.PortLabel 3350 3700 3 A
+hades.symbols.PortLabel 3350 4900 3 2C3
+hades.symbols.PortLabel 3350 6100 3 2C2
+hades.symbols.PortLabel 3350 7300 3 2C1
+hades.symbols.PortLabel 3350 8500 3 2C0
+hades.symbols.PortLabel 3350 9700 3 2Y
+#

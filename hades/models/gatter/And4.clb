@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/And4.class
+hades/models/gatter/And4.java
+hades/models/gatter/And4.sym
+hades/models/gatter/And4.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.And4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/And4.gif
+
+[author]
+-
+
+[description]
+4-input AND gate with DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

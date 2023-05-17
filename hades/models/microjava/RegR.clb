@@ -1,0 +1,30 @@
+[files 4]
+hades/models/microjava/RegR.class
+hades/models/microjava/RegR.java
+hades/models/microjava/RegR.sym
+hades/models/microjava/RegR.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.RegR
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/RegR.gif
+
+[author]
+-
+
+[description]
+D-type register with asynchronous reset
+
+[end description]

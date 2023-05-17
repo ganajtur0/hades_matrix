@@ -1,0 +1,55 @@
+# symbol for hades.models.rtlib.memory.MR20
+# microcode memory with 20 outputs
+# FNH 04.01.00 (top down)
+#
+hades.symbols.BboxRectangle 0 0 21000 6000
+hades.symbols.Polyline 8 1200 0 0 1200 0 4800 1200 6000   21000 6000 21000 0 1200 0 1200 6000
+#
+hades.symbols.ClassLabel 7100 5900 3 MR
+hades.symbols.InstanceLabel 7100 1550 3 urom
+hades.symbols.FatLabel 3600 3300 2 uROM
+#
+#
+hades.symbols.BusPortSymbol    0 3000 A
+#
+hades.symbols.PortSymbol    2400 6000 S1
+hades.symbols.PortSymbol    3000 6000 S0
+hades.symbols.BusPortSymbol 4200 6000 X
+hades.symbols.BusPortSymbol 4800 6000 Y
+#
+hades.symbols.PortSymbol    6000 6000 D19
+hades.symbols.PortSymbol    6600 6000 D18 
+hades.symbols.PortSymbol    7200 6000 D17
+hades.symbols.PortSymbol    7800 6000 D16
+#
+hades.symbols.PortSymbol    9000 6000 D15
+hades.symbols.PortSymbol    9600 6000 D14
+hades.symbols.PortSymbol   10200 6000 D13
+hades.symbols.PortSymbol   10800 6000 D12
+hades.symbols.PortSymbol   11400 6000 D11
+hades.symbols.PortSymbol   12000 6000 D10
+hades.symbols.PortSymbol   12600 6000 D9
+hades.symbols.PortSymbol   13200 6000 D8
+#
+hades.symbols.PortSymbol   14400 6000 D7
+hades.symbols.PortSymbol   15000 6000 D6
+hades.symbols.PortSymbol   15600 6000 D5
+hades.symbols.PortSymbol   16200 6000 D4
+hades.symbols.PortSymbol   16800 6000 D3
+hades.symbols.PortSymbol   17400 6000 D2
+hades.symbols.PortSymbol   18000 6000 D1
+hades.symbols.PortSymbol   18600 6000 D0
+#
+hades.symbols.BusPortSymbol   19800 6000 STATE
+#
+#
+#
+hades.symbols.PortLabel   250 1900 1 CLK
+hades.symbols.PortLabel   250 3100 1 A
+#
+hades.symbols.PortLabel  2400 5800 2 S1
+hades.symbols.PortLabel  3000 5800 2 S0
+hades.symbols.PortLabel  4800 5800 2 Y
+#
+hades.symbols.PortLabel  19800 6000 3 STATE
+#

@@ -1,0 +1,29 @@
+[files 4]
+hades/models/microjava/RAMoe.class
+hades/models/microjava/RAMoe.java
+hades/models/microjava/RAMoe.sym
+hades/models/microjava/RAMoe.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.RAMoe
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/RAMoe.gif
+
+[author]
+-
+
+[description]
+main memory for Microjava 2
+[end description]

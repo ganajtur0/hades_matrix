@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/TriBuf.class
+hades/models/ruge/TriBuf.java
+hades/models/ruge/TriBuf.sym
+hades/models/ruge/TriBuf.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.TriBuf
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/TriBuf.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

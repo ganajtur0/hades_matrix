@@ -1,0 +1,41 @@
+[files 4]
+hades/models/pic/FastPic16F84.class
+hades/models/pic/FastPic16F84.java
+hades/models/pic/FastPic16F84.sym
+hades/models/pic/FastPic16F84.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.pic.FastPic16F84
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/pic/FastPic16F84.gif
+
+[author]
+-
+
+[description]
+Fast PIC16F84
+
+Cycle-accurate simulation model for the 8-bit
+PIC16F84 microcontroller from Arizona Microchip
+with internally generated clock.
+
+This model behaves like the external clocked 
+PIC16F84, except that it relies on an internal
+clock generator - elmininating the external clock
+generator with more than ten clock events per
+instruction cycle - and therefore, running much
+faster.
+
+[end description]

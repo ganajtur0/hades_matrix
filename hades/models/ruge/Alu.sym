@@ -1,0 +1,15 @@
+# model for an ALU, á la Ruge
+#
+hades.symbols.BboxRectangle 0 0 4800 2400
+hades.symbols.Polyline 8 0 2400 2100 2400 2400 2100 2700 2400 4800 2400 4200 0 600 0 0 2400
+# hades.symbols.ClassLabel 4850 2350 1 Alu
+hades.symbols.FatInstanceLabel 2400 2100 2 ADD 
+hades.symbols.PortSymbol 2400 0 Y
+hades.symbols.PortSymbol 1200 2400 A
+hades.symbols.PortSymbol 3600 2400 B
+hades.symbols.PortSymbol 4800 1200 SEL
+hades.symbols.Polyline 2 4800 1200 4500 1200
+#
+hades.models.ruge.ColoredRectangle 1050 0 1350 2400
+hades.models.ruge.ColoredRectangle 3450 0 3750 2400
+hades.models.ruge.ColoredValueLabel 2400 800 2 sum

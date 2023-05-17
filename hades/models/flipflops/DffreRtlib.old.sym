@@ -1,0 +1,29 @@
+# symbol for hades.models.flipflops.DffreRtlib
+# (RTLIB register style)
+# FNH 11.01.00
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.Rectangle 0 0 2400 2400
+hades.symbols.ClassLabel 2500 2350 1 Dffre
+hades.symbols.FatInstanceLabel 1200 1000 2 C
+#
+# clock symbol line & reset symbol
+hades.symbols.Polyline 3 0 1000 500 1200 0 1400
+hades.symbols.Circle 200 1800 150 150
+#
+#
+hades.symbols.PortSymbol 1200 2400 Q
+hades.symbols.PortSymbol  600 2400 NQ
+hades.symbols.PortSymbol 1200    0 D
+hades.symbols.PortSymbol    0  600 E 
+hades.symbols.PortSymbol    0 1200 C
+hades.symbols.PortSymbol    0 1800 NR
+#
+#
+hades.symbols.PortLabel  1200 2350 2 Q
+hades.symbols.PortLabel  1200  350 2 D
+hades.symbols.PortLabel   200  700 1 E
+hades.symbols.PortLabel   200 1400 1 C
+hades.symbols.PortLabel   200 2200 1 NR
+#
+#hades.symbols.ColoredValueLabel 1200 2200 2 42 

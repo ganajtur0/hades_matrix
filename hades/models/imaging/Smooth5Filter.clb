@@ -1,0 +1,35 @@
+[files 4]
+hades/models/imaging/Smooth5Filter.class
+hades/models/imaging/Smooth5Filter.java
+hades/models/imaging/Smooth5Filter.sym
+hades/models/imaging/Smooth5Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Smooth5Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Smooth5Filter.gif
+
+[author]
+-
+
+[description]
+Smoothing via 5x5 convolution:
+    1,1,1,1,1,
+    1,4,4,4,1,
+    1,4,12,4,1,
+    1,4,4,4,1,
+    1,1,1,1,1 
+
+[end description]

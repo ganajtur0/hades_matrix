@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/AsciiDisplay.class
+hades/models/io/AsciiDisplay.java
+hades/models/io/AsciiDisplay.sym
+hades/models/io/AsciiDisplay.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.AsciiDisplay
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/AsciiDisplay.gif
+
+[author]
+-
+
+[description]
+20-segment ASCII LED display
+
+A simulation model for the Siemens DL 1414
+20-segment LED display. The internal character
+ROM supports the ASCII chars 'A' .. 'Z', the
+digits '0' .. '9' and some interpunctation.
+ASCII codes 32 to 95 are mapped to characters.
+Inputs are of type StdLogic1164.
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic Grid-> 1/8 inch
+[end description]

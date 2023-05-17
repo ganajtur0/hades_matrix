@@ -1,0 +1,48 @@
+[files 4]
+hades/models/rtlib/memory/AddressDecoder4.class
+hades/models/rtlib/memory/AddressDecoder4.java
+hades/models/rtlib/memory/AddressDecoder4.sym
+hades/models/rtlib/memory/AddressDecoder4.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.memory.AddressDecoder4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/memory/AddressDecoder4.gif
+
+[author]
+-
+
+[description]
+generic address decoder with four user-defined address ranges.
+
+This component can be used to implement a simple address decoder
+for given address bus width and up to four address ranges. For each
+range, the base and limit addresses can be specified.
+
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+Note that simulation performance may be limited by GUI updates due
+to glow-mode and RTLIB-animation (e.g. labels on flipflops or Opins).
+If necessary, switch off glow-mode and RTLIB-animation via the 'view'
+menu. With RTLIB-animation off, however, component symbols won't be
+updated and may not match the actual value on the component/signal.
+Select a manual redraw after pausing the simulation to update the GUI.
+
+[end description]

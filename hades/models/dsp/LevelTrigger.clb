@@ -1,0 +1,38 @@
+[files 4]
+hades/models/dsp/LevelTrigger.class
+hades/models/dsp/LevelTrigger.java
+hades/models/dsp/LevelTrigger.sym
+hades/models/dsp/LevelTrigger.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.LevelTrigger
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/LevelTrigger.gif
+
+[author]
+unknown
+
+[description]
+generates a StdLogic1164 0-1 transition when the input value
+rises above the specified trigger level.
+
+Input values below the trigger level result in the output _0,
+while values above or equal to the trigger level are  mapped to 
+output _1. Undefined (NaN) input values result in _X as the 
+output value.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,31 @@
+# symbol for hades.models.rtlib.logic.DPRAM
+# (dual port RAM with async. write enable and chip select)
+# FNH 29.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 7200 4800
+hades.symbols.Polyline 8 1200 0 0 1200 0 3600 1200 4800 6000 4800 6000 0 1200 0 1200 4800
+hades.symbols.Polyline 4 6000 0 7200 1200 7200 3600 6000 4800
+#
+hades.symbols.ClassLabel 5900 4000 3 DPRAM
+hades.symbols.InstanceLabel 5900 550 3 dpram
+hades.symbols.FatLabel 3600 3000 2 DPRAM
+#
+hades.symbols.Polyline 4 0 1600 200 1600 200 2000 0 2000
+hades.symbols.Polyline 4 0 2800 200 2800 200 3200 0 3200
+#
+hades.symbols.PortSymbol       0 1800 nCS
+hades.symbols.PortSymbol       0 3000 nWE
+hades.symbols.BusPortSymbol    0 2400 A0
+hades.symbols.BusPortSymbol 7200 2400 A1
+hades.symbols.BusPortSymbol 2400    0 DI0
+hades.symbols.BusPortSymbol 2400 4800 DO0
+hades.symbols.BusPortSymbol 4800 4800 DO1
+#
+hades.symbols.PortLabel   250 1900 1 nCS
+hades.symbols.PortLabel   250 3100 1 nWE
+hades.symbols.PortLabel   250 2500 1 A0
+hades.symbols.PortLabel  6950 2500 3 A1
+hades.symbols.PortLabel  2400  550 2 DI0
+hades.symbols.PortLabel  2400 4600 2 DO0
+hades.symbols.PortLabel  4800 4600 2 DO1
+#

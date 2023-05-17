@@ -1,0 +1,33 @@
+[files 4]
+hades/models/dsp/Clip.class
+hades/models/dsp/Clip.java
+hades/models/dsp/Clip.sym
+hades/models/dsp/Clip.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Clip
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Clip.gif
+
+[author]
+unknown
+
+[description]
+hard-clipping operator with user-specified lower and upper bounds:
+  Y = Math.max( upper, Math.min( lower, X ))
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

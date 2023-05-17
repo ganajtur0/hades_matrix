@@ -1,0 +1,42 @@
+[files 4]
+hades/models/flipflops/LatchMetastable.class
+hades/models/flipflops/LatchMetastable.java
+hades/models/flipflops/LatchMetastable.sym
+hades/models/flipflops/LatchMetastable.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.LatchMetastable
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/LatchMetastable.gif
+
+[author]
+-
+
+[description]
+"metastable" D-Latch
+
+This class models a simple level-sensistive D-type metastable latch.
+Unlike class DLATCH, this simulation component will never generate
+'X' or 'U' values at its outputs. Instead, random '0' or '1' values
+will be generated at initialization or whenever the value of the flipflop
+becomes undefined, e.g. due to a hazard condition.
+
+Note that the delay for the propagation of this random value is
+random, too, with a delay of up to fifty times the usual flipflop
+propagation delay, t_pass.
+
+Signals are expected to be StdLogic1164 objects.
+
+[end description]

@@ -1,0 +1,36 @@
+[files 4]
+hades/models/gates/Nand4.class
+hades/models/gates/Nand4.java
+hades/models/gates/Nand4.sym
+hades/models/gates/Nand4.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Nand4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Nand4.gif
+
+[author]
+unknown
+
+[description]
+Standard 4-input NAND gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic Grid-> 1/8 inch
+[end description]

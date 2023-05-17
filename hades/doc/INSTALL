@@ -1,0 +1,11 @@
+% INSTALL /hades/doc/INSTALL  01.02.2002
+
+Installation instructions and hints for Hades 0.9x and above:
+
+Please check the README file in the hades.zip (hades.jar) archive
+first, which covers the basic setup for single-user machines.
+
+Also, download the Hades tutorial, which includes further installation
+information, including setup for Jython scripting, running the
+individual programs included in hades.jar, and multi-user configurations.
+

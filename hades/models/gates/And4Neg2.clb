@@ -1,0 +1,36 @@
+[files 4]
+hades/models/gates/And4Neg2.class
+hades/models/gates/And4Neg2.java
+hades/models/gates/And4Neg2.sym
+hades/models/gates/And4Neg2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.And4Neg2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/And4Neg2.gif
+
+[author]
+-
+
+[description]
+4-input AND gate (with two positive and two inverted inputs).
+The logical function of this gate is as follows:
+
+  Y = A & B & !C & !D
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

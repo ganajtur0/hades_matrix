@@ -1,0 +1,40 @@
+[files 4]
+hades/models/gatter/Tri.class
+hades/models/gatter/Tri.java
+hades/models/gatter/Tri.sym
+hades/models/gatter/Tri.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Tri
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Tri.gif
+
+[author]
+-
+
+[description]
+Inverting buffer with tr-state output, DIN-style symbol.
+The function is as follows:
+
+  S  A  | Y
+  0  0    1  active
+  0  1    0  active
+  1  0    Z  tri-state
+  1  1    Z  tri-state
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

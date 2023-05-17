@@ -1,0 +1,5 @@
+hades.symbols.PortSymbol 0 0 VCC
+hades.symbols.BboxRectangle -600 -1500 600 0
+hades.symbols.Polyline 2 0 0 0 -900
+hades.symbols.Polyline 2 -600 -900 600 -900
+hades.symbols.ClassLabel -450 -1150 VCC

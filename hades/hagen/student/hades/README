@@ -1,0 +1,177 @@
+% README - Kurzbeschreibung Hades für Technische Informatik I, KE 1-5
+%
+% fnh, 19.02.2002
+
+
+
+0. Einführung, Motivation 
+
+   *FIXME*
+   *to be written later*
+
+
+1. Systemanforderungen, Download, Arbeitsverzeichnis
+
+   *FIXME*
+   *Beschreibung erst nach endgültiger Definition der Verzeichnis*
+   *struktur und der Downloadvarianten (Uni Hagen, Uni HH, CDs)*
+
+   Die Verzeichnisstruktur sollte wie folgt aussehen, wobei das
+   Verzeichnis oberhalb von "hades" frei gewählt werden kann.
+   Falls Sie eine andere Verzeichnisstruktur wählen, kann es zu
+   Problemen kommen:
+
+   ROOTDIR/
+           hades/
+                 README                            - diese Datei
+                 hades.jar                         - Hades Software
+                 .hadesrc                          - Hades Properties
+                 hades.bin                         - Startskript, Unix
+                 hades.bat                         - Startskript, Windows
+                 PopupMenuHagen.txt                - Menüdefinition
+                 ...
+                 /ke15/                            - Technische Informatik 1
+                       doc/                        - Dokumentation 
+                           kurzanleitung.pdf       - Hades Kurzanleitung
+                           ...
+                       1/                          - Aufgabenblatt 1 (leer)
+                       2/                          - Aufgabenblatt 2 (leer)
+                       3/                          - Aufgabenblatt 3
+                         aufgabe_3_1_a.hds
+                         ...
+                         testbench_3_1_a.hds
+                         ...
+                       4/                          - Aufgabenblatt 4
+                         aufgabe_4_1_a.hds
+                         ...
+                       5/                          - Aufgabenblatt 5
+                         aufgabe_5_1_b.hds
+                         ...
+
+
+---------------------------------------------------------------------------
+
+1. Installation (JDK 1.3)
+
+   Auf Windows-Sytemen: bitte einfach das "hades.jar" doppelklicken,
+   um den Editor zu starten.
+
+   Alle Systeme (sofern die JDK 1.3 Programme im Suchpfad sind):
+
+   cd <arbeitsverzeichnis-mit-dem-hades.jar>
+   java -jar hades.jar
+   
+
+---------------------------------------------------------------------------
+
+2. Installation (Microsoft jview)
+
+   Hades läuft unter Windows 9x/ME/2000 auch mit der Microsoft VM,
+   die auf vielen Systemen als Bestandteil des Internet Explorers
+   bereits vorinstalliert ist. Empfehlenswert ist Version 3.181
+   oder höher, die Version 3.167 macht manchmal Probleme. Separater
+   Download der aktuellen Version unter www.microsoft.com/java/
+   Leider wird die Microsoft VM unter Windows XP nicht mitgeliefert
+   und offiziell unterstützt.
+
+   Aufruf in einer (DOS) Kommandoaufforderung:
+
+   jview /cp "c:\path\to\your\hades.jar" hades.gui.Editor
+
+   wo der vollständige Pfad zum "hades.jar" Archiv eingesetzt werden
+   muß. Die Anführungszeichen sind notwendig, wenn der Pfadname
+   Leerzeichen oder Sonderzeichen enthält.
+
+
+---------------------------------------------------------------------------
+
+3. Aufrufen der Design-Templates
+
+   Für alle KE15-Aufgaben, zu deren Lösung eine Schaltung gehört,
+   finden Sie an der entsprechenden Stelle im Verzeichnisbaum ein
+   "Design Template". Das ist eine Schaltung, die zwar alle benötigten
+   Ein- und Ausgabekomponenten bereits enthält, die aber ansonsten
+   leer ist. 
+
+
+   Rufen Sie nach dem Starten des Editors aus dem Menü die "File->
+   Load..." Funtion auf und wählen Sie dann im Dateidialog die
+   entsprechende ".hds" Datei aus, etwa "ke15/3/aufgabe_3_1_a.hds".
+   Nutzen Sie dann die Editorfunktionen, um die Schaltung zu
+   vervollständigen. Denken Sie daran, die Datei regelmässig 
+   abzuspeichern. Benutzen Sie die interaktiven Eingabeschalter,
+   um die Schaltung bereits während des Entwurfs zu simulieren und
+   zu überprüfen. 
+
+   Bitte lesen Sie die Hades Kurzbeschreibung, um weitere Informationen
+   zur Bedienung des Editors zu erhalten. Die Beschreibung liefert
+   auch einige Tips, etwa welche vordefinierten Komponenten für die
+   die einzelnen Aufgaben verwendet werden sollten (oder müssen).
+
+   Für den automatischen Selbsttest (s.u.) der Schaltungen ist es
+   notwendig, dass Sie die fertige Version Ihres Entwurfs unter
+   dem originalen Namen abspeichern. Auch sollten Sie die Ein-
+   und Ausgänge der Schaltung nicht modifizieren, da der Selbsttest
+   sonst nicht funktioniert.
+   Falls Sie versehentlich Ein- oder Ausgänge gelöscht oder umbenannt
+   haben, machen Sie diese Änderungen bitte rückgängig. Notfalls
+   müssen Sie ein Rahmendesign aus dem originalen Archiv neu
+   auspacken.
+
+
+---------------------------------------------------------------------------
+
+4. Selbsttest der Schaltungen 
+
+   Neben den Template-Designs für die einzelnen Aufgaben finden Sie
+   zu vielen (aber nicht allen) Schaltungen auch zugehörige 
+   Testumgebungen für einen automatischen Selbsttest.
+   Zum Beispiel gibt es zur Aufgabe 3.1.a die eigentliche Schaltung
+   (aufgabe-3-1-a.hds) und die Testumgebung (testbench-3-1-a.hds).
+
+   Die Testumgebungen nutzen Simulationsmodelle mit rückgekoppelten
+   Schieberegistern, um Eingangssignale für die zu testende Schaltung
+   zu erzeugen und aus deren Ausgangssignalen einen Signaturwert zu
+   Die Theorie dazu findet sich zum Beispiel in Hans Wojtkowiak, 
+   Test und Testbarkeit digitaler Schaltungen, Teubner Verlag, 1988.
+
+   Der Selbsttest startet jeweils automatisch nach Laden des testbench
+   Designs. Warten Sie, bis die Testbench die voreingestellte Anzahl
+   von Takten abgearbeitet hat. Öffnen Sie dann den Edit-Dialog für
+   das Signaturanalyse-Register (jeweils ganz rechts in der Schaltung)
+   und lesen Sie den Signaturwert ab. Ändern Sie die Schaltung nicht und
+   geben Sie auch keine zusätzlichen Takte, da sich sonst die Signatur
+   sofort ändert.
+
+   Die jeweils erwartete Signatur für eine korrekte Schaltung finden
+   Sie in der Dokumentation. Falls die von Ihrer Schaltung erzeugte
+   Signatur vom vorgegebenen Wert abweicht, gibt es eine Reihe von
+   Möglichkeiten:
+
+   - überprüfen Sie interaktiv, ob Ihre Schaltung funktioniert.
+     Prüfen Sie dabei besonders auch die "kritischen" Eingabewerte,
+     etwa ob sich ein Carry Signal korrekt verhält.
+
+   - Rechnet Ihre Schaltung korrekt aber zu langsam?  Da die Simulation
+     auch Gatterlaufzeiten berücksichtigt, kann dies zu Abweichungen
+     führen, insbesondere bei Aufgabe 3.3.
+
+   - Lässt sich Ihre Schaltung sauber initialisieren? Sind alle (!)
+     benötigten Ein- und Ausgänge angeschlossen?
+
+   - Einige Aufgaben sind nicht vollkommen eindeutig formuliert, so dass
+     mehrere Lösungen richtig sein können. Überprüfen Sie mit interaktiver
+     Simulation, dass Ihre Schaltung wirklich korrekt funktioniert,
+     bevor Sie die Lösung einschicken.
+
+   - (evtl. haben sich Fehler in die Dokumentation eingeschlichen)
+
+  
+---------------------------------------------------------------------------
+
+5. GUI zum Selbsttest  
+
+   *Reichen die einzelnen Testbenches, oder soll es eine benutzer-
+   *freundlichere Oberfläche geben, um die Tests automatisch zu
+   *starten und die Signaturen auszuwerten?
+

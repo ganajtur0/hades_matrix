@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Inv.class
+hades/models/gates/Inv.java
+hades/models/gates/Inv.sym
+hades/models/gates/Inv.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Inv
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Inv.gif
+
+[author]
+unknown
+
+[description]
+Simple inverter gate.
+
+Input and output are of type StdLogic1164.
+The inverter uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

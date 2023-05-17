@@ -1,0 +1,22 @@
+# hades.models.Design file
+#  
+[name] KSS
+[components]
+hades.models.rtlib.io.IpinVector X2 6000 19200 @N 1001 16 0000000000000010_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector X1 6000 16800 @N 1001 16 0000000000000110_B 1.0E-9 0
+hades.models.gatter.Inv i2 11400 11400 @N 1001 5.0E-9
+hades.models.rtlib.muxes.Mux21 i1 14400 20400 @N 1001 16 0000000000000110_B 1.0E-8
+hades.models.rtlib.muxes.Mux21 i0 8400 20400 @N 1001 16 0000000000000010_B 1.0E-8
+hades.models.io.Ipin select 6000 12000 @N 1001 U
+hades.models.rtlib.io.OpinVector Y2 18000 23400 @N 1001 16 1.0E-9 1
+hades.models.rtlib.io.OpinVector Y1 12000 25200 @N 1001 16 1.0E-9 1
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n5 16 2 i0 Y Y1 A 2 2 12000 25200 10200 25200 2 10200 25200 10200 22200 0 
+hades.signals.SignalStdLogicVector n4 16 2 i1 Y Y2 A 2 2 16200 22200 16200 23400 2 16200 23400 18000 23400 0 
+hades.signals.SignalStdLogicVector n3 16 3 X1 Y i0 A0 i1 A0 4 2 6000 16800 10800 16800 2 10800 16800 10800 20400 2 10800 16800 16800 16800 2 16800 16800 16800 20400 1 10800 16800 
+hades.signals.SignalStdLogic1164 n2 3 select Y i0 S i2 A 4 2 8400 21600 7800 21600 2 7800 21600 7800 12000 2 6000 12000 7800 12000 2 11400 12000 7800 12000 1 7800 12000 
+hades.signals.SignalStdLogic1164 n1 2 i2 Y i1 S 3 2 14400 21600 13800 21600 2 13800 21600 13800 12000 2 13800 12000 13200 12000 0 
+hades.signals.SignalStdLogicVector n0 16 3 X2 Y i0 A1 i1 A1 4 2 6000 19200 9600 19200 2 9600 19200 9600 20400 2 9600 19200 15600 19200 2 15600 19200 15600 20400 1 9600 19200 
+[end signals]
+[end]

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/DelayNode.class
+hades/models/ruge/DelayNode.java
+hades/models/ruge/DelayNode.sym
+hades/models/ruge/DelayNode.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.DelayNode
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/DelayNode.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

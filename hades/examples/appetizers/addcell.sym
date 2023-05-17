@@ -1,0 +1,16 @@
+hades.symbols.BboxRectangle 0 0 2400 2400
+#
+hades.symbols.PortSymbol 600 0 A
+hades.symbols.PortSymbol 1800 0 B
+hades.symbols.PortSymbol 2400 1200 CIN
+hades.symbols.PortSymbol 0 1200 COUT
+hades.symbols.PortSymbol 1200 2400 SUM
+#
+hades.symbols.Label  600 450 2 16 14 16711680 A
+hades.symbols.Label 1800 450 2 16 14 16711680 B
+hades.symbols.Label 1200 2300 2 16 14 16711680 SUM
+hades.symbols.Label 2300 1800 3 16 14 16711680 CI
+hades.symbols.Label  100 1800 1 16 14 16711680 CO
+#
+hades.symbols.Rectangle 0 0 2400 2400
+hades.symbols.Label 1200 1200 2 16 17 36864 ADD

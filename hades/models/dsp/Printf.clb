@@ -1,0 +1,34 @@
+[files 4]
+hades/models/dsp/Printf.class
+hades/models/dsp/Printf.java
+hades/models/dsp/Printf.sym
+hades/models/dsp/Printf.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Printf
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Printf.gif
+
+[author]
+unknown
+
+[description]
+the printf operator converts its double-precision input value
+into a formatted string. Use the property sheet to change the
+default format (%12.4f).
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

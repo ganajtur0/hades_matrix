@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/ConstantX.class
+hades/models/io/ConstantX.java
+hades/models/io/ConstantX.sym
+hades/models/io/ConstantX.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ConstantX
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ConstantX.gif
+
+[author]
+-
+
+[description]
+constant X
+
+Simple generator for the "X" level of the StdLogic1164
+multilevel logic system.
+
+Note: this component generates only a single simulation 
+event during the elaboration phase of a simulation. 
+Therefore, you may have to stop-and-restart an ongoing 
+simulation when the component is disconnected
+or reconnected during a simulation.
+
+[end description]

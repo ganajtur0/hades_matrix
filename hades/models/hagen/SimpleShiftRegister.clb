@@ -1,0 +1,38 @@
+[files 4]
+hades/models/hagen/SimpleShiftRegister.class
+hades/models/hagen/SimpleShiftRegister.java
+hades/models/hagen/SimpleShiftRegister.sym
+hades/models/hagen/SimpleShiftRegister.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.hagen.SimpleShiftRegister
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/hagen/SimpleShiftRegister.gif
+
+[author]
+-
+
+[description]
+Shift register with reset input.
+
+A n-bit shift register with asynchronous (active low)
+reset input. The data is shifted left one bit position
+on each rising edge of the clock.
+
+The register contents are editable; simply click the mouse 
+over one of the shift register cells to toggle that cell's 
+contents between 0 and 1.
+
+[end description]

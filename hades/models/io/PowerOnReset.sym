@@ -1,0 +1,6 @@
+hades.symbols.BboxRectangle -2400 -1200 0 600
+hades.symbols.InstanceLabel -2300 -600 POR0
+hades.symbols.PortSymbol 0 0 nreset
+hades.symbols.Polyline 6 0 0 -450 -450 -2400 -450 -2400 450 -450 450 0 0
+hades.symbols.Polyline 6 -1200 -150 -900 -150 -900 150 -600 150 -600 -150 -300 -150
+hades.symbols.Circle -1950 0 300 300

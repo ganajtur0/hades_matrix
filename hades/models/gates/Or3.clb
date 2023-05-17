@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Or3.class
+hades/models/gates/Or3.java
+hades/models/gates/Or3.sym
+hades/models/gates/Or3.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Or3
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Or3.gif
+
+[author]
+unknown
+
+[description]
+Standard 3-input OR gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

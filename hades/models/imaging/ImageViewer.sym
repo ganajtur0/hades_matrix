@@ -1,0 +1,7 @@
+hades.symbols.BboxRectangle 0 -600 2400 600
+hades.symbols.InstanceLabel 2500 200 viewer 
+hades.symbols.PortSymbol 0 0 A
+hades.symbols.Polyline 7 0 0 0 -450 1950 -450 2400 0 1950 450 0 450 0 0
+hades.symbols.Label 1000 150 1 VIEWER
+#
+hades.symbols.Circle 500 0 250 250 

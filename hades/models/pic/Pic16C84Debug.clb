@@ -1,0 +1,43 @@
+[files 4]
+hades/models/pic/Pic16C84Debug.class
+hades/models/pic/Pic16C84Debug.java
+hades/models/pic/Pic16C84Debug.sym
+hades/models/pic/Pic16C84Debug.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.pic.Pic16C84Debug
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/pic/Pic16C84Debug.gif
+
+[author]
+-
+
+[description]
+PIC16C84 (debug)
+
+Cycle-accurate simulation model for the 8-bit
+PIC16C84 microcontroller from Arizona Microchip
+with external clock input. 
+
+One instruction cycle requires four clock cycles.
+
+This simulation has some additional output signals
+to monitor the values of key registers. Add waveforms
+to those signals to trace the registers over time.
+
+
+
+
+[end description]

@@ -1,0 +1,12 @@
+# hades.models.gates.InvOpenCollector.sym
+#
+hades.symbols.InstanceLabel 1750 2350 3 i0
+hades.symbols.BboxRectangle 0 0 1800 2400
+hades.symbols.PortSymbol 0 1200 A
+hades.symbols.PortSymbol 1800 600 Y
+#
+hades.symbols.Polyline 2 0 1200 600 1200
+hades.symbols.Polyline 2 600 1600 600 800
+hades.symbols.Polyline 3 600 1000 1000 600 1800 600
+hades.symbols.Polyline 3 600 1400 1000 1800 1000 2200
+hades.symbols.Polyline 2 700 2200 1300 2200

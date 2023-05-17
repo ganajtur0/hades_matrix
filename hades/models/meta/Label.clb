@@ -1,0 +1,37 @@
+[files 4]
+hades/models/meta/Label.class
+hades/models/meta/Label.java
+hades/models/meta/Label.sym
+hades/models/meta/Label.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.meta.Label
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/meta/Label.gif
+
+[author]
+-
+
+[description]
+A passive "label".
+
+This passive simulation model is used to include formatted text 
+objects as annotations in Hades designs. 
+
+Note: a newly created label with appear using a standard text, 
+font, and color. Use the edit operation (popup->edit) on the 
+label to specify the actual text, font, color, and rotation 
+you need.
+[end description]

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/RAM_64K.class
+hades/models/ruge/RAM_64K.java
+hades/models/ruge/RAM_64K.sym
+hades/models/ruge/RAM_64K.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.RAM_64K
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/RAM_64K.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

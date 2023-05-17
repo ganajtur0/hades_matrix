@@ -1,0 +1,30 @@
+[files 4]
+hades/models/register/CounterRE16.class
+hades/models/register/CounterRE16.java
+hades/models/register/CounterRE16.sym
+hades/models/register/CounterRE16.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.register.CounterRE16
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/register/CounterRE16.gif
+
+[author]
+-
+
+[description]
+edge-triggered 16-bit parallel output synchronous counter 
+with reset and enable inputs.
+[end description]

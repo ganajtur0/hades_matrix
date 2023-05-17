@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Register.class
+hades/models/ruge/Register.java
+hades/models/ruge/Register.sym
+hades/models/ruge/Register.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Register
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Register.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

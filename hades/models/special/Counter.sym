@@ -1,0 +1,17 @@
+# Counter.sym - symbol for hades.models.special.Counter  
+# FNH, 10.08.98
+#
+hades.symbols.BboxRectangle 0 0 6000 2400
+hades.symbols.ClassLabel     200 500  Counter
+hades.symbols.InstanceLabel  5800 2300 3 counter0
+hades.symbols.Polyline 5 0 0 6000 0 6000 2400 0 2400 0 0
+#
+hades.symbols.PortSymbol 0 1200 D
+hades.symbols.PortSymbol 0 1800 C
+hades.symbols.PortLabel  150 1350 D
+hades.symbols.PortLabel  150 1950 C
+#
+# the mode toggle and reset/clear symbols, and the 
+hades.symbols.Rectangle     600 300  1200 900
+hades.symbols.ColoredCircle 900 1800 300 300
+#

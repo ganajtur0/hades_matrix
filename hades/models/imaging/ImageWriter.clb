@@ -1,0 +1,29 @@
+[files 4]
+hades/models/imaging/ImageWriter.class
+hades/models/imaging/ImageWriter.java
+hades/models/imaging/ImageWriter.sym
+hades/models/imaging/ImageWriter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ImageWriter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ImageWriter.gif
+
+[author]
+-
+
+[description]
+write image data in PPM format to an output file.
+[end description]

@@ -1,0 +1,34 @@
+[files 4]
+hades/models/dsp/SimTime.class
+hades/models/dsp/SimTime.java
+hades/models/dsp/SimTime.sym
+hades/models/dsp/SimTime.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.SimTime
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/SimTime.gif
+
+[author]
+unknown
+
+[description]
+an operator to access the current simulation time.
+On a rising-edge of the clock input signal C, the current
+simulation time (no extra delay!) is propagated on the Y output.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

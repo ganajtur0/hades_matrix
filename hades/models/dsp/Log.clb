@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Log.class
+hades/models/dsp/Log.java
+hades/models/dsp/Log.sym
+hades/models/dsp/Log.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Log
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Log.gif
+
+[author]
+unknown
+
+[description]
+natural logarithm operator, Y = log( X )
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

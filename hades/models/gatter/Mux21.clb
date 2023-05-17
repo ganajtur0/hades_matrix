@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Mux21.class
+hades/models/gatter/Mux21.java
+hades/models/gatter/Mux21.sym
+hades/models/gatter/Mux21.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Mux21
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Mux21.gif
+
+[author]
+-
+
+[description]
+2-to-1 multiplexer gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

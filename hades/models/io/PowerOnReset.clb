@@ -1,0 +1,42 @@
+[files 4]
+hades/models/io/PowerOnReset.class
+hades/models/io/PowerOnReset.java
+hades/models/io/PowerOnReset.sym
+hades/models/io/PowerOnReset.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.PowerOnReset
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/PowerOnReset.gif
+
+[author]
+-
+
+[description]
+Power-on reset 
+
+An active-low power-on reset generator with
+user-settable timing parameters. The output
+signal is of type StdLogic1164. Timing:
+
+xxxxxxxxxxxx      +____________________
+xxxxxxxxxxxx______+
+t=0         t_0   t_0+t_active
+
+After the initial power-on reset impulse, the 
+POR can be used like an interactive Ipin switch.
+However, POR is not used as a hierarchy connector.
+
+[end description]

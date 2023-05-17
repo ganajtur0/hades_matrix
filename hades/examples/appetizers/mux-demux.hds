@@ -1,0 +1,46 @@
+# hades.models.Design file
+#  
+[name] mux-demux-demo
+[components]
+hades.models.io.Opin Selection 21600 12300 @N 1001 5.0E-9
+hades.models.io.Opin Y3 21600 18600 @N 1001 5.0E-9
+hades.models.io.Opin Y2 21600 19800 @N 1001 5.0E-9
+hades.models.io.Opin Y1 21600 21000 @N 1001 5.0E-9
+hades.models.io.Opin Y0 21600 22200 @N 1001 5.0E-9
+hades.models.io.Ipin SelectDemux1 15000 23400 @N 1001 null 1
+hades.models.io.Ipin SelectDemux0 15600 24600 @N 1001 null 0
+hades.models.io.ClockGen CLK-1Hz 7200 2400 @N 1001 1.0 0.5 0.0 null
+hades.models.FigObject i9 28800 2400 @N 1001 mux21.fig
+hades.models.io.Ipin Select 15600 8400 @N 1001 null 0
+hades.models.FigObject i8 28800 18000 @N 1001 demux14.fig
+hades.models.FigObject i7 28800 9600 @N 1001 mux41.fig
+hades.models.io.Constant0 i6 12000 12900 @N 1001
+hades.models.io.Constant1 i5 12000 10200 @N 1001
+hades.models.meta.Label i4 6600 6300 @N 1001 3 0 5 16 15 0.0 4 clk-0.25Hz
+hades.models.meta.Label i3 6600 3600 @N 1001 3 0 5 16 15 0.0 4 clk-1Hz
+hades.models.gates.Demux14 i2 15600 19200 @N 1001 1.5E-8
+hades.models.gates.Mux41 i1 15600 10800 @N 1001 1.5E-8
+hades.models.gates.Mux21 i0 15600 4200 @N 1001 1.0E-8
+hades.models.io.Opin SlowOrFast 21600 5400 @N 1001 5.0E-9
+hades.models.io.Ipin Select1 15000 15600 @N 1001 null 0
+hades.models.io.ClockGen CLK-2Hz 7200 4800 @N 1001 4.0 0.5 0.0 null
+hades.models.io.Ipin Select0 15600 16800 @N 1001 null 0
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 Select 2 Select Y i0 S 2 2 15600 8400 16800 8400 2 16800 8400 16800 6600 0 
+hades.signals.SignalStdLogic1164 clk-1Hz 4 CLK-1Hz clk i0 A1 i2 A i1 A1 9 2 10800 3600 14400 3600 2 14400 3600 14400 4800 2 14400 4800 15600 4800 2 9600 3600 10800 3600 2 10800 3600 10800 11400 2 10800 12600 10800 20700 2 10800 20700 15600 20700 2 10800 11400 10800 12600 2 10800 12600 15600 12600 2 10800 3600 10800 12600 
+hades.signals.SignalStdLogic1164 n9 2 SelectDemux1 Y i2 S1 2 2 15000 23400 16800 23400 2 16800 23400 16800 22200 0 
+hades.signals.SignalStdLogic1164 n8 2 i6 Y i1 A0 3 2 13200 13500 15000 13500 2 15000 13500 15000 13200 2 15000 13200 15600 13200 0 
+hades.signals.SignalStdLogic1164 n7 2 i5 Y i1 A3 3 2 13200 10800 15000 10800 2 15000 10800 15000 11400 2 15000 11400 15600 11400 0 
+hades.signals.SignalStdLogic1164 clk-2Hz 3 CLK-2Hz clk i0 A0 i1 A2 6 2 11400 6000 13800 6000 2 13800 6000 14400 6000 2 14400 6000 15600 6000 2 9600 6000 11400 6000 2 11400 6000 11400 12000 2 11400 12000 15600 12000 1 11400 6000 
+hades.signals.SignalStdLogic1164 n6 2 i1 Y Selection A 1 2 18600 12300 21600 12300 0 
+hades.signals.SignalStdLogic1164 SlowOrFast 2 i0 Y SlowOrFast A 1 2 18000 5400 21600 5400 0 
+hades.signals.SignalStdLogic1164 n5 2 Select0 Y i1 S0 2 2 15600 16800 17400 16800 2 17400 16800 17400 13800 0 
+hades.signals.SignalStdLogic1164 n4 2 Select1 Y i1 S1 2 2 15000 15600 16800 15600 2 16800 15600 16800 13800 0 
+hades.signals.SignalStdLogic1164 n3 2 i2 Y0 Y0 A 3 2 18600 21600 21000 21600 2 21000 21600 21000 22200 2 21000 22200 21600 22200 0 
+hades.signals.SignalStdLogic1164 n2 2 i2 Y3 Y3 A 3 2 18600 19800 20400 19800 2 20400 19800 20400 18600 2 20400 18600 21600 18600 0 
+hades.signals.SignalStdLogic1164 n1 2 i2 Y2 Y2 A 3 2 18600 20400 21000 20400 2 21000 20400 21000 19800 2 21000 19800 21600 19800 0 
+hades.signals.SignalStdLogic1164 n0 2 i2 Y1 Y1 A 1 2 18600 21000 21600 21000 0 
+hades.signals.SignalStdLogic1164 n10 2 SelectDemux0 Y i2 S0 2 2 15600 24600 17400 24600 2 17400 24600 17400 22200 0 
+[end signals]
+[end]

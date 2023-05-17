@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/InvSmall.class
+hades/models/gates/InvSmall.java
+hades/models/gates/InvSmall.sym
+hades/models/gates/InvSmall.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.InvSmall
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/InvSmall.gif
+
+[author]
+unknown
+
+[description]
+Inverter gate (with small symbol).
+
+Input and output are of type StdLogic1164.
+The inverter uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

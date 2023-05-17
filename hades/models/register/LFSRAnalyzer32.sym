@@ -1,0 +1,79 @@
+# LFSR Analyzer 32 bit
+#
+hades.symbols.BboxRectangle  0 0 6000 21000
+hades.symbols.Rectangle  0 0 6000 21000
+hades.symbols.ClassLabel 150 450 LFSRAnalyzer24
+hades.symbols.InstanceLabel 150 20850 i0
+#
+hades.symbols.PortSymbol 0 600 CLK
+hades.symbols.PortSymbol 0 1200 NRESET
+hades.symbols.PortSymbol 0 1800 D31
+hades.symbols.PortSymbol 0 2400 D30
+hades.symbols.PortSymbol 0 3000 D29
+hades.symbols.PortSymbol 0 3600 D28
+hades.symbols.PortSymbol 0 4200 D27
+hades.symbols.PortSymbol 0 4800 D26
+hades.symbols.PortSymbol 0 5400 D25
+hades.symbols.PortSymbol 0 6000 D24
+hades.symbols.PortSymbol 0 6600 D23
+hades.symbols.PortSymbol 0 7200 D22
+hades.symbols.PortSymbol 0 7800 D21
+hades.symbols.PortSymbol 0 8400 D20
+#
+hades.symbols.PortSymbol 0 9000 D19
+hades.symbols.PortSymbol 0 9600 D18
+hades.symbols.PortSymbol 0 10200 D17
+hades.symbols.PortSymbol 0 10800 D16
+hades.symbols.PortSymbol 0 11400 D15
+hades.symbols.PortSymbol 0 12000 D14
+hades.symbols.PortSymbol 0 12600 D13
+hades.symbols.PortSymbol 0 13200 D12
+hades.symbols.PortSymbol 0 13800 D11
+hades.symbols.PortSymbol 0 14400 D10
+hades.symbols.PortSymbol 0 15000 D9
+hades.symbols.PortSymbol 0 15600 D8
+hades.symbols.PortSymbol 0 16200 D7
+hades.symbols.PortSymbol 0 16800 D6
+hades.symbols.PortSymbol 0 17400 D5
+hades.symbols.PortSymbol 0 18000 D4
+hades.symbols.PortSymbol 0 18600 D3
+hades.symbols.PortSymbol 0 19200 D2
+hades.symbols.PortSymbol 0 19800 D1
+hades.symbols.PortSymbol 0 20400 D0
+#
+hades.symbols.PortLabel 150 750 CLK
+hades.symbols.PortLabel 150 1350 NRESET
+hades.symbols.PortLabel 150 1950 D31
+hades.symbols.PortLabel 150 2550 D30
+hades.symbols.PortLabel 150 3150 D29
+hades.symbols.PortLabel 150 3750 D28
+hades.symbols.PortLabel 150 4350 D27
+hades.symbols.PortLabel 150 4950 D26
+hades.symbols.PortLabel 150 5550 D25
+hades.symbols.PortLabel 150 6150 D24
+hades.symbols.PortLabel 150 6750 D23
+hades.symbols.PortLabel 150 7350 D22
+hades.symbols.PortLabel 150 7950 D21
+hades.symbols.PortLabel 150 8550 D20
+#
+hades.symbols.PortLabel 150  9150 D19
+hades.symbols.PortLabel 150  9750 D18
+hades.symbols.PortLabel 150 10350 D17
+hades.symbols.PortLabel 150 10950 D16
+hades.symbols.PortLabel 150 11550 D15
+hades.symbols.PortLabel 150 12150 D14
+hades.symbols.PortLabel 150 12750 D13
+hades.symbols.PortLabel 150 13350 D12
+hades.symbols.PortLabel 150 13950 D11
+hades.symbols.PortLabel 150 14550 D10
+#
+hades.symbols.PortLabel 150 15150 D9
+hades.symbols.PortLabel 150 15750 D8
+hades.symbols.PortLabel 150 16350 D7
+hades.symbols.PortLabel 150 16950 D6
+hades.symbols.PortLabel 150 17550 D5
+hades.symbols.PortLabel 150 18150 D4
+hades.symbols.PortLabel 150 18750 D3
+hades.symbols.PortLabel 150 19350 D2
+hades.symbols.PortLabel 150 19950 D1
+hades.symbols.PortLabel 150 20550 D0

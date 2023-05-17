@@ -1,0 +1,49 @@
+# hades.models.Design file
+#  
+[name] TTL-series_749x_counter_demo
+[components]
+hades.models.Design 7490_counter10 -4800 4800 @N 1001 /hades/models/ttl74/SN7490_pinout.hds
+hades.models.Design SN7492_1:12_counter -4800 16800 @N 1001 /hades/models/ttl74/SN7492_pinout.hds
+hades.models.io.Ipin SET_1001 -9600 12600 @N 1001 0
+hades.models.io.HexDisplay HexDisplay2 4800 30600 @N 1001
+hades.models.io.HexDisplay HexDisplay1 4800 17400 @N 1001
+hades.models.meta.Label i9 4800 29400 @N 1001 1 0 5 16 27 0.0 4 binary\u0020counter
+hades.models.gates.InvSmall i8 -8400 7200 @N 1001 5.0E-9
+hades.models.gates.InvSmall i7 -8400 24000 @N 1001 5.0E-9
+hades.models.io.PowerOnReset i6 -9600 7800 @N 1001 0.0050 0.0050
+hades.models.io.ClockGen i5 -12000 2400 @N 1001 1.0 0.5 0.0
+hades.models.io.PowerOnReset i4 -9600 24600 @N 1001 0.0050 0.0050
+hades.models.io.ClockGen i3 -12000 15000 @N 1001 1.0 0.5 0.0
+hades.models.gates.InvSmall i2 -8400 32400 @N 1001 5.0E-9
+hades.models.io.PowerOnReset i1 -9600 33000 @N 1001 0.0050 0.0050
+hades.models.meta.Label i11 4800 6000 @N 1001 1 0 5 16 27 0.0 4 decimal\u0020counter
+hades.models.io.ClockGen i0 -12000 28200 @N 1001 1.0 0.5 0.0
+hades.models.meta.Label i10 4800 16800 @N 1001 1 0 5 16 27 0.0 4 divide-by-12\u0020counter
+hades.models.io.HexDisplay HexDisplay 4800 8400 @N 1001
+hades.models.Design SN7493_1:16_counter -4800 30000 @N 1001 /hades/models/ttl74/SN7493_pinout.hds
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 SN7492_1:12_counter QC HexDisplay1 A2 3 2 -1200 24000 3600 24000 2 3600 24000 3600 19200 2 3600 19200 4800 19200 0 
+hades.signals.SignalStdLogic1164 n8 2 SN7492_1:12_counter QB HexDisplay1 A1 3 2 -1200 21600 4200 21600 2 4200 21600 4200 19800 2 4200 19800 4800 19800 0 
+hades.signals.SignalStdLogic1164 n7 3 SN7492_1:12_counter QA HexDisplay1 A0 SN7492_1:12_counter nB 6 2 600 20400 4800 20400 2 -1200 20400 600 20400 2 600 20400 600 15600 2 600 15600 -6000 15600 2 -6000 15600 -6000 18000 2 -6000 18000 -4800 18000 1 600 20400 
+hades.signals.SignalStdLogic1164 n6 2 i0 clk SN7493_1:16_counter nA 3 2 -9600 29400 -600 29400 2 -600 29400 -600 31200 2 -600 31200 -1200 31200 0 
+hades.signals.SignalStdLogic1164 n5 2 i1 nreset i2 A 1 2 -9600 33000 -8400 33000 0 
+hades.signals.SignalStdLogic1164 n19 2 i4 nreset i7 A 1 2 -8400 24600 -9600 24600 0 
+hades.signals.SignalStdLogic1164 n4 2 SN7493_1:16_counter QD HexDisplay2 A3 3 2 -1200 34800 3000 34800 2 3000 34800 3000 31800 2 3000 31800 4800 31800 0 
+hades.signals.SignalStdLogic1164 n18 3 i8 Y 7490_counter10 R0(1) 7490_counter10 R0(2) 6 2 -6600 7800 -5400 7800 2 -5400 7800 -5400 7200 2 -5400 7200 -5100 7200 2 -5100 7200 -4800 7200 2 -5400 7800 -5400 8400 2 -5400 8400 -4800 8400 1 -5400 7800 
+hades.signals.SignalStdLogic1164 n3 2 SN7493_1:16_counter QC HexDisplay2 A2 3 2 -1200 38400 3600 38400 2 3600 38400 3600 32400 2 3600 32400 4800 32400 0 
+hades.signals.SignalStdLogic1164 n17 2 i5 clk 7490_counter10 A 3 2 -9600 3600 -600 3600 2 -600 3600 -600 6000 2 -600 6000 -1200 6000 0 
+hades.signals.SignalStdLogic1164 n2 2 SN7493_1:16_counter QB HexDisplay2 A1 3 2 -1200 37200 4200 37200 2 4200 37200 4200 33000 2 4200 33000 4800 33000 0 
+hades.signals.SignalStdLogic1164 n1 3 SN7493_1:16_counter QA HexDisplay2 A0 SN7493_1:16_counter nB 6 2 600 33600 4800 33600 2 -1200 33600 600 33600 2 600 33600 600 28800 2 600 28800 -6000 28800 2 -6000 28800 -6000 31200 2 -6000 31200 -4800 31200 1 600 33600 
+hades.signals.SignalStdLogic1164 n15 2 7490_counter10 QB HexDisplay A1 3 2 -1200 12000 3000 12000 2 3000 12000 3000 10800 2 3000 10800 4800 10800 0 
+hades.signals.SignalStdLogic1164 n0 3 i2 Y SN7493_1:16_counter R01 SN7493_1:16_counter R02 5 2 -6600 33000 -5400 33000 2 -5400 33000 -5400 32400 2 -5400 32400 -4800 32400 2 -5400 33000 -5400 33600 2 -5400 33600 -4800 33600 1 -5400 33000 
+hades.signals.SignalStdLogic1164 n14 2 7490_counter10 QC HexDisplay A2 3 2 -1200 13200 2400 13200 2 2400 13200 2400 10200 2 2400 10200 4800 10200 0 
+hades.signals.SignalStdLogic1164 n13 2 7490_counter10 QD HexDisplay A3 1 2 -1200 9600 4800 9600 0 
+hades.signals.SignalStdLogic1164 n12 2 i3 clk SN7492_1:12_counter nA 3 2 -9600 16200 -600 16200 2 -600 16200 -600 18000 2 -600 18000 -1200 18000 0 
+hades.signals.SignalStdLogic1164 n11 3 i7 Y SN7492_1:12_counter R01 SN7492_1:12_counter R02 5 2 -6600 24600 -5400 24600 2 -5400 24600 -5400 24000 2 -5400 24000 -4800 24000 2 -5400 24600 -5400 25200 2 -5400 25200 -4800 25200 1 -5400 24600 
+hades.signals.SignalStdLogic1164 n10 2 SN7492_1:12_counter QD HexDisplay1 A3 3 2 -1200 25200 3000 25200 2 3000 25200 3000 18600 2 3000 18600 4800 18600 0 
+hades.signals.SignalStdLogic1164 n22 3 7490_counter10 QA 7490_counter10 B HexDisplay A0 9 2 -4800 6000 -6000 6000 2 -6000 6000 -6000 4200 2 -6000 4200 600 4200 2 600 4200 600 8400 2 2400 8400 3600 8400 2 3600 8400 3600 11400 2 3600 11400 4800 11400 2 -1200 8400 600 8400 2 2400 8400 600 8400 1 600 8400 
+hades.signals.SignalStdLogic1164 n21 2 i6 nreset i8 A 1 2 -9600 7800 -8400 7800 0 
+hades.signals.SignalStdLogic1164 n20 3 SET_1001 Y 7490_counter10 R9(1) 7490_counter10 R9(2) 6 2 -9600 12600 -5700 12600 2 -5700 12600 -5400 12600 2 -5400 12600 -5400 12000 2 -5400 12000 -4800 12000 2 -5400 12600 -5400 13200 2 -5400 13200 -4800 13200 1 -5400 12600 
+[end signals]
+[end]

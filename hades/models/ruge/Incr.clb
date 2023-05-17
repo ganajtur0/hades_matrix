@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Incr.class
+hades/models/ruge/Incr.java
+hades/models/ruge/Incr.sym
+hades/models/ruge/Incr.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Incr
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Incr.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

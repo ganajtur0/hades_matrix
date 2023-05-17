@@ -1,0 +1,30 @@
+[files 3]
+hades/models/hagen/Mux8.hds
+hades/models/hagen/Mux8.sym
+hades/models/hagen/Mux8.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+design
+
+[start]
+hades.models.Design
+
+[init]
+/hades/models/hagen/Mux8.hds
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/hagen/Mux8.gif
+
+[author]
+unknown
+
+[description]
+8:1 multiplexer.

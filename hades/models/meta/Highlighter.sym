@@ -1,0 +1,6 @@
+# symbol for the "Highligher" component.
+
+hades.symbols.BboxRectangle 0 0 4800 2400
+hades.symbols.InstanceLabel 200 2300 i0 
+hades.symbols.Label 2400 1500 2  16 27 36864 Highlighter
+hades.symbols.Rectangle  0 0 4800 2400

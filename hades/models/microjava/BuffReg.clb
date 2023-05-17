@@ -1,0 +1,30 @@
+[files 4]
+hades/models/microjava/BuffReg.class
+hades/models/microjava/BuffReg.java
+hades/models/microjava/BuffReg.sym
+hades/models/microjava/BuffReg.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.BuffReg
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/BuffReg.gif
+
+[author]
+-
+
+[description]
+memory read buffer register for Microjava I
+
+[end description]

@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Xor2.class
+hades/models/gatter/Xor2.java
+hades/models/gatter/Xor2.sym
+hades/models/gatter/Xor2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Xor2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Xor2.gif
+
+[author]
+-
+
+[description]
+2-input XOR gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

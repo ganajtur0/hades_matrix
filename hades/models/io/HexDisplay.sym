@@ -1,0 +1,18 @@
+hades.symbols.BboxRectangle 0 0 2700 4200
+hades.symbols.PortSymbol 0 1200  A3
+hades.symbols.PortSymbol 0 1800  A2
+hades.symbols.PortSymbol 0 2400  A1
+hades.symbols.PortSymbol 0 3000  A0
+hades.symbols.PortLabel 100 1150 3
+hades.symbols.PortLabel 100 1750 2
+hades.symbols.PortLabel 100 2350 1
+hades.symbols.PortLabel 100 2950 0
+hades.symbols.InstanceLabel 225 4000 i0
+hades.symbols.Polyline 2 750 2100 600 3000
+hades.symbols.Polyline 2 900 750 2100 750
+hades.symbols.Polyline 2 900 900 750 1800
+hades.symbols.Polyline 2 2100 900 1950 1800
+hades.symbols.Polyline 2 1950 2100 1800 3000
+hades.symbols.Polyline 2 750 1950 1950 1950
+hades.symbols.Polyline 2 600 3150 1800 3150
+hades.symbols.Rectangle 2062 3112 2136 3186

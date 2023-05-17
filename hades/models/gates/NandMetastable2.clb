@@ -1,0 +1,50 @@
+[files 4]
+hades/models/gates/NandMetastable2.class
+hades/models/gates/NandMetastable2.java
+hades/models/gates/NandMetastable2.sym
+hades/models/gates/NandMetastable2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.NandMetastable2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/NandMetastable2.gif
+
+[author]
+-
+
+[description]
+"Metastable" 2-input NAND gate. 
+
+Inputs and output are of type StdLogic1164. For valid
+input combinations, the gate implements the standard 
+NAND gate function.  Unlike the usual NAND gate, this
+gate will never output the U or X values when undefined 
+inputs are encountered. Instead, the gate behaves
+like a metastable gate and outputs a randomly chosen
+0/1 output value after a randomly chosen delay that
+may be up to 6 times longer than the gate delay set
+via the configuration dialog.
+
+This simulation component should NEVER BE USED in
+normal Hades designs. It is only provided to allow
+demonstrations of metastable behaviour within the 
+limits of a multilevel discrete-event based simulator.
+It can also be used in circuits that contain feedback
+loops without external reset inputs (e.g. recreating 
+a 1:1 copy of TTL-schematics) - without at least one
+of the special metastable gates in the feedback loop,
+such circuits would never be initializable in a Hades
+simulation.
+[end description]

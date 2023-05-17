@@ -1,0 +1,47 @@
+[files 4]
+hades/models/gates/WeakBuffer.class
+hades/models/gates/WeakBuffer.java
+hades/models/gates/WeakBuffer.sym
+hades/models/gates/WeakBuffer.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.WeakBuffer
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/WeakBuffer.gif
+
+[author]
+-
+
+[description]
+Weak non-inverting buffer. This component generates the
+weak std_logic output value corresponding to the current
+input value, namely:
+
+  A  |   Y
+ ----------
+  U      W
+  X      W
+  0      L
+  1      H
+  Z      Z
+  W      W
+  L      L
+  H      H
+  D      W
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

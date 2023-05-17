@@ -1,0 +1,31 @@
+[files 4]
+hades/models/special/GraphicsLCDnfb.class
+hades/models/special/GraphicsLCDnfb.java
+hades/models/special/GraphicsLCDnfb.sym
+hades/models/special/GraphicsLCDnfb.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.GraphicsLCDnfb
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/GraphicsLCDnfb.gif
+
+[author]
+-
+
+[description]
+graphical dot-matrix LCD based on the KS0108 controller.
+This class uses slightly different port/signal names than
+GraphicsLCD.
+[end description]

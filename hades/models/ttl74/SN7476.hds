@@ -1,0 +1,38 @@
+# hades.models.Design file
+#  
+[name] SN7476_dual_JKFF
+[components]
+hades.models.io.Opin 2Q/ 20400 15000 @N 1001 5.0E-9
+hades.models.io.Ipin 2CK/ 3600 13800 @N 1001 U
+hades.models.io.Opin 1Q 20400 5400 @N 1001 5.0E-9
+hades.models.io.Ipin 1K 3600 7800 @N 1001 U
+hades.models.io.Ipin 1J 3600 5400 @N 1001 U
+hades.models.io.Ipin 2CLR/ 3600 16200 @N 1001 U
+hades.models.io.Ipin 2PR/ 3600 11400 @N 1001 U
+hades.models.io.Ipin 1CLR/ 3600 9000 @N 1001 U
+hades.models.io.Ipin 1CK/ 3600 6600 @N 1001 U
+hades.models.io.Opin 1Q/ 20400 7800 @N 1001 5.0E-9
+hades.models.io.Opin 2Q 20400 12600 @N 1001 5.0E-9
+hades.models.io.Ipin 1PR/ 3600 4200 @N 1001 U
+hades.models.Design single_7476_JKFF2 9600 12000 @N 1001 \u002fhades\u002fmodels\u002fttl74\u002fSN7476_single\u002ehds
+hades.models.io.Ipin 2K 3600 15000 @N 1001 U
+hades.models.Design single_7476_JKFF1 9600 4800 @N 1001 \u002fhades\u002fmodels\u002fttl74\u002fSN7476_single\u002ehds
+hades.models.io.Ipin 2J 3600 12600 @N 1001 U
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 1PR/ Y single_7476_JKFF1 nPRESET 3 2 9600 5400 8400 5400 2 8400 5400 8400 4200 2 8400 4200 3600 4200 0 
+hades.signals.SignalStdLogic1164 n8 2 single_7476_JKFF1 Q 1Q A 1 2 20400 5400 15600 5400 0 
+hades.signals.SignalStdLogic1164 n7 2 single_7476_JKFF1 /Q 1Q/ A 3 2 20400 7800 16800 7800 2 16800 7800 16800 6000 2 16800 6000 15600 6000 0 
+hades.signals.SignalStdLogic1164 n6 2 single_7476_JKFF2 Q 2Q A 1 2 20400 12600 15600 12600 0 
+hades.signals.SignalStdLogic1164 n5 2 single_7476_JKFF2 /Q 2Q/ A 3 2 20400 15000 16800 15000 2 16800 15000 16800 13200 2 16800 13200 15600 13200 0 
+hades.signals.SignalStdLogic1164 n4 2 2CLR/ Y single_7476_JKFF2 nCLEAR 3 2 9600 15000 8400 15000 2 8400 15000 8400 16200 2 8400 16200 3600 16200 0 
+hades.signals.SignalStdLogic1164 n3 2 2J Y single_7476_JKFF2 J 3 2 9600 14400 7200 14400 2 7200 14400 6000 12600 2 6000 12600 3600 12600 0 
+hades.signals.SignalStdLogic1164 n2 2 2CK/ Y single_7476_JKFF2 CLOCK 1 2 9600 13800 3600 13800 0 
+hades.signals.SignalStdLogic1164 n1 2 2K Y single_7476_JKFF2 K 3 2 9600 13200 7200 13200 2 7200 13200 6000 15000 2 6000 15000 3600 15000 0 
+hades.signals.SignalStdLogic1164 n0 2 2PR/ Y single_7476_JKFF2 nPRESET 3 2 9600 12600 8400 12600 2 8400 12600 8400 11400 2 8400 11400 3600 11400 0 
+hades.signals.SignalStdLogic1164 n13 2 1J Y single_7476_JKFF1 J 3 2 9600 7200 7200 7200 2 7200 7200 6000 5400 2 6000 5400 3600 5400 0 
+hades.signals.SignalStdLogic1164 n12 2 1K Y single_7476_JKFF1 K 3 2 9600 6000 7200 6000 2 7200 6000 6000 7800 2 6000 7800 3600 7800 0 
+hades.signals.SignalStdLogic1164 n11 2 1CK/ Y single_7476_JKFF1 CLOCK 1 2 9600 6600 3600 6600 0 
+hades.signals.SignalStdLogic1164 n10 2 1CLR/ Y single_7476_JKFF1 nCLEAR 3 2 9600 7800 8400 7800 2 8400 7800 8400 9000 2 8400 9000 3600 9000 0 
+[end signals]
+[end]

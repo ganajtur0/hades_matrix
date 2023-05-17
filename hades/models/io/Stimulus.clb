@@ -1,0 +1,40 @@
+[files 4]
+hades/models/io/Stimulus.class
+hades/models/io/Stimulus.java
+hades/models/io/Stimulus.sym
+hades/models/io/Stimulus.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Stimulus
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Stimulus.gif
+
+[author]
+-
+
+[description]
+Stimulus generator
+
+A simple stimulus generator with 8 outputs
+of type StdLogic1164 and a fixed timing 
+based on a common fixed-length period for
+all outputs.
+
+This model allows for up to 256 cycles with
+8 StdLogic1164 output values each. 
+For larger input stimuli, check the STL
+python module.
+
+[end description]

@@ -1,0 +1,26 @@
+# Stimulus.sym - hades.models.io.Stimulus
+# symbol for the 8-output stimulus generator
+#
+hades.symbols.BboxRectangle 0 0 3000 5400
+hades.symbols.ClassLabel    1500  550 2 Stimulus
+hades.symbols.InstanceLabel 1500 5300 2 s0
+hades.symbols.Rectangle 0 0 3000 5400
+#
+hades.symbols.PortSymbol 3000  600 Y7
+hades.symbols.PortSymbol 3000 1200 Y6
+hades.symbols.PortSymbol 3000 1800 Y5
+hades.symbols.PortSymbol 3000 2400 Y4
+hades.symbols.PortSymbol 3000 3000 Y3
+hades.symbols.PortSymbol 3000 3600 Y2
+hades.symbols.PortSymbol 3000 4200 Y1
+hades.symbols.PortSymbol 3000 4800 Y0
+#
+hades.symbols.PortLabel  2900   700 3 Y7
+hades.symbols.PortLabel  2900  1300 3 Y6
+hades.symbols.PortLabel  2900  1900 3 Y5
+hades.symbols.PortLabel  2900  2500 3 Y4
+hades.symbols.PortLabel  2900  3100 3 Y3
+hades.symbols.PortLabel  2900  3700 3 Y2
+hades.symbols.PortLabel  2900  4300 3 Y1
+hades.symbols.PortLabel  2900  4900 3 Y0
+#

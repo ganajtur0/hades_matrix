@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Exp.class
+hades/models/dsp/Exp.java
+hades/models/dsp/Exp.sym
+hades/models/dsp/Exp.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Exp
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Exp.gif
+
+[author]
+unknown
+
+[description]
+exponential function operator, Y = exp( X )
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

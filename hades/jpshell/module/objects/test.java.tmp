@@ -1,0 +1,18 @@
+import hades.models.gates.*;
+
+public class test
+{
+	public static void main(String[] args)
+	{
+		Muller muller = new Muller();
+		System.out.println("Muller "+muller.getClass());
+
+		//And2 and = new And2();
+		// System.out.println("and "+and.getClass());
+	}
+
+
+
+}
+
+

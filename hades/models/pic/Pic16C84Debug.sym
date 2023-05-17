@@ -1,0 +1,83 @@
+#
+#
+#
+#hades.symbols.BboxRectangle 0 0 3000 6000
+#hades.symbols.Rectangle 0 0 3000 6000
+hades.symbols.BboxRectangle 0 0 3000 10200
+hades.symbols.Rectangle 0 0 3000 10200
+hades.symbols.FatLabel 1500 4500 2 'C84
+#
+#external debug signals stuff
+#
+hades.symbols.Polyline 2 0 6000 3000 6000 
+hades.symbols.BusPortSymbol 3000 6600 PC
+hades.symbols.BusPortSymbol 3000 7200 Status
+hades.symbols.BusPortSymbol 3000 7800 Work
+hades.symbols.BusPortSymbol 3000 8400 Ireg
+hades.symbols.BusPortSymbol 3000 9000 IntCon
+hades.symbols.BusPortSymbol 3000 9600 Option
+hades.symbols.PortLabel 2800 6700 3 PC
+hades.symbols.PortLabel 2800 7300 3 Status
+hades.symbols.PortLabel 2800 7900 3 Work
+hades.symbols.PortLabel 2800 8500 3 Ireg
+hades.symbols.PortLabel 2800 9100 3 IntCon
+hades.symbols.PortLabel 2800 9700 3 Option
+#
+#
+
+hades.symbols.ClassLabel 1500 450 2 PIC16C84
+hades.symbols.InstanceLabel 1500 10050 3 i0
+
+hades.symbols.PortSymbol 0 600 A2
+hades.symbols.PortLabel 150 700 A2
+
+hades.symbols.PortSymbol 0 1200 A3
+hades.symbols.PortLabel 150 1300 A3
+
+hades.symbols.PortSymbol 0 1800 A4
+hades.symbols.PortLabel 150 1900 A4/T0CKI
+
+hades.symbols.PortSymbol 0 2400 /MCLR
+hades.symbols.PortLabel 150 2500 /MCLR
+
+hades.symbols.PortLabel 150 3100 Vss
+
+hades.symbols.PortSymbol 0 3600 B0
+hades.symbols.PortLabel 150 3700 B0/INT
+
+hades.symbols.PortSymbol 0 4200 B1
+hades.symbols.PortLabel 150 4300 B1
+
+hades.symbols.PortSymbol 0 4800 B2
+hades.symbols.PortLabel 150 4900 B2
+
+hades.symbols.PortSymbol 0 5400 B3
+hades.symbols.PortLabel 150 5500 B3
+
+
+hades.symbols.PortSymbol 3000 600 A1
+hades.symbols.PortLabel 2500 700 A1
+
+hades.symbols.PortSymbol 3000 1200 A0
+hades.symbols.PortLabel 2500 1300 A0
+
+hades.symbols.PortSymbol 3000 1800 CLKIN
+hades.symbols.PortLabel 1850 1900 CLKIN
+
+hades.symbols.PortSymbol 3000 2400 CLKOUT
+hades.symbols.PortLabel 1550 2500 CLKOUT
+
+hades.symbols.PortLabel 2200 3100 Vdd
+
+hades.symbols.PortSymbol 3000 3600 B7
+hades.symbols.PortLabel 2500 3700 B7
+
+hades.symbols.PortSymbol 3000 4200 B6
+hades.symbols.PortLabel 2500 4300 B6
+
+hades.symbols.PortSymbol 3000 4800 B5
+hades.symbols.PortLabel 2500 4900 B5
+
+hades.symbols.PortSymbol 3000 5400 B4
+hades.symbols.PortLabel 2500 5500 B4
+

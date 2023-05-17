@@ -1,0 +1,14 @@
+# model for a DLatch, á la Ruge
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.Rectangle 0 0 2400 2400
+hades.symbols.ClassLabel 2450 2350 1 Register
+hades.symbols.FatInstanceLabel 1200 2100 2 R
+hades.symbols.PortSymbol 1200 0 Q
+hades.symbols.PortSymbol 1200 2400 D
+hades.symbols.PortSymbol 1800 2400 CLK
+hades.symbols.Polyline 4 1650 2400 1650 2000 1950 2000 1950 2400
+#
+hades.models.ruge.ColoredRectangle 0 0 300 2400
+hades.models.ruge.ColoredRectangle 2100 0 2400 2400
+hades.models.ruge.ColoredValueLabel 1200 800 2 42 

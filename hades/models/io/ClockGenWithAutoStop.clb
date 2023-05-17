@@ -1,0 +1,46 @@
+[files 4]
+hades/models/io/ClockGenWithAutoStop.class
+hades/models/io/ClockGenWithAutoStop.java
+hades/models/io/ClockGenWithAutoStop.sym
+hades/models/io/ClockGenWithAutoStop.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ClockGenWithAutoStop
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ClockGenWithAutoStop.gif
+
+[author]
+-
+
+[description]
+Clock generator with auto-stop.
+
+A clock generator with user-settable
+period (1/frequency), duty-cycle, and phase.
+The clock generator will automatically stop after the
+(user-specified) number of clock cycles.
+
+Default is a symmetric 1 Hz clock signal.
+The output is of type StdLogic1164.
+
+                 +---+      +---+      +---+
+                 |   |      |   |      |   |
++----------------+   +------+   +------+   +------+ ....
+|                |          |          |          |
+|< offset       >|< period >|< >|      |
+                              dutycycle
+
+
+[end description]

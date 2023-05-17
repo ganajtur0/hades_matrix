@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Max.class
+hades/models/dsp/Max.java
+hades/models/dsp/Max.sym
+hades/models/dsp/Max.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Max
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Max.gif
+
+[author]
+unknown
+
+[description]
+two-inputs maximum operator, Y = max( A, B )
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,38 @@
+[files 4]
+hades/models/switched/PTRAN.class
+hades/models/switched/PTRAN.java
+hades/models/switched/PTRAN.sym
+hades/models/switched/PTRAN.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.switched.PTRAN
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/switched/PTRAN.gif
+
+[author]
+-
+
+[description]
+simplified switch-level simulation model of p-channel transistor.
+
+The transistor is modeled to be fully conducting whenever the
+logical value at the gate input is '0' or 'L' (weak low), and 
+non-conducting when the logical value at the gate is '1' or 'H'
+(weak high).
+
+The transistor generates a weak undefined 'W' on its source and
+drain connections when the gate input is undefined ('U', 'X', 
+'Z', 'W').
+[end description]

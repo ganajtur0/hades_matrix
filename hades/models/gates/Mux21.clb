@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/Mux21.class
+hades/models/gates/Mux21.java
+hades/models/gates/Mux21.sym
+hades/models/gates/Mux21.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Mux21
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Mux21.gif
+
+[author]
+unknown
+
+[description]
+2-to-1 Multiplexer gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

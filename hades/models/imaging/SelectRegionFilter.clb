@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/SelectRegionFilter.class
+hades/models/imaging/SelectRegionFilter.java
+hades/models/imaging/SelectRegionFilter.sym
+hades/models/imaging/SelectRegionFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.SelectRegionFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/SelectRegionFilter.gif
+
+[author]
+-
+
+[description]
+Create a black and white mask from the selected region
+(rectangle xywh parameters).
+
+[end description]

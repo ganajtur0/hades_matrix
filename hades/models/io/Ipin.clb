@@ -1,0 +1,42 @@
+[files 4]
+hades/models/io/Ipin.class
+hades/models/io/Ipin.java
+hades/models/io/Ipin.sym
+hades/models/io/Ipin.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.Ipin
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/Ipin.gif
+
+[author]
+-
+
+[description]
+Interactive switch
+
+An interactive switch with StdLogic1164
+output signal:
+
+1) Clicking on the switch will
+   toggle the output value between '0' and '1'.
+2) Shift-Clicking will toggle the output value
+   between '0' - '1' - 'U' - 'Z' - '0' ...
+
+Ipin is also used as the hierarchy connector
+to Hades subdesigns: all Ipin components are
+visible as the top-level input connections.
+
+[end description]

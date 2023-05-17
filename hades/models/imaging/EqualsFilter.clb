@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/EqualsFilter.class
+hades/models/imaging/EqualsFilter.java
+hades/models/imaging/EqualsFilter.sym
+hades/models/imaging/EqualsFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.EqualsFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/EqualsFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel equality test and mask generator. The output image
+has white pixels whereever the pixels of the input images 
+are the same, and black pixels elsewhere. 
+
+[end description]

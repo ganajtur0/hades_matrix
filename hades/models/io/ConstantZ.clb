@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/ConstantZ.class
+hades/models/io/ConstantZ.java
+hades/models/io/ConstantZ.sym
+hades/models/io/ConstantZ.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ConstantZ
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ConstantZ.gif
+
+[author]
+-
+
+[description]
+constant Z
+
+Simple generator for the "Z" level of the StdLogic1164
+multilevel logic system.
+
+Note: this component generates only a single simulation 
+event during the elaboration phase of a simulation. 
+Therefore, you may have to stop-and-restart an ongoing 
+simulation when the component is disconnected
+or reconnected during a simulation.
+
+[end description]

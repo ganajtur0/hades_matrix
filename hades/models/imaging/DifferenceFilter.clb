@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/DifferenceFilter.class
+hades/models/imaging/DifferenceFilter.java
+hades/models/imaging/DifferenceFilter.sym
+hades/models/imaging/DifferenceFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.DifferenceFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/DifferenceFilter.gif
+
+[author]
+-
+
+[description]
+An image filter to calculate the (absolute) difference
+between two input images of the same size.
+
+[end description]

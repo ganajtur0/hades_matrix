@@ -1,0 +1,18 @@
+hades.symbols.BboxRectangle  0 0 6000 3000
+hades.symbols.Rectangle  0 0 6000 3000
+hades.symbols.PortLabel 5850 2550 3 QD
+hades.symbols.PortSymbol 6000 2400 QD
+hades.symbols.PortLabel 5850 1950 3 QC
+hades.symbols.PortSymbol 6000 1800 QC
+hades.symbols.PortLabel 5850 1350 3 QB
+hades.symbols.PortSymbol 6000 1200 QB
+hades.symbols.PortLabel 5850 750 3 QA
+hades.symbols.PortSymbol 6000 600 QA
+hades.symbols.PortLabel 150 1950 RESET
+hades.symbols.PortSymbol 0 1800 RESET
+hades.symbols.PortLabel 150 1350 CLKB
+hades.symbols.PortSymbol 0 1200 CLKB
+hades.symbols.PortLabel 150 750 CLKA
+hades.symbols.PortSymbol 0 600 CLKA
+hades.symbols.InstanceLabel 150 2850 i0
+hades.symbols.ClassLabel 150 450 74390_single_counter1:2:5

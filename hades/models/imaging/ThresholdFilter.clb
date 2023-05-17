@@ -1,0 +1,37 @@
+[files 4]
+hades/models/imaging/ThresholdFilter.class
+hades/models/imaging/ThresholdFilter.java
+hades/models/imaging/ThresholdFilter.sym
+hades/models/imaging/ThresholdFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ThresholdFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ThresholdFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component comparison with user-settable thresholds:
+
+b = 
+     ((tmp & 0x00ff0000) >= (r_threshold))
+  && ((tmp & 0x0000ff00) >= (g_threshold))
+  && ((tmp & 0x000000ff) >= (b_threshold));
+
+BO.setRGB( i, j, b ? 0xffffffff : 0xff000000 );
+
+[end description]

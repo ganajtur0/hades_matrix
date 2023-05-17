@@ -1,0 +1,14 @@
+# symbol for hades.models.rtlib.muxes.TriBuf
+# FNH, 24.08.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 1200 1200
+#hades.symbols.FatInstanceLabel 600 1100 2 TRI 
+hades.symbols.InstanceLabel 1300 500 1 TRI 
+hades.symbols.ClassLabel 1300 1100 1 TriBuf
+hades.symbols.Polyline 4 0 0 1200 0 600 1200 0 0
+hades.symbols.Polyline 2 0 600 300 600
+#
+hades.symbols.BusPortSymbol 600    0 A
+hades.symbols.BusPortSymbol 600 1200 Y
+hades.symbols.PortSymbol      0  600 S
+#

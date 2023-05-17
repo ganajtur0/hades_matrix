@@ -1,0 +1,38 @@
+[files 4]
+hades/models/meta/JythonScriptWrapper.class
+hades/models/meta/JythonScriptWrapper.java
+hades/models/meta/JythonScriptWrapper.sym
+hades/models/meta/JythonScriptWrapper.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.meta.JythonScriptWrapper
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/meta/JythonScriptWrapper.gif
+
+[author]
+-
+
+[description]
+JythonScriptWrapper.
+
+A simulation component that allows to embed Jython-written scripts
+into a Hades simulation. 
+
+Use the configuration dialog of the component to specify the 
+file/URL location of the script file. The script's contents
+will be interpreted during the elaboration phase of a simulation.
+Possible uses include simulation stimuli, setting component 
+parameters (e.g. gate-delays), and adding signal traces.
+[end description]

@@ -1,0 +1,14 @@
+# symbol for a RAM
+#
+hades.symbols.BboxRectangle 0 0 5400 3600
+hades.symbols.ClassLabel 900 1800 1 Register
+hades.symbols.Rectangle 600 0 5400 3600
+hades.symbols.Polyline 4 600 0 0 600 0 3000 600 3600
+hades.symbols.FatInstanceLabel 3000 3300 2 RAM
+hades.symbols.PortSymbol    0 1800 ADDR
+hades.symbols.PortSymbol 3000 3600 DIN
+hades.symbols.PortSymbol 3000    0 DOUT
+hades.symbols.PortSymbol    0 1200 nME
+hades.symbols.PortSymbol    0 2400 nWE
+#
+hades.models.ruge.ColoredValueLabel 3000 800 2 addr:data

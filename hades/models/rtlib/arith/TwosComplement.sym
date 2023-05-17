@@ -1,0 +1,15 @@
+# symbol for hades.models.rtlib.arith.TwosComplement
+# FNH 29.08.98
+#
+hades.symbols.BboxRectangle 0 0 3600 1800
+hades.symbols.Polyline 5 0 0 3600 0 3600 1800 0 1800 0 0
+hades.symbols.ClassLabel 3700 1750 1 TwosComplement
+hades.symbols.InstanceLabel 3700 600 1 complement
+hades.symbols.FatLabel 1800 1300 2 2CMPL
+#
+hades.symbols.BusPortSymbol 1800 1800 Y
+hades.symbols.BusPortSymbol 1800    0 A
+#
+hades.symbols.PortLabel  1800 1650 2 Y 
+hades.symbols.PortLabel  1800  450 2 A
+#

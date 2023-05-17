@@ -1,0 +1,38 @@
+[files 4]
+hades/models/hagen/ROM_8x8.class
+hades/models/hagen/ROM_8x8.java
+hades/models/hagen/ROM_8x8.sym
+hades/models/hagen/ROM_8x8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.hagen.ROM_8x8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/hagen/ROM_8x8.gif
+
+[author]
+-
+
+[description]
+Read-only memory with 8 words of 8 bits each.
+
+This simulation component models a small ROM of
+eight words of eight bits each. 
+
+Use the property-sheet (popup-menu -> edit) to
+open the interactive memory editor, which allows
+you to edit the memory contents and watch memory 
+accesses.
+
+[end description]

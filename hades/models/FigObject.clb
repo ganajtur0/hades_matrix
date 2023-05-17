@@ -1,0 +1,43 @@
+[files 4]
+hades/models/FigObject.class
+hades/models/FigObject.java
+hades/models/FigObject.sym
+hades/models/FigObject.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.FigObject
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/FigObject.gif
+
+[author]
+-
+
+[description]
+A passive wrapper class used to embed existing FIG 
+drawings into Hades schematics. Use the context menu 
+to specify the filename/URL for the FIG file.  
+
+Note: changes to the filename/URL are stored, but the
+file is not automatically re-loaded and back-integrated
+into the current Hades design. Instead, it is necessary
+to re-load the Hades design in order for the changes to 
+become active.
+
+Also, it is not currently possible to directly edit the
+external FIG files via a FigObject. You will have to 
+use an external FIG editor like xfig or jfig to edit
+the drawings. Reload the Hades design whenever the FIG
+file has been changed by external programs.
+[end description]

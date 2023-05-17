@@ -1,0 +1,30 @@
+# symbol for hades.models.rtlib.arith.DcoreALU
+# ALU for the D*Core processor used in the Univ.Hamburg T3 course
+# with OPC,A,B,Cin inputs and Y,Cout outputs
+#
+# FNH, 31.12.99 (last class of the millenium!)
+#
+hades.symbols.BboxRectangle 0 0 4800 2400
+hades.symbols.Polyline 8 0 0 2100 0 2400 600 2700 0 4800 0 4200 2400 600 2400 0 0
+hades.symbols.ClassLabel 4900 2350 1 UserDefinedALU
+hades.symbols.InstanceLabel 4900 550 1 alu
+hades.symbols.FatLabel 2400 1700 2 ALU
+#hades.symbols.FatInstanceLabel 2400 1700 2 ALU
+#
+hades.symbols.BusPortSymbol 0    1200 OPC
+hades.symbols.BusPortSymbol  600    0 IMM
+hades.symbols.BusPortSymbol 1200    0 B
+hades.symbols.BusPortSymbol 3600    0 A
+hades.symbols.PortSymbol    4200    0 CIN
+hades.symbols.BusPortSymbol 2400 2400 Y
+hades.symbols.PortSymbol    1800 2400 COUT
+#
+#
+hades.symbols.PortLabel  150 1350 1 OPC
+hades.symbols.PortLabel  600  450 2 IMM
+hades.symbols.PortLabel 1200  450 2 B
+hades.symbols.PortLabel 3600  450 2 A
+hades.symbols.PortLabel 4200  450 2 CIN
+hades.symbols.PortLabel 2400 2250 2 Y
+hades.symbols.PortLabel 1800 2250 3 COUT
+#

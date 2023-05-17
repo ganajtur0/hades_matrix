@@ -1,0 +1,8 @@
+hades.symbols.BboxRectangle 0 0 1200 1800
+hades.symbols.InstanceLabel 1150 1750 3 i0
+hades.symbols.PortSymbol 600 0 A
+hades.symbols.PortSymbol 600 1800 Y
+hades.symbols.Polyline 2 600 0 600 400
+hades.symbols.Polyline 2 600 1400 600 1800 
+hades.symbols.Circle 600 1250 150 150
+hades.symbols.Polyline 4 200 400 1000 400 600 1100 200 400

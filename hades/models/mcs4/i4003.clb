@@ -1,0 +1,37 @@
+[files 4]
+hades/models/mcs4/i4003.class
+hades/models/mcs4/i4003.java
+hades/models/mcs4/i4003.sym
+hades/models/mcs4/i4003.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.mcs4.i4003
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mcs4/i4003.gif
+
+[author]
+-
+
+[description]
+Intel i4003 10 bit shift register and output expander.
+
+Cycle-accurate simulation model of the Intel MCS4-series i4003
+output expander. In combination with the simulation models for the  
+i4004 microprocessor, i4001 ROM and i4002 RAM circuits, a complete
+MCS4-series microcomputer can be simulated. Please consult external 
+documentation for details about the i4004 instruction set, interface, 
+and bus timing.
+
+[end description]

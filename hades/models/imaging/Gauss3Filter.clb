@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/Gauss3Filter.class
+hades/models/imaging/Gauss3Filter.java
+hades/models/imaging/Gauss3Filter.sym
+hades/models/imaging/Gauss3Filter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.Gauss3Filter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/Gauss3Filter.gif
+
+[author]
+-
+
+[description]
+Gauss-convolution image filter. Kernel:
+
+ 1/16 { 1,2,1,  2,4,2,  1,2,1  }
+
+[end description]

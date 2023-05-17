@@ -1,0 +1,33 @@
+[files 4]
+hades/models/ttl74/SN7405.class
+hades/models/ttl74/SN7405.java
+hades/models/ttl74/SN7405.sym
+hades/models/ttl74/SN7405.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7405
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7405.gif
+
+[author]
+-
+
+[description]
+7405 6x INV gate
+
+Note: This IC requires GND and VCC connections.
+Inputs and output are of type StdLogic1164.
+
+[end description]

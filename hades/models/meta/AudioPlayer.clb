@@ -1,0 +1,32 @@
+[files 4]
+hades/models/meta/AudioPlayer.class
+hades/models/meta/AudioPlayer.java
+hades/models/meta/AudioPlayer.sym
+hades/models/meta/AudioPlayer.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.meta.AudioPlayer
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/meta/AudioPlayer.gif
+
+[author]
+-
+
+[description]
+AudioPlayer.
+
+Simple audio player with enable-input. Use the configuration 
+dialog to specify the external audio data file or URL.
+[end description]

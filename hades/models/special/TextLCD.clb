@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/TextLCD.class
+hades/models/special/TextLCD.java
+hades/models/special/TextLCD.sym
+hades/models/special/TextLCD.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.TextLCD
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/TextLCD.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

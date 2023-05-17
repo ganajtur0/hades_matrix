@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/ORFilter.class
+hades/models/imaging/ORFilter.java
+hades/models/imaging/ORFilter.sym
+hades/models/imaging/ORFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ORFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ORFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component logical OR of two input images.
+
+[end description]

@@ -1,0 +1,14 @@
+# hades.symbols.ClassLabel 2350 450 3 DELAY
+hades.symbols.InstanceLabel 2350 2350 3 i0
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.Rectangle 0 0 2400 2400
+#
+hades.symbols.PortLabel 150 1130 A
+hades.symbols.BusPortSymbol 0 1200 A
+hades.symbols.PortLabel 1250 450 1 T
+hades.symbols.BusPortSymbol 1200 0 T
+hades.symbols.PortLabel 2100 1130 Y
+hades.symbols.BusPortSymbol 2400 1200 Y
+#
+hades.symbols.Label 1200 1800 2 16 40 36864 dt
+#

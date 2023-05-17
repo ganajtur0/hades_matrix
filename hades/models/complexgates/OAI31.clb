@@ -1,0 +1,34 @@
+[files 4]
+hades/models/complexgates/OAI31.class
+hades/models/complexgates/OAI31.java
+hades/models/complexgates/OAI31.sym
+hades/models/complexgates/OAI31.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.complexgates.OAI31
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/complexgates/OAI31.gif
+
+[author]
+-
+
+[description]
+OAI31 complex gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+[end description]

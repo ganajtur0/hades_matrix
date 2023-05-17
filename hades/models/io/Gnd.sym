@@ -1,0 +1,5 @@
+hades.symbols.PortSymbol 0 0 GND
+hades.symbols.BboxRectangle -600 0 600 1500
+hades.symbols.Polyline 2 0 0 0 1050 
+hades.symbols.Polyline 3 -600 450 0 1050 600 450
+hades.symbols.ClassLabel -450 1400 GND

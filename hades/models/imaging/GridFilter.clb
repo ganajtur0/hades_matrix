@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/GridFilter.class
+hades/models/imaging/GridFilter.java
+hades/models/imaging/GridFilter.sym
+hades/models/imaging/GridFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.GridFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/GridFilter.gif
+
+[author]
+-
+
+[description]
+Overlay a parametrized grid on the input image.
+Open the propertysheet to select grid spacing, grid color,
+and transparency.
+
+[end description]

@@ -1,0 +1,46 @@
+[files 4]
+hades/models/io/RemoteOpin8.class
+hades/models/io/RemoteOpin8.java
+hades/models/io/RemoteOpin8.sym
+hades/models/io/RemoteOpin8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.RemoteOpin8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/RemoteOpin8.gif
+
+[author]
+-
+
+[description]
+RemoteOpin - transfer input events to a remote server using
+a simple URL protocol encoding and generate a trigger pulse.
+ 
+This simulation model waits for input events on its 8 data inputs,
+encodes the input values into a simple text-only URL representation,
+and contacts the server specified by "urlBase".
+In combination with a corresponding server (cgi-script or servlet),
+this allows to access remote simulation models from a standard
+Hades simulation setup.
+
+To improve efficiency and to reduce network load, multiple
+events occuring at the same time are encoded as a single output
+value change. Internally, this is realized using a Wakeup-Event.
+
+Also, a short 1nsec. pulse is generated on the "trigger" output pin
+for each network transaction. One use of this trigger pulse is to 
+activate a RemoteIpin component to sample the remote circuit's response.
+
+[end description]

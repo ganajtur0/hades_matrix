@@ -1,0 +1,34 @@
+[files 4]
+hades/models/complexgates/OAI22.class
+hades/models/complexgates/OAI22.java
+hades/models/complexgates/OAI22.sym
+hades/models/complexgates/OAI22.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.complexgates.OAI22
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/complexgates/OAI22.gif
+
+[author]
+-
+
+[description]
+OAI22 complex gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+[end description]

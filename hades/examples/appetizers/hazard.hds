@@ -1,0 +1,50 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.gates.And2 AND 26400 3000 @N 1001 0.1
+hades.models.meta.Label i20 23100 1500 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.io.Opin 1-Hazard 16200 -4200 @N 1001 5.0E-9
+hades.models.io.Opin Y 31800 4200 @N 1001 5.0E-9
+hades.models.gates.Or2 i9 28200 -5400 @N 1001 0.1
+hades.models.meta.Label i19 15300 1500 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.gates.InvSmall i8 8400 -5400 @N 1001 0.3
+hades.models.gates.InvSmall i18 19200 1800 @N 1001 0.3
+hades.models.io.Ipin C 6000 4800 @N 1001 c 0
+hades.models.meta.Label i7 28200 2700 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.1\u0020sec
+hades.models.gates.InvSmall i17 14400 1800 @N 1001 0.3
+hades.models.io.Ipin B 22800 -3600 @N 1001 b 1
+hades.models.io.Opin 0-Hazard 33000 -4200 @N 1001 5.0E-9
+hades.models.meta.Label i6 20100 1500 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.io.Ipin A 6000 -3600 @N 1001 a 0
+hades.models.meta.Label i16 33900 -5700 @N 1001 2 0 5 16 15 0.0 4 0-hazard
+hades.models.meta.Label i5 12300 1500 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.meta.Label i15 17100 -5700 @N 1001 2 0 5 16 15 0.0 4 1-hazard
+hades.models.gates.InvSmall i4 22200 1800 @N 1001 0.3
+hades.models.meta.Label i14 26100 -5700 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.meta.Label i3 9300 1500 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.meta.Label i13 30000 -5700 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.1\u0020sec
+hades.models.gates.InvSmall i2 11400 1800 @N 1001 0.3
+hades.models.meta.Label i12 13200 -5700 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.1\u0020sec
+hades.models.gates.InvSmall i1 8400 1800 @N 1001 0.3
+hades.models.meta.Label i11 9300 -5700 @N 1001 2 0 5 16 15 0.0 4 t\u003d\u00200.3\u0020sec
+hades.models.meta.Label i0 17100 1800 @N 1001 2 0 5 18 15 0.0 4 .\u0020.\u0020.
+hades.models.gates.InvSmall i10 25200 -5400 @N 1001 0.3
+hades.models.gates.And2 AND1 11400 -5400 @N 1001 0.1
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 i17 Y i18 A 1 2 16200 2400 19200 2400 0 
+hades.signals.SignalStdLogic1164 n8 2 i10 Y i9 A 1 2 27000 -4800 28200 -4800 0 
+hades.signals.SignalStdLogic1164 n7 3 B Y i9 B i10 A 4 2 24000 -3600 22800 -3600 2 28200 -3600 24000 -3600 2 24000 -3600 24000 -4800 2 24000 -4800 25200 -4800 1 24000 -3600 
+hades.signals.SignalStdLogic1164 n6 2 i9 Y 0-Hazard A 1 2 31800 -4200 33000 -4200 0 
+hades.signals.SignalStdLogic1164 n5 2 i8 Y AND1 A 1 2 11400 -4800 10200 -4800 0 
+hades.signals.SignalStdLogic1164 n4 3 A Y AND1 B i8 A 4 2 7200 -3600 11400 -3600 2 6000 -3600 7200 -3600 2 7200 -3600 7200 -4800 2 7200 -4800 8400 -4800 1 7200 -3600 
+hades.signals.SignalStdLogic1164 n3 2 AND1 Y 1-Hazard A 1 2 15000 -4200 16200 -4200 0 
+hades.signals.SignalStdLogic1164 n2 3 C Y i1 A AND B 5 2 8400 2400 7200 2400 2 7200 2400 7200 4800 2 7200 4800 7800 4800 2 7200 4800 26400 4800 2 7800 4800 6000 4800 1 7200 4800 
+hades.signals.SignalStdLogic1164 n1 2 i1 Y i2 A 1 2 11400 2400 10200 2400 0 
+hades.signals.SignalStdLogic1164 n0 2 i2 Y i17 A 1 2 13200 2400 14400 2400 0 
+hades.signals.SignalStdLogic1164 n11 2 i4 Y AND A 3 2 24000 2400 25200 2400 2 25200 2400 25200 3600 2 25200 3600 26400 3600 0 
+hades.signals.SignalStdLogic1164 y 2 AND Y Y A 1 2 30000 4200 31800 4200 0 
+hades.signals.SignalStdLogic1164 n10 2 i18 Y i4 A 1 2 21000 2400 22200 2400 0 
+[end signals]
+[end]

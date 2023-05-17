@@ -1,0 +1,39 @@
+[files 4]
+hades/models/mcs4/i4004.class
+hades/models/mcs4/i4004.java
+hades/models/mcs4/i4004.sym
+hades/models/mcs4/i4004.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.mcs4.i4004
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mcs4/i4004.gif
+
+[author]
+-
+
+[description]
+Intel i4004 4-bit microprocessor
+
+Cycle-accurate simulation model of the Intel MCS4-series i4004
+microprocessor. In combination with the simulation models for the  
+i4001 ROM and i4002 RAM circuits, a complete MCS4-series micro-
+computer can be simulated. Please consult external documentation
+for details about the i4004 instruction set, interface, and bus
+timing.
+
+Open the configuration dialog to watch and edit the processor
+data and control registers.
+[end description]

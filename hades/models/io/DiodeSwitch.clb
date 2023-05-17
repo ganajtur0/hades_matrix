@@ -1,0 +1,38 @@
+[files 4]
+hades/models/io/DiodeSwitch.class
+hades/models/io/DiodeSwitch.java
+hades/models/io/DiodeSwitch.sym
+hades/models/io/DiodeSwitch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.DiodeSwitch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/DiodeSwitch.gif
+
+[author]
+-
+
+[description]
+Interactive switch with series diode
+
+An interactive switch in series with a diode,
+modelled via the StdLogic1164 'L' and 'Z' values.
+This type of switch is typically used for a 
+switch matrix, e.g. a pocket calculator keypad.
+
+Clicking on the switch will close the switch.
+As usual, the switch is considered to be active low.
+
+[end description]

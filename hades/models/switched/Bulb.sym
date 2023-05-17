@@ -1,0 +1,10 @@
+# switch-level model of a lightbulb
+#
+hades.symbols.BboxRectangle 0 0 1200 1200
+hades.symbols.PortSymbol 0 600 A
+hades.symbols.PortSymbol 1200 600 B
+#
+# hades.symbols.InstanceLabel 1300 0 i0
+#hades.symbols.ColoredCircle 600 600 450 450
+#
+#

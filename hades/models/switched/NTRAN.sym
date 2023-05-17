@@ -1,0 +1,23 @@
+# n-channel pass transistor with animated (open/closed) gate
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+hades.symbols.ClassLabel 150 450 1 NTRAN
+hades.symbols.InstanceLabel 150 2350 1 i0
+hades.symbols.Rectangle 0 0 2400 2400 
+#
+hades.symbols.PortSymbol 0 1200 C
+hades.symbols.PortSymbol 1800 0 A
+hades.symbols.PortSymbol 1800 2400 B
+#
+hades.symbols.PortLabel 1950 450  A
+hades.symbols.PortLabel 1950 2350 B
+hades.symbols.PortLabel  150 1100 C
+#
+hades.symbols.Polyline 2 0 1200 1020 1200
+hades.symbols.Polyline 2 1020 600 1020 1800
+#
+hades.symbols.Polyline 3 1800 0 1800 600 1200 600
+hades.symbols.Polyline 3 1800 2400 1800 1800 1200 1800
+hades.symbols.ColoredRectangle 1200 600 1500 1800
+#
+# hades.symbols.Label 1500 1500 1 16 27 36864 

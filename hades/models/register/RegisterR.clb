@@ -1,0 +1,44 @@
+[files 4]
+hades/models/register/RegisterR.class
+hades/models/register/RegisterR.java
+hades/models/register/RegisterR.sym
+hades/models/register/RegisterR.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.register.RegisterR
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/register/RegisterR.gif
+
+[author]
+-
+
+[description]
+n-bit D-type register with visualization.
+
+This class implements a generic n-bit positive edge-triggered
+D-type register with parallel inputs and outputs, and one
+asynchronous reset input.
+
+The current state (0/1/X) of each register cell is indicated on 
+the register symbol and updated during the simulation. A mouse-
+click on one of the register cells will toggle that cell's state. 
+One possible application of the register is the visualization 
+of arithmetic.
+
+Use the configuration dialog to specify the number of bits
+and the D-Q propagation delay. Note that the number of bits
+can only be changed while no signals are connected to the
+register.
+[end description]

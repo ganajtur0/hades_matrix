@@ -1,0 +1,40 @@
+[files 4]
+hades/models/io/IpinStdLogic1164.class
+hades/models/io/IpinStdLogic1164.java
+hades/models/io/IpinStdLogic1164.sym
+hades/models/io/IpinStdLogic1164.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.IpinStdLogic1164
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/IpinStdLogic1164.gif
+
+[author]
+-
+
+[description]
+Interactive switch for all StdLogic1164 levels.
+
+An interactive switch that allows to generate all
+of the StdLogic1164 levels on the output signal:
+
+1) Clicking on the fields in the switch symbol will
+   generate the corresponding logic level: 
+   0 1 U X Z H L W D
+
+2) Clicking on the 0/1 field will toggle the output
+   value between 0 and 1.
+
+[end description]

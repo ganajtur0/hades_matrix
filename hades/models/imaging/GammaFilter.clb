@@ -1,0 +1,35 @@
+[files 4]
+hades/models/imaging/GammaFilter.class
+hades/models/imaging/GammaFilter.java
+hades/models/imaging/GammaFilter.sym
+hades/models/imaging/GammaFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.GammaFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/GammaFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel gamma correction (gamma, brightness, offset).
+The operation is done by table-lookups, so that this filter
+can also be used for per-pixel offset and multiplication
+operations:
+
+new_pixel_rgb = (contrast) * (pixel_rgb - offset) ^ (gamma).
+
+[end description]

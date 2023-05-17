@@ -1,0 +1,49 @@
+[files 4]
+hades/models/io/GalFuse.class
+hades/models/io/GalFuse.java
+hades/models/io/GalFuse.sym
+hades/models/io/GalFuse.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.GalFuse
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/GalFuse.gif
+
+[author]
+-
+
+[description]
+Interactive switch (with builtin diode)
+
+GalFuse models an interactive switch with builtin diode
+that is useful for demonstrating memory arrays like ROMs, PLAs,
+or GALs.
+
+This model uses the std_logic levels to simulate the "bipolar"
+DIODE-based implementation of a active-low AND-matrix connection.
+(This differs from the actual NOR-NOR based single-NMOS-transistor
+realization in current MOS technologies, where the switch element
+is inverting...)
+
+The behaviour is as follows:
+  * If the fuse is ok and the input is LOW (0), 
+    the output will be LOW (0).
+  * If the fuse is ok and the input is HIGH (1), 
+    the output will be TRISTATE (Z).
+  * If the fuse is ok and the input is UNDEFINED (X or U), 
+    the output will be X.  
+  * If the fuse is blown, the output will be TRISTATE (Z).
+
+[end description]

@@ -1,0 +1,89 @@
+hades.symbols.BboxRectangle 0 0 3000 9000
+hades.symbols.Rectangle 0 0 3000 9000
+
+hades.symbols.ClassLabel 1200 2000 2 IDTR3051
+hades.symbols.InstanceLabel 1200 3000 2 i0
+
+hades.symbols.FatLabel 1500 4500 2 R3051
+
+hades.symbols.BusPortSymbol 0 600 AD
+hades.symbols.PortLabel 150 800 AD
+
+hades.symbols.BusPortSymbol 0 1200 ADDR
+hades.symbols.PortLabel 150 1400 ADDR
+
+hades.symbols.PortSymbol 0 1800 ALE
+hades.symbols.PortLabel 150 2000 ALE
+
+hades.symbols.PortSymbol 0 2400 /DATAEN
+hades.symbols.PortLabel 150 2600 /DATAEN
+
+hades.symbols.PortSymbol 0 3000 /BURSTN
+hades.symbols.PortLabel 150 3200 /BURSTN
+
+hades.symbols.PortSymbol 0 3600 /RD
+hades.symbols.PortLabel 150 3800 /RD
+
+hades.symbols.PortSymbol 0 4200 /WR
+hades.symbols.PortLabel 150 4400 /WR
+
+hades.symbols.PortSymbol 0 4800 /ACK
+hades.symbols.PortLabel 150 5000 /ACK
+
+hades.symbols.PortSymbol 0 5400 /RDCEN
+hades.symbols.PortLabel 150 5600 /RDCEN
+
+hades.symbols.PortSymbol 0 6000 /BUSERR
+hades.symbols.PortLabel 150 6200 /BUSERR
+
+hades.symbols.PortSymbol 0 6600 DIAG0
+hades.symbols.PortLabel 150 6800 DIAG0
+
+hades.symbols.PortSymbol 0 7200 DIAG1
+hades.symbols.PortLabel 150 7400 DIAG1
+
+hades.symbols.PortSymbol 0 7800 /BUSREQ
+hades.symbols.PortLabel 150 8000 /BUSREQ
+
+hades.symbols.PortSymbol 0 8400 /BUSGNT
+hades.symbols.PortLabel 150 8600 /BUSGNT
+
+hades.symbols.PortSymbol 3000 1200 BR0
+hades.symbols.PortLabel 2000 1400 BR0
+
+hades.symbols.PortSymbol 3000 1800 BR1
+hades.symbols.PortLabel 2000 2000 BR1
+
+hades.symbols.PortSymbol 3000 2400 SBR2
+hades.symbols.PortLabel 2000 2600 SBR2
+
+hades.symbols.PortSymbol 3000 3000 SBR3
+hades.symbols.PortLabel 2000 3200 SBR3
+
+hades.symbols.PortSymbol 3000 3600 /SINT0
+hades.symbols.PortLabel 2000 3800 /SINT0
+
+hades.symbols.PortSymbol 3000 4200 /SINT1
+hades.symbols.PortLabel 2000 4400 /SINT1
+
+hades.symbols.PortSymbol 3000 4800 /SINT2
+hades.symbols.PortLabel 2000 5000 /SINT2
+
+hades.symbols.PortSymbol 3000 5400 /INT3
+hades.symbols.PortLabel 2000 5600 /INT3
+
+hades.symbols.PortSymbol 3000 6000 /INT4
+hades.symbols.PortLabel 2000 6200 /INT4
+
+hades.symbols.PortSymbol 3000 6600 /INT5
+hades.symbols.PortLabel 2000 6800 /INT5
+
+hades.symbols.PortSymbol 3000 7200 CLKIN
+hades.symbols.PortLabel 2000 7400 CLKIN
+
+hades.symbols.PortSymbol 3000 7800 /SYSCLK
+hades.symbols.PortLabel 2000 8000 /SYSCLK
+
+hades.symbols.PortSymbol 3000 8400 /RESET
+hades.symbols.PortLabel 2000 8600 /RESET
+

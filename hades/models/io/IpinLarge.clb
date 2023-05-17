@@ -1,0 +1,46 @@
+[files 4]
+hades/models/io/IpinLarge.class
+hades/models/io/IpinLarge.java
+hades/models/io/IpinLarge.sym
+hades/models/io/IpinLarge.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.IpinLarge
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/IpinLarge.gif
+
+[author]
+-
+
+[description]
+Interactive switch  (large symbol)
+
+An interactive switch with StdLogic1164
+output signal:
+
+1) Clicking on the switch will
+   toggle the output value between '0' and '1'.
+2) Shift-Clicking will toggle the output value
+   between '0' - '1' - 'U' - 'Z' - '0' ...
+
+Ipin is also used as the hierarchy connector
+to Hades subdesigns: all Ipin components are
+visible as the top-level input connections.
+
+Using IpinLarge instead of Ipin may be a good idea
+in large schematics, where it is sometimes difficult
+to exactly position the mouse cursor due the small
+zoom factor necessary to see the whole circuit.
+[end description]

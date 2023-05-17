@@ -1,0 +1,32 @@
+# /hades/models/pic/help/about.txt
+
+A simulation model for the PIC16C84 and PIC16F84 microcontrollers
+for the HADES simulation framework. For information about HADES,
+see tech-www.informatik.uni-hamburg.de/applets/hades.
+
+The PIC family of 8-bit microcontrollers is designed and fabricated
+by Arizona Microchip. See www.microchip.com for product information
+and datasheets.
+
+Besides modeling the full instruction set and RT-level behaviour
+of the 16C84/16F84 processors, the simulation models include all
+peripheral components of the real processors:
+
+  - 16C8x instruction set 
+  - PIC 16C84 or 16F84 register file memory map
+  - program memory disassembly
+
+  - PORTA   input/output port 
+  - PORTB   input/output port 
+  - TMR0    timer module with prescaling
+  - WDT     watchdog timer with prescaling
+  - EEPROM  data memory 
+
+The Pic16C84.class and Pic16F84.class models are cycle-accurate
+and require an external clock source, while the FastPic16F84 
+uses an internal clock and includes performance optimizations which
+may incur timing inaccuracies of up to 1 instruction cycle time
+with respect to signal changes on port A and port B.
+
+(C) 1998-1999, C.Rink          rink@netlife.de
+

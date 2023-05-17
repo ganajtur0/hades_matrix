@@ -1,0 +1,75 @@
+[files 4]
+hades/models/BerlinUhr/BerlinUhrDisplay.class
+hades/models/BerlinUhr/BerlinUhrDisplay.java
+hades/models/BerlinUhrv/BerlinUhrDisplay.sym
+hades/models/BerlinUhr/BerlinUhrDisplay.gif
+
+[versions 1]
+1.0
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.BerlinUhr.BerlinUhr
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/BerlinUhr/BerlinUhrDisplay.gif
+
+[author]
+UP
+
+[description]
+Berlin (Mengenlehre) Uhr
+
+A model to visualize the time according to the ideas of D. Binninger.
+The original clock was placed on Kurfuerstendamm (near Uhlandstr.)
+and is now relocated to the Europa Center.
+
+The timedisplay is as follows:
+top (round) 1 second
+top row of rectangles (red) from left to right: 5, 10, 15, 20 hours
+2nd row of rectangles (red) from left to right: 1, 2, 3, 4 hours
+3rd row of rectangles from left to right (mostly yellow):
+5, 10, 15(red), 20, 25, 30(red), 35, 40, 45(red), 50, 55 minutes
+4th row of rectangles (yellow) from left to right: 1, 2, 3, 4 minutes
+
+To get the time you have to add the values.
+
+Input Signals:
+one second
+minute 1
+minute 2
+minute 3
+minute 4
+minute 5
+minute 10
+minute 15
+minute 20
+minute 25
+minute 30
+minute 35
+minute 40
+minute 45
+minute 50
+minute 55
+hour 1
+hour 2
+hour 3
+hour 4
+hour 5
+hour 10
+hour 15
+hour 20
+
+all of the above
+StdLogic1164 '0':  display element off (brown or orange)
+StdLogic1164 '1':  display element on  (red or yellow)
+other values    :  display element undefined (cyan)
+
+[end description]

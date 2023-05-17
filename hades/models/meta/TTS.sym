@@ -1,0 +1,8 @@
+# symbol for the TTS text-to-speech component.
+# We now use "FreeTTS" instead of "TTS" as the label to advertise a 
+# little bit for the only free Java text-to-speech solution...
+
+hades.symbols.BboxRectangle 0 0 4800 2400
+hades.symbols.InstanceLabel 200 2300 i0 
+hades.symbols.Label 2400 1500 2  16 27 36864 FreeTTS
+hades.symbols.Rectangle  0 0 4800 2400

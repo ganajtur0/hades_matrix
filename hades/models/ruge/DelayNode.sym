@@ -1,0 +1,9 @@
+# first symbol for a DelayNode
+#
+hades.symbols.BboxRectangle -150 -150 150 150
+hades.symbols.Circle 0 0 150 150
+#hades.symbols.Polyline 5 0 -150 150 0 0 150 -150 0 0 -150
+hades.symbols.PortSymbol   0  -150 A
+hades.symbols.PortSymbol -150    0 B
+hades.symbols.PortSymbol    0  150 C
+hades.symbols.PortSymbol  150    0 D

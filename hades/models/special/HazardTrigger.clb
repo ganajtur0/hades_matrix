@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/HazardTrigger.class
+hades/models/special/HazardTrigger.java
+hades/models/special/HazardTrigger.sym
+hades/models/special/HazardTrigger.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.HazardTrigger
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/HazardTrigger.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

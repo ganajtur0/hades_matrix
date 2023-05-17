@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/AffineTransformationFilter.class
+hades/models/imaging/AffineTransformationFilter.java
+hades/models/imaging/AffineTransformationFilter.sym
+hades/models/imaging/AffineTransformationFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.AffineTransformationFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/AffineTransformationFilter.gif
+
+[author]
+-
+
+[description]
+general affine transformation (scaling, rotation, shearing).
+Open the property sheet to set the transformation parameters.
+
+[end description]

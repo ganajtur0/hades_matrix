@@ -1,0 +1,20 @@
+# symbol for hades.models.rtlib.memory.ROMoe
+# (ROM with chip select and output enable)
+#
+hades.symbols.BboxRectangle 0 0 6000 4800
+hades.symbols.Polyline 8 1200 0 0 1200 0 3600 1200 4800 6000 4800 6000 0 1200 0 1200 4800
+hades.symbols.Polyline 4 0 1600 200 1600 200 2000 0 2000
+hades.symbols.ClassLabel 5900 4600 3 ROMoe
+hades.symbols.InstanceLabel 5900 550 3 rom
+hades.symbols.FatLabel 3600 3000 2 ROM
+#
+hades.symbols.PortSymbol    0 1800 nCS
+hades.symbols.BusPortSymbol 0 2400 A
+hades.symbols.PortSymbol    0 3000 nOE
+hades.symbols.BusPortSymbol 3600 4800 D
+#
+hades.symbols.PortLabel   250 1900 1 nCS
+hades.symbols.PortLabel   250 2500 1 A
+hades.symbols.PortLabel   250 3100 1 nOE
+hades.symbols.PortLabel  3600 4600 2 D
+#

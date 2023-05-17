@@ -1,0 +1,35 @@
+[files 4]
+hades/models/imaging/AbsSubFilter.class
+hades/models/imaging/AbsSubFilter.java
+hades/models/imaging/AbsSubFilter.sym
+hades/models/imaging/AbsSubFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.AbsSubFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/AbsSubFilter.gif
+
+[author]
+-
+
+[description]
+per-pixel per-component absolute difference.
+r = abs( r1 - r2 )
+g = abs( g1 - g2 )
+b = abs( b1 - b2 )
+
+pixel values are clipped to the range (0,255)
+
+[end description]

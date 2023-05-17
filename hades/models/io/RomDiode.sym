@@ -1,0 +1,12 @@
+# a small, faked diode useful for demonstrating ROMs and PLAs,
+# the anode input is top-left, the kathode "output" on bottom-right
+#
+hades.symbols.BboxRectangle 0 0 1200 1200
+hades.symbols.InstanceLabel 1150 1150 3 name
+hades.symbols.PortSymbol 0 0 A
+hades.symbols.PortSymbol 1200 1200 Y
+#
+hades.symbols.Polyline 2 0 0 450 450
+hades.symbols.Polyline 4 300 600 600 300 750 750 300 600
+hades.symbols.Polyline 2 900 600 600 900
+hades.symbols.Polyline 2 750 750 1200 1200

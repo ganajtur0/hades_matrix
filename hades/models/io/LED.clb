@@ -1,0 +1,38 @@
+[files 4]
+hades/models/io/LED.class
+hades/models/io/LED.java
+hades/models/io/LED.sym
+hades/models/io/LED.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.LED
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/LED.gif
+
+[author]
+-
+
+[description]
+Simple LED 
+
+A LED model to visualize StdLogic1164 values with
+user-settable color (red, green, yellow, blue).
+
+Input Signal:
+StdLogic1164 '0':  LED off (gray)
+StdLogic1164 '1':  LED on  (selected color)
+other values    :  LED undefined (cyan)
+
+[end description]

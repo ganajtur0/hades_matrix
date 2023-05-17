@@ -1,0 +1,34 @@
+[files 4]
+hades/models/imaging/InsideRangeFilter.class
+hades/models/imaging/InsideRangeFilter.java
+hades/models/imaging/InsideRangeFilter.sym
+hades/models/imaging/InsideRangeFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.InsideRangeFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/InsideRangeFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component range comparison; the filter
+generates a white output pixels whereever the input pixel
+RGB components are inside the specified RGB ranges, 
+and black pixels otherwise.
+Open the propertysheet to set the RGB ranges.
+
+[end description]

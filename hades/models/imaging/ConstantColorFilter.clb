@@ -1,0 +1,34 @@
+[files 4]
+hades/models/imaging/ConstantColorFilter.class
+hades/models/imaging/ConstantColorFilter.java
+hades/models/imaging/ConstantColorFilter.sym
+hades/models/imaging/ConstantColorFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ConstantColorFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ConstantColorFilter.gif
+
+[author]
+-
+
+[description]
+generate the user-selected constant color. 
+Open the propertysheet to select the output color and the
+default output image size (width x height).
+If an input signal is connected, the output image will have
+the same size as the input image.
+
+[end description]

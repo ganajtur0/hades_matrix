@@ -1,0 +1,33 @@
+[files 4]
+hades/models/dsp/Random.class
+hades/models/dsp/Random.java
+hades/models/dsp/Random.sym
+hades/models/dsp/Random.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Random
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Random.gif
+
+[author]
+unknown
+
+[description]
+random number generator with uniform distribution and user-settable
+lower and upper bounds: Y = min + (max-min)*Math.random()
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

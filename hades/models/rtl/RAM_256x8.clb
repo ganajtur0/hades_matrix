@@ -1,0 +1,48 @@
+[files 4]
+hades/models/rtl/RAM_256x8.class
+hades/models/rtl/RAM_256x8.java
+hades/models/rtl/RAM_256x8.sym
+hades/models/rtl/RAM_256x8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtl.RAM_256x8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtl/RAM_256x8.gif
+
+[author]
+-
+
+[description]
+random-access memory cell with 256x8 bits.
+
+A 256x8 bits static synchronous random-access memory block
+with separate data input and output ports, controlled via
+nWE write-enable, nME memory-enable, and nCS chip-select inputs.
+
+The behaviour is modeled similar to typical ASIC SRAM macrocells.
+The RAM outputs are tri-stated and the input disabled as long as 
+nCS is high. RAM outputs and the whole RAM contents are lost, whenever
+one of the control-lines is undefined.
+
+On the rising edge of nME, the RAM latches the current value of the
+address inputs. If nWE is high during a nME cycle, the data from the
+selected RAM location appears on the data outputs after t_access.
+For a write cycle, hold nWE low during a nME cycle. The value from the 
+data input lines is written to the selected address, as soon as the first
+of either nWE or nME goes low.
+
+Clicking 'edit' on the RAM model will open a dialog window
+which allows selection of the initial RAM data file only.
+[end description]

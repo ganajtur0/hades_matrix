@@ -1,0 +1,16 @@
+# symbol for hades.models.rtlib.arith.RotateRight
+# FNH 24.08.98
+# to get mirroring (x) right, this model is centered around x=0
+#
+hades.symbols.BboxRectangle -1800 0 1800 1800
+hades.symbols.Rectangle -1800 0 1800 1800
+hades.symbols.ClassLabel 1900 1750 1 RotateRight
+hades.symbols.InstanceLabel 1900 600 1 rotateright
+#hades.symbols.FatLabel 0 1300 2 ROR
+#
+hades.symbols.BusPortSymbol 0 1800 Y
+hades.symbols.BusPortSymbol 0    0 A
+#
+hades.symbols.PortLabel  0 1650 2 Y 
+hades.symbols.PortLabel  0  450 2 A
+#

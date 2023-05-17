@@ -1,0 +1,39 @@
+hades.symbols.BboxRectangle  0 0 3600 9000
+hades.symbols.Rectangle  0 0 3600 9000
+hades.symbols.InstanceLabel 150 8950 rom_0
+hades.symbols.ClassLabel 150 450 ROM_64x8
+hades.symbols.FatLabel 1800 3000 2 ROM
+hades.symbols.FatLabel 1800 4000 2 64x8
+#
+hades.symbols.PortSymbol 0 600 nOE 
+hades.symbols.PortSymbol 0 1200 nCS
+hades.symbols.PortSymbol 0 5400 A5
+hades.symbols.PortSymbol 0 6000 A4
+hades.symbols.PortSymbol 0 6600 A3
+hades.symbols.PortSymbol 0 7200 A2
+hades.symbols.PortSymbol 0 7800 A1
+hades.symbols.PortSymbol 0 8400 A0
+hades.symbols.PortSymbol 3600 3000 Y7
+hades.symbols.PortSymbol 3600 3600 Y6
+hades.symbols.PortSymbol 3600 4200 Y5
+hades.symbols.PortSymbol 3600 4800 Y4
+hades.symbols.PortSymbol 3600 5400 Y3
+hades.symbols.PortSymbol 3600 6000 Y2
+hades.symbols.PortSymbol 3600 6600 Y1
+hades.symbols.PortSymbol 3600 7200 Y0
+hades.symbols.PortLabel 150 750 nOE
+hades.symbols.PortLabel 150 1350 nCS
+hades.symbols.PortLabel 150 5550 A5
+hades.symbols.PortLabel 150 6150 A4
+hades.symbols.PortLabel 150 6750 A3
+hades.symbols.PortLabel 150 7350 A2
+hades.symbols.PortLabel 150 7950 A1
+hades.symbols.PortLabel 150 8550 A0
+hades.symbols.PortLabel 3550 3150 3 Y7
+hades.symbols.PortLabel 3550 3750 3 Y6
+hades.symbols.PortLabel 3550 4350 3 Y5
+hades.symbols.PortLabel 3550 4950 3 Y4
+hades.symbols.PortLabel 3550 5550 3 Y3
+hades.symbols.PortLabel 3550 6150 3 Y2
+hades.symbols.PortLabel 3550 6750 3 Y1
+hades.symbols.PortLabel 3550 7350 3 Y0

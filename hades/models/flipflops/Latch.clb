@@ -1,0 +1,39 @@
+[files 4]
+hades/models/flipflops/Latch.class
+hades/models/flipflops/Latch.java
+hades/models/flipflops/Latch.sym
+hades/models/flipflops/Latch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Latch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Latch.gif
+
+[author]
+-
+
+[description]
+D-Latch 
+
+A level-sensitive D-type latch.
+Signals are of type StdLogic1164.
+
+Latch D-to-Q delay and both the setup- and hold-times 
+can be specified.
+
+If the DLATCH detects setup- or hold-time violations,
+the resulting output value will be 'X'.
+
+[end description]

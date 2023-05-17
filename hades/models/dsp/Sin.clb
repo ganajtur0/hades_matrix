@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Sin.class
+hades/models/dsp/Sin.java
+hades/models/dsp/Sin.sym
+hades/models/dsp/Sin.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Sin
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Sin.gif
+
+[author]
+unknown
+
+[description]
+sinus function operator, Y = sin( X )    (radians)
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,12 @@
+# model for a Tristate buffer ("Tor"), á la Ruge
+#
+hades.symbols.BboxRectangle 0 0 2400 2400
+#hades.symbols.ClassLabel 2550 2350 1 Mux 
+hades.symbols.FatInstanceLabel 1200 2100 2 TRI 
+#
+hades.symbols.Polyline 4 1200 0 0 2400 2400 2400 1200 0
+hades.symbols.Polyline 2 1800 1200 2400 1200
+hades.symbols.PortSymbol 1200 0 Y
+hades.symbols.PortSymbol 1200 2400 A
+hades.symbols.PortSymbol 2400 1200 S
+#

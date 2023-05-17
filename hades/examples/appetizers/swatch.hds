@@ -1,0 +1,23 @@
+# hades.models.Design file
+#  
+[name] Stopwatch-Demo
+[components]
+hades.models.pic.FastPic16F84 CPU 12600 10800 @N 1001 1.220703125E-5 swatch.rom
+hades.models.meta.Label i2 8400 21300 @N 1001 1 0 5 16 12 0.0 4 For\u0020docs\u0020visit\u0020\u0020\u0020http://tams-www.informatik.uni-hamburg.de/applets/hades/webdemos/72-pic/60-swatch/swatch.html
+hades.models.io.PowerOnReset POR 10800 13200 @N 1001 5.0E-4 5.0E-4 
+hades.models.special.Counter i1 12600 17400 @N 1001 1
+hades.models.io.Swatch i0 18600 4800 @N 1001
+hades.models.io.Ipin START_STOP 10200 7200 @N 1001 a 0
+hades.models.io.Ipin RESET_PAUSE 10200 9000 @N 1001 b 0
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n_nreset 2 POR nreset CPU /MCLR 1 2 10800 13200 12600 13200 0 
+hades.signals.SignalStdLogic1164 n6 2 CPU B3 i1 D 3 2 12600 18600 10800 18600 2 10800 18600 10800 16200 2 10800 16200 12600 16200 0 
+hades.signals.SignalStdLogic1164 n5 2 CPU B4 i0 m_1/10 1 2 15600 16200 18600 16200 0 
+hades.signals.SignalStdLogic1164 n4 2 CPU B5 i0 m_sec 1 2 15600 15600 18600 15600 0 
+hades.signals.SignalStdLogic1164 n3 2 CPU B6 i0 m_min 1 2 15600 15000 18600 15000 0 
+hades.signals.SignalStdLogic1164 n2 2 CPU A1 RESET_PAUSE Y 3 2 15600 11400 16200 11400 2 16200 11400 16200 9000 2 16200 9000 10200 9000 0 
+hades.signals.SignalStdLogic1164 n1 2 CPU B7 i0 m_time 1 2 15600 14400 18600 14400 0 
+hades.signals.SignalStdLogic1164 n0 2 START_STOP Y CPU A0 4 2 10200 7200 16800 7200 2 16800 7200 16800 10800 2 16800 10800 16800 12000 2 16800 12000 15600 12000 0 
+[end signals]
+[end]

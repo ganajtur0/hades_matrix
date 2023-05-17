@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/ParallelTerminal.class
+hades/models/special/ParallelTerminal.java
+hades/models/special/ParallelTerminal.sym
+hades/models/special/ParallelTerminal.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.ParallelTerminal
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/ParallelTerminal.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

@@ -1,0 +1,4 @@
+hades.symbols.BboxRectangle 0 0 1200 1200
+hades.symbols.InstanceLabel 100 900 button0
+hades.symbols.ImageObject -1200 -1200 0 0 /hades/models/meta/button-home.gif
+hades.symbols.ImageObject -2400 -1200 -1200 0 /hades/models/meta/button-back.gif

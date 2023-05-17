@@ -1,0 +1,34 @@
+[files 4]
+hades/models/switched/Bulb.class
+hades/models/switched/Bulb.java
+hades/models/switched/Bulb.sym
+hades/models/switched/Bulb.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.switched.Bulb
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/switched/Bulb.gif
+
+[author]
+-
+
+[description]
+animated switch-level simulation model of a lightbulb.
+
+The bulb will be active (red) when one input is at 
+logical '1' and the other at logical '0'.
+For weak or undefined inputs ('H', 'L', 'X', etc.), the 
+bulb is off.
+[end description]

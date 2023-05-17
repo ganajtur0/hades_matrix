@@ -1,0 +1,36 @@
+[files 4]
+hades/models/gates/Nor4.class
+hades/models/gates/Nor4.java
+hades/models/gates/Nor4.sym
+hades/models/gates/Nor4.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.Nor4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/Nor4.gif
+
+[author]
+unknown
+
+[description]
+Standard 4-input NOR gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic Grid-> 1/8 inch
+[end description]

@@ -1,0 +1,65 @@
+# /hades/models/pic/help/statusregister.txt
+
+Status register for the PIC16C84 and PIC16F84 microcontrollers.
+For details, datasheet, and updates see the Arizona Microchip website
+at www.microchip.com.
+
+
+7-------6-------5-------4-------3-------2-------1-------0-------
+|  IRP  |  RP1  |  RP0  |  /T0  |  /PD  |   Z   |   DC  |   C  |
+----------------------------------------------------------------
+
+
+   C:            carry/not borrow flag for ADDxx and SUBxx instructions
+
+                 1:  a carry out occurred from the ADD operation
+                 0:  no carry out
+
+   DC:           digit carry/not digit borrow flag 
+
+                 1:  a carry out from the 4th low order bit occurred
+                 0:  no carry out
+
+   Z:            zero flag
+
+                 1:  the result of an ALU operation is zero
+                 0:  the result of an ALU operation is not zero
+
+   /PD:          power down bit
+
+                 1:  after power-up or by a CLRWDT instruction
+                 0:  by execution of the SLEEP instrucion
+
+   /TO:          time-out bit
+
+                 1:  after power-up and by the CLRWDT or SLEEP instruction
+                 0:  a watchdog timer time-out has occurred
+
+   RP1-RP0:      register bank select for direct addressing
+
+                 00:  bank0, 0x000 .. 0x07f
+                 01:  bank1, 0x080 .. 0x0ff
+                 10:  bank2, 0x100 .. 0x17f
+                 11:  bank3, 0x180 .. 0x1ff
+
+                 the RP1 bit is not used by either PIC16C84 nor PIC16F84
+                 and should be programmed as '0'
+
+   IRP:          register bank select for indirect addressing
+
+                 0:   bank0,  0x00 .. 0x7f
+                 1:   bank1,  0x80 .. 0xff
+
+                 this bit is not used by either PIC16C84 nor PIC16F84
+                 and should be programmed as '0'
+
+
+Note that several bits in the status register are generated directly
+by PIC hardware logic. Therefore, writing to the status register may
+result in different values than intended. For example, execution of
+the CLRF STATUS instruction will result in the status value 000u u1uu
+(where u=unchanged).
+
+Only the BCf, BSF, SWAPF, and MOVWF instructions should be used to
+alter the status register, because these instructions do not affect
+any status bit.

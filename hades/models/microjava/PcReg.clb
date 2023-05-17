@@ -1,0 +1,29 @@
+[files 4]
+hades/models/microjava/PcReg.class
+hades/models/microjava/PcReg.java
+hades/models/microjava/PcReg.sym
+hades/models/microjava/PcReg.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.PcReg
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/PcReg.gif
+
+[author]
+-
+
+[description]
+program counter register for Microjava 2
+[end description]

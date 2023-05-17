@@ -1,0 +1,343 @@
+## HADES Editor 0.87 (19.02.01) default properties
+#
+#
+Hades.UseSwingGUI		   true
+#
+#Hades.LookAndFeelClassName  javax.swing.plaf.metal.MetalLookAndFeel
+#Hades.LookAndFeelClassName  com.sun.java.swing.plaf.windows.WindowsLookAndFeel 
+#Hades.LookAndFeelClassName  com.sun.java.swing.plaf.motif.MotifLookAndFeel
+#Hades.LookAndFeelClassName  javax.swing.plaf.mac.MacLookAndFeel
+
+#
+Hades.Console.Icon                 /hades/gui/images/hades.gif
+Hades.Console.UseAWT               false
+Hades.Console.SaveLines            600
+Hades.Console.LogEnable		   false
+Hades.Console.LogFileName	   /tmp/hades.log
+Hades.Console.WindowInit           300 300 600 400
+Hades.Console.ConsoleFontName      Courier
+Hades.Console.ConsoleFontSize      12
+Hades.Console.ButtonFontName       SansSerif 
+Hades.Console.ButtonFontSize       12
+#
+# use one of "VHDL", "Real time", "Batch mode", "Interactive"
+#
+Hades.Editor.Icon	           /hades/gui/images/hades.gif
+Hades.Editor.AutoStartSimulation   true
+Hades.Editor.AutoZoomFit           true
+Hades.Editor.DefaultSimKernel      VHDL
+Hades.Editor.DumpSystemProperties  false
+Hades.Editor.EnableDebugMenu       true
+#Hades.Editor.EnableSelectionMenu   true
+Hades.Editor.EnableTipOfTheDay     false
+Hades.Editor.EnableToolTips        false
+Hades.Editor.EnableVHDLMenu        false
+#Hades.Editor.StartupFilename      /hades/examples/simple/jkff.hds
+Hades.Editor.ToolTipsDelay         2000
+Hades.Editor.PopupMenuResource     /hades/gui/PopupMenu.txt
+# magnetic grid: use one of '1/2' '1/4' '1/8' '1/16' inch
+Hades.Editor.MagneticGrid          1/4
+Hades.Editor.ShowSimControlPanel   true
+Hades.Editor.ViewModeSimulatorChoice	false
+#
+# Java2D rendering hints
+#
+Hades.Editor.AntiAlias             false
+Hades.Editor.RenderQuality         true
+#
+# the following items are disabled for foolproof operation;
+# initialize signals works recursively and may usually lead to inconsistent
+# data structures: use with care.
+#
+Hades.Editor.EnableInitializeSignalsMenu	false
+Hades.Editor.EnableStandardLatch		false
+Hades.Editor.EnableStandardDFF  		false
+# 
+# false is good for Windows, you may want true for Unix/X11:
+#
+Hades.Editor.FocusOnMouseEnter	   false
+#
+#
+Hades.Editor.GlowMode              true
+Hades.Editor.InverseCanvas         false
+Hades.Editor.RedrawMode            Buffered
+Hades.Editor.RedrawDelayMillis     20
+#
+Hades.Editor.WindowX               50
+Hades.Editor.WindowY               40
+Hades.Editor.WindowWidth           800
+Hades.Editor.WindowHeight          600
+Hades.Editor.MenuFontSize          12
+Hades.Editor.MenuFontName          Helvetica
+Hades.Editor.HighlightColor        0x00FF5500
+Hades.Editor.DefaultSymbolWidth    4800
+#
+Hades.FileDialog.FontName          SansSerif
+Hades.FileDialog.FontSize          12
+#
+# note: this cures most memory leaks...
+Hades.Applet.DestroyAllFramesOnClose	true
+#
+# default redraw frequency
+#
+Hades.SyncRedrawTimer.UpdateInterval      50
+#
+#
+#
+Hades.Exporter.FontName            SansSerif
+Hades.Exporter.FontSize            12
+Hades.Exporter.Fig2devOptions      "-p portrait -m 1.0"
+Hades.Exporter.EPSCommand          /usr/X11/bin/fig2dev -L eps 
+Hades.Exporter.PSCommand           /usr/X11/bin/fig2dev -L ps 
+Hades.Exporter.PrintCommand        lpr 
+Hades.Exporter.PrintFitToA4		true
+#
+#
+# a "black on green" LCD:
+Hades.GraphicsLCD.repaintMillis		 100
+Hades.GraphicsLCDCanvas.lcdBackground    0x00bfdf00
+Hades.GraphicsLCDCanvas.lcdInactivePixel 0x00b5d200
+Hades.GraphicsLCDCanvas.lcdActivePixel   0x00000000
+#
+#
+#
+Hades.LayerTable.DisplayInstanceBorder   true
+Hades.LayerTable.DisplayInstanceLabels   false
+Hades.LayerTable.DisplayClassLabels      false
+Hades.LayerTable.DisplayPortSymbols      true
+Hades.LayerTable.DisplayPortLabels       false
+Hades.LayerTable.DisplayBusPortSymbols   true
+Hades.LayerTable.RtlibAnimation          true
+#
+# Colibri configuration
+#
+Hades.Browser.IncludeClasspathJars	false
+Hades.Browser.IncludeExtensionJars	false
+Hades.Browser.UserDirectory0		$HOME/hades
+Hades.Browser.UserDirectory1		/opt/hades
+Hades.Browser.UserDirectory2		/tmp/jetty/hades/webdemos/50-rtlib
+Hades.Browser.UserDirectory3		/home/hendrich/java/hades/webdemos
+
+#
+# UseSelectDialog true=Netscape/MSIE style false=traditinal FileDialog
+#
+Hades.DesignManager.Debug	false
+Hades.DesignManager.VerboseMessages			false
+Hades.DesignManager.UseSelectDialog			false
+Hades.DesignManager.AutoAddExtension    true
+#
+#
+Hades.PropertySheet.backgroundColor      0x00d0d0d0
+Hades.PropertySheet.FontSize             12
+#
+# set the following to 'true' if you want to invalidate RTLIB memory components
+# to do strict checking of their input combinations. For example, an undefined
+# RAM address during a write cycle will overwrite the whole memory with XXX
+# values...
+#
+Hades.Models.Memory.InvalidateOnUndefinedInputs		false
+
+#
+#
+hades.models.imaging.ParametrizedFilter.applyCallsEvaluate true
+hades.models.imaging.TwoInputFilter.suppression	true
+#
+#
+# enable EventNode recycling to help out the garbage-collector?
+#
+Hades.Simulator.EventList.EnableRecycling  true
+Hades.Simulator.EventList.RecycleCapacity  1001
+Hades.Simulator.SleepMillis		   100
+#
+Hades.TextLCDCanvas.lcdBackground    0x00bfdf00
+# these are no longer supported, we use image bitblt instead:
+# Hades.TextLCDCanvas.lcdInactivePixel 0x00b5d200
+# Hades.TextLCDCanvas.lcdActivePixel   0x00000000
+#
+Hades.TipOfTheDay.ButtonFontSize           12
+Hades.TipOfTheDay.ButtonFontName           SansSerif
+Hades.TipOfTheDay.TextAreaFontSize         12
+Hades.TipOfTheDay.TextAreaFontName         SansSerif
+#
+
+#
+# default glow-mode colors for StdLogic1164 values
+#
+Hades.StdLogic1164.Color._U            0x0000ffff
+Hades.StdLogic1164.Color._X            0x00ff00ff
+Hades.StdLogic1164.Color._0           0x00dcdcdc
+#Hades.StdLogic1164.Color._0           0x00007F00   viel zu dunkel
+#Hades.StdLogic1164.Color._0           0x0070FF70   good for beamers / LCDs
+Hades.StdLogic1164.Color._1            0x00e00000
+Hades.StdLogic1164.Color._Z            0x00ffBf00
+Hades.StdLogic1164.Color._W            0x00ff7f00
+Hades.StdLogic1164.Color._L            0x00404040
+Hades.StdLogic1164.Color._H            0x00c00000
+Hades.StdLogic1164.Color._D            0x007f7f7f
+#
+#
+Hades.HexTextField.FontSize 12
+Hades.HexTextField.FontStyle 1
+Hades.HexTextField.BackgroundColor  0x00afafaf
+Hades.HexTextField.TextColor        0x007f0000
+#
+#
+Hades.MemoryHexEditorField.RepaintMillis	100
+#Hades.MemoryHexEditorField.FontName    Courier
+Hades.MemoryHexEditorField.FontName     DialogInput
+Hades.MemoryHexEditorField.FontSize 14
+Hades.MemoryHexEditorField.FontStyle 1
+Hades.MemoryHexEditorField.BackgroundColor      0x00efefef
+Hades.MemoryHexEditorField.DataColor            0x000000af
+Hades.MemoryHexEditorField.ActiveDataColor      0x00ef0000
+Hades.MemoryHexEditorField.PassiveDataColor     0x00afafaf
+Hades.MemoryHexEditorField.AddrColor            0x00af0000
+Hades.MemoryHexEditorField.EditColor            0x00ff8000
+Hades.MemoryHexEditorField.ReadHighlightColor   0x0000bf00
+Hades.MemoryHexEditorField.WriteHighlightColor  0x00ef00cf
+Hades.MemoryHexEditorField.EnableTooltips	false
+#
+# specify VT52 font and color
+#
+# amber:
+Hades.VT52Canvas.Color       0x00f0a000
+# perhaps you prefer green:
+#Hades.VT52Canvas.color      0x0000e000
+Hades.VT52Canvas.FontName    Courier
+Hades.VT52Canvas.FontSize    14
+Hades.VT52Canvas.Debug	     false
+#
+Hades.LED.Color.red              0x00ff0000
+Hades.LED.Color.green            0x0000ff00
+Hades.LED.Color.yellow           0x00ffff00
+Hades.LED.Color.blue             0x000000ff
+
+Hades.WaveformViewer.DefaultWidth                    700
+Hades.WaveformViewer.DefaultHeight                   500
+Hades.WaveformViewer.TimePanel.BackgroundColor       0x00d0e0e0
+Hades.WaveformViewer.NameCanvas.BackgroundColor      0x00d0e0e0
+Hades.WaveformViewer.WaveCanvas.BackgroundColor      0x00e0f0f0
+#Hades.WaveformViewer.WaveCanvas.XORColor             0x00ffffff
+
+
+# extra debugging output from the Pic16F628 registers?
+dpi.pic16f628.PicRsrReg.debug		false
+dpi.pic16f628.PicRcregReg.debug		false
+
+
+#
+#
+#jfig local properties
+jfig.FIG.Version                        32
+jfig.Java2D.AntiAlias                   false
+jfig.Java2D.RenderingQuality            true    
+jfig.allowJava2D                        true
+jfig.cursorSnapping                     1/4 grid
+jfig.enableXSplines                     true
+jfig.grid                               coarse grid
+
+#
+# jfig Latex/Tex-mode: we disable this and switch to the builtin-fonts
+# (fontMode=1) instead of the ComputerModern fonts (fontMode=2) here,
+# because TeX-mode labels are nowhere used in our examples. Also, fontMode=1
+# disables loading the CM fonts, which saves the extra webserver accesses 
+# when the Hades applet tries to find the CM fonts anywhere in its classpath
+#
+jfig.gui.FontCache.loadCMFonts		false
+jfig.utils.SimpleLatexParser.fontMode	1
+
+#
+jfig.gui.Canvas.RedrawMessages          false
+jfig.gui.Canvas.RequestFocusOnMouseEnter  false
+jfig.gui.Console.ButtonFontName         SansSerif
+jfig.gui.Console.ButtonFontSize         12
+jfig.gui.Console.ConsoleFontName        MonoSpaced
+jfig.gui.Console.ConsoleFontSize        12
+jfig.gui.CreateImageDialog.LayerCorrection  true
+jfig.gui.EditDialog.FontName            MonoSpaced
+jfig.gui.EditDialog.FontSize            12
+jfig.gui.EditDialog.FontStyle           0
+jfig.gui.Editor.AttribsScrollPaneEnable  false
+jfig.gui.Editor.DebugMenuItems          false
+jfig.gui.Editor.DebugRedrawMessages     false
+jfig.gui.Editor.Icon                    /jfig/images/icon.gif
+jfig.gui.Editor.MenuFontName            SansSerif
+jfig.gui.Editor.MenuFontSize            12
+jfig.gui.Editor.WindowHeight            700
+jfig.gui.Editor.WindowWidth             900
+jfig.gui.ExportOptionsDialog.Autosave   true
+jfig.gui.ExportOptionsDialog.Debug      false
+jfig.gui.ExportOptionsDialog.EnableGIF  false
+jfig.gui.ExportOptionsDialog.FontName   Times
+jfig.gui.ExportOptionsDialog.FontSize   6
+jfig.gui.ExportOptionsDialog.Print      lpr 
+jfig.gui.ExportOptionsDialog.WaitExec   true
+jfig.gui.ExportOptionsDialog.fig2devEPS  -L eps
+jfig.gui.ExportOptionsDialog.fig2devGIF  -L gif
+jfig.gui.ExportOptionsDialog.fig2devIBMGL  -L ibmgl
+jfig.gui.ExportOptionsDialog.fig2devJPG  -L jpeg
+jfig.gui.ExportOptionsDialog.fig2devLATEX  -L latex
+jfig.gui.ExportOptionsDialog.fig2devMagnification  1.0 
+jfig.gui.ExportOptionsDialog.fig2devPICTEX  -L pictex
+jfig.gui.ExportOptionsDialog.fig2devPNG  -L png
+jfig.gui.ExportOptionsDialog.fig2devPPM  -L ppm
+jfig.gui.ExportOptionsDialog.fig2devPS  -L ps 
+jfig.gui.ExportOptionsDialog.fig2devPSCentered  true
+jfig.gui.ExportOptionsDialog.fig2devPSOrientation  true
+jfig.gui.ExportOptionsDialog.fig2devPath  /usr/X11/bin/fig2dev
+jfig.gui.KeyHandler.BreakCompound       G
+jfig.gui.KeyHandler.CopyObject          C
+jfig.gui.KeyHandler.CreateArc           r
+jfig.gui.KeyHandler.CreateCircle        c
+jfig.gui.KeyHandler.CreateClosedBezier  I
+jfig.gui.KeyHandler.CreateClosedSpline  S
+jfig.gui.KeyHandler.CreateCompound      g
+jfig.gui.KeyHandler.CreateEllipse       e
+jfig.gui.KeyHandler.CreateImage         J
+jfig.gui.KeyHandler.CreateOpenBezier    i
+jfig.gui.KeyHandler.CreateOpenSpline    s
+jfig.gui.KeyHandler.CreatePolygon       p
+jfig.gui.KeyHandler.CreatePolyline      l
+jfig.gui.KeyHandler.CreateRectangle     b
+jfig.gui.KeyHandler.CreateText          t
+jfig.gui.KeyHandler.CutPoint            D
+jfig.gui.KeyHandler.DeleteObject        d
+jfig.gui.KeyHandler.EditObject          E
+jfig.gui.KeyHandler.InsertPoint         a
+jfig.gui.KeyHandler.MirrorX             F
+jfig.gui.KeyHandler.MirrorY             f
+jfig.gui.KeyHandler.MoveObject          m
+jfig.gui.KeyHandler.MovePoint           M
+jfig.gui.KeyHandler.NextCachedAttributes  n
+jfig.gui.KeyHandler.OpenCompound        o
+jfig.gui.KeyHandler.SaveAttributesToCache  N
+jfig.gui.KeyHandler.ScaleObject         $
+jfig.gui.KeyHandler.ToggleShowGrid      W
+jfig.gui.KeyHandler.UpdateObject        u
+jfig.gui.KeyHandler.ZoomIn              Z
+jfig.gui.KeyHandler.ZoomOut             z
+jfig.gui.PresentationViewer.Icon        /jfig/images/icon.gif
+jfig.gui.PresentationViewer.WindowHeight  600
+jfig.gui.PresentationViewer.WindowWidth  800
+jfig.gui.PresentationViewer.debug       false
+jfig.gui.PresentationViewer.enablePageNames  false
+jfig.gui.PresentationViewer.enablePageNumbers  true
+jfig.gui.SelectFromLibraryDialog.BaseDir  /usr/X11R6/lib/X11/xfig/Libraries
+jfig.gui.Viewer.Icon                    /jfig/images/icon.gif
+jfig.gui.Viewer.WindowHeight            600
+jfig.gui.Viewer.WindowWidth             800
+jfig.gui.Viewer.debug                   false
+jfig.gui.JTextViewer.JTextViewerFontName        MonoSpaced
+jfig.gui.JTextViewer.JTextViewerFontSize        14
+jfig.objects.Exporter.DumpStatus        false
+jfig.objects.FigImage.verboseImageUpdate  false
+jfig.objects.FigParser.UseFastMessages  false
+jfig.objects.FigParser.debug            false
+jfig.objects.FigParser.enableMessages   false
+jfig.objects.FigParser.enableNonASCII   true
+jfig.pageJustification                  Center
+jfig.pageOrientation                    Portrait
+jfig.paperSize                          A4
+jfig.units                              Metric
+jfig.utils.MouseMapper.Remap            false 
+jfig.utils.MouseMapper.ShiftClickIsMiddleClick  true

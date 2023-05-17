@@ -1,0 +1,33 @@
+[files 4]
+hades/models/ttl74/SN7408_pinout.class
+hades/models/ttl74/SN7408_pinout.java
+hades/models/ttl74/SN7408_pinout.sym
+hades/models/ttl74/SN7408_pinout.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7408_pinout
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7408_pinout.gif
+
+[author]
+-
+
+[description]
+7408 4x AND2 gate
+
+Note: This IC requires GND and VCC connections.
+Inputs and output are of type StdLogic1164.
+
+[end description]

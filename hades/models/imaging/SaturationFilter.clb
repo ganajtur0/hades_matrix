@@ -1,0 +1,49 @@
+[files 4]
+hades/models/imaging/SaturationFilter.class
+hades/models/imaging/SaturationFilter.java
+hades/models/imaging/SaturationFilter.sym
+hades/models/imaging/SaturationFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.SaturationFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/SaturationFilter.gif
+
+[author]
+-
+
+[description]
+A per-pixel color saturation filter.
+
+   (R)    = (a d g 0) (r)
+   (G)    = (b e h 0) (g)
+   (B)    = (c f i 0) (b)
+   (L)    = (0 0 0 1) (L)
+
+where:
+
+   a = (1-s) * RW + s
+   b = (1-s) * RW
+   c = (1-s) * RW
+   d = (1-s) * GW
+   e = (1-s) * GW + s
+   f = (1-s) * GW
+   g = (1-s) * BW
+   h = (1-s) * BW
+   i = (1-s) * BW + s
+
+with RW = 0.3086, BW = 0.6084, BW = 0.0820
+
+[end description]

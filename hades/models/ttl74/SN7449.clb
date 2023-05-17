@@ -1,0 +1,29 @@
+[files 4]
+hades/models/ttl74/SN7449.class
+hades/models/ttl74/SN7449.java
+hades/models/ttl74/SN7449.sym
+hades/models/ttl74/SN7449.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ttl74.SN7449
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ttl74/SN7449.gif
+
+[author]
+-
+
+[description]
+7449 seven-segment decoder circuit.
+[end description]

@@ -1,0 +1,33 @@
+[files 4]
+hades/models/imaging/CatHFilter.class
+hades/models/imaging/CatHFilter.java
+hades/models/imaging/CatHFilter.sym
+hades/models/imaging/CatHFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.CatHFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/CatHFilter.gif
+
+[author]
+-
+
+[description]
+horizontal concatenation of two input images.
+The output image width is the sum of the widths of the two
+input images, the output image height the smaller of the
+input image heights.
+
+[end description]

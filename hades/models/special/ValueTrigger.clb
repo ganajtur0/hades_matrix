@@ -1,0 +1,30 @@
+[files 4]
+hades/models/special/ValueTrigger.class
+hades/models/special/ValueTrigger.java
+hades/models/special/ValueTrigger.sym
+hades/models/special/ValueTrigger.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.special.ValueTrigger
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/special/ValueTrigger.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

@@ -1,0 +1,48 @@
+# SN74273.sym - functional symbol for the 74273 octal DFF
+#
+hades.symbols.BboxRectangle 0 0 3600 8400
+hades.symbols.ClassLabel  1800 400 2 74273
+hades.symbols.InstanceLabel 1800 8250 2 octalDFF
+hades.symbols.FatLabel 1800 5400 2 '273
+#
+hades.symbols.Rectangle 0 2100 3600 8400
+hades.symbols.Polyline 8 3300 2100 3300 1800 3600 1800 3600 0 0 0 0 1800 300 1800 300 2100
+hades.symbols.Polyline 3 0 1000 500 1200 0 1400
+hades.symbols.Circle 200 600 150 150
+#
+hades.symbols.PortSymbol 0 600  nCLEAR
+hades.symbols.PortSymbol 0 1200 CLOCK
+hades.symbols.PortSymbol 0 3000 8D
+hades.symbols.PortSymbol 0 3600 7D
+hades.symbols.PortSymbol 0 4200 6D
+hades.symbols.PortSymbol 0 4800 5D
+hades.symbols.PortSymbol 0 5400 4D
+hades.symbols.PortSymbol 0 6000 3D
+hades.symbols.PortSymbol 0 6600 2D
+hades.symbols.PortSymbol 0 7200 1D
+hades.symbols.PortSymbol 3600 3000 8Q
+hades.symbols.PortSymbol 3600 3600 7Q
+hades.symbols.PortSymbol 3600 4200 6Q
+hades.symbols.PortSymbol 3600 4800 5Q
+hades.symbols.PortSymbol 3600 5400 4Q
+hades.symbols.PortSymbol 3600 6000 3Q
+hades.symbols.PortSymbol 3600 6600 2Q
+hades.symbols.PortSymbol 3600 7200 1Q
+hades.symbols.PortLabel 750 750 nCLEAR
+hades.symbols.PortLabel 750 1350 CLOCK
+hades.symbols.PortLabel 150 3150 8D
+hades.symbols.PortLabel 150 3750 7D
+hades.symbols.PortLabel 150 4350 6D
+hades.symbols.PortLabel 150 4950 5D
+hades.symbols.PortLabel 150 5550 4D
+hades.symbols.PortLabel 150 6150 3D
+hades.symbols.PortLabel 150 6750 2D
+hades.symbols.PortLabel 150 7350 1D
+hades.symbols.PortLabel 3450 3150 3 8Q
+hades.symbols.PortLabel 3450 3750 3 7Q
+hades.symbols.PortLabel 3450 4350 3 6Q
+hades.symbols.PortLabel 3450 4950 3 5Q
+hades.symbols.PortLabel 3450 5550 3 4Q
+hades.symbols.PortLabel 3450 6150 3 3Q
+hades.symbols.PortLabel 3450 6750 3 2Q
+hades.symbols.PortLabel 3450 7350 3 1Q

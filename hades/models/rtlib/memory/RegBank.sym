@@ -1,0 +1,33 @@
+# symbol for hades.models.rtlib.memory.RegBank
+# (simple 2-read 1-write port register bank with write enable and clock)
+# FNH 27.12.98 (top down)
+#
+hades.symbols.BboxRectangle 0 0 7200 6000
+hades.symbols.Polyline 8 1200 0 0 1200 0 4800 1200 6000   7200 6000 7200 0 1200 0 1200 6000
+#
+hades.symbols.ClassLabel 7100 5900 3 RegBank
+hades.symbols.InstanceLabel 7100 1550 3 regbank
+hades.symbols.FatLabel 3600 3300 2 REGS
+#
+hades.symbols.Polyline 3 0 1600 500 1800 0 2000 
+hades.symbols.Polyline 4 0 2200 200 2200 200 2600 0 2600
+#
+hades.symbols.PortSymbol       0 1800 CLK
+hades.symbols.PortSymbol       0 2400 nWE
+hades.symbols.BusPortSymbol    0 3000 AX
+hades.symbols.BusPortSymbol    0 3600 AY
+hades.symbols.BusPortSymbol    0 4200 AZ
+#
+hades.symbols.BusPortSymbol 4800    0 DZ
+hades.symbols.BusPortSymbol 2400 6000 DY
+hades.symbols.BusPortSymbol 4800 6000 DX
+#
+hades.symbols.PortLabel   250 1900 1 CLK
+hades.symbols.PortLabel   250 2500 1 nWE
+hades.symbols.PortLabel   250 3100 1 AX
+hades.symbols.PortLabel   250 3700 1 AY
+hades.symbols.PortLabel   250 4300 1 AZ
+hades.symbols.PortLabel  4800  550 2 DZ
+hades.symbols.PortLabel  2400 5800 2 DY
+hades.symbols.PortLabel  4800 5800 2 DX
+#

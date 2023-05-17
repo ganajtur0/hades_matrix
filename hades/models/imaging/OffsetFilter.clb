@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/OffsetFilter.class
+hades/models/imaging/OffsetFilter.java
+hades/models/imaging/OffsetFilter.sym
+hades/models/imaging/OffsetFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.OffsetFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/OffsetFilter.gif
+
+[author]
+-
+
+[description]
+Offset image filter based on lookup-tables.
+Changes image brightness by adding the user-specified offset
+to each (r,g,b) component of each pixel.
+[end description]

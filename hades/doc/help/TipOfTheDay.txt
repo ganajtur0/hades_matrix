@@ -1,0 +1,92 @@
+ You can edit a subdesign easily via the popup-menu: 
+ Activate the popup over the subdesign and select "edit...".
+
+ You can select the color of a LED component via it's
+ "edit..." menu.
+
+ For panning, either use the cursor keys, or click on
+ the small gray triangles in the editor window's rulers.
+ Hold down the SHIFT-key to increase the panning distance 
+ from 1/5th to 4/5th of the window.
+
+ Press the 'ESC' (escape) key to interrupt any command 
+ in the HADES editor. However, there is one exception:
+ You cannot interrupt a 'load design' command.
+
+ If the HADES editor seems to hang, you may have initiated 
+ a command (accidentally) and the editor waits for input. 
+ Read the status message and either supply the missing data, 
+ or interrupt the spurious command by pressing 'ESC'.
+
+ If the editor won't react to the bindkeys, it may have lost 
+ the keyboard input focus. Click once into the editor window 
+ to restore the focus.
+ 
+ Due to a bug in JDK 1.1.5 and less, some bindkeys from the
+ popup-menu won't work. Please use the bindkeys without the
+ <CNTL> modifier instead. For example, use <w> instead of
+ <CNTL>+<w> to append a new wire segment to a signal.
+
+ The HADES editor won't close unless all open designs have
+ been saved. Select "File->Close" for each open editor
+ instead of "File->Exit".
+
+ You can include complete FIG drawings into your designs.
+ First, prepare the FIG file with XFIG or JavaFIG. Then,
+ in HADES, move to the top-left corner of the target position,
+ activate the popup-menu, and select "create->FigObject", 
+ then specify the Java resource for your FIG-file.
+ For an example, see the 'welcome' page of the HADES help.
+
+ You can set or (re-)intialize signal values during simulation.
+ Position the mouse over a signal vertex, activate the popup,
+ then select "wire->set zero" or "wire->set one".
+
+ Use the bindkeys '0' and '1' to set or (re-)initialize 
+ the value of signal during simulation.
+
+ Press the 'f' bindkey to generate a 'zoom fit' command.
+
+ Press the 'F' bindkey to restore the default zoom factor (1:1)
+ and panning displacement. Your design will be displayed 
+ approximately in real size.
+
+ If you need multiple and numbered components of one sort,
+ e.g. 8 input pins called D0, D1, ..., D7, first create the
+ one with the lowest number, and set its name, D0. 
+ Copy this object as often as needed, and HADES will 
+ automatically set the right names for the next objects.
+
+ To specify the initial window size and position of the 
+ HADES editor, use the following command line options:
+   java hades.gui.Editor -xsize <width> -ysize <height>
+   java hades.gui.Editor -xywh <x> <y> <width> <height>
+ For example: 'java hades.gui.Editor -xywh 100 100 800 600'
+
+ Note that you can also specify HADES startup properties 
+ like window size or colors by editing the parameters in
+ the configuration files. For example, the initial editor
+ window width can be set by the 'Hades.Editor.WindowWidth'
+ variable.
+
+ HADES supports four levels of user-settable properties:
+ 1. the global Java 'system properties'
+ 2. global properties
+ 3. user properties
+ 4. local proporties, one set per directory
+
+ The global HADES properties are read on program startup 
+ from a file called 'hades.cnf' or '.hadesrc' in your HADES 
+ installation directory.  Check this file for a list of all 
+ user-settable properties, and their default values.
+
+ Note that you may overwrite the global properties with 
+ your user properties, and these in turn with local
+ properties. Just create and edit the corresponding
+ files '~/hades.cnf' or '~/.hadesrc' in your home directory 
+ and/or './hades.cnf' (or '.hadesrc') in the current HADES 
+ working directory.
+
+ To save the current set of properties, select the
+ 'Save properties...' menu item from the editor's
+ 'File' menu, and specify a valid filename.

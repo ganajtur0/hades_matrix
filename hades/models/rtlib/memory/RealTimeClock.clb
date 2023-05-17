@@ -1,0 +1,64 @@
+[files 4]
+hades/models/rtlib/memory/RealTimeClock.class
+hades/models/rtlib/memory/RealTimeClock.java
+hades/models/rtlib/memory/RealTimeClock.sym
+hades/models/rtlib/memory/RealTimeClock.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.memory.RealTimeClock
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/memory/RealTimeClock.gif
+
+[author]
+-
+
+[description]
+RealTimeClock - a generic real-time clock with RAM-like addressing
+and control.
+
+The RTC model contains the following registers:
+
+    addr:      contents:        range:
+     0x0:      milliseconds     (0..999)
+     0x1:      seconds          (0..59)
+     0x2:      minutes          (0..59)
+     0x3:      hours            (0..23)
+     0x4:      day              (0..30)
+     0x5:      month            (0..11)
+     0x6:      year             (0..9999)
+
+When chip-select or output enable are high, the data output of the 
+RTC is tristated and writes are ignored.
+This component models a standard MSI/LSI RTC with asynchronous write
+enable - the adress is never latched. As long as write enable is low, 
+the input data is written to the currently selected address.
+
+Note that the model currently does not check for timing violations
+during write cycles.
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+Note that simulation performance may be limited by GUI updates due
+to glow-mode and RTLIB-animation (e.g. labels on flipflops or Opins).
+If necessary, switch off glow-mode and RTLIB-animation via the 'view'
+menu. With RTLIB-animation off, however, component symbols won't be
+updated and may not match the actual value on the component/signal.
+Select a manual redraw after pausing the simulation to update the GUI.
+
+[end description]

@@ -1,0 +1,24 @@
+# /hades/models/mcore/DcoreAddrDecoder
+# symbol for the (default) DCORE-address-decoder 
+#
+hades.symbols.BboxRectangle  0 0 6000 2400
+hades.symbols.Rectangle  0 0 6000 2400
+hades.symbols.InstanceLabel 150 450 i0
+hades.symbols.FatLabel 3000 1200 2 address
+hades.symbols.FatLabel 3000 2000 2 decoder
+#
+# sequencer external input for opcode decoding
+hades.symbols.BusPortSymbol 3000    0   ADDR 
+hades.symbols.PortLabel     3000  550 2 ADDR
+# 
+# datapath control
+hades.symbols.PortSymbol 2400 2400 nCS_RAM
+hades.symbols.PortSymbol 3000 2400 nCS_ROM
+hades.symbols.PortSymbol 3600 2400 CS_TERM
+hades.symbols.PortSymbol 4200 2400 CS_DISPLAY
+hades.symbols.PortLabel  2400 2150 3 RAM
+hades.symbols.PortLabel  3000 2150 2 ROM
+hades.symbols.PortLabel  3600 2150 2 TERM
+hades.symbols.PortLabel  4200 2150 1 DISPLAY
+#
+# offset for LDW/STW addressing

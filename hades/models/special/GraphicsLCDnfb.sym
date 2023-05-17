@@ -1,0 +1,40 @@
+# GraphicsLCD.sym - Symbol for hades.models.special.GraphicsLCD
+#
+hades.symbols.BboxRectangle 0 0 7200 8400
+hades.symbols.Rectangle 0 0 7200 8400
+hades.symbols.ClassLabel  3600 400 2 LCDisplay
+hades.symbols.InstanceLabel 7050 8250 3 lcd
+hades.symbols.FatLabel 3600 4800 2 GraphicsLCD
+#
+hades.symbols.PortSymbol    0  600 M
+hades.symbols.PortSymbol    0 1200 FLM
+hades.symbols.PortSymbol    0 1800 RS
+hades.symbols.PortSymbol 2400    0 CL1
+hades.symbols.PortSymbol 3000    0 CL2
+hades.symbols.PortSymbol 3600    0 nR
+#
+hades.symbols.PortSymbol 0 3000 D7
+hades.symbols.PortSymbol 0 3600 D6
+hades.symbols.PortSymbol 0 4200 D5
+hades.symbols.PortSymbol 0 4800 D4
+hades.symbols.PortSymbol 0 5400 D3
+hades.symbols.PortSymbol 0 6000 D2
+hades.symbols.PortSymbol 0 6600 D1
+hades.symbols.PortSymbol 0 7200 D0
+#
+hades.symbols.PortLabel 750 750  M
+hades.symbols.PortLabel 750 1350 FLM
+hades.symbols.PortLabel 750 1950 RS
+hades.symbols.PortLabel 2400 750 2 CL11
+hades.symbols.PortLabel 3000 750 2 CL2
+hades.symbols.PortLabel 3600 750 2 nR
+#
+hades.symbols.PortLabel 150 3150 D7
+hades.symbols.PortLabel 150 3750 D6
+hades.symbols.PortLabel 150 4350 D5
+hades.symbols.PortLabel 150 4950 D4
+hades.symbols.PortLabel 150 5550 D3
+hades.symbols.PortLabel 150 6150 D2
+hades.symbols.PortLabel 150 6750 D1
+hades.symbols.PortLabel 150 7350 D0
+#

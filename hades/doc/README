@@ -1,0 +1,287 @@
+% README for Hades, 01.02.2002
+
+
+Contents:
+
+0. About
+
+1. System requirements
+2. Download
+
+   Installation with:
+3. JDK
+4. JRE
+5. Microsoft jview
+
+6. FAQ
+7. Feedback
+
+---------------------------------------------------------------------------
+
+0) About Hades
+
+   Hades (HAmburg DEsign System) is a pure-Java framework for interactive 
+   simulation, especially for digital system simulation. It includes
+   a graphical schematics editor, several simulation engines, and a
+   library of simulation models.
+
+   Unlike traditional digital system simulators, Hades allows to edit
+   a system even while simulating the system. This means that there
+   is no lengty edit-compile-simulate-analyze-waveforms cycle while
+   designing a system. The only trade-off is simply a little bit of 
+   simulator performance.
+
+   For digital system design, Hades provides the std_logic_1164 logic
+   model, all basic gates, complex gates, flipflops, interactive switches
+   and displays, TTL 74xx series models, and several system-level
+   simulation models. In includes a VHDL-like simulation engine with 
+   delta-delays. Visualization tools include waveforms, glow-mode,
+   interactive displays and meters, and context sensitive tooltips.
+
+   As a Java-written program, Hades is quite portable and can be used
+   on the Windows, Linux, Solaris, and Mac platforms. Within the limits
+   of the sandbox security model, Hades can also be run as an applet
+   in most current Java-enabled browsers.
+
+---------------------------------------------------------------------------
+
+1) Hades system requirements
+
+   The Hades simulation framework is written in pure Java. In theory, 
+   the software should run on every system with a Java 1.1 or Java 2 
+   compatible Java Virtual Machine. In practice, this means that you 
+   should install a recent version of JDK 1.3 (or later) on your system.
+   On Windows systems, the Microsoft VM provides a viable alternative.
+
+   Hades can be run either as a standalone application or as an applet, 
+   where the standard Java security restrictions apply.
+
+   For acceptable performance, 64 MBytes of main memory and a fast
+   processor (Pentium/Athlon, PowerPC, UltraSPARC) are recommended.
+   A Pentium-II 300 system with 64 MBytes is more than adequate to run
+   most of our educational designs. However, the simulation of larger
+   circuits with ten-thousands of gates may require 256MB of memory
+   (or more).
+
+   So far, Hades has been tested and is known to run on the following
+   systems and Java virtual machines:
+
+     - Windows XP             
+                              JDK 1.3.1
+                              JDK 1.3.0
+
+     - Windows'95, '98, 'ME
+     - Windows NT/2000        
+                              JDK 1.3.1
+                              JDK 1.3.0 
+                              Microsoft Jview 3181 or later
+     
+
+     - Solaris '8, '7, '2.5.1
+                              JDK 1.3.x, JDK 1.2.2, JDK 1.1.8
+
+     - Linux 2.x (x86)
+                              IBM JDK 1.3.x
+                              Sun JDK 1.3.x
+                              Blackdown JDK 1.3.x
+                              Blackdown JDK 1.2.2
+                              IBM JDK 1.1.8 or later
+                              Kaffe 1.0.6 (with restrictions)
+
+   The following systems or browsers *cannot* run Hades
+
+     - Java installations with Java 1.1.4 or 1.0.x or earlier
+     - Netscape Navigator 1.x, 2.x, 3.x
+     - Microsoft Internet Explorer 1.x, 2.x, 3.x
+     - Hotjava 1.0 
+     - Kaffe 1.0.5 (Hades starts, but frequent crashes)
+  
+---------------------------------------------------------------------------
+
+2) Hades download and installation:
+
+   Step 0:  
+           check that you system has a recent Java virtual machine
+           installed. If not, download a version of the JDK / JRE
+           for your machine from java.sun.com or your system vendor.
+
+   Step 1: 
+           go to the download section on the Hades homepage
+           http://tech-www.informatik.uni-hamburg.de/applets/hades/
+
+           download the "hades.zip" archive with the software but
+           do *not unpack* the archive. Instead, rename the archive 
+           file from "hades.zip" to "hades.jar".
+
+           (The file is called "hades.zip" instead of "hades.jar" on
+           our webserver because many web-browsers are misconfigured
+           and cannot download ".jar" files correctly. Sorry for the
+           inconvenience).
+
+   Step 2:
+           download the Hades tutorial and browse through it.
+
+   Step 3: 
+           create a new directory for your design examples. 
+           If possible, avoid spaces and special characters in the 
+           directory name.
+
+           On Unix machines, this will usually be a subdirectory below
+           your home directory, e.g."/home/joe/hades".
+           On Windows, you might prefer a "top level" directory 
+           like "c:\hades" instead of a "c:\my files\hades".
+
+   Step 4: (optional)
+           Download the design examples archive, "hades-examples.zip". 
+
+           Change to the parent directory of your newly created 
+           design directory, then unpack the archive. As all filenames
+           in the examples archive start with "hades", the resulting
+           design files will be unpackaged into your design directory.
+           If you are using Winzip or a similar packer program, make 
+           sure to select the option to extract the directory structure
+           from the archive, because otherwise the examples won't work.
+
+           Note that Hades (especially older versions) do not like a 
+           doubly-nested directory structure, e.g.
+           c:\hades\hades\examples\simple\dlatch.hds    <- bad idea.
+             ^^^^^^^^^^^^ 
+           If you accidentally unpacked the archive into the wrong
+           directory, move the files.
+
+   Step 5: 
+           Move the "hades.jar" file to your design directory.
+           The final directory structure should look similar to the
+           following for Unix/Linux systems:
+ 
+           /home/joe/                      <-- your home directory
+           ...
+           /home/joe/hades/                <-- your design directory
+                           examples/
+                                    demos/
+                                          dlatch.hds
+                                          io-components.hds
+                                          hamming-encoder.hds
+                                          ...
+                           hades.jar       <-- Hades software
+           ...
+
+           or similar to the following for Windows systems:
+
+           c:\program files\
+                            ...
+           c:\users\joe\                   <-- your home directory
+                        hades\             <-- your design directory        
+                              examples\
+                                       demos\
+                                             dlatch.hds 
+                                             ...
+                               hades.jar   <-- Hades software
+      
+     
+
+
+---------------------------------------------------------------------------
+
+3) Using Hades with the Java Development Kit (JDK 1.3.x):
+
+   The following assumes, that JDK 1.3 is installed on your system,
+   and that the "java" (or "javaw") executables are in your search path.
+   Open a command shell, change into your design directory, and then
+   call the Java VM:
+
+     cd /home/joe/hades
+     java -jar hades.jar
+
+   or on Windows:
+
+     cd c:\home\joe\hades
+     javaw -jar c:\home\joe\hades\hades.jar
+
+   On Windows systems, you can also just double-click on the "hades.jar"
+   file to start the simulator and editor. If the double-clicking does
+   not work at all, open a (DOS) command shell, and try the above 
+   command, "java -jar c:\home\joe\hades\hades.jar" and check the output.
+   If this works, but double-clicking does not, you may have to re-install
+   the JDK/JRE.
+
+   Note that you can also put the "hades.jar" archive into the JRE
+   extension package directory ($JDK/jre/lib/ext/). 
+  
+
+
+---------------------------------------------------------------------------
+
+4) Using Hades with the Java Runtime Environment (JRE 1.3.x):
+
+   Recent versions of the JRE use the same command syntax as the
+   Java Development Kit. Just call the "java" executable:
+   
+     cd /home/joe/hades
+     java -jar hades.jar
+
+   or on Windows:
+
+     cd c:\home\joe\hades
+     javaw -jar c:\home\joe\hades\hades.jar
+  
+
+   If you want to use Hades with older version of the JDK like
+   JDK 1.1.8, you will have to specify a Java classpath argument
+   to the JVM.  Please check the installation instructions in the 
+   Hades tutorial for details.
+
+
+---------------------------------------------------------------------------
+
+5) Using Hades with the Microsoft VM:
+
+   On Windows 95/98/ME and Windows NT/2000  systems with a recent version 
+   of Internet Explorer, you can also run Hades with the Microsoft VM. 
+   Try running "jview /version" to print the version number. Everything
+   newer than 3181 should be ok, while older versions (3167) are not.
+   The Microsoft VM can be downloaded from www.microsoft.com/java 
+   Note that the Microsoft VM is no longer included with Windows XP.
+
+     rem  run Hades with the Microsoft VM for Windows
+     rem  change to the directory with your design files,
+     rem  then call jview with the full path to the hades.jar
+     rem  archive file.
+     rem
+     cd c:\users\joe\hades     
+     jview /cp:a c:\users\joe\hades\hades.jar hades.gui.Editor
+
+
+   Naturally, you can easily write a simple "hades.bat" script with
+   the above contents, in order to avoid typing the command-line
+   over and over again.
+   
+
+
+---------------------------------------------------------------------------
+
+6) FAQ and tutorial:
+
+   The Hades tutorial in compressed Postscript format is available on
+   our WWW-Server in the Hades download directory:
+
+   http://tech-www.informatik.uni-hamburg.de/applets/hades/archives/
+
+   Download the file 'tutorial.ps.gz' or 'hades-doc.zip'.
+   The tutorial also contains a list of frequently-asked-questions
+   and known bugs.
+
+   Unfortunately, the tutorial has not been updated in a long time,
+   and it covers only a small fraction of the functionality available
+   in current versions of Hades.
+
+---------------------------------------------------------------------------
+
+7) Bug reports:
+
+   Please send all bug reports and feature requests to
+
+   hendrich@informatik.uni-hamburg.de
+ 
+---------------------------------------------------------------------------
+

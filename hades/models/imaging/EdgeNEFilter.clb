@@ -1,0 +1,31 @@
+[files 4]
+hades/models/imaging/EdgeNEFilter.class
+hades/models/imaging/EdgeNEFilter.java
+hades/models/imaging/EdgeNEFilter.sym
+hades/models/imaging/EdgeNEFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.EdgeNEFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/EdgeNEFilter.gif
+
+[author]
+-
+
+[description]
+Edge-detection 3x3 convolution filter (north-east direction):
+   2,-1,-1,  -1,2,-1,  -1,-1,2
+
+[end description]

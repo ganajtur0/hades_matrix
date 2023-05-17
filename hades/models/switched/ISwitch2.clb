@@ -1,0 +1,32 @@
+[files 4]
+hades/models/switched/ISwitch2.class
+hades/models/switched/ISwitch2.java
+hades/models/switched/ISwitch2.sym
+hades/models/switched/ISwitch2.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.switched.ISwitch2
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/switched/ISwitch2.gif
+
+[author]
+-
+
+[description]
+interactive switch (two separate changeover switches).
+
+Use mouse clicks to toggle the switch between the 'open'
+and 'closed' states.
+[end description]

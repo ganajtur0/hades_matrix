@@ -1,0 +1,245 @@
+FAQ: frequently asked questions about HADES
+23.04.2001 
+
+
+Q: What is HADES?
+
+A: HADES is a framework for interactive discrete event and 
+   object-oriented simulation written in Java. It consists of:
+
+   * the simulation kernel (or rather: several kernels)
+   * a user-interface with interactive graphical editor 
+   * many visualization tools
+   * a large library of simulation components 
+     (e.g. digital logic gates and flipflops)
+   * a library and design browser
+   * a waveform viewer to trace signals
+   * a JPython/Jython scripting interface
+
+   The HADES editor allows for interactive simulation: the 
+   current system can always be edited even while a simulation 
+   is running. There is no need for a tedious edit-compile-
+   simulate-analyze cycle.
+
+
+
+------------
+
+Q: I don't know where to look for information
+
+A: Please read all of the following questions and answers.
+   If you prefer printed documentation, see below for information
+   about the HADES tutorial.
+
+
+------------
+
+Q: Where do I find documentation about HADES?
+
+A: First, read the README file included in your HADES distribution.
+   Next, you should read the "HADES tutorial", which should also be 
+   part of your HADES installation. The tutorial is in (compressed) 
+   Postscript format and covers the HADES installation, the basic usage, 
+   some tips, and some questions and answers.
+
+   Further information and the most current versions of HADES can be 
+   found on the HADES homepage:
+
+   http://tech-www.informatik.uni-hamburg.de/applets/hades/
+
+
+------------
+
+Q: What version of HADES do I have / do I need?
+
+A: Start the editor. It should display a version number and date 
+   in its window title. 
+
+   You can also look a the hades/doc/CHANGES file for a list of
+   recent changes to Hades. This file is a text file contained
+   in your hades.zip (or hades.jar) archive. Use a standard
+   ZIP-format packer like WinZip or jar to extract and view the
+   CHANGES file.
+
+
+------------
+
+Q: I just downloaded the HADES archive, but it won't run.
+
+A: Please check the README file for setup information.
+
+   To run HADES, you first need a Java 1.1 or Java 2 virtual machine,
+   e.g. JDK 1.1.8 or JDK 1.3 (or higher) from Sun Microsystems.
+   You also need the HADES class archive (a file called 'hades.zip'), 
+   which already includes some example designs.
+
+   To get it working, you must set the Java CLASSPATH environment 
+   variable, which tells the Java virtual machine where to search for 
+   Java class files.
+   This search path must include three different entries for HADES:
+   
+   o  the standard Java class archive (rt.jar or classes.zip)
+   o  the HADES class archive (hades.zip or hades.jar)
+   o  a directory for your own "design files".
+      Due to a bug in HADES, you should use a directory with the
+      fixed name "hades" as the common directory for all your
+      design files. For example, 
+      "c:\users\joe\hades" 
+
+   For example, let us assume a standard Windows system with JDK 1.1.8
+   installed to the directory C:\programs\jdk1.1.8. 
+   You want to install the HADES files to a directory C:\programs\hades,
+   and your own HADES design files to a directory D:\users\joe\hades.
+
+   Therefore, you would set the CLASSPATH as follows:
+
+     set PATH      = %PATH%;C:\progams\jdk1.1.8\bin
+
+     set CLASSPATH = C:\programs\jdk1.1.8\lib\classes.zip
+     set CLASSPATH = %CLASSPATH%;C:\programs\hades\hades.zip;C:\programs\hades
+     set CLASSPATH = %CLASSPATH%;D:\users\joe
+
+   Usually, you would add these lines to your autoexec.bat and restart your 
+   computer. Naturally, it is also possible to write a small script file
+   that contains these lines (and starts HADES).
+
+   Note that you have to specify the parent directories of the 'hades' 
+   subdirectories! You can now start HADES as follows:
+
+     java -mx32M hades.gui.Editor 
+
+   The parameter -mx32M specifies the memory limit for HADES (in this case,
+   32 MByte. The default is 16 MBytes, which is only sufficient for very
+   small designs. For larger designs, you might use -mx128M or more).
+
+   On Unix systems, you might want to modify the HADES run script supplied
+   with the HADES class archive (unpack the file 'hades/scripts/runhades').
+
+
+
+------------
+
+Q: Can I use the Java Runtime Environment (JRE) instead of the JDK?
+
+A: No problem. Just supply the CLASSPATH as a command line argument to
+   the -classpath option of jre:
+
+    jre -mx32M -classpath C:\programs\hades\hades.zip;C:\programs\hades;C:\users\joe hades.gui.Editor
+
+   Modify the CLASSPATH to fit your installation (see the previous answer for
+   details).
+
+
+------------
+
+Q: Can I run HADES as an applet inside a WWW-Browser?
+
+A: In theory, HADES should run inside any Java 1.1 compatible browser.
+   However, neither Internet Explorer nor Netscape are fully Java
+   compliant yet. Therefore, we recommend to download HADES and
+   run it as a standalone executable.
+
+   Here is a short summary of common browsers and virtual machines:
+
+   * Windows 9x, Internet Explorer 4.x, Microsoft VM,
+   * Windows 9x, Internet Explorer 5.x, Microsoft VM:  
+
+     depending on your security settings, this should work.
+     However, enabling Java support and file I/O may expose
+     several security problems.
+
+   * Netscape 4.x, internal Netscape VM:  
+
+     forget it, the Netscape VM is fully broken. 
+
+   * Internet Explorer or Netscape with Java Plugin 1.3:
+
+     works. You can also enable file I/O without inacceptable
+     security problems. See the Java plugin documentation for
+     further information.
+
+   * other browsers like KDE konqueror: these usually load Java applets
+     via an external virtual machine. Try JDK 1.3 or the Java Plugin 1.3.
+
+   Also, note that standard applets are not allowed to read and write files
+   on your computer. While you should be able to create and edit designs,
+   you probably wont be able to save them. Consult your browser documentation
+   about the applet security settings and applet file access. 
+   Finally, you may have to start your browser with a special CLASSPATH
+   setting in order for HADES to find its files.
+
+
+------------
+
+Q: The bindkeys specified in the HADES menus don't work!
+
+A: Yes and no... Unfortunately, all versions of the JDK seem to ignore
+   bindkeys on popup-menus. The standard menu bindkeys should work.
+
+   However, this is no problem, as all menu shortcuts are also defined
+   as HADES bindkeys. Bindkeys work just like the menu shortcuts, only
+   without the CNTL- or ALT-modifier key. For example, use either
+   'CNTL-c' or just 'c' to copy an object, use 'CNTL-SHIFT-Z' or just
+   'SHIFT-Z' to zoom in.
+ 
+
+------------
+   
+   
+Q: The popup-menu is very slow!
+
+A: This is only true on slower Unix systems, especially on older SUN
+   SPARCstations (SPARCstations 4/5/10) running Solaris 2.6 with the 
+   JIT-compiler enabled. The performance on current hardware and
+   virtual machines is OK.
+
+   Under Windows 95/NT the popup-menu performance is excellent even on
+   older hardware.
+ 
+
+------------
+
+Q: The simulation is slow!
+
+A: On modern Pentium- or RISC based workstations, the HADES simulation
+   will usually run at about 100.000 ... 500.000 simulation events per 
+   second. For example, we benchmarked several gate-level simulations
+   at over 1 million events per second on an Athlon/800 with JDK 1.3
+   Hotspot Server VM. 
+
+   Note that this is not so much slower than commercial simulators
+   for digital circuits (like Verilog-XL or Synopsys VSS).
+   For some circuits, we even found HADES to be a little bit faster.
+   While HADES has to do many more runtime checks, because the
+   user can always modify the system in interactive simulation,
+   recent Java JIT-compilers help a lot. 
+ 
+   Also, HADES should be able to run at 10 ... 50 screen redraws
+   (frames/second :-) ) in interactive simulation.
+
+   Overall, the simulation performance is certainly adequate for most 
+   educational designs, and even some smaller industrial designs.
+
+   o Use the best virtual machine for your platform. We recommend
+     Sun's or IBM's JDK 1.3 or recent versions of Microsoft jview.
+
+   o Don't use glow-mode or interactive components like seven-segment 
+     displays for large simulations. Due to the high number of repaints
+     the simulation runs much slower, with perhaps as low as a few
+     hundred events per second.
+
+   o Don't simulate large designs with many components and signals 
+     directly, but embed them as subdesigns in an extra top-level design, 
+     because most algorithms in HADES run slower when they need to 
+     manage many graphical objects.
+
+   o Try to allocate as much physical memory as availabe to HADES 
+     with the '-mx' command line option, in order to minimize 
+     garbage-collection overhead.
+   
+
+
+------------
+   
+   
+

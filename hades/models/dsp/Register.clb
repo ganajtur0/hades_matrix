@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Register.class
+hades/models/dsp/Register.java
+hades/models/dsp/Register.sym
+hades/models/dsp/Register.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Register
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Register.gif
+
+[author]
+unknown
+
+[description]
+rising-edge triggered register for double-precision values.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

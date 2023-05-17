@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/MinFilter.class
+hades/models/imaging/MinFilter.java
+hades/models/imaging/MinFilter.sym
+hades/models/imaging/MinFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.MinFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/MinFilter.gif
+
+[author]
+-
+
+[description]
+Per-pixel per-component minimum operation:
+
+(a,r,g,b) = (ff, min(r1,r2), min(g1,g2), min(b1,b2))
+
+[end description]

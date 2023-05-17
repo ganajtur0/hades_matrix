@@ -1,0 +1,10 @@
+# Hades symbol for the std_logic "matrix" switch, which allows
+# to generate all of the U/X/0/1/Z/L/H/W/D values directly.
+# fnh, 07.05.2001
+#
+hades.symbols.BboxRectangle 0 0 3600 2400
+#hades.symbols.InstanceLabel 600 2650 switch1164
+hades.symbols.PersistentInstanceLabel -100 1200 3 i0
+hades.symbols.PortSymbol 3600 1200 Y
+hades.symbols.PortLabel 3400 1300 3 Y
+hades.symbols.FigWrapper 0 0 /hades/models/io/IpinStdLogic1164.fig

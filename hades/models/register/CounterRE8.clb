@@ -1,0 +1,30 @@
+[files 4]
+hades/models/register/CounterRE8.class
+hades/models/register/CounterRE8.java
+hades/models/register/CounterRE8.sym
+hades/models/register/CounterRE8.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.register.CounterRE8
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/register/CounterRE8.gif
+
+[author]
+-
+
+[description]
+edge-triggered 8-bit parallel output synchronous counter
+with reset and enable inputs.
+[end description]

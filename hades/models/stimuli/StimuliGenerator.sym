@@ -1,0 +1,14 @@
+hades.symbols.BboxRectangle 0 0 4800 2400
+# hades.symbols.ClassLabel 4750 450 3 StimuliGenerator
+hades.symbols.InstanceLabel 4750 2350 3 name
+#
+# no ports yet
+#hades.symbols.PortSymbol 0 600 enable
+#hades.symbols.PortSymbol 0 1800 reset
+#
+#hades.symbols.PortLabel 150 550 enable
+#hades.symbols.PortLabel 150 1750 reset
+#
+hades.symbols.Rectangle  0 0 4800 2400
+#
+hades.symbols.Label 2400 1500 2 16 27 36864 StimuliGen

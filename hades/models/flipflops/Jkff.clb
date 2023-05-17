@@ -1,0 +1,37 @@
+[files 4]
+hades/models/flipflops/Jkff.class
+hades/models/flipflops/Jkff.java
+hades/models/flipflops/Jkff.sym
+hades/models/flipflops/Jkff.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Jkff
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Jkff.gif
+
+[author]
+-
+
+[description]
+JK-type flipflop
+
+A falling-edge triggered JK-flipflop with asynchronous
+clear inputs. Signals are of type StdLogic1164.
+
+Flipflop propagation delay and both setup- and hold-time
+can be specified.
+
+
+[end description]

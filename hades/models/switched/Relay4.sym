@@ -1,0 +1,66 @@
+# relay with four separate changeover switches
+#
+hades.symbols.BboxRectangle 0 0 3600 11400
+hades.symbols.Rectangle 0 0 3600 11400
+hades.symbols.ClassLabel 150 450 1 Relay4
+hades.symbols.InstanceLabel 150 11250 1 r0
+#
+hades.symbols.PortSymbol 0 1200 X
+hades.symbols.PortSymbol 3600 1200 Y
+hades.symbols.PortSymbol 0 3000 A
+hades.symbols.PortSymbol 3600 2400 A1
+hades.symbols.PortSymbol 3600 3600 A0
+hades.symbols.PortSymbol 0 5400 B
+hades.symbols.PortSymbol 3600 4800 B1
+hades.symbols.PortSymbol 3600 6000 B0
+hades.symbols.PortSymbol 0 7800 C
+hades.symbols.PortSymbol 3600 7200 C1
+hades.symbols.PortSymbol 3600 8400 C0
+hades.symbols.PortSymbol 0 10200 D
+hades.symbols.PortSymbol 3600 9600 D1
+hades.symbols.PortSymbol 3600 10800 D0
+#
+hades.symbols.PortLabel   150 1100 X
+hades.symbols.PortLabel  3450 1100 3 Y
+hades.symbols.PortLabel   150 2900 A
+hades.symbols.PortLabel  3450 2300 3 A1
+hades.symbols.PortLabel  3450 3500 3 A0
+hades.symbols.PortLabel   150 5300 B
+hades.symbols.PortLabel  3450 4700 3 B1
+hades.symbols.PortLabel  3450 5900 3 B0
+hades.symbols.PortLabel   150 7700 C
+hades.symbols.PortLabel  3450 7100 3 C1
+hades.symbols.PortLabel  3450 8300 3 C0
+hades.symbols.PortLabel   150 10100 D
+hades.symbols.PortLabel  3450 9500 3 D1
+hades.symbols.PortLabel  3450 10700 3 D0
+#
+# coil
+hades.symbols.Rectangle  1500  600 2100 1800
+hades.symbols.Polyline 2    0 1200 1500 1200
+hades.symbols.Polyline 2 2100 1200 3600 1200
+hades.symbols.Polyline 2 2100  900 1500 1500
+# hades.symbols.Polyline 2 1700 1800 1700 5400
+# hades.symbols.Polyline 2 1900 1800 1900 5400
+# 
+# A switches
+hades.symbols.Polyline 2    0 3000 1000 3000 
+hades.symbols.Polyline 2 2600 2400 3600 2400
+hades.symbols.Polyline 3 2600 3350 2600 3600 3600 3600 
+#
+# B switches
+hades.symbols.Polyline 2    0 5400 1000 5400 
+hades.symbols.Polyline 2 2600 4800 3600 4800
+hades.symbols.Polyline 3 2600 5750 2600 6000 3600 6000 
+#
+# C switches
+hades.symbols.Polyline 2    0 7800 1000 7800 
+hades.symbols.Polyline 2 2600 7200 3600 7200
+hades.symbols.Polyline 3 2600 8150 2600 8400 3600 8400 
+#
+# D switches
+hades.symbols.Polyline 2    0 10200 1000 10200 
+hades.symbols.Polyline 2 2600 9600 3600 9600
+hades.symbols.Polyline 3 2600 10550 2600 10800 3600 10800 
+#
+# hades.symbols.Label 1500 1500 1 16 27 36864 

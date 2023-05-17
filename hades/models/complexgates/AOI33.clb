@@ -1,0 +1,34 @@
+[files 4]
+hades/models/complexgates/AOI33.class
+hades/models/complexgates/AOI33.java
+hades/models/complexgates/AOI33.sym
+hades/models/complexgates/AOI33.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.complexgates.AOI33
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/complexgates/AOI33.gif
+
+[author]
+-
+
+[description]
+AOI33 complex gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+[end description]

@@ -1,0 +1,46 @@
+hades.symbols.BboxRectangle  0 0 6000 11400
+hades.symbols.Rectangle  0 0 6000 11400
+#
+hades.symbols.PortLabel 5850 750 3 error
+hades.symbols.PortSymbol 6000 600 error
+hades.symbols.PortLabel 5850 1350 3 trigger
+hades.symbols.PortSymbol 6000 1200 trigger
+#
+hades.symbols.PortLabel 150 10950 D0
+hades.symbols.PortSymbol 0 10800 D0
+hades.symbols.PortLabel 150 10350 D1
+hades.symbols.PortSymbol 0 10200 D1
+hades.symbols.PortLabel 150 9750 D2
+hades.symbols.PortSymbol 0 9600 D2
+hades.symbols.PortLabel 150 9150 D3
+hades.symbols.PortSymbol 0 9000 D3
+hades.symbols.PortLabel 150 8550 D4
+hades.symbols.PortSymbol 0 8400 D4
+hades.symbols.PortLabel 150 7950 D5
+hades.symbols.PortSymbol 0 7800 D5
+hades.symbols.PortLabel 150 7350 D6
+hades.symbols.PortSymbol 0 7200 D6
+hades.symbols.PortLabel 150 6750 D7
+hades.symbols.PortSymbol 0 6600 D7
+hades.symbols.PortLabel 150 6150 D8
+hades.symbols.PortSymbol 0 6000 D8
+hades.symbols.PortLabel 150 5550 D9
+hades.symbols.PortSymbol 0 5400 D9
+hades.symbols.PortLabel 150 4950 D10
+hades.symbols.PortSymbol 0 4800 D10
+hades.symbols.PortLabel 150 4350 D11
+hades.symbols.PortSymbol 0 4200 D11
+hades.symbols.PortLabel 150 3750 D12
+hades.symbols.PortSymbol 0 3600 D12
+hades.symbols.PortLabel 150 3150 D13
+hades.symbols.PortSymbol 0 3000 D13
+hades.symbols.PortLabel 150 2550 D14
+hades.symbols.PortSymbol 0 2400 D14
+hades.symbols.PortLabel 150 1950 D15
+hades.symbols.PortSymbol 0 1800 D15
+#hades.symbols.PortLabel 150 1350 dummy
+#hades.symbols.PortSymbol 0 1200 dummy
+#hades.symbols.PortLabel 150 750 jummy
+#hades.symbols.PortSymbol 0 600 jummy
+hades.symbols.InstanceLabel 150 11250 unnamed
+hades.symbols.ClassLabel 150 450 remoteOpin

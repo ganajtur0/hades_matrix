@@ -1,0 +1,39 @@
+[files 4]
+hades/models/io/ConstantL.class
+hades/models/io/ConstantL.java
+hades/models/io/ConstantL.sym
+hades/models/io/ConstantL.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.io.ConstantL
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/io/ConstantL.gif
+
+[author]
+-
+
+[description]
+constant L
+
+Simple generator for the "L" level of the StdLogic1164
+multilevel logic system.
+
+Note: this component generates only a single simulation 
+event during the elaboration phase of a simulation. 
+Therefore, you may have to stop-and-restart an ongoing 
+simulation when the component is disconnected
+or reconnected during a simulation.
+
+[end description]

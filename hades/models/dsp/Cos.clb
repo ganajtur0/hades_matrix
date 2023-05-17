@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Cos.class
+hades/models/dsp/Cos.java
+hades/models/dsp/Cos.sym
+hades/models/dsp/Cos.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Cos
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Cos.gif
+
+[author]
+unknown
+
+[description]
+cosinus operator, Y = cos( X )    (radians)
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

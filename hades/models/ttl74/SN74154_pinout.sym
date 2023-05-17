@@ -1,0 +1,60 @@
+# SN74154_pinout.sym - 24pin DIL package symbol for the 74154 1:16 decoder
+#
+hades.symbols.BboxRectangle 0 0 4800 15600
+hades.symbols.Rectangle 0 0 4800 15600
+hades.symbols.ClassLabel  2400 900 2 74LS154
+hades.symbols.InstanceLabel 2400 15500 2 decoder
+hades.symbols.FatLabel 2400 8400 2 '154
+#
+hades.symbols.PortSymbol 0 1200 Y0
+hades.symbols.PortSymbol 0 2400 Y1
+hades.symbols.PortSymbol 0 3600 Y2
+hades.symbols.PortSymbol 0 4800 Y3
+hades.symbols.PortSymbol 0 6000 Y4
+hades.symbols.PortSymbol 0 7200 Y5
+hades.symbols.PortSymbol 0 8400 Y6
+hades.symbols.PortSymbol 0 9600 Y7
+hades.symbols.PortSymbol 0 10800 Y8
+hades.symbols.PortSymbol 0 12000 Y9
+hades.symbols.PortSymbol 0 13200 Y10
+#hades.symbols.PortSymbol 0 14400 GND
+#
+#hades.symbols.PortSymbol 4800 1200 VCC
+hades.symbols.PortSymbol 4800 2400 A
+hades.symbols.PortSymbol 4800 3600 B
+hades.symbols.PortSymbol 4800 4800 C
+hades.symbols.PortSymbol 4800 6000 D
+hades.symbols.PortSymbol 4800 7200 G2/
+hades.symbols.PortSymbol 4800 8400 G1/
+hades.symbols.PortSymbol 4800 9600 Y15
+hades.symbols.PortSymbol 4800 10800 Y14
+hades.symbols.PortSymbol 4800 12000 Y13
+hades.symbols.PortSymbol 4800 13200 Y12
+hades.symbols.PortSymbol 4800 14400 Y11
+#
+hades.symbols.PortLabel 250 1300 Y0
+hades.symbols.PortLabel 250 2500 Y1
+hades.symbols.PortLabel 250 3700 Y2
+hades.symbols.PortLabel 250 4900 Y3
+hades.symbols.PortLabel 250 6100 Y4
+hades.symbols.PortLabel 250 7300 Y5
+hades.symbols.PortLabel 250 8500 Y6
+hades.symbols.PortLabel 250 9700 Y7
+hades.symbols.PortLabel 250 10900 Y8
+hades.symbols.PortLabel 250 12100 Y9
+hades.symbols.PortLabel 250 13300 Y10
+hades.symbols.PortLabel 250 14500 GND
+#
+hades.symbols.PortLabel 4550 1300 3 VCC
+hades.symbols.PortLabel 4550 2500 3 A
+hades.symbols.PortLabel 4550 3700 3 B
+hades.symbols.PortLabel 4550 4900 3 C
+hades.symbols.PortLabel 4550 6100 3 D
+hades.symbols.PortLabel 4550 7300 3 G2/
+hades.symbols.PortLabel 4550 8500 3 G1/
+hades.symbols.PortLabel 4550 9700 3 Y15
+hades.symbols.PortLabel 4550 10900 3 Y14
+hades.symbols.PortLabel 4550 12100 3 Y13
+hades.symbols.PortLabel 4550 13300 3 Y12
+hades.symbols.PortLabel 4550 14500 3 Y11
+#

@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Mux41.class
+hades/models/gatter/Mux41.java
+hades/models/gatter/Mux41.sym
+hades/models/gatter/Mux41.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Mux41
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Mux41.gif
+
+[author]
+-
+
+[description]
+4-to-1 multiplexer gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

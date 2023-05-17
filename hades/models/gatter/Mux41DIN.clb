@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gatter/Mux41DIN.class
+hades/models/gatter/Mux41DIN.java
+hades/models/gatter/Mux41DIN.sym
+hades/models/gatter/Mux41DIN.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gatter.Mux41DIN
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gatter/Mux41DIN.gif
+
+[author]
+-
+
+[description]
+4-to-1 multiplexer gate, DIN-style symbol.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+[end description]

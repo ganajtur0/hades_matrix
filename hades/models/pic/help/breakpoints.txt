@@ -1,0 +1,33 @@
+# /hades/models/pic/help/breakpoints.txt
+
+
+To set or remove a breakpoint at some PIC 16C84/16F84 instruction, 
+use the memory disassembler GUI component (located at the right
+of the PIC property editor window).
+
+First, scroll the disassembler window to make the target address
+visible. Then, simply click the mouse in the 'address field' 
+(on the left of the disassembler window) at the target address
+to toggle the breakpoint status of that address. 
+
+If a breakpoint is active at some address, the corresponding row
+in the disassembler view will start with "* " and will be displayed
+in red color. Normal instructions without breakpoint start with 
+a ". " string and are displayed in black color.
+
+
+If the opcode part of one row of the disassembler view is displayed
+in blue color, that address is selected for editing. Just type in
+the desired opcode to change the program memory contents for that
+address, or type <ESC> or <ENTER> to finish editing.
+
+To summarize the display options:
+
+<black color>     normal instruction, no breakpoint, no editing
+
+<red color>       breakpoint active at that address
+
+<blue color>      address selected for memory editing, 
+                  just type in the desired opcode, 
+                  e.g. "2805" for the "goto 0x005" instruction
+

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/imaging/MirrorYFilter.class
+hades/models/imaging/MirrorYFilter.java
+hades/models/imaging/MirrorYFilter.sym
+hades/models/imaging/MirrorYFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.MirrorYFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/MirrorYFilter.gif
+
+[author]
+-
+
+[description]
+mirrors the input image top-down.
+
+[end description]

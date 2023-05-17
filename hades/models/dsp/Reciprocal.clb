@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Reciprocal.class
+hades/models/dsp/Reciprocal.java
+hades/models/dsp/Reciprocal.sym
+hades/models/dsp/Reciprocal.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Reciprocal
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Reciprocal.gif
+
+[author]
+unknown
+
+[description]
+reciprocal operator, Y = 1.0 / X.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

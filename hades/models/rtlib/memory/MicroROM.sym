@@ -1,0 +1,47 @@
+# symbol for hades.models.rtlib.logic.microROM
+# (microcode ROM without chip select or latches)
+# FNH  05.07.99
+#
+hades.symbols.BboxRectangle 0 0 18000 4800
+hades.symbols.Polyline 8 1200 0 0 1200 0 3600 1200 4800 18000 4800 18000 0 1200 0 1200 4800
+hades.symbols.Polyline 2 3300 4200 3300 4800
+hades.symbols.Polyline 2 6900 4200 6900 4800
+#
+hades.symbols.ClassLabel 2000 550 1 microROM
+hades.symbols.InstanceLabel 17800 550 3 uROM
+hades.symbols.FatLabel 9000 3000 2 uROM
+#
+hades.symbols.BusPortSymbol    0 2400 A
+hades.symbols.BusPortSymbol 2400 4800 X
+hades.symbols.BusPortSymbol 4200 4800 H
+hades.symbols.BusPortSymbol 4800 4800 G
+hades.symbols.BusPortSymbol 5400 4800 F
+hades.symbols.BusPortSymbol 6000 4800 E
+#
+hades.symbols.PortSymbol    7800 4800 D15
+hades.symbols.PortSymbol    8400 4800 D14
+hades.symbols.PortSymbol    9000 4800 D13
+hades.symbols.PortSymbol    9600 4800 D12
+hades.symbols.PortSymbol   10200 4800 D11
+hades.symbols.PortSymbol   10800 4800 D10
+hades.symbols.PortSymbol   11400 4800 D9
+hades.symbols.PortSymbol   12000 4800 D8
+#
+hades.symbols.PortSymbol   13200 4800 D7
+hades.symbols.PortSymbol   13800 4800 D6
+hades.symbols.PortSymbol   14400 4800 D5
+hades.symbols.PortSymbol   15000 4800 D4
+hades.symbols.PortSymbol   15600 4800 D3
+hades.symbols.PortSymbol   16200 4800 D2
+hades.symbols.PortSymbol   16800 4800 D1
+hades.symbols.PortSymbol   17400 4800 D0
+#
+hades.symbols.PortLabel   250 2500 1 A
+hades.symbols.PortLabel  2400 4600 2 X
+hades.symbols.PortLabel  4200 4600 2 H
+hades.symbols.PortLabel  6000 4600 2 E
+hades.symbols.PortLabel  7800 4600 2 D15
+hades.symbols.PortLabel 12000 4600 2 D8
+hades.symbols.PortLabel 13200 4600 2 D7
+hades.symbols.PortLabel 17400 4600 2 D0
+#

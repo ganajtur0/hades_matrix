@@ -1,0 +1,43 @@
+[files 4]
+hades/models/dcf77/Dcf77Clock.class
+hades/models/dcf77/Dcf77Clock.java
+hades/models/dcf77/Dcf77Clock.sym
+hades/models/dcf77/Dcf77Clock.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dcf77.Dcf77Clock
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dcf77/Dcf77Clock.gif
+
+[author]
+-
+
+[description]
+DCF77 time signal decoder / digital clock.
+
+This simulation component models a decoder for the digital
+part of the "DCF-77" time-encoding, as transmitted by the
+German Institute of Standards from a sender near Frankfurt.
+The signal consists of short (0.1 sec) and long (0.2 sec)
+low-active pulses. Over a period of one minute, 59 pulses
+are sent, one per second, while the 60th pulse is missing
+to allow resynchronisation. The exact time of the next
+minute is BCD-encoded in the 59-bits.
+
+After receiving a complete set of bits (including initial
+synchronisation into the time bit stream), the clock will
+display the time and date decoded from the input signal.
+
+[end description]

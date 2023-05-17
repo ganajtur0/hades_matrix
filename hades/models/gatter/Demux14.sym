@@ -1,0 +1,36 @@
+# DIN style (abstract) symbol, ports on 1/4 inch grid
+#
+hades.symbols.BboxRectangle 0 0 3000 3000
+hades.symbols.ClassLabel 2900 450 3 Demux14
+hades.symbols.InstanceLabel 2900 2900 3 i0
+#
+hades.symbols.PortSymbol 0 1200 A
+hades.symbols.PortSymbol 3000 600 Y3
+hades.symbols.PortSymbol 3000 1200 Y2
+hades.symbols.PortSymbol 3000 1800 Y1
+hades.symbols.PortSymbol 3000 2400 Y0
+hades.symbols.PortSymbol 1200 3000 S1
+hades.symbols.PortSymbol 1800 3000 S0
+#
+hades.symbols.PortLabel 150 1125 A
+hades.symbols.PortLabel 2900  525 3 Y3
+hades.symbols.PortLabel 2900 1125 3 Y2
+hades.symbols.PortLabel 2900 1725 3 Y1
+hades.symbols.PortLabel 2900 2325 3 Y0
+#
+hades.symbols.PortLabel 1150 2925 3 S1
+hades.symbols.PortLabel 1750 2925 3 S0
+#
+#hades.symbols.Polyline 5 750 900 750 2100 2100 2550 2100 450 750 900
+#hades.symbols.Polyline 2 1200 2250 1200 3000
+#hades.symbols.Polyline 2 1800 2450 1800 3000
+#hades.symbols.Polyline 2 0 1500 750 1500
+hades.symbols.Rectangle 600 400 2400 2600
+hades.symbols.Polyline 2 0 1200 600 1200
+hades.symbols.Polyline 2 2400 600 3000 600
+hades.symbols.Polyline 2 2400 1200 3000 1200
+hades.symbols.Polyline 2 2400 1800 3000 1800
+hades.symbols.Polyline 2 2400 2400 3000 2400
+hades.symbols.Polyline 2 1200 3000 1200 2600
+hades.symbols.Polyline 2 1800 3000 1800 2600
+hades.symbols.Label 1500 1800 2 16 24 36864 1:4

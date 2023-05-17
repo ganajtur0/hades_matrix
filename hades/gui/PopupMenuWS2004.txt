@@ -1,0 +1,91 @@
+# Hades ObjectCanvas popup menu description for lecture T1, WS2004
+# fnh, 26.11.2004, 14.12.2004
+# with tab- or space separated entries
+# use \uffff notation for special chars
+#
+# Menu menu_name
+# SubMenu parent_menu_name sub_menu_name
+# MenuSeparator parent_menu_name
+# MenuItem parent_menu_name item_name callback_method_name callback_argument_or_null
+#
+Menu wire
+MenuItem wire connect                 doPopupCreateSignal null
+MenuItem wire move\u0020vertex        doPopupSignalMovePoint null
+MenuItem wire add\u0020segment        doPopupSignalAddSegment null
+MenuItem wire insert\u0020vertex      doPopupSignalInsertVertex null
+MenuItem wire delete\u0020segment     doPopupSignalDeleteSegment null
+MenuItem wire change\u0020name        doPopupSignalChangeName null
+MenuSeparator wire
+MenuItem wire add\u0020probe          doPopupSignalAddProbe null
+MenuItem wire remove\u0020probe       doPopupSignalDeleteProbe null
+MenuSeparator wire
+MenuItem wire disconnect\u0020Port       doPopupDisconnectPort null
+MenuItem wire disconnect\u0020SimObject  doPopupDisconnect null
+MenuItem wire autoconnect\u0020SimObject doPopupAutoconnect null
+#
+Menu create
+SubMenu create io
+MenuItem io Ipin\u0020(input\u0020and\u0020switch)  doPopupCreate hades.models.io.Ipin
+MenuItem io PowerOnReset           doPopupCreate hades.models.io.PowerOnReset
+MenuItem io ClockGenerator         doPopupCreate hades.models.io.ClockGen
+MenuSeparator io
+MenuItem io Opin\u0020(output)     doPopupCreate hades.models.io.Opin
+MenuItem io LED                    doPopupCreate hades.models.io.LED
+MenuSeparator io
+MenuItem io Hex-Switch             doPopupCreate hades.models.io.HexSwitch
+MenuItem io Hex-Display            doPopupCreate hades.models.io.HexDisplay
+MenuSeparator io
+MenuItem   io VCC\u0020(1)         doPopupCreate hades.models.io.Constant1
+MenuItem   io GND\u0020(0)         doPopupCreate hades.models.io.Constant0
+MenuItem   io Pullup\u0020(H)      doPopupCreate hades.models.io.ConstantH
+#
+SubMenu create gatter
+MenuItem gatter AND2               doPopupCreate hades.models.gatter.And2
+MenuItem gatter AND3               doPopupCreate hades.models.gatter.And3
+MenuItem gatter AND4               doPopupCreate hades.models.gatter.And4
+MenuItem gatter Buffer             doPopupCreate hades.models.gatter.Buffer
+MenuItem gatter INV                doPopupCreate hades.models.gatter.Inv
+MenuItem gatter MUX\u00202:1       doPopupCreate hades.models.gatter.Mux21
+MenuItem gatter MUX\u00204:1       doPopupCreate hades.models.gatter.Mux41
+MenuItem gatter NAND2              doPopupCreate hades.models.gatter.Nand2
+MenuItem gatter NAND3              doPopupCreate hades.models.gatter.Nand3
+MenuItem gatter NAND4              doPopupCreate hades.models.gatter.Nand4
+MenuItem gatter NOR2               doPopupCreate hades.models.gatter.Nor2
+MenuItem gatter NOR3               doPopupCreate hades.models.gatter.Nor3
+MenuItem gatter NOR4               doPopupCreate hades.models.gatter.Nor4
+MenuItem gatter OR2                doPopupCreate hades.models.gatter.Or2
+MenuItem gatter OR3                doPopupCreate hades.models.gatter.Or3
+MenuItem gatter OR4                doPopupCreate hades.models.gatter.Or4
+MenuItem gatter TRI                doPopupCreate hades.models.gatter.Tri
+MenuItem gatter XOR2\u0020         doPopupCreate hades.models.gatter.Xor2
+MenuItem gatter XNOR2              doPopupCreate hades.models.gatter.Xnor2
+#
+SubMenu create flipflops
+MenuItem flipflops DFF     doPopupCreate hades.models.flipflops.DffMetastable
+MenuItem flipflops DFFR    doPopupCreate hades.models.flipflops.Dffr
+MenuItem flipflops JKFF    doPopupCreate hades.models.flipflops.Jkff
+MenuItem flipflops Latch   doPopupCreate hades.models.flipflops.LatchMetastable
+MenuItem flipflops Latchr  doPopupCreate hades.models.flipflops.Latchr
+#
+MenuSeparator create
+MenuItem create	Create\u0020subdesign...    doPopupCreateSubDesign null
+MenuItem create	Create\u0020by\u0020class\u0020name... doPopupCreateByName null
+#MenuItem create Create\u0020FigObject...    doPopupCreateFigObject null
+#
+Menu zoom
+MenuItem zoom Zoom\u0020Region              doZoomRegion null
+MenuItem zoom Zoom\u0020In\u0020(2.0)       doZoomIn null
+MenuItem zoom Zoom\u0020In\u0020(1.4)       doZoomIn14 null
+MenuItem zoom Zoom\u0020Out\u0020(0.7)      doZoomOut07 null
+MenuItem zoom Zoom\u0020Out\u0020(0.5)      doZoomOut null
+MenuItem zoom Zoom\u0020Fit                 doZoomFit null
+MenuItem zoom Zoom\u00201:1                 doZoom11 null
+#
+#
+MenuSeparator popup
+MenuItem popup move doPopupMove null
+MenuItem popup copy doPopupCopy null
+MenuItem popup edit doPopupEdit null
+MenuItem popup name doPopupName null
+MenuSeparator popup
+MenuItem popup delete doPopupDelete null

@@ -1,0 +1,33 @@
+[files 4]
+hades/models/gates/And4.class
+hades/models/gates/And4.java
+hades/models/gates/And4.sym
+hades/models/gates/And4.gif
+
+[versions 1]
+1000
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.gates.And4
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/gates/And4.gif
+
+[description]
+Standard 4-input AND gate.
+
+Inputs and output are of type StdLogic1164.
+The gate uses the transport delay model,
+with user-settable gate delay attribute.
+
+To use this gate in the editor, please select
+Editor->Window->Magnetic grid -> 1/8 inch
+[end description]

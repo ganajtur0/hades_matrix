@@ -1,0 +1,5 @@
+hades.symbols.PortSymbol 0 -200 A
+hades.symbols.PortSymbol 0 100 B
+hades.symbols.InstanceLabel 1300 0 led_0
+hades.symbols.BboxRectangle 000 -600 1200 600
+hades.symbols.ColoredCircle 600 0 450 450

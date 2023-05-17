@@ -1,0 +1,75 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.io.Ipin A4 -6000 8400 @N 1001 g 0
+hades.models.io.Ipin A3 -1800 8400 @N 1001 f 0
+hades.models.io.Ipin A2 2400 8400 @N 1001 d 0
+hades.models.io.Opin S7 -16200 15000 @N 1001 5.0E-9
+hades.models.io.Ipin A1 6600 8400 @N 1001 s 0
+hades.models.io.Opin S6 -12000 15000 @N 1001 5.0E-9
+hades.models.io.Ipin A0 10800 8400 @N 1001 a 0
+hades.models.io.Opin S5 -7800 15000 @N 1001 5.0E-9
+hades.models.io.Opin S4 -3600 15000 @N 1001 5.0E-9
+hades.models.io.Opin S3 600 15000 @N 1001 5.0E-9
+hades.models.io.Opin S2 4800 15000 @N 1001 5.0E-9
+hades.models.io.Opin S1 9000 15000 @N 1001 5.0E-9
+hades.models.Design unnamed5 -18600 10200 @N 1001 addcell.hds
+hades.models.Design unnamed4 -14400 10200 @N 1001 addcell.hds
+hades.models.io.Opin S0 13200 15000 @N 1001 5.0E-9
+hades.models.io.Ipin CIN 15000 6600 @N 1001 c 0
+hades.models.Design unnamed3 -10200 10200 @N 1001 addcell.hds
+hades.models.Design add_bit_1 6600 10200 @N 1001 addcell.hds
+hades.models.Design unnamed2 -6000 10200 @N 1001 addcell.hds
+hades.models.io.Ipin B7 -18600 6600 @N 1001 8 0
+hades.models.Design add_bit_0 10800 10200 @N 1001 addcell.hds
+hades.models.Design unnamed1 -1800 10200 @N 1001 addcell.hds
+hades.models.io.Ipin B6 -14400 6600 @N 1001 7 1
+hades.models.io.Ipin B5 -10200 6600 @N 1001 6 1
+hades.models.io.Ipin B4 -6000 6600 @N 1001 5 1
+hades.models.io.Ipin B3 -1800 6600 @N 1001 4 0
+hades.models.io.Ipin B2 2400 6600 @N 1001 3 0
+hades.models.io.Ipin B1 6600 6600 @N 1001 2 0
+hades.models.io.Ipin B0 10800 6600 @N 1001 1 0
+hades.models.io.Opin COUT -20400 15000 @N 1001 5.0E-9
+hades.models.Design unnamed 2400 10200 @N 1001 addcell.hds
+hades.models.io.Ipin A7 -18600 8400 @N 1001 k 1
+hades.models.io.Ipin A6 -14400 8400 @N 1001 j 0
+hades.models.io.Ipin A5 -10200 8400 @N 1001 h 0
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n32 2 unnamed4 COUT unnamed5 CIN 1 2 -14400 11400 -16200 11400 0 
+hades.signals.SignalStdLogic1164 n31 2 unnamed5 COUT COUT A 5 2 -18600 11400 -21000 11400 2 -21600 14400 -21000 15000 2 -21000 15000 -20400 15000 2 -21000 11400 -21600 12000 2 -21600 14400 -21600 12000 0 
+hades.signals.SignalStdLogic1164 n30 2 unnamed5 SUM S7 A 3 2 -16200 15000 -16800 15000 2 -16800 15000 -17400 14400 2 -17400 14400 -17400 12600 0 
+hades.signals.SignalStdLogic1164 n9 2 CIN Y add_bit_0 CIN 5 2 15000 6600 15600 6600 2 16200 10800 15600 11400 2 13200 11400 15600 11400 2 15600 6600 16200 7200 2 16200 10800 16200 7200 0 
+hades.signals.SignalStdLogic1164 n8 2 add_bit_1 COUT unnamed CIN 1 2 6600 11400 4800 11400 0 
+hades.signals.SignalStdLogic1164 n7 2 add_bit_0 COUT add_bit_1 CIN 1 2 10800 11400 9000 11400 0 
+hades.signals.SignalStdLogic1164 n6 2 unnamed SUM S2 A 3 2 3600 12600 3600 14400 2 3600 14400 4200 15000 2 4200 15000 4800 15000 0 
+hades.signals.SignalStdLogic1164 n5 2 add_bit_1 SUM S1 A 3 2 7800 12600 7800 14400 2 7800 14400 8400 15000 2 8400 15000 9000 15000 0 
+hades.signals.SignalStdLogic1164 n19 2 unnamed2 SUM S4 A 3 2 -3600 15000 -4200 15000 2 -4200 15000 -4800 14400 2 -4800 14400 -4800 12600 0 
+hades.signals.SignalStdLogic1164 n4 2 add_bit_0 SUM S0 A 3 2 12000 12600 12000 14400 2 12000 14400 12600 15000 2 12600 15000 13200 15000 0 
+hades.signals.SignalStdLogic1164 n18 2 unnamed1 SUM S3 A 3 2 600 15000 0 15000 2 0 15000 -600 14400 2 -600 14400 -600 12600 0 
+hades.signals.SignalStdLogic1164 n3 2 B1 Y add_bit_1 B 3 2 6600 6600 7800 6600 2 7800 6600 8400 7200 2 8400 7200 8400 10200 0 
+hades.signals.SignalStdLogic1164 n17 2 A4 Y unnamed2 A 2 2 -5400 10200 -5400 8400 2 -5400 8400 -6000 8400 0 
+hades.signals.SignalStdLogic1164 n2 2 B0 Y add_bit_0 B 3 2 10800 6600 12000 6600 2 12000 6600 12600 7200 2 12600 7200 12600 10200 0 
+hades.signals.SignalStdLogic1164 n16 2 B4 Y unnamed2 B 3 2 -4200 10200 -4200 7200 2 -4200 7200 -4800 6600 2 -4800 6600 -6000 6600 0 
+hades.signals.SignalStdLogic1164 n1 2 A0 Y add_bit_0 A 2 2 10800 8400 11400 8400 2 11400 8400 11400 10200 0 
+hades.signals.SignalStdLogic1164 n15 2 A3 Y unnamed1 A 2 2 -1200 10200 -1200 8400 2 -1200 8400 -1800 8400 0 
+hades.signals.SignalStdLogic1164 n0 2 A1 Y add_bit_1 A 2 2 6600 8400 7200 8400 2 7200 8400 7200 10200 0 
+hades.signals.SignalStdLogic1164 n14 2 B3 Y unnamed1 B 3 2 0 10200 0 7200 2 0 7200 -600 6600 2 -600 6600 -1800 6600 0 
+hades.signals.SignalStdLogic1164 n13 2 B2 Y unnamed B 3 2 4200 10200 4200 7200 2 4200 7200 3600 6600 2 3600 6600 2400 6600 0 
+hades.signals.SignalStdLogic1164 n12 2 A2 Y unnamed A 2 2 2400 8400 3000 8400 2 3000 8400 3000 10200 0 
+hades.signals.SignalStdLogic1164 n11 2 unnamed1 COUT unnamed2 CIN 1 2 -1800 11400 -3600 11400 0 
+hades.signals.SignalStdLogic1164 n10 2 unnamed COUT unnamed1 CIN 1 2 2400 11400 600 11400 0 
+hades.signals.SignalStdLogic1164 n29 2 A7 Y unnamed5 A 2 2 -18000 10200 -18000 8400 2 -18000 8400 -18600 8400 0 
+hades.signals.SignalStdLogic1164 n28 2 B7 Y unnamed5 B 3 2 -18600 6600 -17400 6600 2 -17400 6600 -16800 7200 2 -16800 7200 -16800 10200 0 
+hades.signals.SignalStdLogic1164 n27 2 B6 Y unnamed4 B 3 2 -14400 6600 -13200 6600 2 -13200 6600 -12600 7200 2 -12600 7200 -12600 10200 0 
+hades.signals.SignalStdLogic1164 n26 2 A6 Y unnamed4 A 2 2 -13800 10200 -13800 8400 2 -13800 8400 -14400 8400 0 
+hades.signals.SignalStdLogic1164 n25 2 A5 Y unnamed3 A 3 2 -9600 10200 -9600 9000 2 -9600 9000 -9600 8400 2 -9600 8400 -10200 8400 0 
+hades.signals.SignalStdLogic1164 n24 2 B5 Y unnamed3 B 3 2 -10200 6600 -9000 6600 2 -9000 6600 -8400 7200 2 -8400 7200 -8400 10200 0 
+hades.signals.SignalStdLogic1164 n23 2 unnamed3 COUT unnamed4 CIN 1 2 -12000 11400 -10200 11400 0 
+hades.signals.SignalStdLogic1164 n22 2 unnamed2 COUT unnamed3 CIN 1 2 -7800 11400 -6000 11400 0 
+hades.signals.SignalStdLogic1164 n21 2 unnamed4 SUM S6 A 3 2 -12000 15000 -12600 15000 2 -12600 15000 -13200 14400 2 -13200 14400 -13200 12600 0 
+hades.signals.SignalStdLogic1164 n20 2 unnamed3 SUM S5 A 3 2 -7800 15000 -8400 15000 2 -8400 15000 -9000 14400 2 -9000 14400 -9000 12600 0 
+[end signals]
+[end]

@@ -1,0 +1,39 @@
+[files 4]
+hades/models/switched/TGATE.class
+hades/models/switched/TGATE.java
+hades/models/switched/TGATE.sym
+hades/models/switched/TGATE.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.switched.TGATE
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/switched/TGATE.gif
+
+[author]
+-
+
+[description]
+simplified switch-level simulation model of transmission-gate
+with animated symbol.
+
+The transmission-gate is modeled to be fully conducting whenever 
+the logical value at the gate input is '1' or 'H' (weak high), 
+and non-conducting when the logical value at the gate is '0' or 'L'
+(weak low).
+
+The tgate generates a weak undefined 'W' on its source and
+drain connections when the gate input is undefined ('U', 'X', 
+'Z', 'W').
+[end description]

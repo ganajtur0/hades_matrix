@@ -1,0 +1,64 @@
+hades.symbols.ClassLabel 150 450 RAM_256x8
+hades.symbols.BboxRectangle  0 0 3600 13800
+hades.symbols.InstanceLabel 150 13750 ram_0
+hades.symbols.Rectangle  0 0 3600 13800
+#
+#
+hades.symbols.FatLabel 1800 6000 2 RAM
+hades.symbols.FatLabel 1800 7000 2 256x8
+#
+#
+hades.symbols.PortSymbol 0 600 nCS 
+hades.symbols.PortSymbol 0 1200 nWE
+hades.symbols.PortSymbol 0 1800 nME
+hades.symbols.PortSymbol 0 3000 A7
+hades.symbols.PortSymbol 0 3600 A6
+hades.symbols.PortSymbol 0 4200 A5
+hades.symbols.PortSymbol 0 4800 A4
+hades.symbols.PortSymbol 0 5400 A3
+hades.symbols.PortSymbol 0 6000 A2
+hades.symbols.PortSymbol 0 6600 A1
+hades.symbols.PortSymbol 0 7200 A0
+hades.symbols.PortSymbol 0 9000 DI7
+hades.symbols.PortSymbol 0 9600 DI6
+hades.symbols.PortSymbol 0 10200 DI5
+hades.symbols.PortSymbol 0 10800 DI4
+hades.symbols.PortSymbol 0 11400 DI3
+hades.symbols.PortSymbol 0 12000 DI2
+hades.symbols.PortSymbol 0 12600 DI1
+hades.symbols.PortSymbol 0 13200 DI0
+hades.symbols.PortSymbol 3600 9000 DO7
+hades.symbols.PortSymbol 3600 9600 DO6
+hades.symbols.PortSymbol 3600 10200 DO5
+hades.symbols.PortSymbol 3600 10800 DO4
+hades.symbols.PortSymbol 3600 11400 DO3
+hades.symbols.PortSymbol 3600 12000 DO2
+hades.symbols.PortSymbol 3600 12600 DO1
+hades.symbols.PortSymbol 3600 13200 DO0
+hades.symbols.PortLabel 150 750 nCS
+hades.symbols.PortLabel 150 1350 nWE
+hades.symbols.PortLabel 150 1950 nME
+hades.symbols.PortLabel 150 3150 A7
+hades.symbols.PortLabel 150 3750 A6
+hades.symbols.PortLabel 150 4350 A5
+hades.symbols.PortLabel 150 4950 A4
+hades.symbols.PortLabel 150 5550 A3
+hades.symbols.PortLabel 150 6150 A2
+hades.symbols.PortLabel 150 6750 A1
+hades.symbols.PortLabel 150 7350 A0
+hades.symbols.PortLabel 150 9150 DI7
+hades.symbols.PortLabel 150 9750 DI6
+hades.symbols.PortLabel 150 10350 DI5
+hades.symbols.PortLabel 150 10950 DI4
+hades.symbols.PortLabel 150 11550 DI3
+hades.symbols.PortLabel 150 12150 DI2
+hades.symbols.PortLabel 150 12750 DI1
+hades.symbols.PortLabel 150 13350 DI0
+hades.symbols.PortLabel 3550 9150 3 Y7
+hades.symbols.PortLabel 3550 9750 3 Y6
+hades.symbols.PortLabel 3550 10350 3 Y5
+hades.symbols.PortLabel 3550 10950 3 Y4
+hades.symbols.PortLabel 3550 11550 3 Y3
+hades.symbols.PortLabel 3550 12150 3 Y2
+hades.symbols.PortLabel 3550 12750 3 Y1
+hades.symbols.PortLabel 3550 13350 3 Y0

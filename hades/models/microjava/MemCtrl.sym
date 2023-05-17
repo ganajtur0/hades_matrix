@@ -1,0 +1,51 @@
+hades.symbols.BboxRectangle  0 0 5400 1800
+hades.symbols.Rectangle  0 0 5400 1800
+
+hades.symbols.PortLabel 3600 1750 2 nCS1
+hades.symbols.PortSymbol 3600 1800 nCS1
+
+hades.symbols.PortLabel 4800 1750 2 nCS2
+hades.symbols.PortSymbol 4800 1800 nCS2
+
+hades.symbols.PortLabel 3000 1750 2 W
+hades.symbols.PortSymbol 3000 1800 Wr
+
+hades.symbols.PortLabel 2400 1750 2 nWE
+hades.symbols.PortSymbol 2400 1800 nWE
+
+hades.symbols.PortLabel 1800 1750 2 R
+hades.symbols.PortSymbol 1800 1800 Rd
+
+hades.symbols.PortLabel 1200 1750 2 nOE
+hades.symbols.PortSymbol 1200 1800 nOE
+
+hades.symbols.PortLabel 600 1750 2 A
+hades.symbols.PortSymbol 600 1800 Addr
+
+hades.symbols.PortLabel  100 1350 IAddr
+hades.symbols.BusPortSymbol 0 1200 IAddr
+
+hades.symbols.PortLabel  5300 1350 3 OAddr
+hades.symbols.BusPortSymbol 5400 1200 OAddr
+
+hades.symbols.PortLabel 150 750 IFU
+hades.symbols.PortSymbol 0 600 IFU
+
+hades.symbols.PortLabel 600 350 2 mAc
+hades.symbols.PortSymbol 600 0 mAc
+
+hades.symbols.PortLabel 1800 350 2 Rd
+hades.symbols.PortSymbol 1800 0 MRD
+
+hades.symbols.PortLabel 2400 350 2  Wr
+hades.symbols.PortSymbol 2400 0 MWR
+
+hades.symbols.PortLabel 3600 350 2  NR
+hades.symbols.PortSymbol 3600 0 NR
+
+hades.symbols.PortLabel 4800 350 2 CLK
+hades.symbols.PortSymbol 4800 0 CLK
+
+#hades.symbols.InstanceLabel 150 3450 Ctrl
+#hades.symbols.ClassLabel 150 450 Ctrl
+hades.symbols.FatInstanceLabel 2700 1200 2 Ctrl

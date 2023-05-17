@@ -1,0 +1,9 @@
+# DelayNode_TB.sym - Symbol for hades.models.gates.delaynode.DelayNode_TB
+# 
+# a simple buffer to visualize signal propagation delays (from top to bottom) 
+#
+hades.symbols.BboxRectangle -150 -150 150 150
+hades.symbols.Circle 0 0 150 150
+hades.symbols.Polyline 2 0 0 0 150
+hades.symbols.PortSymbol   0 -150 A
+hades.symbols.PortSymbol   0  150 Y

@@ -1,0 +1,30 @@
+[files 4]
+hades/models/microjava/MRR.class
+hades/models/microjava/MRR.java
+hades/models/microjava/MRR.sym
+hades/models/microjava/MRR.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.microjava.MRR
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/microjava/MRR.gif
+
+[author]
+-
+
+[description]
+memory read register for Microjava 2
+
+[end description]

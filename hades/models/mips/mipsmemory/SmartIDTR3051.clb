@@ -1,0 +1,43 @@
+[files 4]
+hades/models/mips/mipsmemory/SmartIDTR3051.class
+hades/models/mips/mipsmemory/SmartIDTR3051.java
+hades/models/mips/mipsmemory/SmartIDTR3051.sym
+hades/models/mips/mipsmemory/SmartIDTR3051.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.mips.mipsmemory.SmartIDTR3051
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/mips/mipsmemory/SmartIDTR3051.gif
+
+[author]
+-
+
+[description]
+IDT R3051 MIPS microprocessor
+
+A cycle-accurate simulation model for the
+IDT R3051 32-bit microprocessor.
+Except for some minor differences, this model
+implements the complete instruction pipeline with
+full timing, data and instruction caches with
+cycle-accurate timing, and the word-aligned
+bus-cycles.
+
+This model uses internal clocking and monitors
+the simulator's event queue to decide whether to
+synchronize with external events or whether to
+execute MIPS instructions directly.
+
+[end description]

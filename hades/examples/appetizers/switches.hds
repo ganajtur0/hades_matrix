@@ -1,0 +1,28 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.meta.Label i8 3900 3000 @N 1001 3 0 5 16 20 0.0 4 Ipin
+hades.models.meta.Label i7 13200 1200 @N 1001 1 0 5 16 20 0.0 4 timing\u0020diagrams
+hades.models.meta.Label i6 8700 1200 @N 1001 1 0 5 16 20 0.0 4 LEDs
+hades.models.meta.Label i5 7500 1200 @N 1001 3 0 5 16 20 0.0 4 Click\u0020the\u0020switches\u0021
+hades.models.FigObject i4 12300 1800 @N 1001 switches.fig
+hades.models.io.LED i3 8400 16500 @N 1001 0
+hades.models.io.LED i2 8400 12000 @N 1001 0
+hades.models.io.LED i1 8400 7200 @N 1001 0
+hades.models.io.LED i0 8400 3600 @N 1001 0
+hades.models.io.Ipin Ipin_or_switch 7200 3600 @N 1001 a U
+hades.models.meta.Label i11 3900 14400 @N 1001 3 0 5 16 20 0.0 4 PowerOnReset
+hades.models.meta.Label i10 3900 10800 @N 1001 3 0 5 16 20 0.0 4 PulseSwitch
+hades.models.io.PowerOnReset PowerOnReset 7200 16500 @N 1001 0.7 0.8 r
+hades.models.io.IpinLarge IpinLarge 7200 7200 @N 1001 b U
+hades.models.io.PulseSwitch PulseSwitch 7200 12000 @N 1001 0.3 d
+hades.models.meta.Label i9 3900 6000 @N 1001 3 0 5 16 20 0.0 4 IpinLarge
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n3 2 Ipin_or_switch Y i0 A 1 2 7200 3600 8400 3600 0 
+hades.signals.SignalStdLogic1164 n2 2 IpinLarge Y i1 A 1 2 7200 7200 8400 7200 0 
+hades.signals.SignalStdLogic1164 n1 2 PulseSwitch Y i2 A 1 2 7200 12000 8400 12000 0 
+hades.signals.SignalStdLogic1164 n0 2 PowerOnReset nreset i3 A 1 2 7200 16500 8400 16500 0 
+[end signals]
+[end]

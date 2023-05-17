@@ -1,0 +1,34 @@
+[files 4]
+hades/models/imaging/RotationFilter.class
+hades/models/imaging/RotationFilter.java
+hades/models/imaging/RotationFilter.sym
+hades/models/imaging/RotationFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.RotationFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/RotationFilter.gif
+
+[author]
+-
+
+[description]
+Image filter to rotate the input image via AffineTransformation.
+The output image size is calculated so that all input pixels
+are kept.
+
+Open the propertysheet to select the rotation angle.
+
+[end description]

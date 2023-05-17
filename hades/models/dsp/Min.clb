@@ -1,0 +1,32 @@
+[files 4]
+hades/models/dsp/Min.class
+hades/models/dsp/Min.java
+hades/models/dsp/Min.sym
+hades/models/dsp/Min.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Min
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Min.gif
+
+[author]
+unknown
+
+[description]
+two-inputs minimum operator, Y = min( A, B )
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,38 @@
+[files 4]
+hades/models/dsp/Counter.class
+hades/models/dsp/Counter.java
+hades/models/dsp/Counter.sym
+hades/models/dsp/Counter.gif
+
+[versions 1]
+1001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.dsp.Counter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/dsp/Counter.gif
+
+[author]
+unknown
+
+[description]
+an operator to count clock events.  On a rising-edge of the 
+clock input signal C, the current counter value is incremented
+and propagated via the Y output. 
+
+For example, connect a ClockGenerator a Counter, and a Function
+operator set to "Y=sin(440*2*pi*x)" to generate a series of sinus
+values.
+
+The operator uses the transport delay model,
+with user-settable propagation delay attribute.
+[end description]

@@ -1,0 +1,49 @@
+[files 4]
+hades/models/rtlib/memory/RAMoe.class
+hades/models/rtlib/memory/RAMoe.java
+hades/models/rtlib/memory/RAMoe.sym
+hades/models/rtlib/memory/RAMoe.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.rtlib.memory.RAMoe
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/rtlib/memory/RAMoe.gif
+
+[author]
+-
+
+[description]
+random-access memory with separate read and write ports.
+
+A generic, asynchronous random-access memory controlle by the
+standard active-low chip-select and write-enable signals. An
+additional output-enable signal controls the tri-state output
+port. The addess port A controls both the data input DIN and
+the data output DOUT. 
+
+Inputs and outputs are of types StdLogicVector and StdLogic1164.
+Use the configuration dialog to specify the delay of the component
+and the bit-width of the data buses.(The default bus width is n=16
+and the maximum width is n=63. The bus width can only be changed
+while no signals are connected to the RTLIB component.)
+
+Note that simulation performance may be limited by GUI updates due
+to glow-mode and RTLIB-animation (e.g. labels on flipflops or Opins).
+If necessary, switch off glow-mode and RTLIB-animation via the 'view'
+menu. With RTLIB-animation off, however, component symbols won't be
+updated and may not match the actual value on the component/signal.
+Select a manual redraw after pausing the simulation to update the GUI.
+
+[end description]

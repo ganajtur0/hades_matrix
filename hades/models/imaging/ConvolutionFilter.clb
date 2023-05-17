@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/ConvolutionFilter.class
+hades/models/imaging/ConvolutionFilter.java
+hades/models/imaging/ConvolutionFilter.sym
+hades/models/imaging/ConvolutionFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.ConvolutionFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/ConvolutionFilter.gif
+
+[author]
+-
+
+[description]
+Base class for all convolution image filters. Kernel:
+
+   1/9 { 1,1,1, 1,1,1, 1,1,1 }
+
+[end description]

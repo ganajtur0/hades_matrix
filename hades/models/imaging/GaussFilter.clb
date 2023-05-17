@@ -1,0 +1,32 @@
+[files 4]
+hades/models/imaging/GaussFilter.class
+hades/models/imaging/GaussFilter.java
+hades/models/imaging/GaussFilter.sym
+hades/models/imaging/GaussFilter.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.imaging.GaussFilter
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/imaging/GaussFilter.gif
+
+[author]
+-
+
+[description]
+Gauss convolution image filter. 
+
+Deprectated: this class should not be used anymore.
+Please use Gauss3Filter instead.
+[end description]

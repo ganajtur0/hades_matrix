@@ -1,0 +1,12 @@
+% hades/models/i8048 
+
+The source code and classes in this directory are relicts of
+a first attempt to model a microcontroller for Hades Cosimulation
+experiments. This was given up when we decided to use the PIC 16
+family instead.
+
+The files include an opcode table, first support for the basic 
+fetch/decode/execute instruction cycle, and some GUI stuff 
+for the Intel 8048 microcontroller.
+Note that all of the sources are incomplete and would need a lot
+of additional work to get the controller up and running.

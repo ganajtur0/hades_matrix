@@ -1,0 +1,30 @@
+[files 4]
+hades/models/ruge/Latch.class
+hades/models/ruge/Latch.java
+hades/models/ruge/Latch.sym
+hades/models/ruge/Latch.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.ruge.Latch
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/ruge/Latch.gif
+
+[author]
+-
+
+[description]
+XXX
+
+[end description]

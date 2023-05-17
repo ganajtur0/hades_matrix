@@ -1,0 +1,31 @@
+# /hades/models/mcore/DcoreFieldDecoder.sym
+# symbol for DCORE-instruction-fields-decoder 
+#
+hades.symbols.BboxRectangle  0 0 6000 2400
+hades.symbols.Rectangle  0 0 6000 2400
+hades.symbols.InstanceLabel 150 1500 i0
+hades.symbols.FatLabel 3000 1500 2 DECODER
+#hades.symbols.ClassLabel 3000 1500 DECODER 
+#
+hades.symbols.BusPortSymbol 1800    0 IR
+hades.symbols.PortLabel  1800  550 2 IR
+#
+# sequencer external input for opcode decoding
+hades.symbols.PortLabel  4800  550 2 STW_XA
+hades.symbols.BusPortSymbol 4800    0 STW_XA
+# 
+# IMM12 for Jump/Branch offsets
+hades.symbols.PortLabel  5850 1250 3 IMM12
+hades.symbols.BusPortSymbol 6000 1200 IMM12
+#
+# datapath control
+hades.symbols.PortLabel  4800 2150 1 AX
+hades.symbols.BusPortSymbol 4800 2400 AX
+hades.symbols.PortLabel  4200 2150 2 AY
+hades.symbols.BusPortSymbol 4200 2400 AY
+hades.symbols.PortLabel  3600 2150 3 ALU_OPC
+hades.symbols.BusPortSymbol 3600 2400 ALU_OPC
+#
+# offset for LDW/STW addressing
+hades.symbols.PortLabel  1200 2150 2 IMM4
+hades.symbols.BusPortSymbol 1200 2400 IMM4

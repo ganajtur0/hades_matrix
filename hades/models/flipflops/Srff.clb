@@ -1,0 +1,32 @@
+[files 4]
+hades/models/flipflops/Srff.class
+hades/models/flipflops/Srff.java
+hades/models/flipflops/Srff.sym
+hades/models/flipflops/Srff.gif
+
+[versions 1]
+1.001
+
+[references 0]
+
+[type]
+simobject
+
+[start]
+hades.models.flipflops.Srff
+
+[icon]
+simobj.gif
+
+[image]
+hades/models/flipflops/Srff.gif
+
+[author]
+-
+
+[description]
+basic SR flipflop.
+
+A basic set-reset flipflop with active-high inputs.
+Reset has precedence over Set.
+[end description]
